@@ -1,39 +1,39 @@
 id	sector	jp	en	notes
-sol.87.0	0	t3何か仕掛けがあるようだ‥‥‥\\		
-sol.87.1	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.87.2	0	t3仕掛けを動かした‥‥‥		
-sol.87.3	0	t3開かない‥‥‥		
-sol.87.4	0	t3＜取水口開閉装置＞\\取水口は閉じています。		
-sol.87.5	0	t3取水口を開きますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.87.6	0	t3取水口を開きました。\\		
-sol.87.7	0	t3＜取水口開閉装置＞\\取水口は開いています。\\		
-sol.87.8	0	t3取水口を閉じますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.87.9	0	t3取水口を閉じました。		
-sol.87.10	0	t3＜警戒態勢発令中＞\\培養室内の培養槽に異常が発生しています。@@培養担当研究員、保安管理部隊は\\至急、培養室に向かって下さい。@@なお、警戒態勢発令中は被害拡大防止のため\\自動保安機能が働いております。@@警戒態勢が解除されるまで\\この装置の操作は一切行えません。		
-sol.87.11	0	t3＜培養室安全確認＞\\培養室内の安全を確認。@@警戒態勢を解除しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.87.12	0	t3＜警戒態勢解除＞\\警戒態勢を解除しました。		
-sol.87.13	0	t3現在、この階層での異常はありません。		
-sol.87.14	0	t3＜警戒態勢発令中＞\\@@警戒態勢発令中は被害拡大防止のため\\自動保安機能が働いております。@@警戒態勢が解除されるまで\\この装置の操作は一切行えません。		
-sol.87.15	0	t3＜ガス漏れ事故発生中＞\\下階の実験室前通路でガス漏れ事故発生中。@@この空調装置でガスを排気できます。\\@@ガスを排気しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.87.16	0	t3ガスを排気しました。		
-sol.87.17	0	t3空調機は正常に動作しています。		
-sol.87.18	0	t3＜警戒態勢発令中＞\\@@警戒態勢発令中は被害拡大防止のため\\自動保安機能が働いております。@@警戒態勢が解除されるまで\\この装置の操作は一切行えません。		
-sol.87.19	0	t3＜ガス漏れ事故発生中＞\\@@下階の実験室前通路でガス漏れ事故発生中。\\被害拡大防止のため、実験監視室は閉鎖中。@@安全が確認されるまで\\実験室の隔壁は開放できません。		
-sol.87.20	0	t3＜ガス漏れ事故＞\\下階の実験室前通路の安全を確認。@@実験室の隔壁を開放しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.87.21	0	t3実験室の隔壁を開放しました。		
-sol.87.22	0	t3現在、実験室隔壁開放中。		
-sol.87.23	0	t3壊れているのか、ドアが開かない。		
-sol.87.24	1	t3下階でガス漏れ事故が発生しているため\\機材リフトの運転は休止中です。		
-sol.87.25	1	t3培養槽の中に見た事ある化け物が入っている。		
-sol.87.26	1	t3＜警戒態勢発令中＞\\@@警戒態勢発令中は被害拡大防止のため\\機材リフトの運転は休止中です。@@脱出には非常階段を使用して下さい。		
-sol.87.27	1	t3どうやら移動装置みたいだ‥‥‥\\@@この移動装置に乗りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
+sol.87.0	0	t3何か仕掛けがあるようだ‥‥‥\\	{t3}Looks like there's some kind of mechanism...\\	
+sol.87.1	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Activate the mechanism?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.87.2	0	t3仕掛けを動かした‥‥‥	{t3}Activated the mechanism...	
+sol.87.3	0	t3開かない‥‥‥	{t3}It won't open...	
+sol.87.4	0	t3＜取水口開閉装置＞\\取水口は閉じています。	{t3}＜Intake Gate Control＞\\The intake is closed.	
+sol.87.5	0	t3取水口を開きますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Open the water intake?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.87.6	0	t3取水口を開きました。\\	{t3}The water intake has been opened.\\	
+sol.87.7	0	t3＜取水口開閉装置＞\\取水口は開いています。\\	{t3}＜Intake Gate Control＞\\The intake is open.\\	
+sol.87.8	0	t3取水口を閉じますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Close the water intake?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.87.9	0	t3取水口を閉じました。	{t3}The water intake has been closed.	
+sol.87.10	0	t3＜警戒態勢発令中＞\\培養室内の培養槽に異常が発生しています。@@培養担当研究員、保安管理部隊は\\至急、培養室に向かって下さい。@@なお、警戒態勢発令中は被害拡大防止のため\\自動保安機能が働いております。@@警戒態勢が解除されるまで\\この装置の操作は一切行えません。	{t3}＜Alert Status in Effect＞\\An anomaly has occurred in a culture tank.@@Culture staff and the security unit,\\proceed to the culture room immediately.@@While the alert is in effect, automatic security\\is active to prevent further damage.@@This device cannot be operated at all\\until the alert is lifted.	
+sol.87.11	0	t3＜培養室安全確認＞\\培養室内の安全を確認。@@警戒態勢を解除しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}＜Culture Room Safety Check＞\\Culture room confirmed safe.@@Lift the alert status?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.87.12	0	t3＜警戒態勢解除＞\\警戒態勢を解除しました。	{t3}＜Alert Status Lifted＞\\The alert status has been lifted.	
+sol.87.13	0	t3現在、この階層での異常はありません。	{t3}No anomalies currently on this level.	
+sol.87.14	0	t3＜警戒態勢発令中＞\\@@警戒態勢発令中は被害拡大防止のため\\自動保安機能が働いております。@@警戒態勢が解除されるまで\\この装置の操作は一切行えません。	{t3}＜Alert in Effect＞\\@@While the alert is in effect, automatic security\\is active to prevent further damage.@@Until the alert is lifted,\\this equipment cannot be operated.	
+sol.87.15	0	t3＜ガス漏れ事故発生中＞\\下階の実験室前通路でガス漏れ事故発生中。@@この空調装置でガスを排気できます。\\@@ガスを排気しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}＜Gas Leak in Progress＞\\Gas leak in the corridor by the lab, lower floor.@@This air-conditioning unit can vent the gas.\\@@Vent the gas?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.87.16	0	t3ガスを排気しました。	{t3}The gas has been vented.	
+sol.87.17	0	t3空調機は正常に動作しています。	{t3}The air conditioner is working normally.	
+sol.87.18	0	t3＜警戒態勢発令中＞\\@@警戒態勢発令中は被害拡大防止のため\\自動保安機能が働いております。@@警戒態勢が解除されるまで\\この装置の操作は一切行えません。	{t3}＜Alert in Effect＞\\@@While the alert is in effect, automatic security\\is active to prevent further damage.@@Until the alert is lifted,\\this equipment cannot be operated.	
+sol.87.19	0	t3＜ガス漏れ事故発生中＞\\@@下階の実験室前通路でガス漏れ事故発生中。\\被害拡大防止のため、実験監視室は閉鎖中。@@安全が確認されるまで\\実験室の隔壁は開放できません。	{t3}＜Gas Leak in Progress＞\\@@Gas leak in the corridor by the lab, lower floor.\\Lab monitoring room sealed to limit damage.@@The lab bulkhead cannot be opened\\until safety is confirmed.	
+sol.87.20	0	t3＜ガス漏れ事故＞\\下階の実験室前通路の安全を確認。@@実験室の隔壁を開放しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}＜Gas Leak＞\\Lower-floor lab corridor confirmed safe.@@Open the lab bulkhead?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.87.21	0	t3実験室の隔壁を開放しました。	{t3}The lab bulkhead has been opened.	
+sol.87.22	0	t3現在、実験室隔壁開放中。	{t3}Lab bulkhead currently open.	
+sol.87.23	0	t3壊れているのか、ドアが開かない。	{t3}Is it broken? The door won't open.	
+sol.87.24	1	t3下階でガス漏れ事故が発生しているため\\機材リフトの運転は休止中です。	{t3}Due to a gas leak on the lower floor,\\the equipment lift is out of service.	
+sol.87.25	1	t3培養槽の中に見た事ある化け物が入っている。	{t3}There's a monster I've seen before\\inside the culture tank.	
+sol.87.26	1	t3＜警戒態勢発令中＞\\@@警戒態勢発令中は被害拡大防止のため\\機材リフトの運転は休止中です。@@脱出には非常階段を使用して下さい。	{t3}＜Alert in Effect＞\\@@While the alert is in effect, the equipment lift\\is out of service to prevent further damage.@@Please use the emergency stairs to evacuate.	
+sol.87.27	1	t3どうやら移動装置みたいだ‥‥‥\\@@この移動装置に乗りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Looks like some kind of transport device...\\@@Ride this transport device?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.87.28	1	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.87.29	1	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
-sol.87.30	1	t3仕掛けは作動しています。		
-sol.87.31	1	t3＜エレベーター操作盤＞\\エレベータを動かすことがきます。@@エレベーターを動かしますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.87.32	1	t3＜エレベーター操作盤＞\\エレベータを動かうごかしました。		
-sol.87.33	1	t3この扉はなにかの力によって\\堅く閉ざされている‥		
-sol.87.34	1	t3b3グラヴェスb0のスフィアを手に入れた		
-sol.87.35	1	t3＜インフォメーション＞\\－エレベーターについて－@@そこにあるエレベーターは上に乗り\\起動すると作動するようになっています。		
-sol.87.36	1	t3「ここのドアにはロックがかかっている」		
-sol.87.37	1	WP-134-016WS1802BS0805BYB+00BKC002エレベーターの操作方法は\\上に乗り、□ボタンで起動します。\\		
+sol.87.30	1	t3仕掛けは作動しています。	{t3}The mechanism is working.	
+sol.87.31	1	t3＜エレベーター操作盤＞\\エレベータを動かすことがきます。@@エレベーターを動かしますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}＜Elevator Control Panel＞\\You can operate the elevator here.@@Operate the elevator?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.87.32	1	t3＜エレベーター操作盤＞\\エレベータを動かうごかしました。	{t3}＜Elevator Control Panel＞\\The elevator has been activated.	
+sol.87.33	1	t3この扉はなにかの力によって\\堅く閉ざされている‥	{t3}This door is sealed tight\\by some kind of power...	
+sol.87.34	1	t3b3グラヴェスb0のスフィアを手に入れた	{t3}Got the {b3}Graves{b0} Sphere.	
+sol.87.35	1	t3＜インフォメーション＞\\－エレベーターについて－@@そこにあるエレベーターは上に乗り\\起動すると作動するようになっています。	{t3}＜Information＞\\- About the Elevator -@@To use the elevator there, step onto it\\and it will start up.	
+sol.87.36	1	t3「ここのドアにはロックがかかっている」	{t3}"This door's locked."	
+sol.87.37	1	WP-134-016WS1802BS0805BYB+00BKC002エレベーターの操作方法は\\上に乗り、□ボタンで起動します。\\	{WP-134-016WS1802BS0805BYB+00BKC002}To use the elevator,\\step on and press □ to start it.\\	

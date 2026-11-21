@@ -1,23 +1,23 @@
 id	sector	jp	en	notes
-sol.13.0	0	CSA0t0e00812よぅ。報告書、はかどってる？\\		
-sol.13.1	0	CSA0t0e00981邪魔をしに来たのか？用が無いなら\\さっさと休むんだな。		
-sol.13.2	0	CSA0t0e00197リズィちゃん、つめたいねぇ‥‥。		
-sol.13.3	0	CSA0t0e01060なら、せめて手伝うくらいの事は\\してもらいたいな。		
-sol.13.4	0	CSA0t0e00460茶を入れるぐらいでまけといてくれない？		
-sol.13.5	0	CSA0t0e00112まぁ、良いだろう。\\		
-sol.13.6	0	CSA0t0e00281‥‥零、聞きたいことがある。\\お前が倒した怪物‥‥@@あれはやはり人間を捕食するのだろうか？		
-sol.13.7	0	CSA0t0e00551生態系の中でその位置にいる\\という考えは無理があるな。@@この島が出現した特異性を\\考えるとなおさらね。		
-sol.13.8	0	CSA0t0e00372今のところ現地人は見かけていないが‥‥@@遺跡の構造は人間が行動するのに\\適している大きさだとしても？		
-sol.13.9	0	CSA0t0e00730だからこそ、あの場所にいるって事に作為が\\感じられるって事さ。それにあの怪物にしても、@@明らかに意図を持って機能を与えられたふしが\\見えたしな。		
-sol.13.10	0	CSA0t0e00642意図？‥‥やはり、侵入者の排除か？		
-sol.13.11	0	CSA0t0e00813多分な‥‥\\		
-sol.13.12	0	CSA0t0e01153そうか‥‥\\		
-sol.13.13	0	CSA0t0e00030その写真‥‥誰だ？\\		
-sol.13.14	0	CSA0t0e00198あぁ。地質学者、ウォルター・ランダース。\\‥‥私の父だ。		
-sol.13.15	0	CSA0t0e01238調査団にいたのか？\\		
-sol.13.16	0	CSA0t0e00113‥‥あぁ。\\		
-sol.13.17	0	CSA0t0e00461すまん。悪いことを言った。\\		
-sol.13.18	0	CSA0t0e00895気にするな。もし父があれにやられたとしたら、\\貴様は仇を討ってくれたことになる。@@‥‥礼を言わなくてはな。ありがとう。\\		
-sol.13.19	0	CSA0t0e00982‥‥あ、いや‥‥\\		
-sol.13.20	0	CSA0t0e01333‥‥すまないが、一人にしてくれないか？\\		
-sol.13.21	0	CSA0t0e01061ん、ああ‥‥邪魔したな‥‥\\		
+sol.13.0	0	CSA0t0e00812よぅ。報告書、はかどってる？\\	{CSA0t0e00812}Yo. How's the report coming?\\	
+sol.13.1	0	CSA0t0e00981邪魔をしに来たのか？用が無いなら\\さっさと休むんだな。	{CSA0t0e00981}Came to get in my way? If you've got no\\business here, go get some rest.	
+sol.13.2	0	CSA0t0e00197リズィちゃん、つめたいねぇ‥‥。	{CSA0t0e00197}Lizzie-chan, so cold...	
+sol.13.3	0	CSA0t0e01060なら、せめて手伝うくらいの事は\\してもらいたいな。	{CSA0t0e01060}Then the least you could do\\is lend a hand.	
+sol.13.4	0	CSA0t0e00460茶を入れるぐらいでまけといてくれない？	{CSA0t0e00460}How about I make the tea and we call it even?	
+sol.13.5	0	CSA0t0e00112まぁ、良いだろう。\\	{CSA0t0e00112}Well, fine.\\	
+sol.13.6	0	CSA0t0e00281‥‥零、聞きたいことがある。\\お前が倒した怪物‥‥@@あれはやはり人間を捕食するのだろうか？	{CSA0t0e00281}...Rei, I want to ask you something.\\That monster you killed...@@Do you think it really preys on humans?	
+sol.13.7	0	CSA0t0e00551生態系の中でその位置にいる\\という考えは無理があるな。@@この島が出現した特異性を\\考えるとなおさらね。	{CSA0t0e00551}Hard to buy that it holds that spot\\in some food chain.@@Especially given how weird it is\\that this island even showed up.	
+sol.13.8	0	CSA0t0e00372今のところ現地人は見かけていないが‥‥@@遺跡の構造は人間が行動するのに\\適している大きさだとしても？	{CSA0t0e00372}We haven't seen any natives so far, but...@@even though the ruins are built\\at a size made for humans?	
+sol.13.9	0	CSA0t0e00730だからこそ、あの場所にいるって事に作為が\\感じられるって事さ。それにあの怪物にしても、@@明らかに意図を持って機能を与えられたふしが\\見えたしな。	{CSA0t0e00730}That's exactly why it feels deliberate, that it's\\in that place. And that monster, too...@@looked like it'd been given its role\\on purpose, plain as day.	
+sol.13.10	0	CSA0t0e00642意図？‥‥やはり、侵入者の排除か？	{CSA0t0e00642}On purpose? ...To get rid of intruders, then?	
+sol.13.11	0	CSA0t0e00813多分な‥‥\\	{CSA0t0e00813}Probably...\\	
+sol.13.12	0	CSA0t0e01153そうか‥‥\\	{CSA0t0e01153}I see...\\	
+sol.13.13	0	CSA0t0e00030その写真‥‥誰だ？\\	{CSA0t0e00030}That photo... who's that?\\	
+sol.13.14	0	CSA0t0e00198あぁ。地質学者、ウォルター・ランダース。\\‥‥私の父だ。	{CSA0t0e00198}Ah. A geologist, Walter Landers.\\...My father.	
+sol.13.15	0	CSA0t0e01238調査団にいたのか？\\	{CSA0t0e01238}Was he on the survey team?\\	
+sol.13.16	0	CSA0t0e00113‥‥あぁ。\\	{CSA0t0e00113}...Yes.\\	
+sol.13.17	0	CSA0t0e00461すまん。悪いことを言った。\\	{CSA0t0e00461}Sorry. Shouldn't have asked.\\	
+sol.13.18	0	CSA0t0e00895気にするな。もし父があれにやられたとしたら、\\貴様は仇を討ってくれたことになる。@@‥‥礼を言わなくてはな。ありがとう。\\	{CSA0t0e00895}Don't worry about it. If that thing got my father,\\then you've avenged him for me.@@...I should thank you. Thank you.\\	
+sol.13.19	0	CSA0t0e00982‥‥あ、いや‥‥\\	{CSA0t0e00982}...Ah, no, uh...\\	
+sol.13.20	0	CSA0t0e01333‥‥すまないが、一人にしてくれないか？\\	{CSA0t0e01333}...Sorry, but could you leave me alone?\\	
+sol.13.21	0	CSA0t0e01061ん、ああ‥‥邪魔したな‥‥\\	{CSA0t0e01061}Hm, yeah... sorry to bug you...\\	

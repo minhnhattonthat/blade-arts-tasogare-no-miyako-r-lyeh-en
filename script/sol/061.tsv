@@ -1,28 +1,28 @@
 id	sector	jp	en	notes
-sol.61.0	0	CSA0t0e00705よぉ、ちょうど良いところにいたな。		
-sol.61.1	0	CSA0t0e00611‥‥レ‥‥イ？		
-sol.61.2	0	CSA0t0e01124ん、どうした？		
-sol.61.3	0	CSA0t0e00872あ‥‥いいえ、何でもありません。\\何か御用でしょうか？		
-sol.61.4	0	CSA0t0e00254ああ、知り合いから言伝頼まれてね‥‥		
-sol.61.5	0	CSA0t0e01211ここを戻ったところの地下にいるジイさんに、\\ちょっと会ってきてもらいたいんだけど@@‥‥どう？		
-sol.61.6	0	CSA0t0e00088‥‥どのような意図での\\事なのでしょうか？		
-sol.61.7	0	CSA0t0e01303いや、そのジイさんがぜひ会いたいって\\ああ、そう、君が美人だって言うから‥‥		
-sol.61.8	0	CSA0t0e00435ダメ？		
-sol.61.9	0	CSA0t0e00706申し訳ありません。\\それにはお応え致しかねます‥‥@@私はこの聖域を外の世界の方に\\知られたくないのです。		
-sol.61.10	0	CSA0t0e01037貴方がここに入る事を決められる前に、\\私は警告しましたね@@ここに入った人は全て死んでしまう、と‥‥		
-sol.61.11	0	CSA0t0e01125その警告の意図を汲んでいただけますように‥‥		
-sol.61.12	0	CSA0t0e00612ああ、そうだったな‥‥		
-sol.61.13	0	CSA0t0e00003貴方をここまで案内したのも‥‥\\聖域から皆様を無事に連れ出していただくため‥@@この聖域を出来る限り汚したくないのです‥‥		
-sol.61.14	0	CSA0t0e00523‥‥		
-sol.61.15	0	CSA0t0e00255重ねてお願いします。\\あなたのお仲間が無事にここからお戻りに@@なれるようになりましたら、\\貴方もご一緒にお戻り願えませんか？		
-sol.61.16	0	CSA0t0e00089あんたは、それでいいんだな？		
-sol.61.17	0	CSA0t0e00436‥‥どう言う意味でしょう？		
-sol.61.18	0	CSA0t0e00873まだ、全てが終わってはいないって事‥‥@@そして、本当にその全てを収拾する事が\\出来るのかい？		
-sol.61.19	0	CSA0t0e00788‥‥		
-sol.61.20	0	CSA0t0e00344それが、お前のためなんだ、零‥‥		
-sol.61.21	0	CSA0t0e00954ん、どうした？		
-sol.61.22	0	CSA0t0e00172‥‥いいえ。		
-sol.61.23	0	CSA0t0e01212悪かった、今のは忘れてくれ‥‥		
-sol.61.24	0	CSA0t0e00613‥‥いいえ。		
-sol.61.25	0	CSA0t0e00524まぁ、今はみんなを無事に\\避難させる事に集中しよう。@@で、いいかい？		
-sol.61.26	0	CSA0t0e01126‥‥ええ。\\ご無事をお祈りしております‥‥		
+sol.61.0	0	CSA0t0e00705よぉ、ちょうど良いところにいたな。	{CSA0t0e00705}Hey, good timing.	
+sol.61.1	0	CSA0t0e00611‥‥レ‥‥イ？	{CSA0t0e00611}...Re... i?	
+sol.61.2	0	CSA0t0e01124ん、どうした？	{CSA0t0e01124}Hm, what's up?	
+sol.61.3	0	CSA0t0e00872あ‥‥いいえ、何でもありません。\\何か御用でしょうか？	{CSA0t0e00872}Ah... no, it's nothing.\\Is there something you need?	
+sol.61.4	0	CSA0t0e00254ああ、知り合いから言伝頼まれてね‥‥	{CSA0t0e00254}Yeah, somebody asked me to pass on a message...	
+sol.61.5	0	CSA0t0e01211ここを戻ったところの地下にいるジイさんに、\\ちょっと会ってきてもらいたいんだけど@@‥‥どう？	{CSA0t0e01211}Gramps is underground, back the way I came.\\I'd like you to go see him for a bit@@...how about it?	
+sol.61.6	0	CSA0t0e00088‥‥どのような意図での\\事なのでしょうか？	{CSA0t0e00088}...And what would be\\the purpose of that?	
+sol.61.7	0	CSA0t0e01303いや、そのジイさんがぜひ会いたいって\\ああ、そう、君が美人だって言うから‥‥	{CSA0t0e01303}Well, Gramps really wants to meet you,\\since, uh, right, I told him you're a looker...	
+sol.61.8	0	CSA0t0e00435ダメ？	{CSA0t0e00435}No good?	
+sol.61.9	0	CSA0t0e00706申し訳ありません。\\それにはお応え致しかねます‥‥@@私はこの聖域を外の世界の方に\\知られたくないのです。	{CSA0t0e00706}I'm terribly sorry.\\I'm afraid I cannot grant that request...@@I do not wish this sanctuary\\to become known to the outside world.	
+sol.61.10	0	CSA0t0e01037貴方がここに入る事を決められる前に、\\私は警告しましたね@@ここに入った人は全て死んでしまう、と‥‥	{CSA0t0e01037}Before you decided to enter here,\\I warned you, did I not?@@That all who enter here will die...	
+sol.61.11	0	CSA0t0e01125その警告の意図を汲んでいただけますように‥‥	{CSA0t0e01125}I ask that you understand what that warning meant...	
+sol.61.12	0	CSA0t0e00612ああ、そうだったな‥‥	{CSA0t0e00612}Yeah, you did...	
+sol.61.13	0	CSA0t0e00003貴方をここまで案内したのも‥‥\\聖域から皆様を無事に連れ出していただくため‥@@この聖域を出来る限り汚したくないのです‥‥	{CSA0t0e00003}I guided you this far, too...\\so that you could take everyone out safely...@@I wish to defile this sanctuary\\as little as possible...	
+sol.61.14	0	CSA0t0e00523‥‥	{CSA0t0e00523}...	
+sol.61.15	0	CSA0t0e00255重ねてお願いします。\\あなたのお仲間が無事にここからお戻りに@@なれるようになりましたら、\\貴方もご一緒にお戻り願えませんか？	{CSA0t0e00255}I ask you once more.\\Once your friends are able to return@@safely from this place,\\would you please return along with them?	
+sol.61.16	0	CSA0t0e00089あんたは、それでいいんだな？	{CSA0t0e00089}You're really okay with that?	
+sol.61.17	0	CSA0t0e00436‥‥どう言う意味でしょう？	{CSA0t0e00436}...What do you mean?	
+sol.61.18	0	CSA0t0e00873まだ、全てが終わってはいないって事‥‥@@そして、本当にその全てを収拾する事が\\出来るのかい？	{CSA0t0e00873}That it's not all over yet...@@And can you really settle\\all of it on your own?	
+sol.61.19	0	CSA0t0e00788‥‥	{CSA0t0e00788}...	
+sol.61.20	0	CSA0t0e00344それが、お前のためなんだ、零‥‥	{CSA0t0e00344}It's for your own good, Rei...	
+sol.61.21	0	CSA0t0e00954ん、どうした？	{CSA0t0e00954}Hm, what's wrong?	
+sol.61.22	0	CSA0t0e00172‥‥いいえ。	{CSA0t0e00172}...Nothing.	
+sol.61.23	0	CSA0t0e01212悪かった、今のは忘れてくれ‥‥	{CSA0t0e01212}My bad, forget what I just said...	
+sol.61.24	0	CSA0t0e00613‥‥いいえ。	{CSA0t0e00613}...It's all right.	
+sol.61.25	0	CSA0t0e00524まぁ、今はみんなを無事に\\避難させる事に集中しよう。@@で、いいかい？	{CSA0t0e00524}Well, for now let's focus on getting\\everyone out of here safely.@@That okay with you?	
+sol.61.26	0	CSA0t0e01126‥‥ええ。\\ご無事をお祈りしております‥‥	{CSA0t0e01126}...Yes.\\I pray for your safety...	

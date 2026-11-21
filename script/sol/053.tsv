@@ -1,22 +1,22 @@
 id	sector	jp	en	notes
-sol.53.0	0	CSA0t0e00786ああ、零か。\\生きてて何よりだ。		
-sol.53.1	0	CSA0t0e00521ジイさんも、無事そうだねぇ。		
-sol.53.2	0	CSA0t0e01301ああ、なんとか生きながらえておるよ。\\ランファが良くやってくれている。		
-sol.53.3	0	CSA0t0e00253そいつはなにより、ってところだろうが、\\あまり当てにしすぎない方がいいぜ。@@肝心なところでドジ踏みやがるからな。		
-sol.53.4	0	CSA0t0e00002おいおい、われわれの命の恩人に\\そんな事を言ってはいけないよ。@@そういえば、リズィを見かけんかったか？@@ワシ等を逃がすために\\オトリになってくれてたのだが‥‥		
-sol.53.5	0	CSA0t0e00433‥‥死んだよ。\\助けられなかった‥‥		
-sol.53.6	0	CSA0t0e00087‥‥そうか。あまり自分を責めるな。\\状況が状況だ。仕方あるまい。		
-sol.53.7	0	CSA0t0e00871‥‥今は、ワシらが生き残る事を考えよう。\\リズィの為にも‥‥		
-sol.53.8	0	CSA0t0e00170ああ、そうだな‥‥‥‥‥		
-sol.53.9	0	CSA0t0e01123で、ナカムラ様ご一行はどこに行った？		
-sol.53.10	0	CSA0t0e01210ああ、研究棟へ行くとか言うておった。\\この奥にある大きな建築物がそれらしい。		
-sol.53.11	0	CSA0t0e01036研究棟？@@なんで、ナカムラがここの建物の用途‥‥\\いや、その前に何でここの事を知ってるんだ？		
-sol.53.12	0	CSA0t0e00953ああ、それはワシも不思議に思っていた。@@にもかかわらず、ここまで来るために\\リズィの力を必要としていた‥‥@@ヤツらの行動は、まったく矛盾しておる。		
-sol.53.13	0	CSA0t0e00522ナカムラだけが状況を把握している\\訳じゃないってのか‥‥@@なら、この遺跡の主ってのにも話を\\聞きに行かねぇとな‥‥		
-sol.53.14	0	CSA0t0e00610いるのかっ！？		
-sol.53.15	0	CSA0t0e00787あれ？見た事無いの？\\お下げ髪の、えっらく可愛い娘なんだけど‥‥@@でも、どっちかって言うと、\\主って感じじゃねぇな。あの娘は‥‥		
-sol.53.16	0	CSA0t0e00343ふむ‥‥@@ここに来るまでの妨害には何らかの意志が\\あると見ていたが、やはりおったか。		
-sol.53.17	0	CSA0t0e00434零。すまんが、その娘を見かけたら\\ワシにも会わせてくれんかの？		
-sol.53.18	0	CSA0t0e00171まぁ、かまわねぇけど‥‥\\神出鬼没だからなぁ。@@余裕があったら連れてくるわ。\\でも、ジイさんもスキだね。本当。		
-sol.53.19	0	CSA0t0e01302‥‥勝手に言っとれ！		
-sol.53.20	0	CSA0t0隠れ家２現在修正中		
+sol.53.0	0	CSA0t0e00786ああ、零か。\\生きてて何よりだ。	{CSA0t0e00786}Ah, Rei.\\Glad to see you alive.	
+sol.53.1	0	CSA0t0e00521ジイさんも、無事そうだねぇ。	{CSA0t0e00521}Looks like you're okay too, Gramps.	
+sol.53.2	0	CSA0t0e01301ああ、なんとか生きながらえておるよ。\\ランファが良くやってくれている。	{CSA0t0e01301}Aye, I'm getting by somehow.\\Ranfa has been doing fine work.	
+sol.53.3	0	CSA0t0e00253そいつはなにより、ってところだろうが、\\あまり当てにしすぎない方がいいぜ。@@肝心なところでドジ踏みやがるからな。	{CSA0t0e00253}Good to hear, I guess, but\\I wouldn't count on her too much.@@She always screws up when it counts.	
+sol.53.4	0	CSA0t0e00002おいおい、われわれの命の恩人に\\そんな事を言ってはいけないよ。@@そういえば、リズィを見かけんかったか？@@ワシ等を逃がすために\\オトリになってくれてたのだが‥‥	{CSA0t0e00002}Now now, you mustn't say such things\\about the one who saved our lives.@@Come to think of it, have you seen Lizzie?@@She acted as a decoy\\so the rest of us could escape...	
+sol.53.5	0	CSA0t0e00433‥‥死んだよ。\\助けられなかった‥‥	{CSA0t0e00433}...She's dead.\\I couldn't save her...	
+sol.53.6	0	CSA0t0e00087‥‥そうか。あまり自分を責めるな。\\状況が状況だ。仕方あるまい。	{CSA0t0e00087}...I see. Don't blame yourself too much.\\Things being as they are, it couldn't be helped.	
+sol.53.7	0	CSA0t0e00871‥‥今は、ワシらが生き残る事を考えよう。\\リズィの為にも‥‥	{CSA0t0e00871}...For now, let us think about surviving.\\For Lizzie's sake as well...	
+sol.53.8	0	CSA0t0e00170ああ、そうだな‥‥‥‥‥	{CSA0t0e00170}Yeah, you're right......	
+sol.53.9	0	CSA0t0e01123で、ナカムラ様ご一行はどこに行った？	{CSA0t0e01123}So, where'd Nakamura-sama and his entourage go?	
+sol.53.10	0	CSA0t0e01210ああ、研究棟へ行くとか言うておった。\\この奥にある大きな建築物がそれらしい。	{CSA0t0e01210}Ah, they spoke of going to the research facility.\\That big structure further in seems to be it.	
+sol.53.11	0	CSA0t0e01036研究棟？@@なんで、ナカムラがここの建物の用途‥‥\\いや、その前に何でここの事を知ってるんだ？	{CSA0t0e01036}The research facility?@@How would Nakamura know what this place is for...\\no, how does he even know about this place?	
+sol.53.12	0	CSA0t0e00953ああ、それはワシも不思議に思っていた。@@にもかかわらず、ここまで来るために\\リズィの力を必要としていた‥‥@@ヤツらの行動は、まったく矛盾しておる。	{CSA0t0e00953}Aye, I found that strange as well.@@And yet, to get this far,\\they needed Lizzie's help...@@Their actions make no sense at all.	
+sol.53.13	0	CSA0t0e00522ナカムラだけが状況を把握している\\訳じゃないってのか‥‥@@なら、この遺跡の主ってのにも話を\\聞きに行かねぇとな‥‥	{CSA0t0e00522}So Nakamura's not the only one\\who knows what's going on, huh...@@Then I'd better go have a word\\with the master of these ruins, too...	
+sol.53.14	0	CSA0t0e00610いるのかっ！？	{CSA0t0e00610}There is one!?	
+sol.53.15	0	CSA0t0e00787あれ？見た事無いの？\\お下げ髪の、えっらく可愛い娘なんだけど‥‥@@でも、どっちかって言うと、\\主って感じじゃねぇな。あの娘は‥‥	{CSA0t0e00787}Huh? You haven't seen her?\\Real cute girl, wears her hair in braids...@@Though if you ask me,\\she doesn't seem much like a master, that girl...	
+sol.53.16	0	CSA0t0e00343ふむ‥‥@@ここに来るまでの妨害には何らかの意志が\\あると見ていたが、やはりおったか。	{CSA0t0e00343}Hmm...@@I took the obstacles on our way here as the\\work of some will. So there is one after all.	
+sol.53.17	0	CSA0t0e00434零。すまんが、その娘を見かけたら\\ワシにも会わせてくれんかの？	{CSA0t0e00434}Rei. Sorry to ask, but if you see that girl,\\would you let me meet her as well?	
+sol.53.18	0	CSA0t0e00171まぁ、かまわねぇけど‥‥\\神出鬼没だからなぁ。@@余裕があったら連れてくるわ。\\でも、ジイさんもスキだね。本当。	{CSA0t0e00171}Well, I don't mind, but...\\she pops up and vanishes as she pleases.@@I'll bring her along if I get the chance.\\Man, you're a real dirty old man, Gramps.	
+sol.53.19	0	CSA0t0e01302‥‥勝手に言っとれ！	{CSA0t0e01302}...Say what you like!	
+sol.53.20	0	CSA0t0隠れ家２現在修正中	{CSA0t0}Hideout 2 currently being fixed	

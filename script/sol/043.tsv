@@ -1,29 +1,29 @@
 id	sector	jp	en	notes
-sol.43.0	0	CSA0t0e00447なんだぁ、ここは？\\‥‥って、あいつは！		
-sol.43.1	0	CSA0t0e00967細工の方は片付いたか‥‥‥		
-sol.43.2	0	CSA0t0e00883‥‥‥		
-sol.43.3	0	CSA0t0e00015そうだ。\\そうして、素直に私に従っていれば、@@奴らに危害を与える事は無い。		
-sol.43.4	0	CSA0t0e00184‥‥本当なのか？		
-sol.43.5	0	CSA0t0e01316何が？		
-sol.43.6	0	CSA0t0e01224あの時言った事は本当なのかと聞いている！		
-sol.43.7	0	CSA0t0e00268私を信用できないのなら、\\自分で確かめる事だ。@@私の依頼を完遂すれば、貴様を自由にする。\\後は、貴様の好きにすると良い。		
-sol.43.8	0	CSA0t0e00800遺跡の調査をしたいなら、\\人に迷惑をかけないで、@@てめぇらで勝手にやったらどうだ？		
-sol.43.9	0	CSA0t0e00627零！？		
-sol.43.10	0	CSA0t0e01050貴様、生きていたか‥‥		
-sol.43.11	0	CSA0t0e00718む、その剣は‥‥「制裁者」か？\\奴め‥‥一体何を考えている？		
-sol.43.12	0	CSA0t0e00102パニッシャー？		
-sol.43.13	0	CSA0t0e00968ほう、その剣の持つ意味も知らずに\\帯びているのか？@@ならば、たいした意味も無いと見える‥‥		
-sol.43.14	0	CSA0t0e00358何をぶつぶつ言ってやがるっ！\\さっさとリズィを放しやがれっ！		
-sol.43.15	0	CSA0t0e00884ブリジット・ランダースは、\\今私との契約の元に行動している。@@貴様ごときに口出しされるいわれは無い。		
-sol.43.16	0	CSA0t0e00535てめぇ！人質とって、言う事はそれか！		
-sol.43.17	0	CSA0t0e01138あら、生きてたのアナタ？\\‥‥やっぱり外の人間ってダメね。@@シゴト一つ満足にこなせやしない‥‥		
-sol.43.18	0	CSA0t0e00448！？\\‥‥いつの間に！		
-sol.43.19	0	CSA0t0e00185結構、隙が多いじゃない。\\案外たいした事無いのね‥‥‥		
-sol.43.20	0	CSA0t0e01317隊長、お先にどうぞ。\\アタシはこのコと遊んでから行くから。		
-sol.43.21	0	CSA0t0e00628てめぇ！\\待ちやがれっ！		
-sol.43.22	0	CSA0t0e00103む！\\マリオン、そんな奴は放っておけ。@@下で厄介事が起きた！\\すぐに移動するぞ！		
-sol.43.23	0	CSA0t0e01051あら、そう。残念ね。\\		
-sol.43.24	0	CSA0t0e01225‥‥今は勘弁しといてあげる。\\カクゴが出来たら、降りてらっしゃい。		
-sol.43.25	0	CSA0t0e00449ちぃっ！\\ナカムラぁ！		
-sol.43.26	0	CSA0t0e00016うぉっ！		
-sol.43.27	0	CSA0t0e00359‥‥野郎、何か仕掛けやがったな。		
+sol.43.0	0	CSA0t0e00447なんだぁ、ここは？\\‥‥って、あいつは！	{CSA0t0e00447}What the hell is this place?\\...Wait, that's...!	
+sol.43.1	0	CSA0t0e00967細工の方は片付いたか‥‥‥	{CSA0t0e00967}So the handiwork is done...	
+sol.43.2	0	CSA0t0e00883‥‥‥	{CSA0t0e00883}...	
+sol.43.3	0	CSA0t0e00015そうだ。\\そうして、素直に私に従っていれば、@@奴らに危害を与える事は無い。	{CSA0t0e00015}That's right.\\As long as you obey me like that,@@no harm will come to them.	
+sol.43.4	0	CSA0t0e00184‥‥本当なのか？	{CSA0t0e00184}...Is it true?	
+sol.43.5	0	CSA0t0e01316何が？	{CSA0t0e01316}Is what true?	
+sol.43.6	0	CSA0t0e01224あの時言った事は本当なのかと聞いている！	{CSA0t0e01224}I'm asking if what you said back then was true!	
+sol.43.7	0	CSA0t0e00268私を信用できないのなら、\\自分で確かめる事だ。@@私の依頼を完遂すれば、貴様を自由にする。\\後は、貴様の好きにすると良い。	{CSA0t0e00268}If you can't trust me,\\then see for yourself.@@Complete my request and I'll set you free.\\After that, do as you please.	
+sol.43.8	0	CSA0t0e00800遺跡の調査をしたいなら、\\人に迷惑をかけないで、@@てめぇらで勝手にやったらどうだ？	{CSA0t0e00800}If you wanna survey the ruins,\\how about not dragging others into it@@and doing it your damn selves?	
+sol.43.9	0	CSA0t0e00627零！？	{CSA0t0e00627}Rei!?	
+sol.43.10	0	CSA0t0e01050貴様、生きていたか‥‥	{CSA0t0e01050}You... you're alive...	
+sol.43.11	0	CSA0t0e00718む、その剣は‥‥「制裁者」か？\\奴め‥‥一体何を考えている？	{CSA0t0e00718}Hm, that sword... is it the "Punisher"?\\That one... what is he thinking?	
+sol.43.12	0	CSA0t0e00102パニッシャー？	{CSA0t0e00102}Punisher?	
+sol.43.13	0	CSA0t0e00968ほう、その剣の持つ意味も知らずに\\帯びているのか？@@ならば、たいした意味も無いと見える‥‥	{CSA0t0e00968}Oh? You carry that sword without even\\knowing what it means?@@Then it seems it means little at all...	
+sol.43.14	0	CSA0t0e00358何をぶつぶつ言ってやがるっ！\\さっさとリズィを放しやがれっ！	{CSA0t0e00358}What the hell are you muttering about!?\\Let Lizzie go, now!	
+sol.43.15	0	CSA0t0e00884ブリジット・ランダースは、\\今私との契約の元に行動している。@@貴様ごときに口出しされるいわれは無い。	{CSA0t0e00884}Bridget Landers is currently acting\\under a contract with me.@@The likes of you have no right to interfere.	
+sol.43.16	0	CSA0t0e00535てめぇ！人質とって、言う事はそれか！	{CSA0t0e00535}You bastard! You take hostages\\and that's all you've got to say!?	
+sol.43.17	0	CSA0t0e01138あら、生きてたのアナタ？\\‥‥やっぱり外の人間ってダメね。@@シゴト一つ満足にこなせやしない‥‥	{CSA0t0e01138}Oh my, you're alive?\\...Outsiders really are useless.@@Can't even do one little job right...	
+sol.43.18	0	CSA0t0e00448！？\\‥‥いつの間に！	{CSA0t0e00448}!?\\...Since when were you there!?	
+sol.43.19	0	CSA0t0e00185結構、隙が多いじゃない。\\案外たいした事無いのね‥‥‥	{CSA0t0e00185}You're wide open, aren't you?\\Not so tough after all...	
+sol.43.20	0	CSA0t0e01317隊長、お先にどうぞ。\\アタシはこのコと遊んでから行くから。	{CSA0t0e01317}Go on ahead, Boss.\\I'll catch up after I play with this boy.	
+sol.43.21	0	CSA0t0e00628てめぇ！\\待ちやがれっ！	{CSA0t0e00628}You bastard!\\Get back here!	
+sol.43.22	0	CSA0t0e00103む！\\マリオン、そんな奴は放っておけ。@@下で厄介事が起きた！\\すぐに移動するぞ！	{CSA0t0e00103}Hm!\\Marion, leave that one be.@@Trouble has arisen below!\\We move at once!	
+sol.43.23	0	CSA0t0e01051あら、そう。残念ね。\\	{CSA0t0e01051}Oh, is that so? What a shame.\\	
+sol.43.24	0	CSA0t0e01225‥‥今は勘弁しといてあげる。\\カクゴが出来たら、降りてらっしゃい。	{CSA0t0e01225}...I'll let you off for now.\\Come on down once you've worked up the nerve.	
+sol.43.25	0	CSA0t0e00449ちぃっ！\\ナカムラぁ！	{CSA0t0e00449}Tch!\\Nakamuraaa!	
+sol.43.26	0	CSA0t0e00016うぉっ！	{CSA0t0e00016}Whoa!	
+sol.43.27	0	CSA0t0e00359‥‥野郎、何か仕掛けやがったな。	{CSA0t0e00359}...The bastard's rigged something.	

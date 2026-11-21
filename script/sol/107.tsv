@@ -1,14 +1,14 @@
 id	sector	jp	en	notes
-sol.107.0	0	t3このスイッチを起動するには\\b3キーカードb0が必要です。		
-sol.107.1	0	t3b3キーカードb0を使用した。i030\\スイッチが作動しました。		
-sol.107.2	0	t3スイッチは起動しています。		
-sol.107.3	0	t3なにも起こらない‥‥		
-sol.107.4	0	t3スイッチが作動しました。		
-sol.107.5	0	t3二桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４		
-sol.107.6	0	t3三桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４		
-sol.107.7	0	t3四桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４		
-sol.107.8	0	t3このスイッチは故障中で使用できません。\\		
-sol.107.9	0	t3この電磁フィールドを排除するには\\両サイドのスイッチを起動してください。		
-sol.107.10	0	t3b3＜電磁フィールド解除装置＞b0\\@@この解除装置を操作するには\\最外周のスイッチをすべて起動してください		
-sol.107.11	0	t3b3＜電磁フィールド解除装置＞b0\\@@４つの最外周のスイッチの起動を確認。i030		
-sol.107.12	0	t3電磁フィールドを解除しました。		
+sol.107.0	0	t3このスイッチを起動するには\\b3キーカードb0が必要です。	{t3}You need a {b3}Key Card{b0}\\to activate this switch.	
+sol.107.1	0	t3b3キーカードb0を使用した。i030\\スイッチが作動しました。	{t3}Used the {b3}Key Card{b0}.{i030}\\The switch has been activated.	
+sol.107.2	0	t3スイッチは起動しています。	{t3}The switch is active.	
+sol.107.3	0	t3なにも起こらない‥‥	{t3}Nothing happens...	
+sol.107.4	0	t3スイッチが作動しました。	{t3}The switch has been activated.	
+sol.107.5	0	t3二桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４	{t3}Enter the second digit.\\{[DD1}　　0　{[2}　　1　{[3}　　2　{[4}　　3　{[5}　　4	
+sol.107.6	0	t3三桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４	{t3}Enter the third digit.\\{[DD1}　　0　{[2}　　1　{[3}　　2　{[4}　　3　{[5}　　4	
+sol.107.7	0	t3四桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４	{t3}Enter the fourth digit.\\{[DD1}　　0　{[2}　　1　{[3}　　2　{[4}　　3　{[5}　　4	
+sol.107.8	0	t3このスイッチは故障中で使用できません。\\	{t3}This switch is broken and cannot be used.\\	
+sol.107.9	0	t3この電磁フィールドを排除するには\\両サイドのスイッチを起動してください。	{t3}To remove this electromagnetic field,\\activate the switches on both sides.	
+sol.107.10	0	t3b3＜電磁フィールド解除装置＞b0\\@@この解除装置を操作するには\\最外周のスイッチをすべて起動してください	{t3b3}＜EM Field Release Unit＞{b0}\\@@To operate this release unit,\\activate all of the outermost switches.	
+sol.107.11	0	t3b3＜電磁フィールド解除装置＞b0\\@@４つの最外周のスイッチの起動を確認。i030	{t3b3}＜EM Field Release Unit＞{b0}\\@@All four outermost switches confirmed active.{i030}	
+sol.107.12	0	t3電磁フィールドを解除しました。	{t3}The electromagnetic field has been released.	

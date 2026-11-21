@@ -1,13 +1,13 @@
 id	sector	jp	en	notes
-sol.100.0	0	　　　棒のような石塊が落ちている‥‥‥\\　　　　　　　　　　g7i015@@　　　　　　石塊を取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.100.1	0	t0b3　　　　　g7ハンドルb0を手に入れた。g7i015		
-sol.100.2	0	g7\\　　　　　何かの装置がある‥‥‥g7i015		
-sol.100.3	0	　　装置にb3ハンドルb0を取り付けますか？g7i015　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.100.4	0	t0　　　装置にb3ハンドルb0を取り付けた。g7i015		
-sol.100.5	0	　　g7ハンドルb0が取り付けられている‥‥‥g7i015		
-sol.100.6	0	t0b3　　　　　g7ハンドルb0を回しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.100.7	0	t0　　　　　何かが動く音がした‥‥‥g7i015		
-sol.100.8	0	t0b3　　　　g7ガス調整バルブb0を開きますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.100.9	0	t0b3　　　　g7ガス調整バルブb0を閉じますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.100.10	0	　　　　　　剣を取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.100.11	0	t0b3　　　　　g7蹟剣b0を手に入れた。g7i015		
+sol.100.0	0	　　　棒のような石塊が落ちている‥‥‥\\　　　　　　　　　　g7i015@@　　　　　　石塊を取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	　　A rod-shaped chunk of stone is lying here...\\　　　　　　　　　　{g7i015}@@　　　　　Take the chunk of stone?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.100.1	0	t0b3　　　　　g7ハンドルb0を手に入れた。g7i015	{t0}　　　　　{g7}Got the {b3}Handle{b0}.{g7i015}	
+sol.100.2	0	g7\\　　　　　何かの装置がある‥‥‥g7i015	{g7}\\　　　　There's some kind of device...{g7i015}	
+sol.100.3	0	　　装置にb3ハンドルb0を取り付けますか？g7i015　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	　Attach the {b3}Handle{b0} to the device?{g7i015}\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.100.4	0	t0　　　装置にb3ハンドルb0を取り付けた。g7i015	{t0}　　Attached the {b3}Handle{b0} to the device.{g7i015}	
+sol.100.5	0	　　g7ハンドルb0が取り付けられている‥‥‥g7i015	　　{g7}A Handle{b0} has been attached...{g7i015}	
+sol.100.6	0	t0b3　　　　　g7ハンドルb0を回しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Turn the {b3}Handle{b0}?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.100.7	0	t0　　　　　何かが動く音がした‥‥‥g7i015	{t0}　　　　Something moved somewhere...{g7i015}	
+sol.100.8	0	t0b3　　　　g7ガス調整バルブb0を開きますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　{g7}Open the {b3}gas control valve{b0}?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.100.9	0	t0b3　　　　g7ガス調整バルブb0を閉じますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　{g7}Close the {b3}gas control valve{b0}?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.100.10	0	　　　　　　剣を取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	　　　　　Take the sword?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.100.11	0	t0b3　　　　　g7蹟剣b0を手に入れた。g7i015	{t0}　　　　{g7}Got the {b3}Relic Sword{b0}.{g7i015}	

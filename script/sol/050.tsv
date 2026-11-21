@@ -1,15 +1,15 @@
 id	sector	jp	en	notes
-sol.50.0	0	CSA0t0e00966零‥‥なのか‥‥？私は、平気だ‥‥\\それよりも‥皆を先に‥‥助けに行ってくれ‥‥		
-sol.50.1	0	CSA0t0e00266アァ‥‥レ‥‥イ‥‥		
-sol.50.2	0	CSA0t0e01136しゃべるなっ！\\黙って寝てろっ！		
-sol.50.3	0	CSA0t0e00534ランファ‥‥ドク‥‥助け‥‥		
-sol.50.4	0	CSA0t0e00013わかってるから、今は黙ってろっ！		
-sol.50.5	0	CSA0t0e00356あ‥‥父‥‥さ‥‥ァ‥		
-sol.50.6	0	CSA0t0e00183リズィ、しっかりしろ！　目を開けるんだ！\\‥‥リズィ‥‥。		
-sol.50.7	0	CSA0t0e01222クソッ！		
-sol.50.8	0	CSA0t0e00100用済みとか言ってたな‥‥		
-sol.50.9	0	CSA0t0e01048‥‥みんながやべぇ！		
-sol.50.10	0	CSA0t0e01314‥‥ごめん‥‥な。		
-sol.50.11	0	CSA0t0e00446口ほどのコトはなかったわね。		
-sol.50.12	0	CSA0t0e00882もう少しいたぶりがいがあると思ってたけど。		
-sol.50.13	0	CSA0t0e01137所詮はクチだけの男だったってコトかしらね。\\ヒャァハハハハハハハハ‥‥		
+sol.50.0	0	CSA0t0e00966零‥‥なのか‥‥？私は、平気だ‥‥\\それよりも‥皆を先に‥‥助けに行ってくれ‥‥	{CSA0t0e00966}Rei... is that you...? I'm... all right...\\More importantly... go on... help everyone...	
+sol.50.1	0	CSA0t0e00266アァ‥‥レ‥‥イ‥‥	{CSA0t0e00266}Ah... Re... i...	
+sol.50.2	0	CSA0t0e01136しゃべるなっ！\\黙って寝てろっ！	{CSA0t0e01136}Don't talk!\\Just lie still!	
+sol.50.3	0	CSA0t0e00534ランファ‥‥ドク‥‥助け‥‥	{CSA0t0e00534}Ranfa... Doc... save...	
+sol.50.4	0	CSA0t0e00013わかってるから、今は黙ってろっ！	{CSA0t0e00013}I know, so just keep quiet for now!	
+sol.50.5	0	CSA0t0e00356あ‥‥父‥‥さ‥‥ァ‥	{CSA0t0e00356}Ah... Fa... ther...	
+sol.50.6	0	CSA0t0e00183リズィ、しっかりしろ！　目を開けるんだ！\\‥‥リズィ‥‥。	{CSA0t0e00183}Lizzie, hang in there! Open your eyes!\\...Lizzie...	
+sol.50.7	0	CSA0t0e01222クソッ！	{CSA0t0e01222}Damn it!	
+sol.50.8	0	CSA0t0e00100用済みとか言ってたな‥‥	{CSA0t0e00100}"Outlived her usefulness," she said...	
+sol.50.9	0	CSA0t0e01048‥‥みんながやべぇ！	{CSA0t0e01048}...Everyone's in trouble!	
+sol.50.10	0	CSA0t0e01314‥‥ごめん‥‥な。	{CSA0t0e01314}...I'm sorry... really.	
+sol.50.11	0	CSA0t0e00446口ほどのコトはなかったわね。	{CSA0t0e00446}Not half as tough as you talked.	
+sol.50.12	0	CSA0t0e00882もう少しいたぶりがいがあると思ってたけど。	{CSA0t0e00882}I thought you'd be more fun to torment.	
+sol.50.13	0	CSA0t0e01137所詮はクチだけの男だったってコトかしらね。\\ヒャァハハハハハハハハ‥‥	{CSA0t0e01137}Guess you were all talk after all, hm?\\Hyaahahahahahahaha...	

@@ -1,10 +1,10 @@
 id	sector	jp	en	notes
-sol.115.0	0	CSA0t0e00957‥‥これで、終わったのか？		
-sol.115.1	0	CSA0t0e00791反応はまだあるが、活動前のレベルに\\戻っている。もう、心配は無いだろう。		
-sol.115.2	0	CSA0t0e00092‥‥そうか。		
-sol.115.3	0	CSA0t0e00439‥‥今の人間には、あんたの存在は\\まだ早すぎるんだ。@@もう少し、待ってて、くれない‥‥か‥‥		
-sol.115.4	0	CSA0t0e00876どうしたっ！？		
-sol.115.5	0	CSA0t0e00006疲れた。‥‥眠い。		
-sol.115.6	0	t3b2＜クトゥリュウ導入デモ＞b0\\誠意制作中、乞うご期待！！		
-sol.115.7	0	t3b2＜主人公勝利時デモ＞b0\\誠意制作中、乞うご期待！！		
-sol.115.8	0	t3b2＜ウォルターとの会話イベント＞b0\\誠意制作中、乞うご期待！！		
+sol.115.0	0	CSA0t0e00957‥‥これで、終わったのか？	{CSA0t0e00957}...Is it over?	
+sol.115.1	0	CSA0t0e00791反応はまだあるが、活動前のレベルに\\戻っている。もう、心配は無いだろう。	{CSA0t0e00791}There's still a reading, but it's back to\\its pre-activity level. No need to worry now.	
+sol.115.2	0	CSA0t0e00092‥‥そうか。	{CSA0t0e00092}...I see.	
+sol.115.3	0	CSA0t0e00439‥‥今の人間には、あんたの存在は\\まだ早すぎるんだ。@@もう少し、待ってて、くれない‥‥か‥‥	{CSA0t0e00439}...People today just aren't ready\\for something like you yet.@@So wait a little longer... won't... you...	
+sol.115.4	0	CSA0t0e00876どうしたっ！？	{CSA0t0e00876}What's wrong!?	
+sol.115.5	0	CSA0t0e00006疲れた。‥‥眠い。	{CSA0t0e00006}I'm tired... Sleepy.	
+sol.115.6	0	t3b2＜クトゥリュウ導入デモ＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Cthulhu Intro Demo＞{b0}\\Under construction, stay tuned!!	
+sol.115.7	0	t3b2＜主人公勝利時デモ＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Hero Victory Demo＞{b0}\\Under construction, stay tuned!!	
+sol.115.8	0	t3b2＜ウォルターとの会話イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Conversation with Walter Event＞{b0}\\Under construction, stay tuned!!	

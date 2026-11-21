@@ -1,39 +1,39 @@
 id	sector	jp	en	notes
-sol.98.0	0	t0蹟棒を取りますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.1	0	t3b3蹟棒１b0を手に入れた。		
-sol.98.2	0	t3何かの装置がある‥‥‥。		
-sol.98.3	0	t0装置に蹟棒を取り付けますか？[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.4	0	t3装置に蹟棒を取り付けた。		
-sol.98.5	0	t3ハンドルb0が取り付けられている‥‥‥。		
-sol.98.6	0	t0蹟棒を回しますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.7	0	t3何かが動く音がした‥‥‥。		
-sol.98.8	0	t0ガス調整バルブを開きますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.9	0	t0ガス調整バルブを閉じますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.10	0	t0剣を取りますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.11	0	t3b3蹟剣b0を手に入れた。		
-sol.98.12	0	t0石板を拾いますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.13	0	t3b3サンクティオーの石板b0を手に入れた。		
-sol.98.14	0	t3b3ユーディキウムーの石板b0を手に入れた。		
-sol.98.15	0	t3b3レーゲースの石板b0を手に入れた。		
-sol.98.16	0	t0プレートを使いますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.17	0	t3何も起こらない‥‥。		
-sol.98.18	0	t3柱に絵が彫り込まれている‥‥\\何を意味しているのだろうか‥‥。		
-sol.98.19	0	t3石板が台座に飾られている‥‥。		
-sol.98.20	0	t3柱にヒビが入っていて崩れそうだ‥‥。		
-sol.98.21	0	t3仕掛けを作動させたみたいだ‥‥。		
-sol.98.22	0	t3壁が崩れかけている‥‥。		
-sol.98.23	0	t3開かない‥‥。		
-sol.98.24	0	t3この石柱を上げ下げするには\\仕掛けに合う道具が必要なようだ‥‥‥。		
-sol.98.25	0	t3さっき手に入れたアイテムを使えば\\この石柱を動かせそうだ‥‥。		
-sol.98.26	0	t3サンクティオーの石板が\\はめ込まれている‥‥。@@サンクティオーの石板を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.27	0	t3ユーディキウムーの石板が\\はめ込まれている‥‥。@@ユーディキウムーの石板を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.28	0	t3レーゲースの石板が\\はめ込まれている‥‥。@@レーゲースの石板を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.29	0	t3ユーデクスの石板が\\はめ込まれている‥‥。@@ユーデクスの石板を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.98.30	0	t3柱にはサンクティオーと記されている‥‥。		
-sol.98.31	0	t3柱にはユーディキウムーと記されている‥‥。		
-sol.98.32	1	t3柱にはレーゲースと記されている‥‥。		
-sol.98.33	1	t3柱にはユーデクスと記されている‥‥。		
-sol.98.34	1	t3石板はしっかりはまっていて取れそうにない‥‥。		
-sol.98.35	1	t3もう、この石板は必要ないな‥‥。		
-sol.98.36	1	t3何かを差し込むための丸い穴がある‥‥。		
-sol.98.37	1	t3我を支えし二つの僕を取り払いし時、\\我が真の姿、天上に現ん。		
+sol.98.0	0	t0蹟棒を取りますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}Take the Relic Rod?\\{[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.1	0	t3b3蹟棒１b0を手に入れた。	{t3}Got {b3}Relic Rod 1{b0}.	
+sol.98.2	0	t3何かの装置がある‥‥‥。	{t3}There's some kind of device...	
+sol.98.3	0	t0装置に蹟棒を取り付けますか？[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}Attach the Relic Rod to the device?\\{[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.4	0	t3装置に蹟棒を取り付けた。	{t3}Attached the Relic Rod to the device.	
+sol.98.5	0	t3ハンドルb0が取り付けられている‥‥‥。	{t3}A handle{b0} has been attached...	
+sol.98.6	0	t0蹟棒を回しますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}Turn the Relic Rod?\\{[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.7	0	t3何かが動く音がした‥‥‥。	{t3}Something moved somewhere...	
+sol.98.8	0	t0ガス調整バルブを開きますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}Open the gas control valve?\\{[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.9	0	t0ガス調整バルブを閉じますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}Close the gas control valve?\\{[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.10	0	t0剣を取りますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}Take the sword?\\{[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.11	0	t3b3蹟剣b0を手に入れた。	{t3}Got the {b3}Relic Sword{b0}.	
+sol.98.12	0	t0石板を拾いますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}Pick up the stone tablet?\\{[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.13	0	t3b3サンクティオーの石板b0を手に入れた。	{t3}Got the {b3}Sanctio Tablet{b0}.	
+sol.98.14	0	t3b3ユーディキウムーの石板b0を手に入れた。	{t3}Got the {b3}Iudicium Tablet{b0}.	
+sol.98.15	0	t3b3レーゲースの石板b0を手に入れた。	{t3}Got the {b3}Leges Tablet{b0}.	
+sol.98.16	0	t0プレートを使いますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}Use the plate?\\{[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.17	0	t3何も起こらない‥‥。	{t3}Nothing happens...	
+sol.98.18	0	t3柱に絵が彫り込まれている‥‥\\何を意味しているのだろうか‥‥。	{t3}There are pictures carved into the pillar...\\What could they mean...?	
+sol.98.19	0	t3石板が台座に飾られている‥‥。	{t3}A stone tablet sits on display on the pedestal...	
+sol.98.20	0	t3柱にヒビが入っていて崩れそうだ‥‥。	{t3}The pillar is cracked and looks ready to collapse...	
+sol.98.21	0	t3仕掛けを作動させたみたいだ‥‥。	{t3}Looks like I set off some kind of mechanism...	
+sol.98.22	0	t3壁が崩れかけている‥‥。	{t3}The wall is starting to crumble...	
+sol.98.23	0	t3開かない‥‥。	{t3}It won't open...	
+sol.98.24	0	t3この石柱を上げ下げするには\\仕掛けに合う道具が必要なようだ‥‥‥。	{t3}Raising and lowering this stone pillar\\will take a tool that fits the mechanism...	
+sol.98.25	0	t3さっき手に入れたアイテムを使えば\\この石柱を動かせそうだ‥‥。	{t3}With the item I just picked up,\\I might be able to move this pillar...	
+sol.98.26	0	t3サンクティオーの石板が\\はめ込まれている‥‥。@@サンクティオーの石板を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}The Sanctio Tablet\\is set in here...@@Take the Sanctio Tablet?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.27	0	t3ユーディキウムーの石板が\\はめ込まれている‥‥。@@ユーディキウムーの石板を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}The Iudicium Tablet\\is set in here...@@Take the Iudicium Tablet?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.28	0	t3レーゲースの石板が\\はめ込まれている‥‥。@@レーゲースの石板を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}The Leges Tablet\\is set in here...@@Take the Leges Tablet?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.29	0	t3ユーデクスの石板が\\はめ込まれている‥‥。@@ユーデクスの石板を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}The Iudex Tablet\\is set in here...@@Take the Iudex Tablet?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.98.30	0	t3柱にはサンクティオーと記されている‥‥。	{t3}The pillar is inscribed "Sanctio"...	
+sol.98.31	0	t3柱にはユーディキウムーと記されている‥‥。	{t3}The pillar is inscribed "Iudicium"...	
+sol.98.32	1	t3柱にはレーゲースと記されている‥‥。	{t3}The pillar is inscribed "Leges"...	
+sol.98.33	1	t3柱にはユーデクスと記されている‥‥。	{t3}The pillar is inscribed "Iudex"...	
+sol.98.34	1	t3石板はしっかりはまっていて取れそうにない‥‥。	{t3}The tablet is wedged in tight. It won't come out...	
+sol.98.35	1	t3もう、この石板は必要ないな‥‥。	{t3}Guess I don't need this tablet anymore...	
+sol.98.36	1	t3何かを差し込むための丸い穴がある‥‥。	{t3}There's a round hole for inserting something...	
+sol.98.37	1	t3我を支えし二つの僕を取り払いし時、\\我が真の姿、天上に現ん。	{t3}When the two servants upholding me are taken away,\\my true form shall appear in the heavens.	

@@ -1,33 +1,33 @@
 id	sector	jp	en	notes
-sol.89.0	0	CSA0t0e01164へぇ、美女二人でお出迎えか‥‥‥\\恐縮しちゃうね、どーも。		
-sol.89.1	0	CSA0t0e00655とぼけた男ね‥‥‥		
-sol.89.2	0	CSA0t0e00656あら、喜んでもらえてうれしいわ。		
-sol.89.3	0	CSA0t0e00123でも、ごめんなさいね。貴方には、ここで死んで\\もらわないといけないの。		
-sol.89.4	0	CSA0t0e00041あ‥‥‥\\いま、本当に死んでもいいかも‥‥‥		
-sol.89.5	0	CSA0t0e01344へ、違う、違う‥‥‥ふざけないでもらえる\\かな？‥‥‥ミズ・ミラー？		
-sol.89.6	0	CSA0t0e01073！？‥‥‥よく、その名前に\\たどり着けたわね。ボーイ。@@今までの男は、それを知る前に\\倒れていたのに‥‥‥		
-sol.89.7	0	CSA0t0e00742ふぅん‥‥‥		
-sol.89.8	0	CSA0t0e00994パトリシア・ミラーズ‥‥‥催眠術で作った\\相手にのみ見える幻影で人を殺せる幻影術師		
-sol.89.9	0	CSA0t0e01165まさか、ＤＳＯＮの兵士が幻影とは\\思いもよらなかったよ。@@しかし、御苦労なこった。わざわざ俺について\\回って、兵士の幻影を作っていたたぁね。		
-sol.89.10	0	CSA0t0e00903それに、最初に遺跡に入った時に\\ランファの真似したのも、お前だろう？		
-sol.89.11	0	CSA0t0e01253あらら、ばれちゃった‥‥‥\\と、言いたいところなんだけどねぇ。		
-sol.89.12	0	CSA0t0e00475半分正解とでもしておこうかしら‥‥‥\\私はヒントをあげただけなの。		
-sol.89.13	0	CSA0t0e00208パット、しゃべりすぎよ。\\これから死ぬ相手には意味の無い事だわ。		
-sol.89.14	0	CSA0t0e00385そういうあんたはどうなんだい？\\紹介してもらえるとうれしいな。		
-sol.89.15	0	CSA0t0e00657私、時間を無駄に使う事、好きではないの。\\口の回る男もね‥‥‥		
-sol.89.16	0	CSA0t0e00295まがりなりにもあの３人を倒したんだもの‥‥‥\\少しは楽しめるわよね？		
-sol.89.17	0	CSA0t0e00827俺はあんたらに用は無いが‥‥‥\\邪魔をするなら、容赦はしない。		
-sol.89.18	0	CSA0t0e00743ウフフフフフフ‥‥‥		
-sol.89.19	0	CSA0t0e00561さすがね、ボーイ。\\それじゃぁ、本気ださなくちゃね。		
-sol.89.20	0	CSA0t0e00042パットッ！？		
-sol.89.21	0	CSA0t0e00124貴様ぁ、よくもぉっ！		
-sol.89.22	0	CSA0t0e01345‥‥‥何故だ？　何故、ナカムラなんかに\\協力している？		
-sol.89.23	0	CSA0t0e01254‥‥‥貴方には、わかるとは思えない‥‥‥\\わかる‥‥‥はずが無い‥‥‥わ		
-sol.89.24	0	CSA0t0e00043どういう事だ？		
-sol.89.25	1	CSA0t0e00744‥‥‥世界の裏側に‥‥‥生きる事を‥‥‥\\強いられた‥‥‥その苦渋‥‥‥わかる‥‥‥@@訳‥‥‥無いもの‥‥‥心がつながった‥‥‥\\裏の無い‥‥‥世界‥‥‥パットだって‥‥‥		
-sol.89.26	1	CSA0t0e00209ミラー？\\な‥‥‥どこに消えたっ！？		
-sol.89.27	1	CSA0t0e00476ああ、パット‥‥‥どこ‥‥‥？\\いや、みえない‥‥‥私を一人にしないで‥‥‥		
-sol.89.28	1	CSA0t0e00904馬鹿な、そんな力が残っていたのか？		
-sol.89.29	1	CSA0t0e00386‥‥‥パッ‥‥‥トぉ‥‥‥		
-sol.89.30	1	CSA0t0e00125‥‥‥同情は、しねぇ。		
-sol.89.31	1	CSA0t0e01074ナカムラ‥‥‥か‥‥‥		
+sol.89.0	0	CSA0t0e01164へぇ、美女二人でお出迎えか‥‥‥\\恐縮しちゃうね、どーも。	{CSA0t0e01164}Whoa, two beauties to welcome me...\\I'm flattered, really.	
+sol.89.1	0	CSA0t0e00655とぼけた男ね‥‥‥	{CSA0t0e00655}Playing the fool, are we...	
+sol.89.2	0	CSA0t0e00656あら、喜んでもらえてうれしいわ。	{CSA0t0e00656}Oh my, I'm so glad you like it.	
+sol.89.3	0	CSA0t0e00123でも、ごめんなさいね。貴方には、ここで死んで\\もらわないといけないの。	{CSA0t0e00123}But I'm sorry. I'm afraid you'll have to\\die right here.	
+sol.89.4	0	CSA0t0e00041あ‥‥‥\\いま、本当に死んでもいいかも‥‥‥	{CSA0t0e00041}Ah...\\right now, I might not even mind dying...	
+sol.89.5	0	CSA0t0e01344へ、違う、違う‥‥‥ふざけないでもらえる\\かな？‥‥‥ミズ・ミラー？	{CSA0t0e01344}Heh, no, no... How about you quit\\fooling around?... Ms. Millers?	
+sol.89.6	0	CSA0t0e01073！？‥‥‥よく、その名前に\\たどり着けたわね。ボーイ。@@今までの男は、それを知る前に\\倒れていたのに‥‥‥	{CSA0t0e01073}!? ...So you managed to track down\\that name. Well done, boy.@@Every man before you went down\\before he ever learned it...	
+sol.89.7	0	CSA0t0e00742ふぅん‥‥‥	{CSA0t0e00742}Hmm...	
+sol.89.8	0	CSA0t0e00994パトリシア・ミラーズ‥‥‥催眠術で作った\\相手にのみ見える幻影で人を殺せる幻影術師	{CSA0t0e00994}Patricia Millers... an illusionist who kills with\\hypnotic phantoms only her target can see.	
+sol.89.9	0	CSA0t0e01165まさか、ＤＳＯＮの兵士が幻影とは\\思いもよらなかったよ。@@しかし、御苦労なこった。わざわざ俺について\\回って、兵士の幻影を作っていたたぁね。	{CSA0t0e01165}Never figured the DSON soldiers\\were illusions.@@Still, nice work. Tailing me all over\\just to whip up phantom soldiers.	
+sol.89.10	0	CSA0t0e00903それに、最初に遺跡に入った時に\\ランファの真似したのも、お前だろう？	{CSA0t0e00903}And when I first got into the ruins,\\that Ranfa impression was you too, right?	
+sol.89.11	0	CSA0t0e01253あらら、ばれちゃった‥‥‥\\と、言いたいところなんだけどねぇ。	{CSA0t0e01253}Oh dear, you caught me...\\is what I'd like to say, but...	
+sol.89.12	0	CSA0t0e00475半分正解とでもしておこうかしら‥‥‥\\私はヒントをあげただけなの。	{CSA0t0e00475}Let's call it half right...\\All I did was give you a hint.	
+sol.89.13	0	CSA0t0e00208パット、しゃべりすぎよ。\\これから死ぬ相手には意味の無い事だわ。	{CSA0t0e00208}Pat, you talk too much.\\It's pointless with someone about to die.	
+sol.89.14	0	CSA0t0e00385そういうあんたはどうなんだい？\\紹介してもらえるとうれしいな。	{CSA0t0e00385}And what about you, lady?\\I'd love an introduction.	
+sol.89.15	0	CSA0t0e00657私、時間を無駄に使う事、好きではないの。\\口の回る男もね‥‥‥	{CSA0t0e00657}I don't like wasting time.\\Or men with glib tongues...	
+sol.89.16	0	CSA0t0e00295まがりなりにもあの３人を倒したんだもの‥‥‥\\少しは楽しめるわよね？	{CSA0t0e00295}You did beat those three, after a fashion...\\So you'll be a little fun, won't you?	
+sol.89.17	0	CSA0t0e00827俺はあんたらに用は無いが‥‥‥\\邪魔をするなら、容赦はしない。	{CSA0t0e00827}I've got no business with you two...\\but get in my way, and I won't hold back.	
+sol.89.18	0	CSA0t0e00743ウフフフフフフ‥‥‥	{CSA0t0e00743}Hmhmhmhmhm...	
+sol.89.19	0	CSA0t0e00561さすがね、ボーイ。\\それじゃぁ、本気ださなくちゃね。	{CSA0t0e00561}Impressive, boy.\\Guess I'll have to get serious, then.	
+sol.89.20	0	CSA0t0e00042パットッ！？	{CSA0t0e00042}Pat!?	
+sol.89.21	0	CSA0t0e00124貴様ぁ、よくもぉっ！	{CSA0t0e00124}You wretch, how dare you!	
+sol.89.22	0	CSA0t0e01345‥‥‥何故だ？　何故、ナカムラなんかに\\協力している？	{CSA0t0e01345}...Why? Why are you helping\\a guy like Nakamura?	
+sol.89.23	0	CSA0t0e01254‥‥‥貴方には、わかるとは思えない‥‥‥\\わかる‥‥‥はずが無い‥‥‥わ	{CSA0t0e01254}...I don't think you could understand...\\There's no way... you ever could...	
+sol.89.24	0	CSA0t0e00043どういう事だ？	{CSA0t0e00043}What do you mean?	
+sol.89.25	1	CSA0t0e00744‥‥‥世界の裏側に‥‥‥生きる事を‥‥‥\\強いられた‥‥‥その苦渋‥‥‥わかる‥‥‥@@訳‥‥‥無いもの‥‥‥心がつながった‥‥‥\\裏の無い‥‥‥世界‥‥‥パットだって‥‥‥	{CSA0t0e00744}...Forced to live... on the dark side... of the\\world... that bitterness... you could never...@@understand... A world... where hearts are\\joined... with no dark side... Pat too...	
+sol.89.26	1	CSA0t0e00209ミラー？\\な‥‥‥どこに消えたっ！？	{CSA0t0e00209}Millers?\\Wh... where'd she go!?	
+sol.89.27	1	CSA0t0e00476ああ、パット‥‥‥どこ‥‥‥？\\いや、みえない‥‥‥私を一人にしないで‥‥‥	{CSA0t0e00476}Oh, Pat... where are you...?\\No, I can't see... don't leave me alone...	
+sol.89.28	1	CSA0t0e00904馬鹿な、そんな力が残っていたのか？	{CSA0t0e00904}No way, she still had that much left in her?	
+sol.89.29	1	CSA0t0e00386‥‥‥パッ‥‥‥トぉ‥‥‥	{CSA0t0e00386}...Pa... at...	
+sol.89.30	1	CSA0t0e00125‥‥‥同情は、しねぇ。	{CSA0t0e00125}...Don't expect any pity.	
+sol.89.31	1	CSA0t0e01074ナカムラ‥‥‥か‥‥‥	{CSA0t0e01074}Nakamura... huh...	

@@ -1,151 +1,151 @@
 id	sector	jp	en	notes
-sol.28.0	0	WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0\\ＧＡＭＥ　ＯＶＥＲ\\		
-sol.28.1	0	t3棒のような石塊が落ちている‥‥		
-sol.28.2	0	t3b3石の把手b0を手に入れた。		
-sol.28.3	0	t3台の上に石の歯車が取り付けられている‥‥		
-sol.28.4	0	t3歯車が固くて、素手では回せない‥‥		
-sol.28.5	0	t3歯車にb3石の把手b0を取り付けた。		
-sol.28.6	0	t3石の把手b0が取り付けられている‥‥		
-sol.28.7	0	t3b3石の把手b0を回しますか？\\t0[DD1　左　　　[2　右　　　[3　やめる		
-sol.28.8	0	t3何かが動いたようだ‥‥		
-sol.28.9	0	t3扉は開かない‥‥		
-sol.28.10	0	t3何か仕掛けがあるようだ‥‥		
-sol.28.11	0	t3仕掛けを動かした‥‥		
-sol.28.12	0	t3何かが動く音がした‥‥		
-sol.28.13	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.28.14	0	t3何も起こらない‥‥		
-sol.28.15	0	t3b3紅の石像b0を手に入れた。		
-sol.28.16	0	t3b3蒼の石像b0を手に入れた。		
-sol.28.17	0	t3何かを奉るための祭壇らしい‥‥		
-sol.28.18	0	t3何かが置かれた形跡が２ヶ所ある‥‥		
-sol.28.19	0	t3b3紅の石像b0を台座に置いた。		
-sol.28.20	0	t3b3蒼の石像b0を台座に置いた。		
-sol.28.21	0	t3「汝の力で我を照らせ」\\と、記されている‥‥		
-sol.28.22	0	t3何らかの文章のように見えるが、\\何が記されているのか、解読できない‥‥		
-sol.28.23	0	t3こいつぁ‥‥		
-sol.28.24	0	t3‥‥やべぇ！！		
-sol.28.25	0	t3おわぁぁぁぁぁぁぁぁぁ‥‥		
-sol.28.26	0	t3b3石黄の石板b0を手に入れた。		
-sol.28.27	0	CSA0t0e01271零、聞こえる？		
-sol.28.28	0	CSA0t0e00924ああ、ランファか。どうした？		
-sol.28.29	0	CSA0t0e00140さっき、調査団のキャンプ跡で、\\遺跡の調査メモが見つかったの。@@で、判ってるとこはこっちでナビするから、\\細かいとこの確認お願いね。		
-sol.28.30	0	CSA0t0e00580細かいとこ、ねぇ‥‥\\なんか適当っぽくねぇか？		
-sol.28.31	0	CSA0t0e00758適当かどうかは、あんたの働き次第でしょ。@@みんなに迷惑かかるんだから、\\ちゃんとがんばりなさいよ。		
-sol.28.32	0	CSA0t0e01272へぇへ‥‥		
-sol.28.33	0	CSA0t0e00314あと、位置はちゃんとこっちで\\モニターしてるから、より道しないでね。@@何かネコババしたって、\\すぐに判るんだからね！		
-sol.28.34	0	CSA0t0e01006‥‥信用ねえの。		
-sol.28.35	0	CSA0t0e00403うだうだ言わずに、とっとと始める！		
-sol.28.36	1	WP-134-016WS2004BS0805BYB+00BKC002ゆっくり移動する場合、Ｒ１ボタンを\\押しながら方向キーを押します。\\走るときは方向キーだけを\\押してください。t300		
-sol.28.37	1	CSA0t0e00925‥‥よぉ、このあたりの猫科の大型に何がいる？		
-sol.28.38	1	CSA0t0e01273さぁ？\\南米ならジャガーか山猫ぐらいじゃない？@@‥‥って、何かいるの？		
-sol.28.39	1	CSA0t0e00674あぁ‥‥っと、やっぱり来るかっ！		
-sol.28.40	1	CSA0t0e00581なんで‥‥\\出てきて１ヶ月の島に動物がいるんだ？		
-sol.28.41	1	CSA0t0e00057っと、まだいたかっ！		
-sol.28.42	1	CSA0t0e01092‥‥行けよ。		
-sol.28.43	1	CSA0t0e01182何もしねえから、早く行け‥‥		
-sol.28.44	1	CSA0t0e01007大丈夫？どうかしたの？		
-sol.28.45	1	CSA0t0e00404‥‥いや、何でもない。		
-sol.28.46	1	CSA0t0e00141ランファ、ここの扉はこれ以上開かないのか？		
-sol.28.47	1	CSA0t0e00675ん～、開く仕掛けが見あたらなかったみたい‥‥\\でも、奥には行けるんでしょ？		
-sol.28.48	1	CSA0t0e01093まぁ、なんとかなるか。		
-sol.28.49	1	t3b6　藍花：b0○ボタンを２回押して屈んでみてよ。i030		
-sol.28.50	1	t3b6　藍花：b0で、そのままＬ１ボタンを押すと、\\　屈んだ状態で扉の奥が見えるでしょ？i030		
-sol.28.51	1	t3b6　藍花：b0Ｌ１ボタンを放して、Ｒ１ボタンを\\　押しながら方向キーの上を押すと、扉の下をi030@@　くぐり抜けられるから。i030		
-sol.28.52	1	t3b6　藍花：b0えーと、そこにある\\　階段おりちゃって。i030		
-sol.28.53	1	t3b4　零：b0って、脇の回廊は見なくていいのか？i030		
-sol.28.54	1	t3b6　藍花：b0奥に扉があるらしいんだけど、\\　調査団の方で開けらんなかったみたい。i030@@　真っ当な調査は明日やるから、\\　とりあえず先進んどいて。i030		
-sol.28.55	1	t3b4　零：b0ちぃっと、逃げるのは厳しいか‥‥\\		
-sol.28.56	1	t3b6　藍花：b0ちょっと、どこに行ってるのよ？\\　勝手に適当なとこに行かないでよね！i030		
-sol.28.57	1	t3b6　藍花：b0あー、もう！\\　なんで人の言うこと聞かないかなー！i030		
-sol.28.58	1	CSA0t0e00405あー、その先のトカゲっぽい彫像\\火ふくから気をつけてね。		
-sol.28.59	1	CSA0t0e00582そういう事を、お気楽そうに言うな！		
-sol.28.60	1	CSA0t0e00315えっと、奥にある石碑に\\仕掛けっぽいのがあって、@@それ押せば止まるって書いてある‥‥		
-sol.28.61	1	CSA0t0e01008そういう事はなぁ、早めに言え！		
-sol.28.62	2	WP-134-016WS2002BS0805BYB+00BKC002　石碑の前に立ち、□ボタンで\\　仕掛けを動かす事が出来ます。		
-sol.28.63	2	CSA0t0e01183なんか、空気が澱んでるな‥‥ガスか？		
-sol.28.64	2	CSA0t0e01274ここにもガスか‥‥\\さっきの場所と続いているのか？		
-sol.28.65	2	CSA0t0e01094ん、そうみたい。		
-sol.28.66	2	CSA0t0e00142多分致死性じゃないと思うけど、\\体に悪そうだから近づかない方がいいかもね。		
-sol.28.67	2	CSA0t0e00059ん、そうみたい。		
-sol.28.68	2	CSA0t0e00760そのあたり、足元崩れやすく\\なってるみたいだから、気をつけてね。		
-sol.28.69	2	CSA0t0e01009この壁の奥、進めるのか？		
-sol.28.70	2	CSA0t0e00583ちょっと待って‥‥\\うん、奥に通路があるみたい。@@ついでだからそこに通路開けといてって\\ドクが言ってるけど？		
-sol.28.71	2	CSA0t0e01184言ってるのは良いけどさ‥‥\\どうやって開けろっての、これ？		
-sol.28.72	2	CSA0t0e00494あー、今さっきブリジットがそっちに\\Ｐ．Ｅ．爆弾持ってったから、それ使って。		
-sol.28.73	2	CSA0t0e00927Ｐ．Ｅ．ねぇ‥‥\\で、リズィは、あとどれぐらいで着くって？		
-sol.28.74	2	CSA0t0e00676今、ここにいるが。		
-sol.28.75	2	CSA0t0e00406うわっ！！		
-sol.28.76	2	CSA0t0e00845何を驚いている？		
-sol.28.77	2	CSA0t0e01095えらくお茶目‥‥　いや、早いじゃねえか‥‥\\で、Ｐ．Ｅ．は？		
-sol.28.78	2	CSA0t0e00227ああ、ここにある。気をつけて使えよ。\\間違っても遺跡に余計な被害を与えないように@@‥‥貴様と心中など御免だからな。		
-sol.28.79	2	CSA0t0e00060じゃ、早速使ってみるか。		
-sol.28.80	2	CSA0t0e01275そんな高い所に置こうとしても、\\手が届かないんじゃないのか？		
-sol.28.81	2	CSA0t0e00316そこの岩を足場に使ってみてはどうだ？		
-sol.28.82	2	WP-134-016WS2004BS0805BYB+00BKC002岩の前に立って□ボタンを\\押し続け、岩をつかんだら‥‥\\そのまま方向キー上を押して、\\岩を押す事が出来る。\\		
-sol.28.83	2	WP-134-016WS2002BS0805BYB+00BKC002間違えて押しすぎたら、方向キー下を\\押して、岩を引っ張る事が出来る。		
-sol.28.84	2	WP-134-016WS2004BS0805BYB+00BKC002Ｐ．Ｅ．に関わらず道具を使いたいときは、\\まず使う場所へ行く。\\壁の崩れてる場所にＰ．Ｅ．を使うには、\\そこでＬ２ボタンを長く押し、@@Ｌ２ボタン＋方向キーでアイテム選択。\\Ｐ．Ｅ．を選び、１度Ｌ２ボタンをはなし、\\Ｌ２ボタンを短く押すと\\使用する事が出来る。		
-sol.28.85	3	CSA0t0e01362あれ、どこに行くんだ？		
-sol.28.86	3	CSA0t0e01010あぁ、貴様が大雑把だと言われてな。\\前調査の確認作業だよ‥‥貴様の尻拭いさ。		
-sol.28.87	3	CSA0t0e00407‥‥俺って、そんなに信用ないのか？		
-sol.28.88	3	CSA0t0e00846そう、くさるな。@@調査団の消息がたどれない今、細心の注意を\\はらっておいても、間違いはあるまい？		
-sol.28.89	3	CSA0t0e00677‥‥まぁ、いいか。\\だが、俺の邪魔だけは勘弁してくれよな？		
-sol.28.90	3	CSA0t0e00761その言葉は、そのまま貴様に返しておこう。\\じゃあな。		
-sol.28.91	3	CSA0t0e00143‥‥かわいくねぇの。		
-sol.28.92	3	CSA0t0e00061危険物を持ったまま不用意に\\徘徊しないでもらいたいな‥‥		
-sol.28.93	3	CSA0t0e01185とりあえず、先にここの作業を\\片付けてからでも遅くはないだろう？		
-sol.28.94	3	CSA0t0e00928‥‥調査団の連中、\\火の始末ぐらいきちんとしとけよな‥‥		
-sol.28.95	3	CSA0t0e00495どぉわっ！		
-sol.28.96	3	CSA0t0e01363あ～、そこにかかってる橋も\\崩れやすくなってるって。@@気をつけてね。		
-sol.28.97	3	CSA0t0e00317だから、早めに言ってくれっ！		
-sol.28.98	3	CSA0t0e01096零、あんた水ダメなんだっけ？		
-sol.28.99	3	CSA0t0e01276‥‥顔を付けるのが苦手なだけだ。\\人をカナヅチみたいに言うなっ！		
-sol.28.100	3	WP-134-016WS2104BS0805BYB+00BKC002方向キーと×ボタンを押せば、そのまま\\押した方向に泳ぐ事が出来ます。\\泳いでるときには、壁につかまる事\\以外は出来ないので注意してください。		
-sol.28.101	3	CSA0t0e00144なんだ、あれは？		
-sol.28.102	3	CSA0t0e00584ストップ！@@そこから先行くと、\\そのまま下まで落っこちちゃうよ。@@床の構造がもろくなってるって書いてある。		
-sol.28.103	3	CSA0t0e00496ゆっくり歩けば平気だろ？		
-sol.28.104	3	CSA0t0e00408試して見たければ、どうぞ。\\でも、どうなっても知らないからね！@@とにかく、そこの置物はダミーみたい\\だから、先に進んでみて。		
-sol.28.105	3	WP-134-016WS2008BS0805BYB+00BKC002　下へ降りるには道を探す\\　必要がありそうだ‥‥@@　周りを見渡したいときは、\\　Ｒ１ボタンを押しながら方向キーを押すと、@@　その方向を見渡すことが出来る。@@　左右を見渡すときは体の向きも@@　同じ方向に向いているから、\\　元に戻したときに注意しよう。		
-sol.28.106	3	CSA0t0e00678馬鹿でっかい柱が立ってるところは、\\なんて書いてある。		
-sol.28.107	4	CSA0t0e00318う～ん‥‥\\そのあたりについては、何も書かれてないよ。@@っていうか、そのあたりから\\先の記述が残ってないの。@@‥‥もうそろそろ、\\戻ったほうが良いんじゃない？		
-sol.28.108	4	CSA0t0e00762そうだな‥‥\\いや、もう少し先まで様子を見てくるわ。		
-sol.28.109	4	CSA0t0e00062こいつは‥‥		
-sol.28.110	4	CSA0t0e00145聞こえるか‥‥祭壇を見つけた。\\何か奉られているらしい。調べてみる。		
-sol.28.111	4	CSA0t0‥‥‥‥‥‥‥		
-sol.28.112	4	CSA0t0e01186これは‥‥剣か？		
-sol.28.113	4	CSA0t0e00929おい、聞こえるか？\\刀剣らしい棒状の金属を発見した。@@回収した方が良いのか、\\ジイさんに確認してくれ。		
-sol.28.114	4	CSA0t0‥‥‥‥‥‥‥		
-sol.28.115	4	CSA0t0e01011おい、聞こえているのか？応答しろ！！		
-sol.28.116	4	CSA0t0e01364ええ、ああ‥‥\\うん、聞こえてる。		
-sol.28.117	4	CSA0t0e01097居眠りしてるんじゃねぇぞ！！\\‥‥金属製の棒を発見した。回収の判断を頼む。		
-sol.28.118	4	CSA0t0e00847ええっと‥‥回収してだって。\\特に罠らしい物はないって言ってるし。		
-sol.28.119	4	CSA0t0e01277そうか？まぁ、わかった。\\これを回収してから、そっちに戻る。		
-sol.28.120	4	CSA0t0e00228わかった、お願いね。		
-sol.28.121	4	CSA0t0e00497‥‥さてと。		
-sol.28.122	4	CSA0t0e00063鉄‥‥じゃないな‥‥\\なんだ‥‥これは？		
-sol.28.123	4	CSA0t0e00679おぅわっ！！		
-sol.28.124	4	CSA0t0e01187くそっ、やっぱり罠があったか！！		
-sol.28.125	4	CSA0t0e00585あの馬鹿の言うことなん‥‥てぁっ‥‥！！		
-sol.28.126	4	CSA0t0e01012おわあああああぁぁぁぁぁぁぁ‥‥		
-sol.28.127	4	t3b4　零：b0ナイフ程度がこんなのに効くかっ！i030		
-sol.28.128	4	t3b4　零：b0ちったぁ、ましかっ！i030		
-sol.28.129	4	CSA0t0e00146無事だったか？		
-sol.28.130	4	CSA0t0e00680ああ、何とかね‥‥		
-sol.28.131	4	CSA0t0e01278ところで、上から影は見えたが‥‥\\あんな化物がここには居るのか？		
-sol.28.132	4	CSA0t0e00848ここだけだと良いんだけどな‥‥\\あちこちに居られても困る。		
-sol.28.133	4	CSA0t0e01188ここだけに居るとは限らないか‥‥@@外に警戒を強めるように\\警告したほうが良いな。		
-sol.28.134	4	CSA0t0e00064ああ、そうした方が良いだろうな‥‥\\早く戻ろう、晩飯の時間だ。@@晩飯に供されるのはゾッとしない‥‥		
-sol.28.135	4	CSA0t0e01013ああ、そうしよう。\\‥‥ところで、その物騒な代物は何だ？		
-sol.28.136	5	CSA0t0e00147そんな風に言う事はないだろ？\\これが、今のところ唯一の戦利品だ‥‥\\		
-sol.28.137	5	CSA0t0e00319それに‥‥		
-sol.28.138	5	CSA0t0e00586それに？		
-sol.28.139	5	CSA0t0e00230俺の命の救い主にそんな口きいたら、\\バチがあたる。		
-sol.28.140	5	t3b3Ｐ．Ｅ．爆弾b0を手に入れた。		
-sol.28.141	5	t3‥‥反応しないようだ。		
-sol.28.142	5	t3今は開きそうにない。		
-sol.28.143	5	WP-134-016WS2004BS0805BYB+00BKC002高いところに登りたい時は、\\×ボタンを押してジャンプするか、\\□ボタンを押して足場につかまってから\\方向キーの上を押すと登る事が出来ます。		
-sol.28.144	5	WP-134-016WS2003BS0805BYB+00BKC002さらに高いところへ登る時には、\\□ボタンを押しながら、ジャンプする事で\\より高いところにつかまる事が出来ます。		
-sol.28.145	5	WP-134-016WS2005BS0805BYB+00BKC002Ｒ２ボタンで武器をかまえ、□ボタンで\\斬りつけます。危険がせまったら、\\Ｒ１ボタンと方向キーで走るか、\\○ボタンでガード！再度Ｒ２ボタンを\\押すと武器をしまう事が出来ます。t300		
-sol.28.146	5	WP-134-016WS2003BS0805BYB+00BKC002　どこか調べたい場所があれば\\　調べたい方向に向いて\\　□ボタンで調べることができます。		
-sol.28.147	5	WP-134-016WS2005BS0805BYB+00BKC002○ボタンを２回押している間、\\屈むことが出来ます。\\そのままＲ１ボタンを押しながら\\方向キーの上を押すと扉の下を\\くぐり抜ける事が出来ます。		
-sol.28.148	5	t3仕掛けは作動しています。		
-sol.28.149	5	t0b3プレステージクリア！！b0		
+sol.28.0	0	WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0\\ＧＡＭＥ　ＯＶＥＲ\\	{WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0}\\GAME OVER\\	
+sol.28.1	0	t3棒のような石塊が落ちている‥‥	{t3}A rod-shaped chunk of stone is lying here...	
+sol.28.2	0	t3b3石の把手b0を手に入れた。	{t3}Got the {b3}Stone Handle{b0}.	
+sol.28.3	0	t3台の上に石の歯車が取り付けられている‥‥	{t3}A stone gear is fixed on top of the stand...	
+sol.28.4	0	t3歯車が固くて、素手では回せない‥‥	{t3}The gear is too stiff to turn by hand...	
+sol.28.5	0	t3歯車にb3石の把手b0を取り付けた。	{t3}Attached the {b3}Stone Handle{b0} to the gear.	
+sol.28.6	0	t3石の把手b0が取り付けられている‥‥	{t3}The Stone Handle{b0} is attached...	
+sol.28.7	0	t3b3石の把手b0を回しますか？\\t0[DD1　左　　　[2　右　　　[3　やめる	{t3}Turn the {b3}Stone Handle{b0}?\\{t0[DD1}　Left　　　{[2}　Right　　　{[3}　Cancel	
+sol.28.8	0	t3何かが動いたようだ‥‥	{t3}Something seems to have moved...	
+sol.28.9	0	t3扉は開かない‥‥	{t3}The door won't open...	
+sol.28.10	0	t3何か仕掛けがあるようだ‥‥	{t3}Looks like there's some kind of mechanism...	
+sol.28.11	0	t3仕掛けを動かした‥‥	{t3}Activated the mechanism...	
+sol.28.12	0	t3何かが動く音がした‥‥	{t3}There was the sound of something moving...	
+sol.28.13	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Activate the mechanism?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.28.14	0	t3何も起こらない‥‥	{t3}Nothing happens...	
+sol.28.15	0	t3b3紅の石像b0を手に入れた。	{t3}Got the {b3}Crimson Statue{b0}.	
+sol.28.16	0	t3b3蒼の石像b0を手に入れた。	{t3}Got the {b3}Blue Statue{b0}.	
+sol.28.17	0	t3何かを奉るための祭壇らしい‥‥	{t3}It seems to be an altar for enshrining something...	
+sol.28.18	0	t3何かが置かれた形跡が２ヶ所ある‥‥	{t3}There are two spots where something once sat...	
+sol.28.19	0	t3b3紅の石像b0を台座に置いた。	{t3}Placed the {b3}Crimson Statue{b0} on the pedestal.	
+sol.28.20	0	t3b3蒼の石像b0を台座に置いた。	{t3}Placed the {b3}Blue Statue{b0} on the pedestal.	
+sol.28.21	0	t3「汝の力で我を照らせ」\\と、記されている‥‥	{t3}"Illuminate me with thy power,"\\it reads...	
+sol.28.22	0	t3何らかの文章のように見えるが、\\何が記されているのか、解読できない‥‥	{t3}It looks like some kind of writing,\\but there's no deciphering what it says...	
+sol.28.23	0	t3こいつぁ‥‥	{t3}Well, would you look at that...	
+sol.28.24	0	t3‥‥やべぇ！！	{t3}...Oh, crap!!	
+sol.28.25	0	t3おわぁぁぁぁぁぁぁぁぁ‥‥	{t3}Whoaaaaaaaaaa...	
+sol.28.26	0	t3b3石黄の石板b0を手に入れた。	{t3}Got the {b3}Yellow Tablet{b0}.	
+sol.28.27	0	CSA0t0e01271零、聞こえる？	{CSA0t0e01271}Rei, can you hear me?	
+sol.28.28	0	CSA0t0e00924ああ、ランファか。どうした？	{CSA0t0e00924}Ah, Ranfa. What's up?	
+sol.28.29	0	CSA0t0e00140さっき、調査団のキャンプ跡で、\\遺跡の調査メモが見つかったの。@@で、判ってるとこはこっちでナビするから、\\細かいとこの確認お願いね。	{CSA0t0e00140}We just found notes on the ruins\\at the survey team's old campsite.@@So I'll navigate you through what we know,\\and you check the details, okay?	
+sol.28.30	0	CSA0t0e00580細かいとこ、ねぇ‥‥\\なんか適当っぽくねぇか？	{CSA0t0e00580}"The details," huh...\\Doesn't that sound kinda half-assed?	
+sol.28.31	0	CSA0t0e00758適当かどうかは、あんたの働き次第でしょ。@@みんなに迷惑かかるんだから、\\ちゃんとがんばりなさいよ。	{CSA0t0e00758}Whether it's half-assed depends on how\\well you do your job.@@Everyone's counting on you,\\so you'd better try hard, okay?	
+sol.28.32	0	CSA0t0e01272へぇへ‥‥	{CSA0t0e01272}Yeah, yeah...	
+sol.28.33	0	CSA0t0e00314あと、位置はちゃんとこっちで\\モニターしてるから、より道しないでね。@@何かネコババしたって、\\すぐに判るんだからね！	{CSA0t0e00314}Oh, and I'm monitoring your position\\from here, so no detours, okay?@@If you pocket anything,\\I'll know right away!	
+sol.28.34	0	CSA0t0e01006‥‥信用ねえの。	{CSA0t0e01006}...Nice to be trusted.	
+sol.28.35	0	CSA0t0e00403うだうだ言わずに、とっとと始める！	{CSA0t0e00403}Quit whining and get started already!	
+sol.28.36	1	WP-134-016WS2004BS0805BYB+00BKC002ゆっくり移動する場合、Ｒ１ボタンを\\押しながら方向キーを押します。\\走るときは方向キーだけを\\押してください。t300	{WP-134-016WS2004BS0805BYB+00BKC002}To move slowly, hold R1\\and press the D-pad.\\To run, press the D-pad\\on its own.{t300}	
+sol.28.37	1	CSA0t0e00925‥‥よぉ、このあたりの猫科の大型に何がいる？	{CSA0t0e00925}...Hey, what kind of big cats live around here?	
+sol.28.38	1	CSA0t0e01273さぁ？\\南米ならジャガーか山猫ぐらいじゃない？@@‥‥って、何かいるの？	{CSA0t0e01273}Hmm?\\In South America, jaguars or wildcats, maybe?@@...Wait, is something there?	
+sol.28.39	1	CSA0t0e00674あぁ‥‥っと、やっぱり来るかっ！	{CSA0t0e00674}Yeah... whoa, here it comes!	
+sol.28.40	1	CSA0t0e00581なんで‥‥\\出てきて１ヶ月の島に動物がいるんだ？	{CSA0t0e00581}Why the hell...\\are there animals on an island that's a month old?	
+sol.28.41	1	CSA0t0e00057っと、まだいたかっ！	{CSA0t0e00057}Whoa, there's still more!?	
+sol.28.42	1	CSA0t0e01092‥‥行けよ。	{CSA0t0e01092}...Go on.	
+sol.28.43	1	CSA0t0e01182何もしねえから、早く行け‥‥	{CSA0t0e01182}I won't do anything, so get going...	
+sol.28.44	1	CSA0t0e01007大丈夫？どうかしたの？	{CSA0t0e01007}You okay? Something wrong?	
+sol.28.45	1	CSA0t0e00404‥‥いや、何でもない。	{CSA0t0e00404}...Nah, it's nothing.	
+sol.28.46	1	CSA0t0e00141ランファ、ここの扉はこれ以上開かないのか？	{CSA0t0e00141}Ranfa, this door won't open any further?	
+sol.28.47	1	CSA0t0e00675ん～、開く仕掛けが見あたらなかったみたい‥‥\\でも、奥には行けるんでしょ？	{CSA0t0e00675}Hmm~, looks like they couldn't find a way\\to open it... But you can get inside, right?	
+sol.28.48	1	CSA0t0e01093まぁ、なんとかなるか。	{CSA0t0e01093}Well, I'll manage somehow.	
+sol.28.49	1	t3b6　藍花：b0○ボタンを２回押して屈んでみてよ。i030	{t3b6}Ranfa:{b0} Press ○ twice to crouch.{i030}	
+sol.28.50	1	t3b6　藍花：b0で、そのままＬ１ボタンを押すと、\\　屈んだ状態で扉の奥が見えるでしょ？i030	{t3b6}Ranfa:{b0} Then hold L1, and you can see\\through the door while crouching, right?{i030}	
+sol.28.51	1	t3b6　藍花：b0Ｌ１ボタンを放して、Ｒ１ボタンを\\　押しながら方向キーの上を押すと、扉の下をi030@@　くぐり抜けられるから。i030	{t3b6}Ranfa:{b0} Let go of L1, then hold R1\\and press Up on the D-pad, and you can{i030}@@crawl under the door.{i030}	
+sol.28.52	1	t3b6　藍花：b0えーと、そこにある\\　階段おりちゃって。i030	{t3b6}Ranfa:{b0} Umm, just go on down\\those stairs there.{i030}	
+sol.28.53	1	t3b4　零：b0って、脇の回廊は見なくていいのか？i030	{t3b4}Rei:{b0} Wait, I don't need to check the side corridor?{i030}	
+sol.28.54	1	t3b6　藍花：b0奥に扉があるらしいんだけど、\\　調査団の方で開けらんなかったみたい。i030@@　真っ当な調査は明日やるから、\\　とりあえず先進んどいて。i030	{t3b6}Ranfa:{b0} There's supposed to be a door at the back,\\but the survey team couldn't get it open.{i030}@@We'll do a proper survey tomorrow,\\so just keep going for now.{i030}	
+sol.28.55	1	t3b4　零：b0ちぃっと、逃げるのは厳しいか‥‥\\	{t3b4}Rei:{b0} Tch, running away's gonna be tough...\\	
+sol.28.56	1	t3b6　藍花：b0ちょっと、どこに行ってるのよ？\\　勝手に適当なとこに行かないでよね！i030	{t3b6}Ranfa:{b0} Hey, where are you going?\\Don't just wander off wherever you like!{i030}	
+sol.28.57	1	t3b6　藍花：b0あー、もう！\\　なんで人の言うこと聞かないかなー！i030	{t3b6}Ranfa:{b0} Ugh, seriously!\\Why won't you ever listen to me~!{i030}	
+sol.28.58	1	CSA0t0e00405あー、その先のトカゲっぽい彫像\\火ふくから気をつけてね。	{CSA0t0e00405}Oh, careful, those lizard-ish statues\\up ahead breathe fire.	
+sol.28.59	1	CSA0t0e00582そういう事を、お気楽そうに言うな！	{CSA0t0e00582}Don't say stuff like that so casually!	
+sol.28.60	1	CSA0t0e00315えっと、奥にある石碑に\\仕掛けっぽいのがあって、@@それ押せば止まるって書いてある‥‥	{CSA0t0e00315}Umm, it says there's something like\\a mechanism on a stone tablet at the back,@@and if you push it, they'll stop...	
+sol.28.61	1	CSA0t0e01008そういう事はなぁ、早めに言え！	{CSA0t0e01008}Stuff like that, you tell me sooner!	
+sol.28.62	2	WP-134-016WS2002BS0805BYB+00BKC002　石碑の前に立ち、□ボタンで\\　仕掛けを動かす事が出来ます。	{WP-134-016WS2002BS0805BYB+00BKC002}Stand in front of a stone tablet\\and press □ to work its mechanism.	
+sol.28.63	2	CSA0t0e01183なんか、空気が澱んでるな‥‥ガスか？	{CSA0t0e01183}The air's kinda stale here... Gas?	
+sol.28.64	2	CSA0t0e01274ここにもガスか‥‥\\さっきの場所と続いているのか？	{CSA0t0e01274}Gas here too...?\\Is it connected to where I was before?	
+sol.28.65	2	CSA0t0e01094ん、そうみたい。	{CSA0t0e01094}Mm, looks like it.	
+sol.28.66	2	CSA0t0e00142多分致死性じゃないと思うけど、\\体に悪そうだから近づかない方がいいかもね。	{CSA0t0e00142}I don't think it's lethal, but it can't be good\\for you, so maybe keep away from it.	
+sol.28.67	2	CSA0t0e00059ん、そうみたい。	{CSA0t0e00059}Mm, looks like it.	
+sol.28.68	2	CSA0t0e00760そのあたり、足元崩れやすく\\なってるみたいだから、気をつけてね。	{CSA0t0e00760}The ground around there looks\\like it crumbles easily, so be careful.	
+sol.28.69	2	CSA0t0e01009この壁の奥、進めるのか？	{CSA0t0e01009}Can I get past this wall?	
+sol.28.70	2	CSA0t0e00583ちょっと待って‥‥\\うん、奥に通路があるみたい。@@ついでだからそこに通路開けといてって\\ドクが言ってるけど？	{CSA0t0e00583}Hang on...\\Yeah, looks like there's a passage behind it.@@Doc says while you're at it,\\open up a passage there for him?	
+sol.28.71	2	CSA0t0e01184言ってるのは良いけどさ‥‥\\どうやって開けろっての、これ？	{CSA0t0e01184}Easy for him to say...\\How am I supposed to open this thing?	
+sol.28.72	2	CSA0t0e00494あー、今さっきブリジットがそっちに\\Ｐ．Ｅ．爆弾持ってったから、それ使って。	{CSA0t0e00494}Oh, Bridget just headed your way\\with a P.E. Bomb, so use that.	
+sol.28.73	2	CSA0t0e00927Ｐ．Ｅ．ねぇ‥‥\\で、リズィは、あとどれぐらいで着くって？	{CSA0t0e00927}P.E., huh...\\So how long till Lizzie gets here?	
+sol.28.74	2	CSA0t0e00676今、ここにいるが。	{CSA0t0e00676}I'm already here.	
+sol.28.75	2	CSA0t0e00406うわっ！！	{CSA0t0e00406}Whoa!!	
+sol.28.76	2	CSA0t0e00845何を驚いている？	{CSA0t0e00845}What are you so surprised about?	
+sol.28.77	2	CSA0t0e01095えらくお茶目‥‥　いや、早いじゃねえか‥‥\\で、Ｐ．Ｅ．は？	{CSA0t0e01095}Real cute...  I mean, you got here fast...\\So, where's the P.E.?	
+sol.28.78	2	CSA0t0e00227ああ、ここにある。気をつけて使えよ。\\間違っても遺跡に余計な被害を与えないように@@‥‥貴様と心中など御免だからな。	{CSA0t0e00227}Ah, right here. Use it carefully.\\Don't you dare do any extra damage to the ruins.@@...I've no wish to die alongside you.	
+sol.28.79	2	CSA0t0e00060じゃ、早速使ってみるか。	{CSA0t0e00060}Okay, let's give it a shot.	
+sol.28.80	2	CSA0t0e01275そんな高い所に置こうとしても、\\手が届かないんじゃないのか？	{CSA0t0e01275}If you try to put it up that high,\\won't it be out of your reach?	
+sol.28.81	2	CSA0t0e00316そこの岩を足場に使ってみてはどうだ？	{CSA0t0e00316}Why not use that rock there as a step?	
+sol.28.82	2	WP-134-016WS2004BS0805BYB+00BKC002岩の前に立って□ボタンを\\押し続け、岩をつかんだら‥‥\\そのまま方向キー上を押して、\\岩を押す事が出来る。\\	{WP-134-016WS2004BS0805BYB+00BKC002}Stand in front of a rock and\\hold □ to grab it... then\\press Up on the D-pad\\to push the rock.\\	
+sol.28.83	2	WP-134-016WS2002BS0805BYB+00BKC002間違えて押しすぎたら、方向キー下を\\押して、岩を引っ張る事が出来る。	{WP-134-016WS2002BS0805BYB+00BKC002}If you push too far, press Down\\on the D-pad to pull the rock back.	
+sol.28.84	2	WP-134-016WS2004BS0805BYB+00BKC002Ｐ．Ｅ．に関わらず道具を使いたいときは、\\まず使う場所へ行く。\\壁の崩れてる場所にＰ．Ｅ．を使うには、\\そこでＬ２ボタンを長く押し、@@Ｌ２ボタン＋方向キーでアイテム選択。\\Ｐ．Ｅ．を選び、１度Ｌ２ボタンをはなし、\\Ｌ２ボタンを短く押すと\\使用する事が出来る。	{WP-134-016WS2004BS0805BYB+00BKC002}To use P.E. or any other tool,\\first go where you want to use it.\\To use P.E. on a crumbling wall,\\hold L2 there,@@then press L2 + D-pad to pick an item.\\Choose P.E., release L2 once,\\then tap L2 briefly\\to use it.	
+sol.28.85	3	CSA0t0e01362あれ、どこに行くんだ？	{CSA0t0e01362}Huh, where are you going?	
+sol.28.86	3	CSA0t0e01010あぁ、貴様が大雑把だと言われてな。\\前調査の確認作業だよ‥‥貴様の尻拭いさ。	{CSA0t0e01010}Ah, I hear you're sloppy. Rechecking the\\earlier survey... cleaning up after you.	
+sol.28.87	3	CSA0t0e00407‥‥俺って、そんなに信用ないのか？	{CSA0t0e00407}...Do people really trust me that little?	
+sol.28.88	3	CSA0t0e00846そう、くさるな。@@調査団の消息がたどれない今、細心の注意を\\はらっておいても、間違いはあるまい？	{CSA0t0e00846}Don't sulk.@@With no trace of the survey team, taking every\\precaution can't be a mistake, can it?	
+sol.28.89	3	CSA0t0e00677‥‥まぁ、いいか。\\だが、俺の邪魔だけは勘弁してくれよな？	{CSA0t0e00677}...Well, whatever.\\Just don't get in my way, okay?	
+sol.28.90	3	CSA0t0e00761その言葉は、そのまま貴様に返しておこう。\\じゃあな。	{CSA0t0e00761}I'll return those words to you, word for word.\\See you.	
+sol.28.91	3	CSA0t0e00143‥‥かわいくねぇの。	{CSA0t0e00143}...Not cute at all.	
+sol.28.92	3	CSA0t0e00061危険物を持ったまま不用意に\\徘徊しないでもらいたいな‥‥	{CSA0t0e00061}I'd rather you didn't wander around\\carelessly with explosives...	
+sol.28.93	3	CSA0t0e01185とりあえず、先にここの作業を\\片付けてからでも遅くはないだろう？	{CSA0t0e01185}It won't hurt to finish the job\\here first, will it?	
+sol.28.94	3	CSA0t0e00928‥‥調査団の連中、\\火の始末ぐらいきちんとしとけよな‥‥	{CSA0t0e00928}...Those survey guys could've\\at least put out their damn fires...	
+sol.28.95	3	CSA0t0e00495どぉわっ！	{CSA0t0e00495}Whoa-ho!	
+sol.28.96	3	CSA0t0e01363あ～、そこにかかってる橋も\\崩れやすくなってるって。@@気をつけてね。	{CSA0t0e01363}Oh~, they say the bridge there\\crumbles easily too.@@Be careful.	
+sol.28.97	3	CSA0t0e00317だから、早めに言ってくれっ！	{CSA0t0e00317}Like I said, tell me sooner!	
+sol.28.98	3	CSA0t0e01096零、あんた水ダメなんだっけ？	{CSA0t0e01096}Rei, you're no good with water, right?	
+sol.28.99	3	CSA0t0e01276‥‥顔を付けるのが苦手なだけだ。\\人をカナヅチみたいに言うなっ！	{CSA0t0e01276}...I just don't like getting my face wet.\\Don't make me sound like I can't swim!	
+sol.28.100	3	WP-134-016WS2104BS0805BYB+00BKC002方向キーと×ボタンを押せば、そのまま\\押した方向に泳ぐ事が出来ます。\\泳いでるときには、壁につかまる事\\以外は出来ないので注意してください。	{WP-134-016WS2104BS0805BYB+00BKC002}Press the D-pad and × to swim\\in the direction you pressed.\\While swimming, you can't do anything\\except grab onto walls, so be careful.	
+sol.28.101	3	CSA0t0e00144なんだ、あれは？	{CSA0t0e00144}What's that?	
+sol.28.102	3	CSA0t0e00584ストップ！@@そこから先行くと、\\そのまま下まで落っこちちゃうよ。@@床の構造がもろくなってるって書いてある。	{CSA0t0e00584}Stop!@@If you go any further,\\you'll fall straight to the bottom.@@It says the floor's structure is weak.	
+sol.28.103	3	CSA0t0e00496ゆっくり歩けば平気だろ？	{CSA0t0e00496}I'll be fine if I walk slow, right?	
+sol.28.104	3	CSA0t0e00408試して見たければ、どうぞ。\\でも、どうなっても知らないからね！@@とにかく、そこの置物はダミーみたい\\だから、先に進んでみて。	{CSA0t0e00408}Go ahead, if you wanna try.\\But don't come crying to me!@@Anyway, that ornament looks like a dummy,\\so try going on ahead.	
+sol.28.105	3	WP-134-016WS2008BS0805BYB+00BKC002　下へ降りるには道を探す\\　必要がありそうだ‥‥@@　周りを見渡したいときは、\\　Ｒ１ボタンを押しながら方向キーを押すと、@@　その方向を見渡すことが出来る。@@　左右を見渡すときは体の向きも@@　同じ方向に向いているから、\\　元に戻したときに注意しよう。	{WP-134-016WS2008BS0805BYB+00BKC002}You'll need to find a way\\down from here...@@To look around, hold R1\\and press the D-pad@@to look in that direction.@@When looking left or right, your body\\turns to face that way too,@@so watch out when you\\turn back.	
+sol.28.106	3	CSA0t0e00678馬鹿でっかい柱が立ってるところは、\\なんて書いてある。	{CSA0t0e00678}What's it say about the place\\with the giant pillars?	
+sol.28.107	4	CSA0t0e00318う～ん‥‥\\そのあたりについては、何も書かれてないよ。@@っていうか、そのあたりから\\先の記述が残ってないの。@@‥‥もうそろそろ、\\戻ったほうが良いんじゃない？	{CSA0t0e00318}Hmm~...\\There's nothing written about that area.@@Actually, the notes stop\\right around there.@@...Isn't it about time\\you came back?	
+sol.28.108	4	CSA0t0e00762そうだな‥‥\\いや、もう少し先まで様子を見てくるわ。	{CSA0t0e00762}Yeah...\\Nah, I'll go check things out a bit further.	
+sol.28.109	4	CSA0t0e00062こいつは‥‥	{CSA0t0e00062}What's this...	
+sol.28.110	4	CSA0t0e00145聞こえるか‥‥祭壇を見つけた。\\何か奉られているらしい。調べてみる。	{CSA0t0e00145}Can you hear me... I found an altar.\\Something's enshrined here. I'll check it out.	
+sol.28.111	4	CSA0t0‥‥‥‥‥‥‥	{CSA0t0}......	
+sol.28.112	4	CSA0t0e01186これは‥‥剣か？	{CSA0t0e01186}Is this... a sword?	
+sol.28.113	4	CSA0t0e00929おい、聞こえるか？\\刀剣らしい棒状の金属を発見した。@@回収した方が良いのか、\\ジイさんに確認してくれ。	{CSA0t0e00929}Hey, can you hear me?\\I found a metal rod, looks like a blade.@@Check with Gramps whether\\I should bring it back.	
+sol.28.114	4	CSA0t0‥‥‥‥‥‥‥	{CSA0t0}......	
+sol.28.115	4	CSA0t0e01011おい、聞こえているのか？応答しろ！！	{CSA0t0e01011}Hey, are you listening? Answer me!!	
+sol.28.116	4	CSA0t0e01364ええ、ああ‥‥\\うん、聞こえてる。	{CSA0t0e01364}Huh, oh...\\Yeah, I hear you.	
+sol.28.117	4	CSA0t0e01097居眠りしてるんじゃねぇぞ！！\\‥‥金属製の棒を発見した。回収の判断を頼む。	{CSA0t0e01097}Don't you dare doze off on me!!\\...I found a metal rod. Should I bring it back?	
+sol.28.118	4	CSA0t0e00847ええっと‥‥回収してだって。\\特に罠らしい物はないって言ってるし。	{CSA0t0e00847}Umm... he says bring it back.\\He says there's nothing that looks like a trap.	
+sol.28.119	4	CSA0t0e01277そうか？まぁ、わかった。\\これを回収してから、そっちに戻る。	{CSA0t0e01277}Yeah? Well, okay.\\I'll grab this and head back to you.	
+sol.28.120	4	CSA0t0e00228わかった、お願いね。	{CSA0t0e00228}Okay, thanks.	
+sol.28.121	4	CSA0t0e00497‥‥さてと。	{CSA0t0e00497}...All right.	
+sol.28.122	4	CSA0t0e00063鉄‥‥じゃないな‥‥\\なんだ‥‥これは？	{CSA0t0e00063}This isn't... iron...\\What... is this?	
+sol.28.123	4	CSA0t0e00679おぅわっ！！	{CSA0t0e00679}Whoaaa!!	
+sol.28.124	4	CSA0t0e01187くそっ、やっぱり罠があったか！！	{CSA0t0e01187}Damn, I knew there'd be a trap!!	
+sol.28.125	4	CSA0t0e00585あの馬鹿の言うことなん‥‥てぁっ‥‥！！	{CSA0t0e00585}Shouldn't have listened to that idi... aaagh...!!	
+sol.28.126	4	CSA0t0e01012おわあああああぁぁぁぁぁぁぁ‥‥	{CSA0t0e01012}Whoaaaaaaaaaaaaa...	
+sol.28.127	4	t3b4　零：b0ナイフ程度がこんなのに効くかっ！i030	{t3b4}Rei:{b0} Like a knife's gonna work on this thing!{i030}	
+sol.28.128	4	t3b4　零：b0ちったぁ、ましかっ！i030	{t3b4}Rei:{b0} That's a little better!{i030}	
+sol.28.129	4	CSA0t0e00146無事だったか？	{CSA0t0e00146}You're all right?	
+sol.28.130	4	CSA0t0e00680ああ、何とかね‥‥	{CSA0t0e00680}Yeah, more or less...	
+sol.28.131	4	CSA0t0e01278ところで、上から影は見えたが‥‥\\あんな化物がここには居るのか？	{CSA0t0e01278}By the way, I saw its shadow from above...\\There are monsters like that here?	
+sol.28.132	4	CSA0t0e00848ここだけだと良いんだけどな‥‥\\あちこちに居られても困る。	{CSA0t0e00848}I just hope it's only here...\\Don't need them all over the place.	
+sol.28.133	4	CSA0t0e01188ここだけに居るとは限らないか‥‥@@外に警戒を強めるように\\警告したほうが良いな。	{CSA0t0e01188}No guarantee it's only here...@@We should warn the people outside\\to tighten security.	
+sol.28.134	4	CSA0t0e00064ああ、そうした方が良いだろうな‥‥\\早く戻ろう、晩飯の時間だ。@@晩飯に供されるのはゾッとしない‥‥	{CSA0t0e00064}Yeah, that'd be best...\\Let's hurry back, it's dinnertime.@@I don't fancy ending up as dinner...	
+sol.28.135	4	CSA0t0e01013ああ、そうしよう。\\‥‥ところで、その物騒な代物は何だ？	{CSA0t0e01013}Yes, let's.\\...By the way, what's that dangerous-looking thing?	
+sol.28.136	5	CSA0t0e00147そんな風に言う事はないだろ？\\これが、今のところ唯一の戦利品だ‥‥\\	{CSA0t0e00147}No need to put it like that, is there?\\This is my only loot so far...\\	
+sol.28.137	5	CSA0t0e00319それに‥‥	{CSA0t0e00319}Besides...	
+sol.28.138	5	CSA0t0e00586それに？	{CSA0t0e00586}Besides?	
+sol.28.139	5	CSA0t0e00230俺の命の救い主にそんな口きいたら、\\バチがあたる。	{CSA0t0e00230}Talk like that about the thing that saved\\my life, and I'll get what's coming to me.	
+sol.28.140	5	t3b3Ｐ．Ｅ．爆弾b0を手に入れた。	{t3}Got the {b3}P.E. Bomb{b0}.	
+sol.28.141	5	t3‥‥反応しないようだ。	{t3}...It doesn't seem to respond.	
+sol.28.142	5	t3今は開きそうにない。	{t3}It doesn't look like it'll open now.	
+sol.28.143	5	WP-134-016WS2004BS0805BYB+00BKC002高いところに登りたい時は、\\×ボタンを押してジャンプするか、\\□ボタンを押して足場につかまってから\\方向キーの上を押すと登る事が出来ます。	{WP-134-016WS2004BS0805BYB+00BKC002}To climb somewhere high, press ×\\to jump, or press □ to grab\\a ledge, then press Up\\on the D-pad to climb.	
+sol.28.144	5	WP-134-016WS2003BS0805BYB+00BKC002さらに高いところへ登る時には、\\□ボタンを押しながら、ジャンプする事で\\より高いところにつかまる事が出来ます。	{WP-134-016WS2003BS0805BYB+00BKC002}To climb even higher, jump\\while holding □ to grab\\onto a higher ledge.	
+sol.28.145	5	WP-134-016WS2005BS0805BYB+00BKC002Ｒ２ボタンで武器をかまえ、□ボタンで\\斬りつけます。危険がせまったら、\\Ｒ１ボタンと方向キーで走るか、\\○ボタンでガード！再度Ｒ２ボタンを\\押すと武器をしまう事が出来ます。t300	{WP-134-016WS2005BS0805BYB+00BKC002}Press R2 to ready your weapon\\and □ to slash. When in danger,\\run with R1 and the D-pad,\\or guard with ○! Press R2 again\\to put your weapon away.{t300}	
+sol.28.146	5	WP-134-016WS2003BS0805BYB+00BKC002　どこか調べたい場所があれば\\　調べたい方向に向いて\\　□ボタンで調べることができます。	{WP-134-016WS2003BS0805BYB+00BKC002}To examine a spot, face\\the direction you want to\\examine and press □.	
+sol.28.147	5	WP-134-016WS2005BS0805BYB+00BKC002○ボタンを２回押している間、\\屈むことが出来ます。\\そのままＲ１ボタンを押しながら\\方向キーの上を押すと扉の下を\\くぐり抜ける事が出来ます。	{WP-134-016WS2005BS0805BYB+00BKC002}Press ○ twice to crouch\\for a moment.\\Then hold R1 and press\\Up on the D-pad to crawl\\under a door.	
+sol.28.148	5	t3仕掛けは作動しています。	{t3}The mechanism is working.	
+sol.28.149	5	t0b3プレステージクリア！！b0	{t0b3}Prestage Clear!!{b0}	

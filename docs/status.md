@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate next (phase 5 engine + marker build done 2026-11-22). Last build: marker build
-  `build/marker/blade_arts_en.bin` 2026-11-22, sha1 3ae3648e (`build.py --marker --out build/marker`), smoke ok;
-  marker tour 297/307 with --debugger (7 timeouts from the slow interpreter, 3 load scenes) and all 10 pass on rerun
-  (`work/qa/marker_retry`, no debugger, save_* first).
+- **Phase:** 7. Insert, fit, check next (phase 6 translate done 2026-11-22: 19 batches translated, `batches.py check`
+  0 problems, every batch reviewed, all Critical/Important fixed, Minors in `docs/polish.md`). Last build: pilot build
+  (b001 only) 2026-11-22, smoke ok. A full build now stops at raw strings longer than their bytes in place
+  (103 warnings in `batches.py check`): relocation is the first phase-7 job.
 - **Done:**
   - Step 0: template, guard hook proven (sed -i blocked), pre-commit runs `tools/check.py` and rejects a failing test,
     `rom.sha1` (Redump .bin/.cue), PCSX-Redux + SCPH-5500 BIOS fetched, mkpsxiso/armips in `tools/`, smoke route
@@ -40,11 +40,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/lua/textwin.lua`): every window shows its id/tag. Glyph torture line ok (`work/qa/z_torture*.png`).
     Width gate: `tbl/windows.tsv` (subtitle 288 px x 2, WS windows cc*12 x ll, choice 140, status 252 x 3, boss 286,
     load/save row 229). RE: `docs/re/text.md` §Renderer, §English.
-- **Next (phase 6, translate):** batch the SOL + raw TSVs per `references/translation.md`; brief translators with
-  `tbl/windows.tsv` limits and the en syntax (`tools/en.py`): codes in braces, `\\` line / `@@` page, keep each voiced
-  string's @@ page count (voice timing cuts extra pages), choices need g-code spacing. Raw strings: byte room limits
-  (in place now; relocation is phase 7). Glossary first (names: Rei/零, Lanfa/ランファ, Bridget/ブリジット...).
+  - Phase 6: `tools/batches.py` (split/check/merge/fit; identical strings deduped: 2426 unique of 3639; checks codes,
+    px width, lines per page, voiced page count, glossary, honorifics, font charset; `tests/test_batches.py`),
+    `tools/pairs.py` (reviewer pairs), briefs `docs/translator-brief.md` / `docs/reviewer-brief.md`, glossary,
+    `docs/style-reference.md` (pilot b001), `docs/synopsis.md`. Batches in `work/tl/` (gitignored), reviews: every
+    Important fixed; Minors in `docs/polish.md`.
+- **Next (phase 7):** relocate raw strings that outgrow their bytes (item names in the EXE, STATUS descriptions,
+  LOADSAVE menu text: pointer refs in the raw TSVs' `refs` column); per-block SOL size check (block 159 risk); full
+  build, `romdiff.py` ranges, smoke. Memory-card title stays JP (see below).
 - **Open for later phases (not blocking):**
+  - Raw strings over their in-place bytes (103, mostly item names/descriptions): phase 7 relocation; build.py exits on them.
+  - Check in game (phase 8): choices where translators added `\\` before `{[DD1}` (sol.98.3, 100.3, 103.2), `{g9}`
+    spaced options (72.5, 72.40), digit pickers (62.140-143, 69.22-25), sol.169.0 (voiced, @@ re-split, same screen
+    count), sol.132.110 written `{CSA0t4b4}` (JP had a bare `b`), centring of t0 panel lines in blocks 125/147/159/166.
   - SOL space is per block (7 sectors max for block 159; growing a block shifts later block ids): phase 7 lint must
     check per-block bytes; marker filler at JP width only overflowed block 159 (90%).
   - Memory-card title: LOADSAVE 0x22C "ブレイドアーツ／" is written into each save and 0x6D0/0xBDC must match it or the

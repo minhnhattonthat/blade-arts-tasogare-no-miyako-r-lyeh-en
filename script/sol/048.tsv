@@ -1,21 +1,21 @@
 id	sector	jp	en	notes
-sol.48.0	0	t3何か仕掛けがあるようだ‥‥‥\\		
-sol.48.1	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.48.2	0	t3仕掛けを動かした‥‥‥\\		
-sol.48.3	0	t3開かない‥‥‥\\		
-sol.48.4	0	t3これに乗れば、上層部へ行ける。\\		
-sol.48.5	0	t3上層部へ行きますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.48.6	0	CSA0t0e00965へぇ‥‥\\結構なつくりしてるね、どーも。		
-sol.48.7	0	CSA0t0e00796さてと、手間くっちまったからな。\\急がねえと‥‥後が怖い。		
-sol.48.8	0	CSA0t0e01045何か足止めしてくるとは思ったけど‥‥‥		
-sol.48.9	0	CSA0t0e01134本当にやられると、いやになるよなぁ。		
-sol.48.10	0	CSA0t0e00353ここには、いないのか‥‥		
+sol.48.0	0	t3何か仕掛けがあるようだ‥‥‥\\	{t3}Looks like there's some kind of mechanism...\\	
+sol.48.1	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Activate the mechanism?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.48.2	0	t3仕掛けを動かした‥‥‥\\	{t3}You worked the mechanism...\\	
+sol.48.3	0	t3開かない‥‥‥\\	{t3}It won't open...\\	
+sol.48.4	0	t3これに乗れば、上層部へ行ける。\\	{t3}Riding this will take you to the upper level.\\	
+sol.48.5	0	t3上層部へ行きますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Go to the upper level?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.48.6	0	CSA0t0e00965へぇ‥‥\\結構なつくりしてるね、どーも。	{CSA0t0e00965}Huh...\\Pretty fancy construction, I'll give 'em that.	
+sol.48.7	0	CSA0t0e00796さてと、手間くっちまったからな。\\急がねえと‥‥後が怖い。	{CSA0t0e00796}Okay, I've wasted enough time.\\Better hurry... or there'll be hell to pay.	
+sol.48.8	0	CSA0t0e01045何か足止めしてくるとは思ったけど‥‥‥	{CSA0t0e01045}I figured they'd try to slow me down...	
+sol.48.9	0	CSA0t0e01134本当にやられると、いやになるよなぁ。	{CSA0t0e01134}but when they really do it, it's a damn pain.	
+sol.48.10	0	CSA0t0e00353ここには、いないのか‥‥	{CSA0t0e00353}Not here, huh...	
 sol.48.11	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.48.12	0	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
-sol.48.13	0	t3仕掛けは作動しています。		
-sol.48.14	0	t3壊されてしまったのか\\反応がない‥‥‥		
-sol.48.15	0	t3この扉は何かの力によって\\堅く閉ざされている………		
-sol.48.16	0	t3「汝の力で我らを照らせ」\\と、記されている‥‥‥		
-sol.48.17	0	t3「さっきまで動いていたってのに\\動力が切れちまったのか」		
-sol.48.18	0	t3開かない‥‥。		
-sol.48.19	0	t3b3イグニスb0のスフィアを手に入れた		
+sol.48.13	0	t3仕掛けは作動しています。	{t3}The mechanism is working.	
+sol.48.14	0	t3壊されてしまったのか\\反応がない‥‥‥	{t3}Has it been destroyed?\\There's no response...	
+sol.48.15	0	t3この扉は何かの力によって\\堅く閉ざされている………	{t3}This door is sealed tight\\by some kind of power...	
+sol.48.16	0	t3「汝の力で我らを照らせ」\\と、記されている‥‥‥	{t3}"Light us with thy power,"\\it reads...	
+sol.48.17	0	t3「さっきまで動いていたってのに\\動力が切れちまったのか」	{t3}"It was running just a minute ago,\\and now the power's gone dead?"	
+sol.48.18	0	t3開かない‥‥。	{t3}It won't open...	
+sol.48.19	0	t3b3イグニスb0のスフィアを手に入れた	{t3}Got the {b3}Ignis{b0} Sphere.	

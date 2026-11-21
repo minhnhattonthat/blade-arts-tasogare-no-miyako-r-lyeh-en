@@ -1,26 +1,26 @@
 id	sector	jp	en	notes
-sol.49.0	0	CSA0t0e00010‥‥リズィ！		
-sol.49.1	0	CSA0t0e00623ウァゥッ！\\‥‥クッ！		
-sol.49.2	0	CSA0t0e00011ヒャァハハハハハハハ‥‥		
-sol.49.3	0	CSA0t0e00098ほら、ほぅら！		
-sol.49.4	0	CSA0t0e01046どこへ逃げたって無駄なのよぉ‥‥		
-sol.49.5	0	CSA0t0e00444アナタ、キレイだから\\じっくりいたぶってあげる。		
-sol.49.6	0	CSA0t0e00354何やってやがるっ！		
-sol.49.7	0	CSA0t0e00966零‥‥なのか‥‥？\\私は、平気だ‥‥@@それよりも‥‥皆を先に‥‥\\助けに行ってくれ‥‥		
-sol.49.8	0	CSA0t0e01135平気って、どう見ても平気じゃないだろう！\\後ろに下がってろ！		
-sol.49.9	0	CSA0t0e01221アラ、隙だらけのボウヤにそんな事出来るの？\\さっきと比べて威勢が良いじゃない。		
-sol.49.10	0	CSA0t0e00533リズィをこんな目に合わせて、\\言いたい事言いやがって！@@他の皆はどうした？		
-sol.49.11	0	CSA0t0e00881別にアナタに言う必要無いでしょ？\\どうせすぐ死ぬんだし‥‥こんな風に！		
-sol.49.12	0	CSA0t0e01312レイッ！		
-sol.49.13	0	CSA0t0e00715なっ！		
-sol.49.14	0	CSA0t0e00624ッ！		
-sol.49.15	0	CSA0t0e00099リズィッ！\\‥‥てめぇ！		
-sol.49.16	0	CSA0t0e00012アラ、なに怒ってるの‥‥		
-sol.49.17	0	CSA0t0e01047ヒト一人死んだくらいで、\\気にすること無いじゃない。		
-sol.49.18	0	CSA0t0e00716さっきの丁重な扱い振りと、\\えらくかけ離れてるじゃねぇか‥‥		
-sol.49.19	0	CSA0t0e00798どうせ、もう用済みだし‥‥@@それに、そのコお高くとまってて\\気に入らなかったのよねぇ。		
-sol.49.20	0	CSA0t0e01313もう少し、遊びたかったけど‥‥		
-sol.49.21	0	CSA0t0e00182ふざけてんじゃねぇぞ‥‥		
-sol.49.22	0	CSA0t0e00355‥‥なによ？		
-sol.49.23	0	CSA0t0e00445ふざけてんじゃねぇ！		
-sol.49.24	0	CSA0t0e00625ちぃっとばかり本気になるぞ‥‥\\秒単位でケリつけるから覚悟しろ！！		
+sol.49.0	0	CSA0t0e00010‥‥リズィ！	{CSA0t0e00010}...Lizzie!	
+sol.49.1	0	CSA0t0e00623ウァゥッ！\\‥‥クッ！	{CSA0t0e00623}Aagh!\\...Ngh!	
+sol.49.2	0	CSA0t0e00011ヒャァハハハハハハハ‥‥	{CSA0t0e00011}Hyaahahahahahaha...	
+sol.49.3	0	CSA0t0e00098ほら、ほぅら！	{CSA0t0e00098}Come on, come onnn!	
+sol.49.4	0	CSA0t0e01046どこへ逃げたって無駄なのよぉ‥‥	{CSA0t0e01046}Run wherever you like, it's no use~...	
+sol.49.5	0	CSA0t0e00444アナタ、キレイだから\\じっくりいたぶってあげる。	{CSA0t0e00444}You're so pretty,\\I'll torment you nice and slow.	
+sol.49.6	0	CSA0t0e00354何やってやがるっ！	{CSA0t0e00354}What the hell are you doing!	
+sol.49.7	0	CSA0t0e00966零‥‥なのか‥‥？\\私は、平気だ‥‥@@それよりも‥‥皆を先に‥‥\\助けに行ってくれ‥‥	{CSA0t0e00966}Rei... is that you...?\\I'm... all right...@@More importantly... go on ahead...\\and help... everyone...	
+sol.49.8	0	CSA0t0e01135平気って、どう見ても平気じゃないだろう！\\後ろに下がってろ！	{CSA0t0e01135}All right!? You're clearly NOT all right!\\Stay back!	
+sol.49.9	0	CSA0t0e01221アラ、隙だらけのボウヤにそんな事出来るの？\\さっきと比べて威勢が良いじゃない。	{CSA0t0e01221}Oh my, can a wide-open little boy do that?\\You're awfully feisty compared to earlier.	
+sol.49.10	0	CSA0t0e00533リズィをこんな目に合わせて、\\言いたい事言いやがって！@@他の皆はどうした？	{CSA0t0e00533}You do this to Lizzie,\\then run your mouth like that!@@What happened to the others?	
+sol.49.11	0	CSA0t0e00881別にアナタに言う必要無いでしょ？\\どうせすぐ死ぬんだし‥‥こんな風に！	{CSA0t0e00881}No need to tell you, is there?\\You'll be dead soon anyway... like this!	
+sol.49.12	0	CSA0t0e01312レイッ！	{CSA0t0e01312}Rei!	
+sol.49.13	0	CSA0t0e00715なっ！	{CSA0t0e00715}What!	
+sol.49.14	0	CSA0t0e00624ッ！	{CSA0t0e00624}Ngh!	
+sol.49.15	0	CSA0t0e00099リズィッ！\\‥‥てめぇ！	{CSA0t0e00099}Lizzie!\\...You bastard!	
+sol.49.16	0	CSA0t0e00012アラ、なに怒ってるの‥‥	{CSA0t0e00012}Oh my, what are you so angry about...	
+sol.49.17	0	CSA0t0e01047ヒト一人死んだくらいで、\\気にすること無いじゃない。	{CSA0t0e01047}No need to fuss\\over one little person dying, is there?	
+sol.49.18	0	CSA0t0e00716さっきの丁重な扱い振りと、\\えらくかけ離れてるじゃねぇか‥‥	{CSA0t0e00716}Quite a change from how politely\\you were treating her before...	
+sol.49.19	0	CSA0t0e00798どうせ、もう用済みだし‥‥@@それに、そのコお高くとまってて\\気に入らなかったのよねぇ。	{CSA0t0e00798}She'd outlived her usefulness anyway...@@Besides, that girl was so stuck-up,\\I never liked her.	
+sol.49.20	0	CSA0t0e01313もう少し、遊びたかったけど‥‥	{CSA0t0e01313}I did want to play a little longer, though...	
+sol.49.21	0	CSA0t0e00182ふざけてんじゃねぇぞ‥‥	{CSA0t0e00182}Don't you screw with me...	
+sol.49.22	0	CSA0t0e00355‥‥なによ？	{CSA0t0e00355}...What?	
+sol.49.23	0	CSA0t0e00445ふざけてんじゃねぇ！	{CSA0t0e00445}Don't screw with me!	
+sol.49.24	0	CSA0t0e00625ちぃっとばかり本気になるぞ‥‥\\秒単位でケリつけるから覚悟しろ！！	{CSA0t0e00625}I'm gonna get a little serious now...\\I'll finish this in seconds, so brace yourself!!	

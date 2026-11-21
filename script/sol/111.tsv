@@ -1,25 +1,25 @@
 id	sector	jp	en	notes
-sol.111.0	0	CSA0t0e00918まだ！\\まだ終わってはいない！@@終わらせてなるものか！\\		
-sol.111.1	0	CSA0t0e00574やっかましぃ！\\とっとと寝ちまえ、このポンコツ！		
-sol.111.2	0	CSA0t0e00840我が偉大なる父、原初より\\眠りつづけりし偉大なる者よ！		
-sol.111.3	0	CSA0t0e01087我が乞いに応えたまえ！\\我が恨みをはらしたまえ！		
-sol.111.4	0	CSA0t0e00754原初の者よ！\\その永き眠りより、今こそ目覚めたまえ！		
-sol.111.5	0	CSA0t0e00223野郎っ！\\今度は何をしたっ！		
-sol.111.6	0	CSA0t0e00489我は汝らのみを滅する事を欲した！\\しかし、彼の者は全てを滅する！		
-sol.111.7	0	CSA0t0e00576その意思を持たぬ故、それを止める事あたわず！\\滅ぶが良い！		
-sol.111.8	0	CSA0t0e00053全てを無に帰し、全てを原初に戻す為に！\\		
-sol.111.9	0	CSA0t0e00310ガラクタは、ガラクタらしく、\\大人しくしてろぉっ！		
-sol.111.10	0	CSA0t0e00920何か知らねぇが‥‥\\まぁた、くそ厄介な事になったみてぇだな‥‥		
-sol.111.11	0	CSA0t0e01088我が宿願、今成就せり‥‥\\		
-sol.111.12	0	CSA0t0e00224我を脅かす全てが、今我が元に‥‥\\		
-sol.111.13	0	CSA0t0e01358もはや誰であろうとも邪魔はさせぬ！\\		
-sol.111.14	0	CSA0t0e00400誰であろうとも生かしはせぬ！\\		
-sol.111.15	0	t3b2＜原初の者への道イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.111.16	0	t3b2＜光の道イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.111.17	0	t3b2＜クトゥリュウ導入デモ＞b0\\誠意制作中、乞うご期待！！		
-sol.111.18	0	t3b2＜主人公勝利時デモ＞b0\\誠意制作中、乞うご期待！！		
-sol.111.19	0	t3b2＜ウォルターとの会話イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.111.20	0	t3b2＜ステージクリア画面＞b0\\が入ります。		
-sol.111.21	0	WP-100-016WS1505BS0805BYB+00BKA8BKC002FRA1t0[DD2　トニトルス\\[3　テンペリエス\\[1　フォルテス　\\[5　グラヴェス　\\[4　イグニス　　		
-sol.111.22	0	WP-120-000WS2001BS0805BYB+00BKA8BKC002FRA1t0そのスフィアは既に選ばれています。		
-sol.111.23	0	CSA0t0e00391汝、愚かなり！！		
+sol.111.0	0	CSA0t0e00918まだ！\\まだ終わってはいない！@@終わらせてなるものか！\\	{CSA0t0e00918}Not yet!\\It is not over yet!@@I shall not let it end!\\	
+sol.111.1	0	CSA0t0e00574やっかましぃ！\\とっとと寝ちまえ、このポンコツ！	{CSA0t0e00574}Shut the hell up!\\Just go back to sleep, you hunk of junk!	
+sol.111.2	0	CSA0t0e00840我が偉大なる父、原初より\\眠りつづけりし偉大なる者よ！	{CSA0t0e00840}O my great father, the Great One\\who hath slept since the dawn of time!	
+sol.111.3	0	CSA0t0e01087我が乞いに応えたまえ！\\我が恨みをはらしたまえ！	{CSA0t0e01087}Answer my plea!\\Avenge my grudge!	
+sol.111.4	0	CSA0t0e00754原初の者よ！\\その永き眠りより、今こそ目覚めたまえ！	{CSA0t0e00754}O Primordial One!\\Awaken now from thy long slumber!	
+sol.111.5	0	CSA0t0e00223野郎っ！\\今度は何をしたっ！	{CSA0t0e00223}You bastard!\\What the hell did you do now!?	
+sol.111.6	0	CSA0t0e00489我は汝らのみを滅する事を欲した！\\しかし、彼の者は全てを滅する！	{CSA0t0e00489}I sought to destroy only thee and thine!\\But that one shall destroy all!	
+sol.111.7	0	CSA0t0e00576その意思を持たぬ故、それを止める事あたわず！\\滅ぶが良い！	{CSA0t0e00576}It hath no will, so none can stop it!\\Perish!	
+sol.111.8	0	CSA0t0e00053全てを無に帰し、全てを原初に戻す為に！\\	{CSA0t0e00053}To return all to nothing, all to the beginning!\\	
+sol.111.9	0	CSA0t0e00310ガラクタは、ガラクタらしく、\\大人しくしてろぉっ！	{CSA0t0e00310}Junk oughta act like junk,\\so sit still and shut up!	
+sol.111.10	0	CSA0t0e00920何か知らねぇが‥‥\\まぁた、くそ厄介な事になったみてぇだな‥‥	{CSA0t0e00920}No clue what's going on...\\but looks like things got damn messy again...	
+sol.111.11	0	CSA0t0e01088我が宿願、今成就せり‥‥\\	{CSA0t0e01088}My long-cherished wish is now fulfilled...\\	
+sol.111.12	0	CSA0t0e00224我を脅かす全てが、今我が元に‥‥\\	{CSA0t0e00224}All that threatens me is now before me...\\	
+sol.111.13	0	CSA0t0e01358もはや誰であろうとも邪魔はさせぬ！\\	{CSA0t0e01358}None shall stand in my way any longer!\\	
+sol.111.14	0	CSA0t0e00400誰であろうとも生かしはせぬ！\\	{CSA0t0e00400}None shall be left alive!\\	
+sol.111.15	0	t3b2＜原初の者への道イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Road to the Primordial One Event＞{b0}\\Under construction, stay tuned!!	
+sol.111.16	0	t3b2＜光の道イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Path of Light Event＞{b0}\\Under construction, stay tuned!!	
+sol.111.17	0	t3b2＜クトゥリュウ導入デモ＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Cthulhu Intro Demo＞{b0}\\Under construction, stay tuned!!	
+sol.111.18	0	t3b2＜主人公勝利時デモ＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Hero Victory Demo＞{b0}\\Under construction, stay tuned!!	
+sol.111.19	0	t3b2＜ウォルターとの会話イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Conversation with Walter Event＞{b0}\\Under construction, stay tuned!!	
+sol.111.20	0	t3b2＜ステージクリア画面＞b0\\が入ります。	{t3b2}＜Stage Clear Screen＞{b0}\\goes here.	
+sol.111.21	0	WP-100-016WS1505BS0805BYB+00BKA8BKC002FRA1t0[DD2　トニトルス\\[3　テンペリエス\\[1　フォルテス　\\[5　グラヴェス　\\[4　イグニス　　	{WP-100-016WS1505BS0805BYB+00BKA8BKC002FRA1t0[DD2}　Tonitrus\\{[3}　Temperies\\{[1}　Fortes\\{[5}　Graves\\{[4}　Ignis	
+sol.111.22	0	WP-120-000WS2001BS0805BYB+00BKA8BKC002FRA1t0そのスフィアは既に選ばれています。	{WP-120-000WS2001BS0805BYB+00BKA8BKC002FRA1t0}That Sphere is already selected.	
+sol.111.23	0	CSA0t0e00391汝、愚かなり！！	{CSA0t0e00391}Thou art a fool!!	

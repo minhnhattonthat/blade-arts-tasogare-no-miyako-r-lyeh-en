@@ -5,8 +5,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 (separated by `/`) must be in its English, and no `Avoid` spelling may appear.
 
 ## Rulings (asked of the user once; options and reasons in docs/decisions.md)
-- Honorifics: kept, hyphenated (Nakamura-sama). Name order: Western (given name first). Only three name+honorific
-  pairs exist (ナカムラ様, リズィちゃん, キキ君); ミスター/ドクター become Mr./Dr.
+- Honorifics: kept, hyphenated (Nakamura-sama). Name order: Western (given name first). Name+honorific pairs:
+  ナカムラ様, リズィちゃん, キキ君, and Ranfa's teasing 零クン (Rei-kun); ミスター/ドクター become Mr./Dr.
 - Romanisation source: official English where it exists, else an earlier fan patch, else Hepburn without macrons
   (none official or patched found: MobyGames credits use the same Hepburn forms, Rei Shido / Ranfa / Landers).
 - Credits: English.
@@ -111,7 +111,30 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ピスケース | Pisces | | | |
 | メモリーカード | Memory Card | | | |
 | パスコード | passcode | | | |
-| イ・ルム | I-Rum | | the system Walter built into Bridget | |
+| イ・ルム / イ＝ルム | I-Rum | | the system Walter built (see synopsis) | |
+| 制裁者 | Punisher | | Rei's sword (also パニッシャー) | |
+| 尊厳者 | Majesty | | Nakamura's sword, from Basetet | Exalted One |
+| ＤＳＯＮ | DSON | | Nakamura's armed security force | |
+| 獅堂 | Shido | | 獅堂零 -> Rei Shido | |
+| 摩耶 | Maya | | | |
+| グノフ＝ケー | Gnoph-Keh | | | |
+| 翡翠盤 | Jade Disc | | not the Jade Tablet | |
+| 石板 / 石版 | Tablet / tablet | | named ones: "Iudex Tablet" etc. | Stone Slab |
+| 孔雀石の石板 | Malachite Tablet | | | |
+| 巨石像の石版 | Colossus Tablet | | | |
+| 黄色い石板 / 石黄の石板 | Yellow Tablet | | one item | Orpiment |
+| 紅の石像 | Crimson Statue | | | Crimson Stone Statue |
+| 青の石像 / 蒼の石像 | Blue Statue | | one item | Azure |
+| 石の把手 | Stone Handle | | | |
+| 銅のプレート | Copper Plate | | | |
+| 起動プレート | Activation Plate | | 操作盤起動プレート -> Control Panel Activation Plate | |
+| 起動カード | Activation Card | | | start-up card |
+| 重力エレベーター / 重力エレベータ | Gravity Elevator / gravity elevator | | | |
+| 研究棟 | research facility | | | |
+| 記憶の石碑 | Memory Stele | | plain 石碑 -> stele | |
+| 優性思想 | eugenics / master-race | | Nakamura's ideology (block 104) | elitist |
+| 剣の神殿 | Temple of the Sword | | | |
+| Ｃ４爆弾 | C4 | | C4 Bomb | |
 
 ## Decisions from earlier batches
 - (none yet)

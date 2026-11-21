@@ -1,9 +1,9 @@
 id	sector	jp	en	notes
-sol.155.0	0	CSA0t0b4e00789零：b0別にあんたらの私有地って訳でもないだろう‥‥\\入り込んで何が悪いってんだ？		
-sol.155.1	0	CSA0t0b6e00090ティンダロス：b0うぬぅ、口の減らん奴め‥‥地上では遅れをとったが、ここではそうは行かんぞ。		
-sol.155.2	0	CSA0t0b4e01304零：b0へ？\\もしかして、あん時ヘリに乗ってたの、あんたか？\\		
-sol.155.3	0	CSA0t0b4e00955b0あ～、そいつは悪い事したねぇ‥‥		
-sol.155.4	0	CSA0t0b6e00614ティンダロス：b0貴様ぁっ！\\黙っていればべらべらと軽口をっ！		
-sol.155.5	0	CSA0t0b6e00173b0もぅ、ゆるせん！@@地上での態度といい、今の態度といい、\\人を舐めくさるにも程があるっ！@@その腐った性根叩き直してくれるわっ！		
-sol.155.6	0	CSA0t0b4e00345零：b0人の土地に土足で上がりこんで開き直っている馬鹿野郎に、\\そんな事言われる筋合いは無いね！		
-sol.155.7	0	CSA0t0b4e01213b0一回で足りないなら、何度でもぶちのめしてやる！\\かかってきなっ！		
+sol.155.0	0	CSA0t0b4e00789零：b0別にあんたらの私有地って訳でもないだろう‥‥\\入り込んで何が悪いってんだ？	{CSA0t0b4e00789}Rei:{b0} It's not like this is your private property...\\What's wrong with me coming in?	
+sol.155.1	0	CSA0t0b6e00090ティンダロス：b0うぬぅ、口の減らん奴め‥‥地上では遅れをとったが、ここではそうは行かんぞ。	{CSA0t0b6e00090}Tindalos:{b0} Grr, what a mouth... You bested me on\\the surface, but here it shall not be so.	
+sol.155.2	0	CSA0t0b4e01304零：b0へ？\\もしかして、あん時ヘリに乗ってたの、あんたか？\\	{CSA0t0b4e01304}Rei:{b0} Huh?\\Wait, was that you in the chopper back then?\\	
+sol.155.3	0	CSA0t0b4e00955b0あ～、そいつは悪い事したねぇ‥‥	{CSA0t0b4e00955b0}Aw, sorry about that, pal...	
+sol.155.4	0	CSA0t0b6e00614ティンダロス：b0貴様ぁっ！\\黙っていればべらべらと軽口をっ！	{CSA0t0b6e00614}Tindalos:{b0} You wretch!\\I hold my tongue and you prattle on and on!	
+sol.155.5	0	CSA0t0b6e00173b0もぅ、ゆるせん！@@地上での態度といい、今の態度といい、\\人を舐めくさるにも程があるっ！@@その腐った性根叩き直してくれるわっ！	{CSA0t0b6e00173b0}I'll not stand for it!@@Your manner on the surface, your manner now--\\there are limits to how far you mock me!@@I shall beat that rotten nature out of you!	
+sol.155.6	0	CSA0t0b4e00345零：b0人の土地に土足で上がりこんで開き直っている馬鹿野郎に、\\そんな事言われる筋合いは無いね！	{CSA0t0b4e00345}Rei:{b0} No jackass who barges onto other folks' land\\and then gets smug about it gets to say that!	
+sol.155.7	0	CSA0t0b4e01213b0一回で足りないなら、何度でもぶちのめしてやる！\\かかってきなっ！	{CSA0t0b4e01213b0}If once wasn't enough, I'll flatten you again\\and again! Bring it on!	

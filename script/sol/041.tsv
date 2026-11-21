@@ -1,16 +1,16 @@
 id	sector	jp	en	notes
-sol.41.0	0	t3台座から紅の輝玉を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.41.1	0	t3b3紅の輝玉b0を手に入れた。		
-sol.41.2	0	t3プレートらしきものがある。@@プレートを拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.41.3	0	t3b3銅のプレートb0を手に入れた。		
-sol.41.4	0	t3青の輝玉を拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.41.5	0	t3b3青の輝玉b0を手に入れた。		
-sol.41.6	0	t3開かないようだ		
-sol.41.7	0	t3輝玉の台座だ。		
-sol.41.8	0	t3扉が壊れていて開きそうにない‥‥‥		
-sol.41.9	0	t3ここにも台座が置いてある。		
-sol.41.10	0	t3何かの台座らしい。\\物を載せた跡がついている‥‥		
-sol.41.11	0	t0＜b6第３層b0＞\\		
-sol.41.12	0	t3台座が壊れている……		
-sol.41.13	0	t3開かない‥‥‥		
-sol.41.14	0	t3「光をささげよ」と、記されている。		
+sol.41.0	0	t3台座から紅の輝玉を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Take the Crimson Gleaming Orb from the pedestal?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.41.1	0	t3b3紅の輝玉b0を手に入れた。	{t3}Got the {b3}Crimson Gleaming Orb{b0}.	
+sol.41.2	0	t3プレートらしきものがある。@@プレートを拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}There's something like a plate here.@@Pick up the plate?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.41.3	0	t3b3銅のプレートb0を手に入れた。	{t3}Got the {b3}Copper Plate{b0}.	
+sol.41.4	0	t3青の輝玉を拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Pick up the Blue Gleaming Orb?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.41.5	0	t3b3青の輝玉b0を手に入れた。	{t3}Got the {b3}Blue Gleaming Orb{b0}.	
+sol.41.6	0	t3開かないようだ	{t3}It won't open.	
+sol.41.7	0	t3輝玉の台座だ。	{t3}It's a pedestal for a Gleaming Orb.	
+sol.41.8	0	t3扉が壊れていて開きそうにない‥‥‥	{t3}The door is broken and won't open...	
+sol.41.9	0	t3ここにも台座が置いてある。	{t3}There's a pedestal here too.	
+sol.41.10	0	t3何かの台座らしい。\\物を載せた跡がついている‥‥	{t3}Looks like a pedestal for something.\\There are marks where something sat...	
+sol.41.11	0	t0＜b6第３層b0＞\\	{t0}＜{b6}Level 3{b0}＞\\	
+sol.41.12	0	t3台座が壊れている……	{t3}The pedestal is broken...	
+sol.41.13	0	t3開かない‥‥‥	{t3}It won't open...	
+sol.41.14	0	t3「光をささげよ」と、記されている。	{t3}"Offer up the light," it reads.	

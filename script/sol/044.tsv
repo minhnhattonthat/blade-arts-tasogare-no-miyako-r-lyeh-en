@@ -1,10 +1,10 @@
 id	sector	jp	en	notes
-sol.44.0	0	CSA0t0e00801よぉ‥‥やっぱり、いたな。		
-sol.44.1	0	CSA0t0e00186ここに来ること、わかっていましたから‥‥		
-sol.44.2	0	CSA0t0e00719いまさら、驚きはしないけどね‥‥		
-sol.44.3	0	CSA0t0e00969で、たびたび済まないんだけど、いいかな？		
-sol.44.4	0	CSA0t0e01318何でしょう？		
-sol.44.5	0	CSA0t0e00017この先の広場のエレベータ‥‥\\じゃなくて、下に動く大きな岩か。@@あれ、どうやったら動く？		
-sol.44.6	0	CSA0t0e01052‥‥ああ、その岩ですね。@@多分‥‥あの岩を動かす力の流れが失われている\\だけだと思います。@@ですから、力の流れを元に戻して、\\その後に力の源から力を引き直せば‥‥		
-sol.44.7	0	CSA0t0e00885‥‥なんとなくわかったわ。\\ありがとうな。		
-sol.44.8	0	CSA0t0e00537いいえ、お気をつけて‥‥\\お仲間を無事にお助け出来る事を‥‥		
+sol.44.0	0	CSA0t0e00801よぉ‥‥やっぱり、いたな。	{CSA0t0e00801}Hey... Knew you'd be here.	
+sol.44.1	0	CSA0t0e00186ここに来ること、わかっていましたから‥‥	{CSA0t0e00186}I knew you would come here...	
+sol.44.2	0	CSA0t0e00719いまさら、驚きはしないけどね‥‥	{CSA0t0e00719}Not that it surprises me anymore...	
+sol.44.3	0	CSA0t0e00969で、たびたび済まないんだけど、いいかな？	{CSA0t0e00969}So, sorry to keep bugging you, but can I ask?	
+sol.44.4	0	CSA0t0e01318何でしょう？	{CSA0t0e01318}What is it?	
+sol.44.5	0	CSA0t0e00017この先の広場のエレベータ‥‥\\じゃなくて、下に動く大きな岩か。@@あれ、どうやったら動く？	{CSA0t0e00017}That elevator in the plaza up ahead...\\or, uh, the big rock that moves down, I guess.@@How do I get that thing moving?	
+sol.44.6	0	CSA0t0e01052‥‥ああ、その岩ですね。@@多分‥‥あの岩を動かす力の流れが失われている\\だけだと思います。@@ですから、力の流れを元に戻して、\\その後に力の源から力を引き直せば‥‥	{CSA0t0e01052}...Ah, that rock.@@Most likely... the flow of power that moves it\\has simply been lost.@@So if you restore the flow of power,\\then draw power anew from its source...	
+sol.44.7	0	CSA0t0e00885‥‥なんとなくわかったわ。\\ありがとうな。	{CSA0t0e00885}...I sorta get it.\\Thanks, really.	
+sol.44.8	0	CSA0t0e00537いいえ、お気をつけて‥‥\\お仲間を無事にお助け出来る事を‥‥	{CSA0t0e00537}Not at all. Please be careful...\\I pray you bring your friends out safely...	

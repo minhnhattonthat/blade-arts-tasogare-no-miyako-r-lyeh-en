@@ -1,115 +1,115 @@
 id	sector	jp	en	notes
-sol.132.0	0	　　　　　何か仕掛けがあるようだ‥‥\\　　　　　　　　　　g7i015		
-sol.132.1	0	t0　　　　　g7仕掛けを起動しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.132.2	0	t0　　　　　g7仕掛けを動かした‥‥‥\\　　　　　　　　　　g7i015		
-sol.132.3	0	t0　　　　　　　g7開かない‥‥‥\\　　　　　　　　　　g7i015		
-sol.132.4	0	t0　　　　　g7b3＜南街区出入口＞b0\\　　　　　　　　　閉鎖中\\　　　　　　　　　　g7i015		
-sol.132.5	0	t0　　　　　　g7b3＜倉庫出入口＞b0\\　　　　　　　　　　閉鎖中\\　　　　　　　　　　g7i015		
-sol.132.6	0	t0　　　　　g7b3＜北街区出入口＞b0\\　　　　　　　　　閉鎖中\\　　　　　　　　　　g7i015		
-sol.132.7	0	t0　　　　　g7隔壁が破壊されている‥‥\\　　　　　‥‥この隙間なら通れそうだ。\\　　　　　　　　　　g7i015		
-sol.132.8	0	t0　　　　g7操作盤が破壊されている‥‥\\　　　　　　　　　　g7i015		
-sol.132.9	0	t0　　　　　　g7‥‥‥‥‥‥‥‥っ！\\　　ここを通るにはＩＤカードが必要か‥‥‥\\　　　　　　　　　　g7i015		
-sol.132.10	0	t0　　　g7b3＜北街区出入口隔壁操作盤＞b0\\　　　　　　　　　　g7i015		
-sol.132.11	0	t0　　g7北街区出入口の隔壁を開放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015		
-sol.132.12	0	t0　　g7北街区出入口の隔壁を開放しました。\\　　　　　　　　　　g7i015		
-sol.132.13	0	t0　　　g7防護柵が通路を塞いでいる‥‥‥\\　　　　　　　　　　g7i015		
-sol.132.14	0	t0　　　g7b3＜地下水路防護柵操作盤＞b0\\　　　　　　　　　　g7i015		
-sol.132.15	0	t0　　　　　g7防護柵を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015		
-sol.132.16	0	t0　　　　　　g7b3＜故障発生＞b0\\　　　　　　　　　　g7i015@@　　管制装置から応答が無くなり中断しました。\\　　　（システム管理者に連絡してください）\\　　　　　　　　　　g7i015		
-sol.132.17	0	t0　　　　　g7b3＜予備管制装置＞b0\\　　　　　　　　　　g7i015@@　　　現在、予備管制装置で操作出来るのは\\　　　　b3南街区出入口の隔壁b0操作です。\\　　　　　　　　　　g7i015		
-sol.132.18	0	t0　　　g7南街区出入口の隔壁を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015		
-sol.132.19	1	t0　　　g7南街区出入口の隔壁を開放しました。\\　　　　　　　　　　g7i015		
-sol.132.20	1	t0　　　　　g7b3＜予備管制装置＞b0\\　　　　　　　　　　g7i015@@　　　現在、予備管制装置で操作出来るのは\\　　　b3地下水路出口の水門b0の操作です。\\　　　　　　　　　　g7i015		
-sol.132.21	1	t0　　g7地下水路出口の水門を開放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015		
-sol.132.22	1	t0　　g7地下水路出口の水門を開放しました。\\　　　　　　　　　　g7i015		
-sol.132.23	1	t0　　　　　g7b3＜濾過区水門操作盤＞b0\\　　　　　　　　　　g7i015		
-sol.132.24	1	t0　　　　g7濾過区の水門を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015		
-sol.132.25	1	t0　　　g7濾過区の水門を開放しました。\\　　　　　　　　　　g7i015		
-sol.132.26	1	t0　　　　　g7b3＜濾過装置操作盤＞b0\\　　　　　　　　　　g7i015		
-sol.132.27	1	t0　　　　g7濾過装置を稼動させますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015		
-sol.132.28	1	t0　　　　g7濾過装置を稼動させました。\\　　　　　　　　　　g7i015		
-sol.132.29	1	t0　　g7地下水を汲み上げるポンプみたいだ。\\　　　　　　　　　　g7i015		
-sol.132.30	1	t0　　g7こんなところに起動カードがささっている\\　　　　　　　　　　g7i015@@　　　　　　起動カードを取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015		
-sol.132.31	1	t0　　g7地下水を汲み上げるポンプみたいだ。\\g7ポンプ前面ににb3カードリーダーb0が付いている‥‥\\　　　　　　　　　　g7i015		
-sol.132.32	1	t0　　　　　　g7ハシゴを上りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015		
-sol.132.33	1	t0　　　　　　g7‥‥‥‥‥‥あっ！\\　　　　　g7これじゃぁ、あがれねぇ。\\　　　　　　　　　　g7i015		
-sol.132.34	1	t0　　　　　g7これじゃぁ、あがれねぇ。\\　　　g7まずは、あのドアを開けねぇと‥‥\\　　　　　　　　　　g7i015		
-sol.132.35	1	t0　　　　g7b3＜南街区出口操作盤＞b0\\　g7現在、南街区への出口はb3閉鎖中b0です。\\　　　　　　　　　　g7i015		
-sol.132.36	1	t0　　　g7南街区への出口を解放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015		
-sol.132.37	2	t0　　　　g7南街区への出口を解放しました\\　　　　　　　　　　g7i015		
-sol.132.38	2	g7０９８７６５４３２１□１２３４５６７８９０\\　　　　　　　水門は閉じています。\\　　　　　　　　　　g7i015		
-sol.132.39	2	t0　　　　　g7水門を開きますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.132.40	2	　　　　　　g7水門を開きました。\\　　　　　　　　　　g7i015		
-sol.132.41	2	　　　　g7地下に通じるドアみたいだが\\　　　　　　g7開かない‥‥‥‥‥\\　　　　　　　　　　g7i015		
-sol.132.42	2	t0　　g7ポンプのb3起動カードb0を手に入れた。\\　　　　　　　　　　g7i015		
-sol.132.43	2	CSA0t4b4零：b0ん？i030		
-sol.132.44	2	CSA0t4b4零：b0どこから、ヘリが？i030		
-sol.132.45	2	CSA0t4b4零：b0そうか‥‥i020通気用のエアダクト。\\あってもおかしくないな。i030		
-sol.132.46	2	CSA0t4b6藍花：b0あーっ！\\i020零、あんた生きてたの！？i030		
-sol.132.47	2	CSA0t4b4零：b0ランファ、なんでこんなとこにいるんだよ！？i020\\って、それよりも生きてる？i030		
-sol.132.48	2	CSA0t4b6藍花：b0あんたって男は‥‥\\i020とにかく、お互いに鬼ではないようね。i030		
-sol.132.49	2	CSA0t4b6藍花：b0で、零。あんたがここにいるってことは‥‥i020\\もしかして入口のセキュリティ、i020@@壊しちゃったんじゃないでしょうね？i030		
-sol.132.50	2	CSA0t4b4零：b0なんか‥‥i020まずかった？i030		
-sol.132.51	2	CSA0t4b6藍花：b0考えなしに人の生命線壊さないでよっ！\\どーするのよぉ！i020@@ＤＳＯＮが襲って来ちゃうじゃない！i030		
-sol.132.52	2	CSA0t4b6藍花：b0って、もうきたぁー！i030		
-sol.132.53	2	CSA0t4b6藍花：b0零、あんた責任とってよね。i030		
-sol.132.54	2	CSA0t4b4零：b0‥‥つい今さっき、敵を撃退したばっかりだろうが？i030		
-sol.132.55	2	CSA0t4b6藍花：b0そんなの、時間がたてば、また襲ってくるわよっ！i020\\一人見かけたら三十人はいると思わなきゃダメなんだからね。i030		
-sol.132.56	2	CSA0t4b4零：b0いや、ゴキブリじゃないんだから‥‥i020\\で、具体的になにすればいいんだよ？i030		
-sol.132.57	2	CSA0t4b6藍花：b0そぉね。i060\\とりあえず隠れ場所がほしいかな。i020@@あ、そうそう。さっきマンホール見かけたから、\\地下坑なんかいいかも。i030		
-sol.132.58	2	CSA0t4b4零：b0へぇへ。i020\\じゃぁ、とりあえず探してくるけども、やたらに動くなよ。i030		
-sol.132.59	3	CSA0t4b6藍花：b0へぇ、しばらく隠れてる分にはちょうど良いかな？\\‥‥少しジメジメしてて暗いけど。i030		
-sol.132.60	3	CSA0t4b4零：b0そーいう事言うなら、お前一人出ていってもらおうか。i030		
-sol.132.61	3	CSA0t4b6藍花：b0あーっ、冗談よ。冗談だってば。i030		
-sol.132.62	3	CSA0t4b6藍花：b0ねぇ、ちょっと聞いていい？i030		
-sol.132.63	3	CSA0t4b4零：b0何だ？i030		
-sol.132.64	3	CSA0t4b6藍花：b0零って、ここまで何で降りてきたの？i030		
-sol.132.65	3	CSA0t4b4零：b0浮遊型の昇降機、みたいなもんかな？\\結構おおきいヤツ。i030		
-sol.132.66	3	CSA0t4b6藍花：b0じゃぁ、あたし達と一緒だったんだ。\\う～ん、i010でも‥‥i010そうかぁ～‥‥i030		
-sol.132.67	3	CSA0t4b4零：b0何、悩んでるんだ？i030		
-sol.132.68	3	CSA0t4b6藍花：b0ほら、あれ警戒けっこうキビシかったでしょ？\\だから、あれで帰るの結構あぶないかな～って‥‥i030		
-sol.132.69	3	CSA0t4b4零：b0なら、通気用のエアダクトでも探して見れば？\\こんだけ馬鹿でっかい空間の大気を維持するならi020@@、そんぐらいあっておかしくないだろ。\\保守用の昇降機もありそうな気がするし。i030		
-sol.132.70	3	CSA0t4b6藍花：b0おっ！零クン冴えてるぅ。\\じゃぁ、早速、探してみるわ。i020@@ありがとうねぇ～。i030		
-sol.132.71	3	CSA0t4b4零：b0そういえば、何か言い忘れたような‥‥i030		
-sol.132.72	3	CSA0t4b4零：b0まぁ、いいか。i030		
-sol.132.73	3	CSA0t4b6サンダーソン：b0ああ、零か。\\生きてて何よりだ。i030		
-sol.132.74	3	CSA0t4b4零：b0ジイさんも、無事そうだねぇ。i030		
-sol.132.75	3	CSA0t4b6サンダーソン：b0ああ、なんとか生きながらえておるよ。\\ランファが良くやってくれている。i030		
-sol.132.76	3	CSA0t4b4零：b0そいつはなにより、ってところだろうが、\\あまり当てにしすぎない方がいいぜ。i020@@肝心なところでドジ踏みやがるからな。i030		
-sol.132.77	3	CSA0t4b6サンダーソン：b0おいおい、われわれの命の恩人に\\そんな事を言ってはいけないよ。i020@@そういえば、リズを見かけんかったか？\\ワシ等を逃がすためにオトリになってくれてたのだが‥‥i030		
-sol.132.78	3	CSA0t4b4零：b0‥‥i020死んだよ。\\助けられなかった‥‥i030		
-sol.132.79	3	CSA0t4b6サンダーソン：b0‥‥そうか。i020\\あまり自分を責めるな。i020@@状況が状況だ。仕方あるまい。i030		
-sol.132.80	4	CSA0t4b6サンダーソン：b0‥‥i020今は、ワシらが生き残る事を考えよう。\\リズの為にも‥‥i030		
-sol.132.81	4	CSA0t4b4零：b0ああ、そうだな‥‥\\‥‥‥‥i020@@で、ナカムラ様ご一行はどこに行った？i030		
-sol.132.82	4	CSA0t4b6サンダーソン：b0ああ、研究棟へ行くとか言うておった。\\この奥にある大きな建築物がそれらしい。i030		
-sol.132.83	4	CSA0t4b4零：b0研究棟？\\なんで、ナカムラがここの建物の用途‥‥i020@@いや、その前に何でここの事を知ってるんだ？i030		
-sol.132.84	4	CSA0t4b6サンダーソン：b0ああ、それはワシも不思議に思っていた。\\にもかかわらず、ここまで来るためにi020@@リズの力を必要としていた‥‥i020\\ヤツらの行動は、まったく矛盾しておる。i030		
-sol.132.85	4	CSA0t4b4零：b0ナカムラだけが状況を把握している\\訳じゃないってのか‥‥i020@@なら、この遺跡の主ってのにも話を聞きに\\行かねぇとな‥‥i030		
-sol.132.86	4	CSA0t4b6サンダーソン：b0いるのかっ！？i030		
-sol.132.87	4	CSA0t4b4零：b0あれ？見た事無いの？\\お下げ髪の、えっらく可愛い娘なんだけど‥‥i020@@でも、どっちかって言うと、主って感じじゃねぇな。\\あの娘は‥‥i030		
-sol.132.88	4	CSA0t4b6サンダーソン：b0ふむ‥‥i020\\ここに来るまでの妨害には何らかの意志があるとi020@@見ていたが、やはりおったか。\\零。すまんが、その娘を見かけたらワシにもi020@@会わせてくれんかの？i030		
-sol.132.89	4	CSA0t4b4零：b0まぁ、かまわねぇけど‥‥i020神出鬼没だからなぁ。\\余裕があったら連れてくるわ。i020@@でも、ジイさんもスキだね。本当。i030		
-sol.132.90	4	CSA0t4b6サンダーソン：b0‥‥i020勝手に言っとれ！i030		
-sol.132.91	4	CSA0t4b4零：b0よぉ、ちょうど良いところにいたな。i030		
-sol.132.92	4	CSA0t4b6少女：b0‥‥i020レ‥‥i020イ？i030		
-sol.132.93	4	CSA0t4b4零：b0ん、どうした？i030		
-sol.132.94	4	CSA0t4b6少女：b0あ‥‥i020いいえ、何でもありません。\\何か御用でしょうか？i030		
-sol.132.95	4	CSA0t4b4零：b0ああ、知り合いから言伝頼まれてね‥‥i020\\ここを戻ったところの地下にいるジイさんに、i020@@ちょっと会ってきてもらいたいんだけど‥‥i020どう？i030		
-sol.132.96	4	CSA0t4b6少女：b0‥‥i020どのような意図での事なのでしょうか？i030		
-sol.132.97	4	CSA0t4b4零：b0いや、そのジイさんがぜひ会いたいって‥‥i020\\ああ、そう、君が美人だって言うから‥‥i020@@ダメ？i030		
-sol.132.98	5	CSA0t4b6少女：b0申し訳ありません。\\それにはお応え致しかねます‥‥i020@@私はこの聖域を外の世界の方に知られたくないのです。\\貴方が、ここに入る事を決められる前に、私は警告しましたね‥‥i020@@ここに入った人は全て死んでしまう、と‥‥i020\\その警告の意図を汲んでいただけますように‥‥i030		
-sol.132.99	5	CSA0t4b4零：b0ああ、そうだったな‥‥i030		
-sol.132.100	5	CSA0t4b6少女：b0貴方をここまで案内したのも‥‥i020\\聖域から皆様を無事に連れ出していただくため‥‥i020@@この聖域を出来る限り汚したくないのです‥‥i030		
-sol.132.101	5	CSA0t4b4零：b0‥‥i030		
-sol.132.102	5	CSA0t4b6少女：b0重ねてお願いします。\\あなたのお仲間が無事にここからお戻りにi020@@なれるようになりましたら、\\貴方もご一緒にお戻り願えませんか？i030		
-sol.132.103	5	CSA0t4b4零：b0あんたは、それでいいんだな？i030		
-sol.132.104	5	CSA0t4b6少女：b0‥‥i020どう言う意味でしょう？i030		
-sol.132.105	5	CSA0t4b4零：b0まだ、全てが終わってはいないって事‥‥i020\\そして、本当にその全てを収拾する事が出来るのかい？i030		
-sol.132.106	5	CSA0t4b6少女：b0‥‥i030		
-sol.132.107	5	CSA0t4b6少女：b0それが、お前のためなんだ、零‥‥i030		
-sol.132.108	5	CSA0t4b4零：b0ん、i010どうした？i030		
-sol.132.109	5	CSA0t4b6少女：b0‥‥いいえ。i030		
-sol.132.110	5	CSA0t4b零：b0悪かった、今のは忘れてくれ‥‥i030		
-sol.132.111	5	CSA0t4b6少女：b0‥‥いいえ。i030		
-sol.132.112	5	CSA0t4b4零：b0まぁ、今はみんなを無事に避難させる事に集中しよう。\\で、いいかい？i030		
-sol.132.113	5	CSA0t4b6少女：b0‥‥ええ。i020\\ご無事をお祈りしております‥‥i030		
+sol.132.0	0	　　　　　何か仕掛けがあるようだ‥‥\\　　　　　　　　　　g7i015	　　　There seems to be some kind of mechanism...\\　　　　　　　　　　{g7i015}	
+sol.132.1	0	t0　　　　　g7仕掛けを起動しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Activate the mechanism?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.132.2	0	t0　　　　　g7仕掛けを動かした‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　{g7}Activated the mechanism...\\　　　　　　　　　　{g7i015}	
+sol.132.3	0	t0　　　　　　　g7開かない‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　　　{g7}It won't open...\\　　　　　　　　　　{g7i015}	
+sol.132.4	0	t0　　　　　g7b3＜南街区出入口＞b0\\　　　　　　　　　閉鎖中\\　　　　　　　　　　g7i015	{t0}　　　　{g7b3}＜South District Entrance＞{b0}\\　　　　　　　　Closed\\　　　　　　　　　　{g7i015}	
+sol.132.5	0	t0　　　　　　g7b3＜倉庫出入口＞b0\\　　　　　　　　　　閉鎖中\\　　　　　　　　　　g7i015	{t0}　　　　　{g7b3}＜Warehouse Entrance＞{b0}\\　　　　　　　　Closed\\　　　　　　　　　　{g7i015}	
+sol.132.6	0	t0　　　　　g7b3＜北街区出入口＞b0\\　　　　　　　　　閉鎖中\\　　　　　　　　　　g7i015	{t0}　　　　{g7b3}＜North District Entrance＞{b0}\\　　　　　　　　Closed\\　　　　　　　　　　{g7i015}	
+sol.132.7	0	t0　　　　　g7隔壁が破壊されている‥‥\\　　　　　‥‥この隙間なら通れそうだ。\\　　　　　　　　　　g7i015	{t0}　　　　{g7}The bulkhead has been destroyed...\\　　　　...I could squeeze through this gap.\\　　　　　　　　　　{g7i015}	
+sol.132.8	0	t0　　　　g7操作盤が破壊されている‥‥\\　　　　　　　　　　g7i015	{t0}　　　{g7}The control panel has been destroyed...\\　　　　　　　　　　{g7i015}	
+sol.132.9	0	t0　　　　　　g7‥‥‥‥‥‥‥‥っ！\\　　ここを通るにはＩＤカードが必要か‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　　{g7}...Damn!\\　　So I need an ID Card to get through here...\\　　　　　　　　　　{g7i015}	
+sol.132.10	0	t0　　　g7b3＜北街区出入口隔壁操作盤＞b0\\　　　　　　　　　　g7i015	{t0}　{g7b3}＜North District Entrance Bulkhead Panel＞{b0}\\　　　　　　　　　　{g7i015}	
+sol.132.11	0	t0　　g7北街区出入口の隔壁を開放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　{g7}Open the North District Entrance bulkhead?\\　　　{[DD1}　Yes　　　　　　{[2}　　No{g7i015}	
+sol.132.12	0	t0　　g7北街区出入口の隔壁を開放しました。\\　　　　　　　　　　g7i015	{t0}　{g7}Opened the North District Entrance bulkhead.\\　　　　　　　　　　{g7i015}	
+sol.132.13	0	t0　　　g7防護柵が通路を塞いでいる‥‥‥\\　　　　　　　　　　g7i015	{t0}　　{g7}A protective fence is blocking the passage...\\　　　　　　　　　　{g7i015}	
+sol.132.14	0	t0　　　g7b3＜地下水路防護柵操作盤＞b0\\　　　　　　　　　　g7i015	{t0}　{g7b3}＜Underground Waterway Fence Panel＞{b0}\\　　　　　　　　　　{g7i015}	
+sol.132.15	0	t0　　　　　g7防護柵を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　　{g7}Open the protective fence?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No{g7i015}	
+sol.132.16	0	t0　　　　　　g7b3＜故障発生＞b0\\　　　　　　　　　　g7i015@@　　管制装置から応答が無くなり中断しました。\\　　　（システム管理者に連絡してください）\\　　　　　　　　　　g7i015	{t0}　　　　　　{g7b3}＜Malfunction＞{b0}\\　　　　　　　　　　{g7i015}@@　The control unit stopped responding. Aborted.\\　　(Please contact the system administrator.)\\　　　　　　　　　　{g7i015}	
+sol.132.17	0	t0　　　　　g7b3＜予備管制装置＞b0\\　　　　　　　　　　g7i015@@　　　現在、予備管制装置で操作出来るのは\\　　　　b3南街区出入口の隔壁b0操作です。\\　　　　　　　　　　g7i015	{t0}　　　　{g7b3}＜Backup Control Unit＞{b0}\\　　　　　　　　　　{g7i015}@@　The backup control unit can currently operate\\　　the {b3}South District Entrance bulkhead{b0}.\\　　　　　　　　　　{g7i015}	
+sol.132.18	0	t0　　　g7南街区出入口の隔壁を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　{g7}Open the South District Entrance bulkhead?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No{g7i015}	
+sol.132.19	1	t0　　　g7南街区出入口の隔壁を開放しました。\\　　　　　　　　　　g7i015	{t0}　{g7}Opened the South District Entrance bulkhead.\\　　　　　　　　　　{g7i015}	
+sol.132.20	1	t0　　　　　g7b3＜予備管制装置＞b0\\　　　　　　　　　　g7i015@@　　　現在、予備管制装置で操作出来るのは\\　　　b3地下水路出口の水門b0の操作です。\\　　　　　　　　　　g7i015	{t0}　　　　{g7b3}＜Backup Control Unit＞{b0}\\　　　　　　　　　　{g7i015}@@　The backup control unit can currently operate\\　　the {b3}underground waterway exit floodgate{b0}.\\　　　　　　　　　　{g7i015}	
+sol.132.21	1	t0　　g7地下水路出口の水門を開放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　{g7}Open the underground waterway exit floodgate?\\　　　{[DD1}　Yes　　　　　　{[2}　　No{g7i015}	
+sol.132.22	1	t0　　g7地下水路出口の水門を開放しました。\\　　　　　　　　　　g7i015	{t0}　{g7}The underground waterway exit floodgate is open.\\　　　　　　　　　　{g7i015}	
+sol.132.23	1	t0　　　　　g7b3＜濾過区水門操作盤＞b0\\　　　　　　　　　　g7i015	{t0}　　　{g7b3}＜Filtration District Floodgate Panel＞{b0}\\　　　　　　　　　　{g7i015}	
+sol.132.24	1	t0　　　　g7濾過区の水門を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　{g7}Open the filtration district floodgate?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No　　　{g7i015}	
+sol.132.25	1	t0　　　g7濾過区の水門を開放しました。\\　　　　　　　　　　g7i015	{t0}　　　{g7}The filtration district floodgate is open.\\　　　　　　　　　　{g7i015}	
+sol.132.26	1	t0　　　　　g7b3＜濾過装置操作盤＞b0\\　　　　　　　　　　g7i015	{t0}　　　　　{g7b3}＜Filtration System Panel＞{b0}\\　　　　　　　　　　{g7i015}	
+sol.132.27	1	t0　　　　g7濾過装置を稼動させますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　　　{g7}Start the filtration system?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No　　　{g7i015}	
+sol.132.28	1	t0　　　　g7濾過装置を稼動させました。\\　　　　　　　　　　g7i015	{t0}　　　　　{g7}The filtration system is running.\\　　　　　　　　　　{g7i015}	
+sol.132.29	1	t0　　g7地下水を汲み上げるポンプみたいだ。\\　　　　　　　　　　g7i015	{t0}　　　{g7}Looks like a pump that draws up groundwater.\\　　　　　　　　　　{g7i015}	
+sol.132.30	1	t0　　g7こんなところに起動カードがささっている\\　　　　　　　　　　g7i015@@　　　　　　起動カードを取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　{g7}There's an activation card stuck in here.\\　　　　　　　　　　{g7i015}@@　　　　　　Take the activation card?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No　　　{g7i015}	
+sol.132.31	1	t0　　g7地下水を汲み上げるポンプみたいだ。\\g7ポンプ前面ににb3カードリーダーb0が付いている‥‥\\　　　　　　　　　　g7i015	{t0}　　{g7}Looks like a pump that draws up groundwater.\\{g7}There's a {b3}card reader{b0} on the front of the pump...\\　　　　　　　　　　{g7i015}	
+sol.132.32	1	t0　　　　　　g7ハシゴを上りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　　　　{g7}Climb the ladder?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No　　　{g7i015}	
+sol.132.33	1	t0　　　　　　g7‥‥‥‥‥‥あっ！\\　　　　　g7これじゃぁ、あがれねぇ。\\　　　　　　　　　　g7i015	{t0}　　　　　　　　{g7}......Ah!\\　　　　{g7}No way I can climb up like this.\\　　　　　　　　　　{g7i015}	
+sol.132.34	1	t0　　　　　g7これじゃぁ、あがれねぇ。\\　　　g7まずは、あのドアを開けねぇと‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　{g7}Can't get up there like this.\\　　　　{g7}Gotta open that door first...\\　　　　　　　　　　{g7i015}	
+sol.132.35	1	t0　　　　g7b3＜南街区出口操作盤＞b0\\　g7現在、南街区への出口はb3閉鎖中b0です。\\　　　　　　　　　　g7i015	{t0}　　　　{g7b3}＜South District Exit Panel＞{b0}\\{g7}The exit to the South District is currently {b3}sealed{b0}.\\　　　　　　　　　　{g7i015}	
+sol.132.36	1	t0　　　g7南街区への出口を解放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　{g7}Open the exit to the South District?\\　　　{[DD1}　Yes　　　　　　{[2}　　No　　　{g7i015}	
+sol.132.37	2	t0　　　　g7南街区への出口を解放しました\\　　　　　　　　　　g7i015	{t0}　　　{g7}The exit to the South District is open.\\　　　　　　　　　　{g7i015}	
+sol.132.38	2	g7０９８７６５４３２１□１２３４５６７８９０\\　　　　　　　水門は閉じています。\\　　　　　　　　　　g7i015	{g7}　　　　0987654321□1234567890\\　　　　　　The floodgate is closed.\\　　　　　　　　　　{g7i015}	
+sol.132.39	2	t0　　　　　g7水門を開きますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Open the floodgate?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.132.40	2	　　　　　　g7水門を開きました。\\　　　　　　　　　　g7i015	　　　　　　{g7}Floodgate opened.\\　　　　　　　　　　{g7i015}	
+sol.132.41	2	　　　　g7地下に通じるドアみたいだが\\　　　　　　g7開かない‥‥‥‥‥\\　　　　　　　　　　g7i015	　　　{g7}Looks like a door leading underground,\\　　　　　　{g7}but it won't open......\\　　　　　　　　　　{g7i015}	
+sol.132.42	2	t0　　g7ポンプのb3起動カードb0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　{g7}Got the pump's {b3}Activation Card{b0}.\\　　　　　　　　　　{g7i015}	
+sol.132.43	2	CSA0t4b4零：b0ん？i030	{CSA0t4b4}Rei:{b0} Hm?{i030}	
+sol.132.44	2	CSA0t4b4零：b0どこから、ヘリが？i030	{CSA0t4b4}Rei:{b0} Where'd a chopper come from?{i030}	
+sol.132.45	2	CSA0t4b4零：b0そうか‥‥i020通気用のエアダクト。\\あってもおかしくないな。i030	{CSA0t4b4}Rei:{b0} I see...{i020} An air duct for ventilation.\\Makes sense there'd be one.{i030}	
+sol.132.46	2	CSA0t4b6藍花：b0あーっ！\\i020零、あんた生きてたの！？i030	{CSA0t4b6}Ranfa:{b0} Aaah!\\{i020}Rei, you're alive!?{i030}	
+sol.132.47	2	CSA0t4b4零：b0ランファ、なんでこんなとこにいるんだよ！？i020\\って、それよりも生きてる？i030	{CSA0t4b4}Rei:{b0} Ranfa, what the hell are you doing here!?{i020}\\Wait, forget that, are you guys alive?{i030}	
+sol.132.48	2	CSA0t4b6藍花：b0あんたって男は‥‥\\i020とにかく、お互いに鬼ではないようね。i030	{CSA0t4b6}Ranfa:{b0} Honestly, you...\\{i020}Well, looks like neither of us is a ghost yet.{i030}	
+sol.132.49	2	CSA0t4b6藍花：b0で、零。あんたがここにいるってことは‥‥i020\\もしかして入口のセキュリティ、i020@@壊しちゃったんじゃないでしょうね？i030	{CSA0t4b6}Ranfa:{b0} So, Rei. If you're here, then...{i020}\\don't tell me you went and wrecked{i020}@@the security at the entrance~?{i030}	
+sol.132.50	2	CSA0t4b4零：b0なんか‥‥i020まずかった？i030	{CSA0t4b4}Rei:{b0} Was that...{i020} bad?{i030}	
+sol.132.51	2	CSA0t4b6藍花：b0考えなしに人の生命線壊さないでよっ！\\どーするのよぉ！i020@@ＤＳＯＮが襲って来ちゃうじゃない！i030	{CSA0t4b6}Ranfa:{b0} Don't wreck our lifeline without thinking!\\What are we supposed to do now~!?{i020}@@DSON's gonna come after us!{i030}	
+sol.132.52	2	CSA0t4b6藍花：b0って、もうきたぁー！i030	{CSA0t4b6}Ranfa:{b0} Aaand they're already here~!{i030}	
+sol.132.53	2	CSA0t4b6藍花：b0零、あんた責任とってよね。i030	{CSA0t4b6}Ranfa:{b0} Rei, you take responsibility for this.{i030}	
+sol.132.54	2	CSA0t4b4零：b0‥‥つい今さっき、敵を撃退したばっかりだろうが？i030	{CSA0t4b4}Rei:{b0} ...We just drove the enemy off\\a second ago, didn't we?{i030}	
+sol.132.55	2	CSA0t4b6藍花：b0そんなの、時間がたてば、また襲ってくるわよっ！i020\\一人見かけたら三十人はいると思わなきゃダメなんだからね。i030	{CSA0t4b6}Ranfa:{b0} Give it time and they'll come right back!{i020}\\See one, and you gotta figure there's thirty more.{i030}	
+sol.132.56	2	CSA0t4b4零：b0いや、ゴキブリじゃないんだから‥‥i020\\で、具体的になにすればいいんだよ？i030	{CSA0t4b4}Rei:{b0} C'mon, they're not cockroaches...{i020}\\So what exactly am I supposed to do?{i030}	
+sol.132.57	2	CSA0t4b6藍花：b0そぉね。i060\\とりあえず隠れ場所がほしいかな。i020@@あ、そうそう。さっきマンホール見かけたから、\\地下坑なんかいいかも。i030	{CSA0t4b6}Ranfa:{b0} Hmm~.{i060}\\For now, I'd kinda like somewhere to hide.{i020}@@Oh, right! I saw a manhole a while ago,\\so maybe the underground tunnels?{i030}	
+sol.132.58	2	CSA0t4b4零：b0へぇへ。i020\\じゃぁ、とりあえず探してくるけども、やたらに動くなよ。i030	{CSA0t4b4}Rei:{b0} Yeah, yeah.{i020}\\I'll go look for now, so don't go wandering off.{i030}	
+sol.132.59	3	CSA0t4b6藍花：b0へぇ、しばらく隠れてる分にはちょうど良いかな？\\‥‥少しジメジメしてて暗いけど。i030	{CSA0t4b6}Ranfa:{b0} Ooh, this'll do for hiding out a while, huh?\\...Kinda damp and dark, though.{i030}	
+sol.132.60	3	CSA0t4b4零：b0そーいう事言うなら、お前一人出ていってもらおうか。i030	{CSA0t4b4}Rei:{b0} Keep talkin' like that and you can go out alone.{i030}	
+sol.132.61	3	CSA0t4b6藍花：b0あーっ、冗談よ。冗談だってば。i030	{CSA0t4b6}Ranfa:{b0} Aah, kidding! I'm kidding, okay?{i030}	
+sol.132.62	3	CSA0t4b6藍花：b0ねぇ、ちょっと聞いていい？i030	{CSA0t4b6}Ranfa:{b0} Hey, can I ask you something?{i030}	
+sol.132.63	3	CSA0t4b4零：b0何だ？i030	{CSA0t4b4}Rei:{b0} What?{i030}	
+sol.132.64	3	CSA0t4b6藍花：b0零って、ここまで何で降りてきたの？i030	{CSA0t4b6}Ranfa:{b0} Rei, how'd you get all the way down here?{i030}	
+sol.132.65	3	CSA0t4b4零：b0浮遊型の昇降機、みたいなもんかな？\\結構おおきいヤツ。i030	{CSA0t4b4}Rei:{b0} Some kind of floating elevator, I guess?\\A pretty big one.{i030}	
+sol.132.66	3	CSA0t4b6藍花：b0じゃぁ、あたし達と一緒だったんだ。\\う～ん、i010でも‥‥i010そうかぁ～‥‥i030	{CSA0t4b6}Ranfa:{b0} Then you came the same way we did.\\Hmm~,{i010} but...{i010} I see~...{i030}	
+sol.132.67	3	CSA0t4b4零：b0何、悩んでるんだ？i030	{CSA0t4b4}Rei:{b0} What're you stewing over?{i030}	
+sol.132.68	3	CSA0t4b6藍花：b0ほら、あれ警戒けっこうキビシかったでしょ？\\だから、あれで帰るの結構あぶないかな～って‥‥i030	{CSA0t4b6}Ranfa:{b0} Y'know, that thing was guarded tight, right?\\So going back on it might be kinda risky~...{i030}	
+sol.132.69	3	CSA0t4b4零：b0なら、通気用のエアダクトでも探して見れば？\\こんだけ馬鹿でっかい空間の大気を維持するならi020@@、そんぐらいあっておかしくないだろ。\\保守用の昇降機もありそうな気がするし。i030	{CSA0t4b4}Rei:{b0} Then why not look for a ventilation air duct?\\To keep the air going in a space this damn huge,{i020}@@there's gotta be something like that.\\Probably a maintenance elevator too, I bet.{i030}	
+sol.132.70	3	CSA0t4b6藍花：b0おっ！零クン冴えてるぅ。\\じゃぁ、早速、探してみるわ。i020@@ありがとうねぇ～。i030	{CSA0t4b6}Ranfa:{b0} Ooh! Rei-kun, you're on fire~.\\Okay, I'll go look right away.{i020}@@Thanks a bunch~.{i030}	
+sol.132.71	3	CSA0t4b4零：b0そういえば、何か言い忘れたような‥‥i030	{CSA0t4b4}Rei:{b0} Come to think of it,\\feels like I forgot to say something...{i030}	
+sol.132.72	3	CSA0t4b4零：b0まぁ、いいか。i030	{CSA0t4b4}Rei:{b0} Eh, whatever.{i030}	
+sol.132.73	3	CSA0t4b6サンダーソン：b0ああ、零か。\\生きてて何よりだ。i030	{CSA0t4b6}Sanderson:{b0} Ah, Rei.\\Good to see you alive.{i030}	
+sol.132.74	3	CSA0t4b4零：b0ジイさんも、無事そうだねぇ。i030	{CSA0t4b4}Rei:{b0} Looks like you made it too, Gramps.{i030}	
+sol.132.75	3	CSA0t4b6サンダーソン：b0ああ、なんとか生きながらえておるよ。\\ランファが良くやってくれている。i030	{CSA0t4b6}Sanderson:{b0} Yes, I'm hanging on somehow.\\Ranfa has been doing a fine job.{i030}	
+sol.132.76	3	CSA0t4b4零：b0そいつはなにより、ってところだろうが、\\あまり当てにしすぎない方がいいぜ。i020@@肝心なところでドジ踏みやがるからな。i030	{CSA0t4b4}Rei:{b0} Glad to hear it, I guess, but\\I wouldn't count on her too much.{i020}@@She always screws up right when it matters.{i030}	
+sol.132.77	3	CSA0t4b6サンダーソン：b0おいおい、われわれの命の恩人に\\そんな事を言ってはいけないよ。i020@@そういえば、リズを見かけんかったか？\\ワシ等を逃がすためにオトリになってくれてたのだが‥‥i030	{CSA0t4b6}Sanderson:{b0} Now, now, you mustn't say such things\\about the one who saved our lives.{i020}@@By the way, have you seen Liz?\\She acted as a decoy so we could escape...{i030}	
+sol.132.78	3	CSA0t4b4零：b0‥‥i020死んだよ。\\助けられなかった‥‥i030	{CSA0t4b4}Rei:{b0} ...{i020}She's dead.\\I couldn't save her...{i030}	
+sol.132.79	3	CSA0t4b6サンダーソン：b0‥‥そうか。i020\\あまり自分を責めるな。i020@@状況が状況だ。仕方あるまい。i030	{CSA0t4b6}Sanderson:{b0} ...I see.{i020}\\Don't blame yourself too much.{i020}@@Given the circumstances, it couldn't be helped.{i030}	
+sol.132.80	4	CSA0t4b6サンダーソン：b0‥‥i020今は、ワシらが生き残る事を考えよう。\\リズの為にも‥‥i030	{CSA0t4b6}Sanderson:{b0} ...{i020}For now, let's think about surviving.\\For Liz's sake as well...{i030}	
+sol.132.81	4	CSA0t4b4零：b0ああ、そうだな‥‥\\‥‥‥‥i020@@で、ナカムラ様ご一行はどこに行った？i030	{CSA0t4b4}Rei:{b0} Yeah, you're right...\\......{i020}@@So, where'd Nakamura-sama and his entourage go?{i030}	
+sol.132.82	4	CSA0t4b6サンダーソン：b0ああ、研究棟へ行くとか言うておった。\\この奥にある大きな建築物がそれらしい。i030	{CSA0t4b6}Sanderson:{b0} Ah, they said they were headed\\for the research facility.@@That big structure further in seems to be it.{i030}	
+sol.132.83	4	CSA0t4b4零：b0研究棟？\\なんで、ナカムラがここの建物の用途‥‥i020@@いや、その前に何でここの事を知ってるんだ？i030	{CSA0t4b4}Rei:{b0} Research facility? How does Nakamura\\know what the buildings here are for...{i020}@@No, before that, how does he even\\know about this place?{i030}	
+sol.132.84	4	CSA0t4b6サンダーソン：b0ああ、それはワシも不思議に思っていた。\\にもかかわらず、ここまで来るためにi020@@リズの力を必要としていた‥‥i020\\ヤツらの行動は、まったく矛盾しておる。i030	{CSA0t4b6}Sanderson:{b0} Yes, I found that strange myself.\\And yet, to make it this far,{i020}@@they needed Liz's skills...{i020}\\Their actions are a complete contradiction.{i030}	
+sol.132.85	4	CSA0t4b4零：b0ナカムラだけが状況を把握している\\訳じゃないってのか‥‥i020@@なら、この遺跡の主ってのにも話を聞きに\\行かねぇとな‥‥i030	{CSA0t4b4}Rei:{b0} So Nakamura's not the only one\\who knows what's going on...{i020}@@Then I'd better go have a word with\\the master of these ruins, too...{i030}	
+sol.132.86	4	CSA0t4b6サンダーソン：b0いるのかっ！？i030	{CSA0t4b6}Sanderson:{b0} There is one!?{i030}	
+sol.132.87	4	CSA0t4b4零：b0あれ？見た事無いの？\\お下げ髪の、えっらく可愛い娘なんだけど‥‥i020@@でも、どっちかって言うと、主って感じじゃねぇな。\\あの娘は‥‥i030	{CSA0t4b4}Rei:{b0} Huh? You've never seen her?\\Girl with braids, real damn cute...{i020}@@Though she doesn't really come off as a "master."\\Not that girl...{i030}	
+sol.132.88	4	CSA0t4b6サンダーソン：b0ふむ‥‥i020\\ここに来るまでの妨害には何らかの意志があるとi020@@見ていたが、やはりおったか。\\零。すまんが、その娘を見かけたらワシにもi020@@会わせてくれんかの？i030	{CSA0t4b6}Sanderson:{b0} Hmm...{i020}\\I suspected some will was behind the obstacles{i020}@@on our way here. So there was one after all.\\Rei. Sorry to ask, but if you see this girl,{i020}@@would you let me meet her as well?{i030}	
+sol.132.89	4	CSA0t4b4零：b0まぁ、かまわねぇけど‥‥i020神出鬼没だからなぁ。\\余裕があったら連れてくるわ。i020@@でも、ジイさんもスキだね。本当。i030	{CSA0t4b4}Rei:{b0} Well, I don't mind, but...{i020}\\she comes and goes like a ghost.@@I'll bring her by if I get the chance.{i020}@@Still, you're a real dirty old man,\\Gramps. Seriously.{i030}	
+sol.132.90	4	CSA0t4b6サンダーソン：b0‥‥i020勝手に言っとれ！i030	{CSA0t4b6}Sanderson:{b0} ...{i020}Say what you like!{i030}	
+sol.132.91	4	CSA0t4b4零：b0よぉ、ちょうど良いところにいたな。i030	{CSA0t4b4}Rei:{b0} Hey, you're right where I needed you.{i030}	
+sol.132.92	4	CSA0t4b6少女：b0‥‥i020レ‥‥i020イ？i030	{CSA0t4b6}Girl:{b0} ...{i020}Re...{i020}i?{i030}	
+sol.132.93	4	CSA0t4b4零：b0ん、どうした？i030	{CSA0t4b4}Rei:{b0} Hm, what's up?{i030}	
+sol.132.94	4	CSA0t4b6少女：b0あ‥‥i020いいえ、何でもありません。\\何か御用でしょうか？i030	{CSA0t4b6}Girl:{b0} Ah...{i020} no, it's nothing.\\Is there something you need?{i030}	
+sol.132.95	4	CSA0t4b4零：b0ああ、知り合いから言伝頼まれてね‥‥i020\\ここを戻ったところの地下にいるジイさんに、i020@@ちょっと会ってきてもらいたいんだけど‥‥i020どう？i030	{CSA0t4b4}Rei:{b0} Yeah, somebody asked me to pass on a message...{i020}\\There's this Gramps underground back that way,{i020}@@and I'd like you to go see him...{i020} How about it?{i030}	
+sol.132.96	4	CSA0t4b6少女：b0‥‥i020どのような意図での事なのでしょうか？i030	{CSA0t4b6}Girl:{b0} ...{i020}And what would be the purpose of that?{i030}	
+sol.132.97	4	CSA0t4b4零：b0いや、そのジイさんがぜひ会いたいって‥‥i020\\ああ、そう、君が美人だって言うから‥‥i020@@ダメ？i030	{CSA0t4b4}Rei:{b0} Well, Gramps really wants to meet you...{i020}\\Oh, yeah, 'cause I told him you're a real beauty...{i020}@@No good?{i030}	
+sol.132.98	5	CSA0t4b6少女：b0申し訳ありません。\\それにはお応え致しかねます‥‥i020@@私はこの聖域を外の世界の方に知られたくないのです。\\貴方が、ここに入る事を決められる前に、私は警告しましたね‥‥i020@@ここに入った人は全て死んでしまう、と‥‥i020\\その警告の意図を汲んでいただけますように‥‥i030	{CSA0t4b6}Girl:{b0} I am very sorry.\\I'm afraid I cannot grant that request...{i020}@@I do not wish the outside world\\to learn of this sanctuary.@@Before you chose to come in here,\\I warned you, did I not...{i020}@@That all who enter here will die...{i020}\\I hope you will grasp the intent of that warning...{i030}	
+sol.132.99	5	CSA0t4b4零：b0ああ、そうだったな‥‥i030	{CSA0t4b4}Rei:{b0} Yeah, you did...{i030}	
+sol.132.100	5	CSA0t4b6少女：b0貴方をここまで案内したのも‥‥i020\\聖域から皆様を無事に連れ出していただくため‥‥i020@@この聖域を出来る限り汚したくないのです‥‥i030	{CSA0t4b6}Girl:{b0} I guided you this far, too...{i020}\\so you could lead everyone safely out of here...{i020}@@I wish to keep this sanctuary\\as undefiled as I can...{i030}	
+sol.132.101	5	CSA0t4b4零：b0‥‥i030	{CSA0t4b4}Rei:{b0} ...{i030}	
+sol.132.102	5	CSA0t4b6少女：b0重ねてお願いします。\\あなたのお仲間が無事にここからお戻りにi020@@なれるようになりましたら、\\貴方もご一緒にお戻り願えませんか？i030	{CSA0t4b6}Girl:{b0} I ask you once more.\\Once your companions are able{i020}@@to return safely from here,\\would you please go back with them?{i030}	
+sol.132.103	5	CSA0t4b4零：b0あんたは、それでいいんだな？i030	{CSA0t4b4}Rei:{b0} And you're fine with that?{i030}	
+sol.132.104	5	CSA0t4b6少女：b0‥‥i020どう言う意味でしょう？i030	{CSA0t4b6}Girl:{b0} ...{i020}What do you mean?{i030}	
+sol.132.105	5	CSA0t4b4零：b0まだ、全てが終わってはいないって事‥‥i020\\そして、本当にその全てを収拾する事が出来るのかい？i030	{CSA0t4b4}Rei:{b0} I mean it's not all over yet...{i020}\\And can you really settle all of it yourself?{i030}	
+sol.132.106	5	CSA0t4b6少女：b0‥‥i030	{CSA0t4b6}Girl:{b0} ...{i030}	
+sol.132.107	5	CSA0t4b6少女：b0それが、お前のためなんだ、零‥‥i030	{CSA0t4b6}Girl:{b0} It's for your own good, Rei...{i030}	
+sol.132.108	5	CSA0t4b4零：b0ん、i010どうした？i030	{CSA0t4b4}Rei:{b0} Hm,{i010} what's wrong?{i030}	
+sol.132.109	5	CSA0t4b6少女：b0‥‥いいえ。i030	{CSA0t4b6}Girl:{b0} ...Nothing.{i030}	
+sol.132.110	5	CSA0t4b零：b0悪かった、今のは忘れてくれ‥‥i030	{CSA0t4b4}Rei:{b0} My bad, forget I said that...{i030}	
+sol.132.111	5	CSA0t4b6少女：b0‥‥いいえ。i030	{CSA0t4b6}Girl:{b0} ...Nothing.{i030}	
+sol.132.112	5	CSA0t4b4零：b0まぁ、今はみんなを無事に避難させる事に集中しよう。\\で、いいかい？i030	{CSA0t4b4}Rei:{b0} For now, let's focus on getting\\everyone out safely.@@That okay with you?{i030}	
+sol.132.113	5	CSA0t4b6少女：b0‥‥ええ。i020\\ご無事をお祈りしております‥‥i030	{CSA0t4b6}Girl:{b0} ...Yes.{i020}\\I will pray for your safety...{i030}	

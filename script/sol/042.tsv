@@ -1,34 +1,34 @@
 id	sector	jp	en	notes
-sol.42.0	0	WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0\\ＧＡＭＥ　ＯＶＥＲ\\		
-sol.42.1	0	CSA0t0e00536かなり深いな‥‥		
-sol.42.2	0	CSA0t0e00629ち、そうそう甘くないか。		
-sol.42.3	0	t3何か仕掛けがあるようだ‥‥		
-sol.42.4	0	t3仕掛けを動かした‥‥‥		
-sol.42.5	0	t3何かが動く音がした‥‥		
-sol.42.6	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.42.7	0	t3何も起こらない‥‥		
-sol.42.8	0	t3開かない‥‥‥		
-sol.42.9	0	t3仕掛けは作動しています。		
-sol.42.10	0	t3ジェネレータを壊さないと\\起動しないようだ。		
-sol.42.11	0	t3仕掛けは作動しています。		
-sol.42.12	0	t3これに乗れば、下層部へ降りられるはずだ。		
-sol.42.13	0	t3下層部に降りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.42.14	0	t3＜重力エレベーター操作盤＞\\現在、重力エレベーターは休止しています。		
-sol.42.15	0	t3重力エレベーターを稼働させますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.42.16	0	t3重力エレベーターを稼働させました。		
-sol.42.17	0	t3開かない‥‥‥		
-sol.42.18	0	t3銅のプレートが落ちている‥@@銅のプレートを拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.42.19	0	t3プレートを使いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.42.20	0	t3b3銅のプレートb0を手に入れた。		
-sol.42.21	0	t3b3銅のプレートb0を手に入れた。		
-sol.42.22	0	t3このスイッチを動かすには\\起動プレート１が必要です。		
-sol.42.23	0	t3このスイッチを動かすには\\起動プレート２が必要です。		
+sol.42.0	0	WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0\\ＧＡＭＥ　ＯＶＥＲ\\	{WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0}\\GAME OVER\\	
+sol.42.1	0	CSA0t0e00536かなり深いな‥‥	{CSA0t0e00536}That's a long way down...	
+sol.42.2	0	CSA0t0e00629ち、そうそう甘くないか。	{CSA0t0e00629}Tch, not that easy, huh.	
+sol.42.3	0	t3何か仕掛けがあるようだ‥‥	{t3}Looks like there's some kind of mechanism...	
+sol.42.4	0	t3仕掛けを動かした‥‥‥	{t3}Activated the mechanism...	
+sol.42.5	0	t3何かが動く音がした‥‥	{t3}There was the sound of something moving...	
+sol.42.6	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Activate the mechanism?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.42.7	0	t3何も起こらない‥‥	{t3}Nothing happens...	
+sol.42.8	0	t3開かない‥‥‥	{t3}It won't open...	
+sol.42.9	0	t3仕掛けは作動しています。	{t3}The mechanism is working.	
+sol.42.10	0	t3ジェネレータを壊さないと\\起動しないようだ。	{t3}Looks like it won't start up\\unless the generator is destroyed.	
+sol.42.11	0	t3仕掛けは作動しています。	{t3}The mechanism is working.	
+sol.42.12	0	t3これに乗れば、下層部へ降りられるはずだ。	{t3}Riding this should take me down to the lower levels.	
+sol.42.13	0	t3下層部に降りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Go down to the lower levels?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.42.14	0	t3＜重力エレベーター操作盤＞\\現在、重力エレベーターは休止しています。	{t3}＜Gravity Elevator Control Panel＞\\The Gravity Elevator is currently inactive.	
+sol.42.15	0	t3重力エレベーターを稼働させますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Activate the Gravity Elevator?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.42.16	0	t3重力エレベーターを稼働させました。	{t3}The Gravity Elevator is now running.	
+sol.42.17	0	t3開かない‥‥‥	{t3}It won't open...	
+sol.42.18	0	t3銅のプレートが落ちている‥@@銅のプレートを拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}There's a Copper Plate lying here...@@Pick up the Copper Plate?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.42.19	0	t3プレートを使いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Use the plate?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.42.20	0	t3b3銅のプレートb0を手に入れた。	{t3}Got the {b3}Copper Plate{b0}.	
+sol.42.21	0	t3b3銅のプレートb0を手に入れた。	{t3}Got the {b3}Copper Plate{b0}.	
+sol.42.22	0	t3このスイッチを動かすには\\起動プレート１が必要です。	{t3}Activation Plate 1 is needed\\to work this switch.	
+sol.42.23	0	t3このスイッチを動かすには\\起動プレート２が必要です。	{t3}Activation Plate 2 is needed\\to work this switch.	
 sol.42.24	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.42.25	0	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
-sol.42.26	0	CSA0t0e00269さーて、手間食っちまったが‥‥		
-sol.42.27	0	CSA0t0e00360‥‥これで、動くか？		
-sol.42.28	0	CSA0t0e01226さーて、と。\\鬼が出るか、蛇が出るか‥‥		
-sol.42.29	0	t3電源が切れているのか反応がない‥‥‥		
-sol.42.30	0	t3ドアが開かない‥‥‥\\カギが掛かっている訳でもなさそうだ		
-sol.42.31	0	t3ドアが開いた‥‥‥\\あの少女が開けたのだろうか		
-sol.42.32	0	t3b3銅のプレートb0を使用した。		
+sol.42.26	0	CSA0t0e00269さーて、手間食っちまったが‥‥	{CSA0t0e00269}All right, that took a while, but...	
+sol.42.27	0	CSA0t0e00360‥‥これで、動くか？	{CSA0t0e00360}...Will this get it moving?	
+sol.42.28	0	CSA0t0e01226さーて、と。\\鬼が出るか、蛇が出るか‥‥	{CSA0t0e01226}All right, then.\\Let's see what crawls out...	
+sol.42.29	0	t3電源が切れているのか反応がない‥‥‥	{t3}No response. Maybe the power's off...	
+sol.42.30	0	t3ドアが開かない‥‥‥\\カギが掛かっている訳でもなさそうだ	{t3}The door won't open...\\Doesn't look like it's locked, though.	
+sol.42.31	0	t3ドアが開いた‥‥‥\\あの少女が開けたのだろうか	{t3}The door opened...\\Did that girl open it?	
+sol.42.32	0	t3b3銅のプレートb0を使用した。	{t3}Used the {b3}Copper Plate{b0}.	

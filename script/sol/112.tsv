@@ -1,23 +1,23 @@
 id	sector	jp	en	notes
-sol.112.0	0	CSA0t0e00490零、聞こえるか？\\		
-sol.112.1	0	CSA0t0e00054ああ、聞こえてる。\\何かえっらい事になっているけど、@@一体何やらかしたんだ、あのポンコツは？\\		
-sol.112.2	0	CSA0t0e00311原初の者の防衛本能を刺激した。それも、\\かなり過剰に反応するようにしたらしい。		
-sol.112.3	0	CSA0t0e00137‥‥どう言う事だ？\\それって、かなりやばいのか？		
-sol.112.4	0	CSA0t0e00921かなりどころではない。\\全ての脊椎動物に反応して、@@それに対して過剰防衛行動に\\出るようになっている。		
-sol.112.5	0	CSA0t0e01359見境無しって事か‥‥\\		
-sol.112.6	0	CSA0t0e00756‥‥そして、その対象になった者は\\深層心理から来る恐怖に射すくめられたまま@@‥‥捕食される。\\		
-sol.112.7	0	CSA0t0e00671あんのポンコツ‥‥\\とんでもねぇ置き土産残しやがって‥‥		
-sol.112.8	0	CSA0t0e01269‥‥止める方法はあるのか？\\		
-sol.112.9	0	CSA0t0e00843もう既に見当はついているだろう？\\君の持っているその剣だけが、@@奴に対して影響力を持っている。\\		
-sol.112.10	0	CSA0t0e01360ああ、やっぱりぃ‥‥		
-sol.112.11	0	CSA0t0e01270私は周辺の生物に原初の者を\\反応させないようにしてみる。@@だが、長くはだませないだろう‥‥\\頼む、君だけが頼りだ！		
-sol.112.12	0	CSA0t0e00312わかったよ！やってやるよ、こんちくしょう！\\でも、保証はしねぇからな！		
-sol.112.13	0	t3b2＜原初の者への道イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.112.14	0	t3b2＜光の道イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.112.15	0	t3b2＜クトゥリュウ導入デモ＞b0\\誠意制作中、乞うご期待！！		
-sol.112.16	0	t3b2＜主人公勝利時デモ＞b0\\誠意制作中、乞うご期待！！		
-sol.112.17	0	t3b2＜ウォルターとの会話イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.112.18	0	t3b2＜ステージクリア画面＞b0\\が入ります。		
-sol.112.19	0	WP-100-016WS1505BS0805BYB+00BKA8BKC002FRA1t0[DD2　トニトルス\\[3　テンペリエス\\[1　フォルテス　\\[5　グラヴェス　\\[4　イグニス　　		
-sol.112.20	0	WP-120-000WS2001BS0805BYB+00BKA8BKC002FRA1t0そのスフィアは既に選ばれています。		
-sol.112.21	0	CSA0t0e01229光の道		
+sol.112.0	0	CSA0t0e00490零、聞こえるか？\\	{CSA0t0e00490}Rei, can you hear me?\\	
+sol.112.1	0	CSA0t0e00054ああ、聞こえてる。\\何かえっらい事になっているけど、@@一体何やらかしたんだ、あのポンコツは？\\	{CSA0t0e00054}Yeah, I hear you.\\Things have gotten pretty damn crazy,@@so what the hell did that hunk of junk do?\\	
+sol.112.2	0	CSA0t0e00311原初の者の防衛本能を刺激した。それも、\\かなり過剰に反応するようにしたらしい。	{CSA0t0e00311}It stimulated the Primordial One's defensive\\instinct, and made it overreact, it seems.	
+sol.112.3	0	CSA0t0e00137‥‥どう言う事だ？\\それって、かなりやばいのか？	{CSA0t0e00137}...Meaning what?\\Is that real bad?	
+sol.112.4	0	CSA0t0e00921かなりどころではない。\\全ての脊椎動物に反応して、@@それに対して過剰防衛行動に\\出るようになっている。	{CSA0t0e00921}Far worse than bad.\\It reacts to every vertebrate,@@and responds with excessive\\defensive action.	
+sol.112.5	0	CSA0t0e01359見境無しって事か‥‥\\	{CSA0t0e01359}So it'll go after anything...\\	
+sol.112.6	0	CSA0t0e00756‥‥そして、その対象になった者は\\深層心理から来る恐怖に射すくめられたまま@@‥‥捕食される。\\	{CSA0t0e00756}...And whatever it targets, frozen in terror\\welling up from the depths of the mind...@@...is devoured.\\	
+sol.112.7	0	CSA0t0e00671あんのポンコツ‥‥\\とんでもねぇ置き土産残しやがって‥‥	{CSA0t0e00671}That piece of junk...\\leaving one hell of a parting gift behind...	
+sol.112.8	0	CSA0t0e01269‥‥止める方法はあるのか？\\	{CSA0t0e01269}...Is there a way to stop it?\\	
+sol.112.9	0	CSA0t0e00843もう既に見当はついているだろう？\\君の持っているその剣だけが、@@奴に対して影響力を持っている。\\	{CSA0t0e00843}You've already guessed, haven't you?\\Only that sword you carry@@has any power over it.\\	
+sol.112.10	0	CSA0t0e01360ああ、やっぱりぃ‥‥	{CSA0t0e01360}Yeah, figured as much...	
+sol.112.11	0	CSA0t0e01270私は周辺の生物に原初の者を\\反応させないようにしてみる。@@だが、長くはだませないだろう‥‥\\頼む、君だけが頼りだ！	{CSA0t0e01270}I'll try to keep the Primordial One from\\reacting to the creatures around it.@@But I can't fool it for long...\\Please, you're the only one I can count on!	
+sol.112.12	0	CSA0t0e00312わかったよ！やってやるよ、こんちくしょう！\\でも、保証はしねぇからな！	{CSA0t0e00312}Fine! I'll do it, dammit!\\But no guarantees, got it!	
+sol.112.13	0	t3b2＜原初の者への道イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Road to the Primordial One Event＞{b0}\\Under construction, stay tuned!!	
+sol.112.14	0	t3b2＜光の道イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Path of Light Event＞{b0}\\Under construction, stay tuned!!	
+sol.112.15	0	t3b2＜クトゥリュウ導入デモ＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Cthulhu Intro Demo＞{b0}\\Under construction, stay tuned!!	
+sol.112.16	0	t3b2＜主人公勝利時デモ＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Hero Victory Demo＞{b0}\\Under construction, stay tuned!!	
+sol.112.17	0	t3b2＜ウォルターとの会話イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Conversation with Walter Event＞{b0}\\Under construction, stay tuned!!	
+sol.112.18	0	t3b2＜ステージクリア画面＞b0\\が入ります。	{t3b2}＜Stage Clear Screen＞{b0}\\goes here.	
+sol.112.19	0	WP-100-016WS1505BS0805BYB+00BKA8BKC002FRA1t0[DD2　トニトルス\\[3　テンペリエス\\[1　フォルテス　\\[5　グラヴェス　\\[4　イグニス　　	{WP-100-016WS1505BS0805BYB+00BKA8BKC002FRA1t0[DD2}　Tonitrus\\{[3}　Temperies\\{[1}　Fortes\\{[5}　Graves\\{[4}　Ignis	
+sol.112.20	0	WP-120-000WS2001BS0805BYB+00BKA8BKC002FRA1t0そのスフィアは既に選ばれています。	{WP-120-000WS2001BS0805BYB+00BKA8BKC002FRA1t0}That Sphere is already selected.	
+sol.112.21	0	CSA0t0e01229光の道	{CSA0t0e01229}Path of Light	

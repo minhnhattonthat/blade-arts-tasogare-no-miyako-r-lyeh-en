@@ -1,29 +1,29 @@
 id	sector	jp	en	notes
-sol.23.0	0	CSA0t0e00196‥‥んぁ‥‥まぶしぃ‥‥ぞ‥‥		
-sol.23.1	0	CSA0t0e00530っつぁ‥‥あたまが‥‥\\‥‥ってぇ、なぁ‥‥		
-sol.23.2	0	CSA0t0e00615あれ‥‥ここは？		
-sol.23.3	0	CSA0t0e00110ランファ！\\無事かっ！？		
-sol.23.4	0	CSA0t0e00447‥‥あんた、誰？		
-sol.23.5	0	CSA0t0e00278ああ、怖がらせちまったか‥‥		
-sol.23.6	0	CSA0t0e01134現地の人‥‥って訳ねえよな‥‥		
-sol.23.7	0	CSA0t0e00020‥‥あんた、誰？		
-sol.23.8	0	CSA0t0e00871うあぁっ！		
-sol.23.9	0	CSA0t0e00361‥‥何‥‥だ、ってん‥‥\\こい‥‥つ‥‥は‥？		
-sol.23.10	0	CSA0t0e01306ランファ‥‥？		
-sol.23.11	0	CSA0t0e01046ナカムラ‥‥ジッティ？		
-sol.23.12	0	CSA0t0e00703みんな‥‥まだ、生きているのか？		
-sol.23.13	0	CSA0t0e00961教えてくれっ！\\奴らはどこに！？		
+sol.23.0	0	CSA0t0e00196‥‥んぁ‥‥まぶしぃ‥‥ぞ‥‥	{CSA0t0e00196}...Ngh... so... bright...	
+sol.23.1	0	CSA0t0e00530っつぁ‥‥あたまが‥‥\\‥‥ってぇ、なぁ‥‥	{CSA0t0e00530}Ugh... my head...\\...damn, that hurts...	
+sol.23.2	0	CSA0t0e00615あれ‥‥ここは？	{CSA0t0e00615}Huh... where am I?	
+sol.23.3	0	CSA0t0e00110ランファ！\\無事かっ！？	{CSA0t0e00110}Ranfa!\\You okay!?	
+sol.23.4	0	CSA0t0e00447‥‥あんた、誰？	{CSA0t0e00447}...Who are you?	
+sol.23.5	0	CSA0t0e00278ああ、怖がらせちまったか‥‥	{CSA0t0e00278}Ah, did I scare you...?	
+sol.23.6	0	CSA0t0e01134現地の人‥‥って訳ねえよな‥‥	{CSA0t0e01134}Guess you're not a local... huh...	
+sol.23.7	0	CSA0t0e00020‥‥あんた、誰？	{CSA0t0e00020}...Who are you?	
+sol.23.8	0	CSA0t0e00871うあぁっ！	{CSA0t0e00871}Whoa!	
+sol.23.9	0	CSA0t0e00361‥‥何‥‥だ、ってん‥‥\\こい‥‥つ‥‥は‥？	{CSA0t0e00361}...What... the hell...\\is... this... thing...?	
+sol.23.10	0	CSA0t0e01306ランファ‥‥？	{CSA0t0e01306}Ranfa...?	
+sol.23.11	0	CSA0t0e01046ナカムラ‥‥ジッティ？	{CSA0t0e01046}Nakamura... Jitty?	
+sol.23.12	0	CSA0t0e00703みんな‥‥まだ、生きているのか？	{CSA0t0e00703}Everyone... they're still alive?	
+sol.23.13	0	CSA0t0e00961教えてくれっ！\\奴らはどこに！？	{CSA0t0e00961}Tell me!\\Where are they!?	
 sol.23.14	0	CSA0t0みんなはどこにいる！？	{CSA0t0}Where is everyone!?	
-sol.23.15	0	CSA0t0e00111‥‥カエリナサイ‥‥		
-sol.23.16	0	CSA0t0e00531何‥‥だと？		
-sol.23.17	0	CSA0t0e00197‥‥ゼンイン‥‥シヌ‥		
-sol.23.18	0	CSA0t0e00448ココカラ‥‥キエナイト‥‥シヌ‥		
-sol.23.19	0	CSA0t0e00279だったら、なおさら急がねぇと！！\\頼む、教えてくれ！みんなはどこに行った！？		
-sol.23.20	0	CSA0t0e01221‥‥遺跡の‥‥方角？		
-sol.23.21	0	CSA0t0e00872よっし、わかった。\\わざわざ方角を教えてくれるんだ。		
+sol.23.15	0	CSA0t0e00111‥‥カエリナサイ‥‥	{CSA0t0e00111}...Go... home...	
+sol.23.16	0	CSA0t0e00531何‥‥だと？	{CSA0t0e00531}What... did you say?	
+sol.23.17	0	CSA0t0e00197‥‥ゼンイン‥‥シヌ‥	{CSA0t0e00197}...Everyone... will die...	
+sol.23.18	0	CSA0t0e00448ココカラ‥‥キエナイト‥‥シヌ‥	{CSA0t0e00448}Leave... this place... or die...	
+sol.23.19	0	CSA0t0e00279だったら、なおさら急がねぇと！！\\頼む、教えてくれ！みんなはどこに行った！？	{CSA0t0e00279}Then I've gotta hurry even more!!\\Please, tell me! Where did everyone go!?	
+sol.23.20	0	CSA0t0e01221‥‥遺跡の‥‥方角？	{CSA0t0e01221}...Toward... the ruins?	
+sol.23.21	0	CSA0t0e00872よっし、わかった。\\わざわざ方角を教えてくれるんだ。	{CSA0t0e00872}All right, got it.\\You went to the trouble of showing me the way.	
 sol.23.22	0	CSA0t0まだなんとかなるんだな？	{CSA0t0}So there's still time, right?	
-sol.23.23	0	CSA0t0e00021‥‥どこに行った？		
-sol.23.24	0	CSA0t0e00616昨日の剣‥‥？\\いや、少し違うか‥‥		
-sol.23.25	0	CSA0t0e00790‥‥剣の精霊？\\んなことぁ、ねぇか‥‥		
-sol.23.26	0	CSA0t0e01135無いよりかは、まし‥‥かな？		
-sol.23.27	0	CSA0t0e01307まずは、みんなを見つけないと！		
+sol.23.23	0	CSA0t0e00021‥‥どこに行った？	{CSA0t0e00021}...Where'd she go?	
+sol.23.24	0	CSA0t0e00616昨日の剣‥‥？\\いや、少し違うか‥‥	{CSA0t0e00616}The sword from yesterday...?\\No, it's a little different...	
+sol.23.25	0	CSA0t0e00790‥‥剣の精霊？\\んなことぁ、ねぇか‥‥	{CSA0t0e00790}...A sword spirit?\\Nah, no way...	
+sol.23.26	0	CSA0t0e01135無いよりかは、まし‥‥かな？	{CSA0t0e01135}Better than nothing... I guess?	
+sol.23.27	0	CSA0t0e01307まずは、みんなを見つけないと！	{CSA0t0e01307}First, I've gotta find everyone!	

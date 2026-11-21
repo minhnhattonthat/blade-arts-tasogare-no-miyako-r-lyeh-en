@@ -1,16 +1,16 @@
 id	sector	jp	en	notes
-sol.91.0	0	t0b6＜ムンドウス＞b0\\		
-sol.91.1	0	t0b6＜アリエース＞b0\\		
-sol.91.2	0	t0b6＜アクアーリウス＞b0\\		
-sol.91.3	0	t0b6＜タウルス＞b0\\		
-sol.91.4	0	t0b6＜スコルピウス＞b0\\		
-sol.91.5	0	t0b6＜シグヌム＞b0\\		
-sol.91.6	0	t0b6＜リーブラ＞b0\\		
-sol.91.7	0	t0b6＜ゲミニー＞b0\\		
-sol.91.8	0	t0b6＜カプリユルヌス＞b0\\		
-sol.91.9	0	t0b6＜レオー＞b0\\		
-sol.91.10	0	t0b6＜カンケル＞b0\\		
-sol.91.11	0	t0b6＜ウイルゴー＞b0\\		
-sol.91.12	0	t0b6＜サギタリウス＞b0\\		
-sol.91.13	0	t0b6＜ピスケース＞b0\\		
-sol.91.14	0	t0b6＜テツラ＞b0\\		
+sol.91.0	0	t0b6＜ムンドウス＞b0\\	{t0b6}＜Mundus＞{b0}\\	
+sol.91.1	0	t0b6＜アリエース＞b0\\	{t0b6}＜Aries＞{b0}\\	
+sol.91.2	0	t0b6＜アクアーリウス＞b0\\	{t0b6}＜Aquarius＞{b0}\\	
+sol.91.3	0	t0b6＜タウルス＞b0\\	{t0b6}＜Taurus＞{b0}\\	
+sol.91.4	0	t0b6＜スコルピウス＞b0\\	{t0b6}＜Scorpius＞{b0}\\	
+sol.91.5	0	t0b6＜シグヌム＞b0\\	{t0b6}＜Signum＞{b0}\\	
+sol.91.6	0	t0b6＜リーブラ＞b0\\	{t0b6}＜Libra＞{b0}\\	
+sol.91.7	0	t0b6＜ゲミニー＞b0\\	{t0b6}＜Gemini＞{b0}\\	
+sol.91.8	0	t0b6＜カプリユルヌス＞b0\\	{t0b6}＜Capricornus＞{b0}\\	
+sol.91.9	0	t0b6＜レオー＞b0\\	{t0b6}＜Leo＞{b0}\\	
+sol.91.10	0	t0b6＜カンケル＞b0\\	{t0b6}＜Cancer＞{b0}\\	
+sol.91.11	0	t0b6＜ウイルゴー＞b0\\	{t0b6}＜Virgo＞{b0}\\	
+sol.91.12	0	t0b6＜サギタリウス＞b0\\	{t0b6}＜Sagittarius＞{b0}\\	
+sol.91.13	0	t0b6＜ピスケース＞b0\\	{t0b6}＜Pisces＞{b0}\\	
+sol.91.14	0	t0b6＜テツラ＞b0\\	{t0b6}＜Terra＞{b0}\\	

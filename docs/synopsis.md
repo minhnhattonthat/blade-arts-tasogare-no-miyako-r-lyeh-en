@@ -14,20 +14,22 @@ from Ecuador two weeks later (news intro, blocks 4/5).
   Wields a sword that takes Spheres (orbs holding Arts). Saves at the Memory of the Sword points (block 1).
 - **Ranfa** (蘭花, also written 藍花 / ランファ): Rei's partner, navigates him by radio from camp; teasing and bright.
 - **Dr. Sanderson** ("Doc", ドク): expedition leader / scientist at headquarters (本営).
-- **Lizzie** (リズィ): expedition member who writes reports; kidnapped later (block 43: "Let Lizzie go!").
-- **Bridget Landers** (ブリジット, first "the girl" 少女): mysterious quiet girl Rei meets in the ruins; she points
-  him toward the ruins and helps him. Late reveal (block 138): her father Walter implanted another personality in
-  her through a system called I-Rum, so he could act while Basetet watched him. Don't hint at this early.
+- **Lizzie = Bridget Landers** (リズィ is her nickname, ブリジット her name): expedition member who writes reports,
+  Walter's daughter (sol.13.14); kidnapped by Nakamura (block 43: "Let Lizzie go!" / "Bridget Landers...").
+- **The girl** (少女): a different, mysterious quiet girl Rei meets in the ruins; she points him toward the ruins.
+  Late (block 138): Walter implanted another personality through a system called I-Rum, so something could act
+  while Basetet watched him. Don't hint at this early.
+- **Maya** (摩耶) and **Pat** (Patricia Millers): two women in Nakamura's party (sol.14.8).
 - **Walter Landers** (ウォルター): scholar found deep in the research facility (研究棟) under the ruins.
 - **Nakamura** (ナカムラ): company president (社長) who arrives with his own people; seeks the sanctuary and
   the Primordial One; kidnaps the camp members (Rei's vision). Becomes the main human antagonist.
 - **Zagnus** (ザグナス): representative of Dawn Security, Nakamura's security contractor; knows Rei.
-- **Patricia Millers**, **Pat**: Nakamura's party (secretary / staff). **Melinda**: someone close to Zagnus.
+- **Melinda**: someone close to Zagnus.
 - **Marion** (マリオン) and **Tindalos** (ティンダロス): inhuman servants met in the ruins; Marion mocks and
   threatens, Tindalos is arrogant and archaic.
 - **Basetet** (バセテト): ancient guardian who has watched over the land since antiquity; speaks archaically;
   sealing the Primordial One (原初の者, Cthulhu) is the reason the city exists. Turns hostile (blocks 72-81).
-- **Maya**: appears late (block 138). **Gramps** (ジイさん): the old man Rei does errands for at camp.
+- **Gramps** (ジイさん): the old man Rei does errands for at camp.
 
 ## Order (rough, by block)
 1. News intro (4/5); Rei wakes in the ruins after a fall, meets the girl, learns everyone is in danger (7-9);

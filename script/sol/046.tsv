@@ -1,18 +1,18 @@
 id	sector	jp	en	notes
-sol.46.0	0	CSA0t0e00450かなり広いな‥‥		
-sol.46.1	0	CSA0t0e01139って、こいつは‥‥あのバケモンの巣？		
-sol.46.2	0	CSA0t0e00104‥‥なんとなく‥‥やばい、かな？		
-sol.46.3	0	t3ロックされていて開かない‥‥‥		
-sol.46.4	0	t3＜重力エレベーター操作盤＞\\現在、重力エレベーターは休止しています。@@重力エレベーターを起動させますか\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.46.5	0	t3＜重力エレベーター操作盤＞\\重力エレベーターを起動させました。		
-sol.46.6	0	t3重力エレベーターは起動しています。		
-sol.46.7	0	t3仕掛けは作動しています。		
-sol.46.8	0	t3プレートを使いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.46.9	0	t3仕掛けを動かした‥‥‥		
-sol.46.10	0	t3＜非常扉操作盤＞@@このスイッチを動かすには\\b3銅のプレートb0が必要です。		
-sol.46.11	0	t3＜非常扉操作盤＞@@このスイッチを動かすには\\b3銅のプレートb0が必要です。		
-sol.46.12	0	t3ロックが掛けられていて開かない。\\どこかで、操作しないといけないのか‥‥‥		
+sol.46.0	0	CSA0t0e00450かなり広いな‥‥	{CSA0t0e00450}Pretty damn big in here...	
+sol.46.1	0	CSA0t0e01139って、こいつは‥‥あのバケモンの巣？	{CSA0t0e01139}Wait, this is... that monster's nest?	
+sol.46.2	0	CSA0t0e00104‥‥なんとなく‥‥やばい、かな？	{CSA0t0e00104}...Something tells me... this is bad, huh?	
+sol.46.3	0	t3ロックされていて開かない‥‥‥	{t3}It's locked and won't open...	
+sol.46.4	0	t3＜重力エレベーター操作盤＞\\現在、重力エレベーターは休止しています。@@重力エレベーターを起動させますか\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}＜Gravity Elevator Control Panel＞\\The gravity elevator is currently inactive.@@Activate the gravity elevator?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.46.5	0	t3＜重力エレベーター操作盤＞\\重力エレベーターを起動させました。	{t3}＜Gravity Elevator Control Panel＞\\The gravity elevator has been activated.	
+sol.46.6	0	t3重力エレベーターは起動しています。	{t3}The gravity elevator is active.	
+sol.46.7	0	t3仕掛けは作動しています。	{t3}The mechanism is working.	
+sol.46.8	0	t3プレートを使いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Use the plate?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.46.9	0	t3仕掛けを動かした‥‥‥	{t3}Activated the mechanism...	
+sol.46.10	0	t3＜非常扉操作盤＞@@このスイッチを動かすには\\b3銅のプレートb0が必要です。	{t3}＜Emergency Door Control Panel＞@@A {b3}Copper Plate{b0} is required\\to operate this switch.	
+sol.46.11	0	t3＜非常扉操作盤＞@@このスイッチを動かすには\\b3銅のプレートb0が必要です。	{t3}＜Emergency Door Control Panel＞@@A {b3}Copper Plate{b0} is required\\to operate this switch.	
+sol.46.12	0	t3ロックが掛けられていて開かない。\\どこかで、操作しないといけないのか‥‥‥	{t3}It's locked tight and won't open.\\Do I have to work it from somewhere else...?	
 sol.46.13	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.46.14	0	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
-sol.46.15	0	t3b3銅のプレートb0を使用した。		
-sol.46.16	0	t3「…ってこれが力の源って訳か…」		
+sol.46.15	0	t3b3銅のプレートb0を使用した。	{t3}Used the {b3}Copper Plate{b0}.	
+sol.46.16	0	t3「…ってこれが力の源って訳か…」	{t3}"...So this is the source of the power, huh..."	

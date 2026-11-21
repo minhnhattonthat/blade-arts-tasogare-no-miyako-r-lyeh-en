@@ -1,94 +1,94 @@
 id	addr	room	refs	jp	en	notes
 DATA/STATUS.BIN:00200	80149A00	4	3F08	　		fullwidth space (padding glyph)
-DATA/STATUS.BIN:00204	80149A04	12	3F38	%s%s：%s個		printf format: %s%s: %s pieces
-DATA/STATUS.BIN:00748	80149F48	144	FE3C	装備すると、様々な効果がある。でばっぐよう。\\頭に装備する。\\現状では、\\　　体力＋１０００\\　　ＨＰ回復３Ｐ／Ｓ\\ＭＰ回復３Ｐ／Ｓ\\\\以上		
-DATA/STATUS.BIN:007D8	80149FD8	36	FE34	すごい体力回復効果。腕に装備する。		
-DATA/STATUS.BIN:007FC	80149FFC	48	FE2C	ダメージを受けにくくする。\\背中に装備する。		
-DATA/STATUS.BIN:0082C	8014A02C	52	FE24	体力回復効果とＭＰ回復効果がある。\\腕に装備する。		
-DATA/STATUS.BIN:00860	8014A060	32	FE1C	使用すると体力がすこし減る。		
-DATA/STATUS.BIN:00880	8014A080	64	FE14	装備すると体力が徐々に減っていく。頭、背中、腕、足に装備する。		
-DATA/STATUS.BIN:008C0	8014A0C0	56	FE0C	使用するとＮｅｒｖｕｓ１００００獲得！！\\デバッグ用。		
-DATA/STATUS.BIN:008F8	8014A0F8	76	FE04	所持するものに生気を与える石。\\アイテムボックスに入れておくと・・・（デ		
-DATA/STATUS.BIN:00944	8014A144	40	FDFC	一定時間、アーツを連続して使用できる。		
-DATA/STATUS.BIN:0096C	8014A16C	32	FDF4	使用すると体力が全回復する。		
-DATA/STATUS.BIN:0098C	8014A18C	44	FDEC	アーツパワーをある程度回復する聖なる液体。		
-DATA/STATUS.BIN:009B8	8014A1B8	20	FDE4	銅のプレート板。		
-DATA/STATUS.BIN:009CC	8014A1CC	48	FDDC	水を汲み上げるポンプを動かすために必要らしい。		
-DATA/STATUS.BIN:009FC	8014A1FC	16	FDBC	青い物体２。		
-DATA/STATUS.BIN:00A0C	8014A20C	16	FDB4	赤い物体３。		
-DATA/STATUS.BIN:00A1C	8014A21C	64	FDAC	機械的な文様が刻まれたプレート。\\i005集積回路の様に見える。		
-DATA/STATUS.BIN:00A5C	8014A25C	32	FDA4	神聖なる場所へ通じる道しるべ。		
-DATA/STATUS.BIN:00A7C	8014A27C	64	FD9C	ＤＳＯＮが重要な物を運ぶときに使用するジュラルミン製のケース。		
-DATA/STATUS.BIN:00ABC	8014A2BC	28	FD94	ジュラルミンケースの鍵。		
-DATA/STATUS.BIN:00AD8	8014A2D8	56	FD8C,FDC4,FDCC,FDD4	翡翠で作られたプレートの欠片。遺跡へ通ずる道を開く。		
-DATA/STATUS.BIN:00B10	8014A310	28	FD84	核心部へ導く力をもつ宝剣。		
-DATA/STATUS.BIN:00B2C	8014A32C	28	FD7C	核心部へ導く力をもつ宝玉。		
-DATA/STATUS.BIN:00B48	8014A348	52	FD74	丸い形状をした木の棒。\\i005隔壁を開けるための鍵。		
-DATA/STATUS.BIN:00B7C	8014A37C	56	FD6C	四角い形状をした木の棒。\\i005隔壁を開けるための鍵。		
-DATA/STATUS.BIN:00BB4	8014A3B4	64	FD64	人型の絵文字が描かれた石板。\\i005ユーデクスと刻まれている。		
-DATA/STATUS.BIN:00BF4	8014A3F4	64	FD5C	人型の絵文字が描かれた石板。\\i005レーゲースと刻まれている。		
-DATA/STATUS.BIN:00C34	8014A434	68	FD54	人型の絵文字が描かれた石板。\\i005ユーディキウムーと刻まれている。		
-DATA/STATUS.BIN:00C78	8014A478	68	FD4C	人型の絵文字が描かれた石板。\\i005サンクティオーと刻まれている。		
-DATA/STATUS.BIN:00CBC	8014A4BC	60	FD44	戦士の絵が描かれた石板。\\i005ビィクトルと刻まれている。		
-DATA/STATUS.BIN:00CF8	8014A4F8	60	FD3C	戦士の絵が描かれた石板。\\i005トリウンプスと刻まれている。		
-DATA/STATUS.BIN:00D34	8014A534	64	FD34	戦士の絵が描かれた石板。\\i005アートレーターと刻まれている。		
-DATA/STATUS.BIN:00D74	8014A574	68	FD2C	銅で作られた、操作盤起動プレート。\\重力エレベータエリアで有効。		
-DATA/STATUS.BIN:00DB8	8014A5B8	16	FD24	赤い物体２。		
-DATA/STATUS.BIN:00DC8	8014A5C8	12	FD1C	大きい剣。		
-DATA/STATUS.BIN:00DD4	8014A5D4	60	FD14	リング状の武器、手に持って振り回したり、投げたりして使う。		
-DATA/STATUS.BIN:00E10	8014A610	64	FD0C	細身で短めの二振りの剣、両手に一本づつ持って振り回して使う。		
-DATA/STATUS.BIN:00E50	8014A650	32	FD04	巨石像の模様が描かれた石板。		
-DATA/STATUS.BIN:00E70	8014A670	60	FCFC	柄の両側から刃が伸びて{0B}いる武器、手に持って振り回して使う。		the original has a stray 0B byte mid-line
-DATA/STATUS.BIN:00EAC	8014A6AC	24	FCF4	爆発力の強い、爆弾。		
-DATA/STATUS.BIN:00EC4	8014A6C4	48	FCEC	ＤＳＯＮが設置したセキュリティの解除用カード。		
-DATA/STATUS.BIN:00EF4	8014A6F4	32	FCE4	青い光を放ち、行き先を示す。		
-DATA/STATUS.BIN:00F14	8014A714	32	FCDC	紅い光を放ち、行き先を示す。		
-DATA/STATUS.BIN:00F34	8014A734	36	FCD4	導く者の模様が描かれている石板。		
-DATA/STATUS.BIN:00F58	8014A758	16	FCCC	砂です・・。		
-DATA/STATUS.BIN:00F68	8014A768	36	FCC4	石でできた握りのついたハンドル。		
-DATA/STATUS.BIN:00F8C	8014A78C	28	FCBC	祭壇の扉を開く青の石像。		
-DATA/STATUS.BIN:00FA8	8014A7A8	28	FCB4	祭壇の扉を開く紅の石像。		
-DATA/STATUS.BIN:00FC4	8014A7C4	36	FCAC	長い剣、手に持って振り回して使う。		
-DATA/STATUS.BIN:00FE8	8014A7E8	64	FCA4	応急治療に使う医療キット。\\使用すると体力が大幅に回復する。		
-DATA/STATUS.BIN:01028	8014A828	44	FC9C	アーツパワーを最大値まで回復する特殊な液体		
-DATA/STATUS.BIN:01054	8014A854	32	FC94	体力をわずかに回復できる薬草。		
-DATA/STATUS.BIN:01074	8014A874	16	FC8C	青い物体１。		
-DATA/STATUS.BIN:01084	8014A884	16	FC84	赤い物体１。		
-DATA/STATUS.BIN:01094	8014A894	12	FC7C	緑の物体		
-DATA/STATUS.BIN:010A0	8014A8A0	37	FC74	右手に持って使う武器。リーチが短い。		
-DATA/STATUS.BIN:0D898	80157098	52	DFA0	アイテムの使用、アイテムボックスの整理を\\行なう。		
-DATA/STATUS.BIN:0D8CC	801570CC	56	DFA4	スフィアの力の説明を見たり、\\スフィアを剣に装着する。		
-DATA/STATUS.BIN:0D904	80157104	36	DFA8	サウンド、振動の設定変更を行なう。		
-DATA/STATUS.BIN:0D928	80157128	32	DFAC	ステータスモードを終了する。		
-DATA/STATUS.BIN:0D948	80157148	8	DFB0	使う		
-DATA/STATUS.BIN:0D950	80157150	8	DFB4	捨てる		
-DATA/STATUS.BIN:0D958	80157158	8	DFB8	出す		
-DATA/STATUS.BIN:0D960	80157160	8	DFBC	入れる		
-DATA/STATUS.BIN:0D968	80157168	8	DFC0	移動		
-DATA/STATUS.BIN:0D970	80157170	8	DFC4	やめる		
-DATA/STATUS.BIN:0D978	80157178	64	DFC8	スフィアを剣に装着する。\\剣の形、威力を変えることができる。		
-DATA/STATUS.BIN:0D9B8	801571B8	84	DFCC	手に入れたネルウスを、スフィアに注ぐ。\\スフィアの持つ能力を上げることができる。		
-DATA/STATUS.BIN:0DA0C	8015720C	56	DFD0	フォルテス\\パニッシャーに最も均衡がとれた力を与える。		
-DATA/STATUS.BIN:0DA44	80157244	44	DFD4	トニトルス\\パニッシャーに鋭さを与える。		
-DATA/STATUS.BIN:0DA70	80157270	52	DFD8	テンペリエス\\パニッシャーに最も強力な力を与える。		
-DATA/STATUS.BIN:0DAA4	801572A4	44	DFDC	イグニス\\パニッシャーに、素早さを与える。		
-DATA/STATUS.BIN:0DAD0	801572D0	44	DFE0	グラヴェス\\パニッシャーに、飛力を与える。		
-DATA/STATUS.BIN:0DAFC	801572FC	96	DFE4	ラディウス\\前方に高速で光弾を撃ち出す。レベルＵＰで、\\放射状に光弾をばらまくことができる。		
-DATA/STATUS.BIN:0DB5C	8015735C	100	DFE8	コンクエスト\\頭上に光弾を打ち上げ、地面付近で光球に変化\\レベルＵＰで、光弾の発射数が増加する。		
-DATA/STATUS.BIN:0DBC0	801573C0	88	DFEC	ライトニング\\あらゆる物を貫通する雷撃を高速で撃ち出す。\\レベルＵＰで麻痺効果が増加。		
-DATA/STATUS.BIN:0DC18	80157418	100	DFF0	テンペスト\\あらゆる物を貫通する雷撃を発生させ、周囲を\\飛び回らせる。レベルＵＰで雷撃の数が増す。		
-DATA/STATUS.BIN:0DC7C	8015747C	92	DFF4	フレイム\\触れると爆裂する火球を前方に撃ち出す。\\レベルＵＰで、爆裂の効果範囲が広くなる。		
-DATA/STATUS.BIN:0DCD8	801574D8	104	DFF8	エクスプロージョン\\周囲に放物線を描いて火種をばら撒き、\\地面で爆裂する。レベルＵＰで発射数が増す。		
-DATA/STATUS.BIN:0DD40	80157540	100	DFFC	イグニッション\\前方に超高速で高エネルギー体を発射する。\\レベルＵＰで飛距離が伸び、威力が上がる。		
-DATA/STATUS.BIN:0DDA4	801575A4	104	E000	コンバッション\\周囲に高エネルギー体を瞬時に発生させる。\\レベルＵＰで、高エネルギー体の発射数が増す		
-DATA/STATUS.BIN:0DE0C	8015760C	92	E004	グラビティー\\前方にゆっくりと移動する暗黒球を発射。\\触れている間ダメージを与え続ける。		
-DATA/STATUS.BIN:0DE68	80157668	96	E008	ダークガスト\\地面に撃ちだした暗黒球から、重力波を\\発生させる。レベルＵＰで発生する数が増す。		
-DATA/STATUS.BIN:0DEC8	801576C8	56	E00C	ゲームサウンドの、ステレオ／モノラルを\\切り替えます。		
-DATA/STATUS.BIN:0DF00	80157700	64	E010	アナログコントローラの、振動の\\ＯＮ／ＯＦＦを切り替えます。		
-DATA/STATUS.BIN:0DF40	80157740	40	E014	ゲームを中断してタイトルに戻ります。		
-DATA/STATUS.BIN:0DF68	80157768	20	E018	よろしいですか？		
-DATA/STATUS.BIN:0DF7C	8015777C	16	E01C	タイトルへ戻る		
-DATA/STATUS.BIN:0DF8C	8015778C	8	E020	Ｙｅｓ		
-DATA/STATUS.BIN:0DF94	80157794	8	E024	Ｎｏ		
+DATA/STATUS.BIN:00204	80149A04	12	3F38	%s%s：%s個	{%s%s}: {%s}	printf format: %s%s: %s pieces
+DATA/STATUS.BIN:00748	80149F48	144	FE3C	装備すると、様々な効果がある。でばっぐよう。\\頭に装備する。\\現状では、\\　　体力＋１０００\\　　ＨＰ回復３Ｐ／Ｓ\\ＭＰ回復３Ｐ／Ｓ\\\\以上	Various effects when equipped. Debug item.\\Equip on head. Now: health +1000, health\\regen 3P/S, Arts Power regen 3P/S. End.	
+DATA/STATUS.BIN:007D8	80149FD8	36	FE34	すごい体力回復効果。腕に装備する。	Powerful health regeneration.\\Equip on arms.	
+DATA/STATUS.BIN:007FC	80149FFC	48	FE2C	ダメージを受けにくくする。\\背中に装備する。	Reduces damage taken.\\Equip on back.	
+DATA/STATUS.BIN:0082C	8014A02C	52	FE24	体力回復効果とＭＰ回復効果がある。\\腕に装備する。	Regenerates health and Arts Power.\\Equip on arms.	
+DATA/STATUS.BIN:00860	8014A060	32	FE1C	使用すると体力がすこし減る。	Lowers your health a little when used.	
+DATA/STATUS.BIN:00880	8014A080	64	FE14	装備すると体力が徐々に減っていく。頭、背中、腕、足に装備する。	Drains health over time when equipped.\\Equip on head, back, arms or legs.	
+DATA/STATUS.BIN:008C0	8014A0C0	56	FE0C	使用するとＮｅｒｖｕｓ１００００獲得！！\\デバッグ用。	Gain 10000 Nervus when used!!\\For debugging.	
+DATA/STATUS.BIN:008F8	8014A0F8	76	FE04	所持するものに生気を与える石。\\アイテムボックスに入れておくと・・・（デ	A stone that breathes life into its holder.\\Keep it in the Item Box and... (de	
+DATA/STATUS.BIN:00944	8014A144	40	FDFC	一定時間、アーツを連続して使用できる。	Lets you use Arts nonstop\\for a while.	
+DATA/STATUS.BIN:0096C	8014A16C	32	FDF4	使用すると体力が全回復する。	Fully restores health when used.	
+DATA/STATUS.BIN:0098C	8014A18C	44	FDEC	アーツパワーをある程度回復する聖なる液体。	A holy liquid that restores\\some Arts Power.	
+DATA/STATUS.BIN:009B8	8014A1B8	20	FDE4	銅のプレート板。	A copper plate.	
+DATA/STATUS.BIN:009CC	8014A1CC	48	FDDC	水を汲み上げるポンプを動かすために必要らしい。	Seems to be needed to run the pump\\that draws up water.	
+DATA/STATUS.BIN:009FC	8014A1FC	16	FDBC	青い物体２。	Blue object 2.	
+DATA/STATUS.BIN:00A0C	8014A20C	16	FDB4	赤い物体３。	Red object 3.	
+DATA/STATUS.BIN:00A1C	8014A21C	64	FDAC	機械的な文様が刻まれたプレート。\\i005集積回路の様に見える。	A plate carved with mechanical patterns.\\{i005}It looks like an integrated circuit.	
+DATA/STATUS.BIN:00A5C	8014A25C	32	FDA4	神聖なる場所へ通じる道しるべ。	A guidepost on the road\\to the sacred place.	
+DATA/STATUS.BIN:00A7C	8014A27C	64	FD9C	ＤＳＯＮが重要な物を運ぶときに使用するジュラルミン製のケース。	A duralumin case DSON uses\\to carry important items.	
+DATA/STATUS.BIN:00ABC	8014A2BC	28	FD94	ジュラルミンケースの鍵。	The key to the duralumin case.	
+DATA/STATUS.BIN:00AD8	8014A2D8	56	FD8C,FDC4,FDCC,FDD4	翡翠で作られたプレートの欠片。遺跡へ通ずる道を開く。	A fragment of a plate made of jade.\\Opens the way to the ruins.	
+DATA/STATUS.BIN:00B10	8014A310	28	FD84	核心部へ導く力をもつ宝剣。	A treasured sword with the power\\to lead you to the core.	
+DATA/STATUS.BIN:00B2C	8014A32C	28	FD7C	核心部へ導く力をもつ宝玉。	A treasured orb with the power\\to lead you to the core.	
+DATA/STATUS.BIN:00B48	8014A348	52	FD74	丸い形状をした木の棒。\\i005隔壁を開けるための鍵。	A round wooden rod.\\{i005}A key for opening bulkheads.	
+DATA/STATUS.BIN:00B7C	8014A37C	56	FD6C	四角い形状をした木の棒。\\i005隔壁を開けるための鍵。	A square wooden rod.\\{i005}A key for opening bulkheads.	
+DATA/STATUS.BIN:00BB4	8014A3B4	64	FD64	人型の絵文字が描かれた石板。\\i005ユーデクスと刻まれている。	A stone tablet with a human-shaped glyph.\\{i005}It is inscribed 'Iudex'.	
+DATA/STATUS.BIN:00BF4	8014A3F4	64	FD5C	人型の絵文字が描かれた石板。\\i005レーゲースと刻まれている。	A stone tablet with a human-shaped glyph.\\{i005}It is inscribed 'Leges'.	
+DATA/STATUS.BIN:00C34	8014A434	68	FD54	人型の絵文字が描かれた石板。\\i005ユーディキウムーと刻まれている。	A stone tablet with a human-shaped glyph.\\{i005}It is inscribed 'Iudicium'.	
+DATA/STATUS.BIN:00C78	8014A478	68	FD4C	人型の絵文字が描かれた石板。\\i005サンクティオーと刻まれている。	A stone tablet with a human-shaped glyph.\\{i005}It is inscribed 'Sanctio'.	
+DATA/STATUS.BIN:00CBC	8014A4BC	60	FD44	戦士の絵が描かれた石板。\\i005ビィクトルと刻まれている。	A stone tablet with a warrior painted on it.\\{i005}It is inscribed 'Victor'.	
+DATA/STATUS.BIN:00CF8	8014A4F8	60	FD3C	戦士の絵が描かれた石板。\\i005トリウンプスと刻まれている。	A stone tablet with a warrior painted on it.\\{i005}It is inscribed 'Triumphus'.	
+DATA/STATUS.BIN:00D34	8014A534	64	FD34	戦士の絵が描かれた石板。\\i005アートレーターと刻まれている。	A stone tablet with a warrior painted on it.\\{i005}It is inscribed 'Atrator'.	
+DATA/STATUS.BIN:00D74	8014A574	68	FD2C	銅で作られた、操作盤起動プレート。\\重力エレベータエリアで有効。	A copper plate that starts up control\\panels. Works in the Gravity Elevator area.	
+DATA/STATUS.BIN:00DB8	8014A5B8	16	FD24	赤い物体２。	Red object 2.	
+DATA/STATUS.BIN:00DC8	8014A5C8	12	FD1C	大きい剣。	A big sword.	
+DATA/STATUS.BIN:00DD4	8014A5D4	60	FD14	リング状の武器、手に持って振り回したり、投げたりして使う。	A ring-shaped weapon, swung in hand\\or thrown.	
+DATA/STATUS.BIN:00E10	8014A610	64	FD0C	細身で短めの二振りの剣、両手に一本づつ持って振り回して使う。	A pair of slim, short swords, one held\\in each hand and swung.	
+DATA/STATUS.BIN:00E50	8014A650	32	FD04	巨石像の模様が描かれた石板。	A stone tablet bearing the pattern\\of a colossal statue.	
+DATA/STATUS.BIN:00E70	8014A670	60	FCFC	柄の両側から刃が伸びて{0B}いる武器、手に持って振り回して使う。	A weapon with blades extending from both\\ends of the hilt,{0B} held in hand and swung.	the original has a stray 0B byte mid-line
+DATA/STATUS.BIN:00EAC	8014A6AC	24	FCF4	爆発力の強い、爆弾。	A powerful explosive bomb.	
+DATA/STATUS.BIN:00EC4	8014A6C4	48	FCEC	ＤＳＯＮが設置したセキュリティの解除用カード。	A card for disabling the security\\installed by DSON.	
+DATA/STATUS.BIN:00EF4	8014A6F4	32	FCE4	青い光を放ち、行き先を示す。	Gives off a blue light\\that shows the way.	
+DATA/STATUS.BIN:00F14	8014A714	32	FCDC	紅い光を放ち、行き先を示す。	Gives off a crimson light\\that shows the way.	
+DATA/STATUS.BIN:00F34	8014A734	36	FCD4	導く者の模様が描かれている石板。	A stone tablet bearing the pattern\\of the one who guides.	
+DATA/STATUS.BIN:00F58	8014A758	16	FCCC	砂です・・。	It's sand...	
+DATA/STATUS.BIN:00F68	8014A768	36	FCC4	石でできた握りのついたハンドル。	A stone handle with a grip.	
+DATA/STATUS.BIN:00F8C	8014A78C	28	FCBC	祭壇の扉を開く青の石像。	A blue statue that opens\\the altar door.	
+DATA/STATUS.BIN:00FA8	8014A7A8	28	FCB4	祭壇の扉を開く紅の石像。	A crimson statue that opens\\the altar door.	
+DATA/STATUS.BIN:00FC4	8014A7C4	36	FCAC	長い剣、手に持って振り回して使う。	A long sword, held in hand and swung.	
+DATA/STATUS.BIN:00FE8	8014A7E8	64	FCA4	応急治療に使う医療キット。\\使用すると体力が大幅に回復する。	A medical kit for first aid.\\Restores a lot of health when used.	
+DATA/STATUS.BIN:01028	8014A828	44	FC9C	アーツパワーを最大値まで回復する特殊な液体	A special liquid that fully restores\\Arts Power	
+DATA/STATUS.BIN:01054	8014A854	32	FC94	体力をわずかに回復できる薬草。	A medicinal herb that restores\\a little health.	
+DATA/STATUS.BIN:01074	8014A874	16	FC8C	青い物体１。	Blue object 1.	
+DATA/STATUS.BIN:01084	8014A884	16	FC84	赤い物体１。	Red object 1.	
+DATA/STATUS.BIN:01094	8014A894	12	FC7C	緑の物体	Green object	
+DATA/STATUS.BIN:010A0	8014A8A0	37	FC74	右手に持って使う武器。リーチが短い。	A weapon held in the right hand.\\Short reach.	
+DATA/STATUS.BIN:0D898	80157098	52	DFA0	アイテムの使用、アイテムボックスの整理を\\行なう。	Use items and organize\\the Item Box.	
+DATA/STATUS.BIN:0D8CC	801570CC	56	DFA4	スフィアの力の説明を見たり、\\スフィアを剣に装着する。	View Sphere power descriptions\\and mount Spheres on your sword.	
+DATA/STATUS.BIN:0D904	80157104	36	DFA8	サウンド、振動の設定変更を行なう。	Change sound and vibration settings.	
+DATA/STATUS.BIN:0D928	80157128	32	DFAC	ステータスモードを終了する。	Exit Status Mode.	
+DATA/STATUS.BIN:0D948	80157148	8	DFB0	使う	Use	
+DATA/STATUS.BIN:0D950	80157150	8	DFB4	捨てる	Discard	
+DATA/STATUS.BIN:0D958	80157158	8	DFB8	出す	Take Out	
+DATA/STATUS.BIN:0D960	80157160	8	DFBC	入れる	Put In	
+DATA/STATUS.BIN:0D968	80157168	8	DFC0	移動	Move	
+DATA/STATUS.BIN:0D970	80157170	8	DFC4	やめる	Cancel	
+DATA/STATUS.BIN:0D978	80157178	64	DFC8	スフィアを剣に装着する。\\剣の形、威力を変えることができる。	Mount a Sphere on your sword.\\Changes the sword's shape and power.	
+DATA/STATUS.BIN:0D9B8	801571B8	84	DFCC	手に入れたネルウスを、スフィアに注ぐ。\\スフィアの持つ能力を上げることができる。	Pour the Nervus you've gained into\\a Sphere to raise its abilities.	
+DATA/STATUS.BIN:0DA0C	8015720C	56	DFD0	フォルテス\\パニッシャーに最も均衡がとれた力を与える。	Fortes\\Gives the Punisher the best-balanced power.	
+DATA/STATUS.BIN:0DA44	80157244	44	DFD4	トニトルス\\パニッシャーに鋭さを与える。	Tonitrus\\Gives the Punisher sharpness.	
+DATA/STATUS.BIN:0DA70	80157270	52	DFD8	テンペリエス\\パニッシャーに最も強力な力を与える。	Temperies\\Gives the Punisher the greatest power.	
+DATA/STATUS.BIN:0DAA4	801572A4	44	DFDC	イグニス\\パニッシャーに、素早さを与える。	Ignis\\Gives the Punisher speed.	
+DATA/STATUS.BIN:0DAD0	801572D0	44	DFE0	グラヴェス\\パニッシャーに、飛力を与える。	Graves\\Gives the Punisher flight power.	
+DATA/STATUS.BIN:0DAFC	801572FC	96	DFE4	ラディウス\\前方に高速で光弾を撃ち出す。レベルＵＰで、\\放射状に光弾をばらまくことができる。	Radius\\Fires light shots forward at high speed.\\Level up to spray them out radially.	
+DATA/STATUS.BIN:0DB5C	8015735C	100	DFE8	コンクエスト\\頭上に光弾を打ち上げ、地面付近で光球に変化\\レベルＵＰで、光弾の発射数が増加する。	Conquest\\Lobs light shots up that become orbs near\\the ground. Level up for more shots.	
+DATA/STATUS.BIN:0DBC0	801573C0	88	DFEC	ライトニング\\あらゆる物を貫通する雷撃を高速で撃ち出す。\\レベルＵＰで麻痺効果が増加。	Lightning\\Fires a fast bolt that pierces anything.\\Level up for stronger paralysis.	
+DATA/STATUS.BIN:0DC18	80157418	100	DFF0	テンペスト\\あらゆる物を貫通する雷撃を発生させ、周囲を\\飛び回らせる。レベルＵＰで雷撃の数が増す。	Tempest\\Makes bolts that pierce anything fly\\around you. Level up for more bolts.	
+DATA/STATUS.BIN:0DC7C	8015747C	92	DFF4	フレイム\\触れると爆裂する火球を前方に撃ち出す。\\レベルＵＰで、爆裂の効果範囲が広くなる。	Flame\\Fires fireballs that burst on contact.\\Level up to widen the blast radius.	
+DATA/STATUS.BIN:0DCD8	801574D8	104	DFF8	エクスプロージョン\\周囲に放物線を描いて火種をばら撒き、\\地面で爆裂する。レベルＵＰで発射数が増す。	Explosion\\Scatters embers in arcs that burst on\\the ground. Level up for more embers.	
+DATA/STATUS.BIN:0DD40	80157540	100	DFFC	イグニッション\\前方に超高速で高エネルギー体を発射する。\\レベルＵＰで飛距離が伸び、威力が上がる。	Ignition\\Fires a high-energy mass forward, very fast.\\Level up for more range and power.	
+DATA/STATUS.BIN:0DDA4	801575A4	104	E000	コンバッション\\周囲に高エネルギー体を瞬時に発生させる。\\レベルＵＰで、高エネルギー体の発射数が増す	Combustion\\Instantly creates high-energy masses\\around you. Level up for more masses.	
+DATA/STATUS.BIN:0DE0C	8015760C	92	E004	グラビティー\\前方にゆっくりと移動する暗黒球を発射。\\触れている間ダメージを与え続ける。	Gravity\\Fires a slow-moving dark orb forward.\\Keeps damaging anything it touches.	
+DATA/STATUS.BIN:0DE68	80157668	96	E008	ダークガスト\\地面に撃ちだした暗黒球から、重力波を\\発生させる。レベルＵＰで発生する数が増す。	Dark Gust\\Dark orbs fired at the ground make gravity\\waves. Level up for more waves.	
+DATA/STATUS.BIN:0DEC8	801576C8	56	E00C	ゲームサウンドの、ステレオ／モノラルを\\切り替えます。	Switch game sound between\\stereo and mono.	
+DATA/STATUS.BIN:0DF00	80157700	64	E010	アナログコントローラの、振動の\\ＯＮ／ＯＦＦを切り替えます。	Turn analog controller vibration\\ON/OFF.	
+DATA/STATUS.BIN:0DF40	80157740	40	E014	ゲームを中断してタイトルに戻ります。	Quit the game and return to the title.	
+DATA/STATUS.BIN:0DF68	80157768	20	E018	よろしいですか？	Are you sure?	
+DATA/STATUS.BIN:0DF7C	8015777C	16	E01C	タイトルへ戻る	Return to Title	
+DATA/STATUS.BIN:0DF8C	8015778C	8	E020	Ｙｅｓ	Yes	
+DATA/STATUS.BIN:0DF94	80157794	8	E024	Ｎｏ	No	
 DATA/STATUS.BIN:0FA98	80159298	24	3E50	０１２３４５６７８９		data: digit glyph table (indexed by digit); keep 10 two-byte glyphs
-DATA/STATUS.BIN:0FC1C	8015941C	12	63D8	炊倦沿球括		
+DATA/STATUS.BIN:0FC1C	8015941C	12	63D8	炊倦沿球括		data: byte table 90 86 8C 91 89 88 8B 85 8A 87 (values 0x85-0x91, not text); keep

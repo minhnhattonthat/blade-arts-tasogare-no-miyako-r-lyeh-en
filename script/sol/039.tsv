@@ -1,41 +1,41 @@
 id	sector	jp	en	notes
-sol.39.0	0	t3何か仕掛けがあるようだ‥‥		
-sol.39.1	0	t3仕掛けを動かした‥‥‥		
-sol.39.2	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.39.3	0	t3何も起こらない‥‥		
-sol.39.4	0	t3開かない‥‥‥		
-sol.39.5	0	t3封印されているようだ。\\壁に文字がきざまれている。@@「紫の輝きを示せ」		
-sol.39.6	0	t3b3巨石像の石版b0を手に入れた。		
-sol.39.7	0	t3プレートらしきものがある。@@プレートを拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.39.8	0	t3b3銅のプレートb0を手に入れた。		
-sol.39.9	0	t3b3青の輝玉b0を手に入れた。		
-sol.39.10	0	t3b3紅の輝玉b0を手に入れた。		
-sol.39.11	0	t3台座に石版をはめますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.39.12	0	t3動物が描かれた石版の台座によく似ている‥‥		
-sol.39.13	0	t3輝玉の台座だ。		
-sol.39.14	0	t3なにかをはめ込む凹みがある。\\		
-sol.39.15	0	t3台座に動物が描かれた石版がはめ込まれている。@@この石版を取り外しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.39.16	0	t3b3巨石像の石版b0を取り外しました。		
-sol.39.17	0	t3上になにか置けそうだ。		
-sol.39.18	0	t3台座から紅の輝玉を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.39.19	0	t3台座から青の輝玉を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.39.20	0	t3ここの壁だけ周りのと作りが違う‥‥		
-sol.39.21	0	t3この石像は押しても動きそうにない。		
-sol.39.22	0	t3何かの台座らしい。\\物を載せた跡がついている‥‥		
-sol.39.23	0	CSA0t0e00101さーて、どこ行きやがった？		
-sol.39.24	0	CSA0t0e00357団体様だから手がかりは\\多いはずなんだがな‥‥‥		
-sol.39.25	0	t3青の輝玉を拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.39.26	0	t3扉が壊れていて開きそうにない‥‥‥		
-sol.39.27	0	t3仕掛けは作動しています。		
-sol.39.28	0	t3こいつは、もう必要ないな‥‥‥		
-sol.39.29	0	t3プレートを使いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.39.30	0	t3仕掛けが作動しない………		
-sol.39.31	0	t3台座が壊れている……		
-sol.39.32	0	t0＜b6第１層b0＞\\		
-sol.39.33	0	t0＜b6第２層b0＞\\		
-sol.39.34	0	t0＜b6第３層b0＞\\		
+sol.39.0	0	t3何か仕掛けがあるようだ‥‥	{t3}Looks like there's some kind of mechanism...	
+sol.39.1	0	t3仕掛けを動かした‥‥‥	{t3}Activated the mechanism...	
+sol.39.2	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Activate the mechanism?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.39.3	0	t3何も起こらない‥‥	{t3}Nothing happens...	
+sol.39.4	0	t3開かない‥‥‥	{t3}It won't open...	
+sol.39.5	0	t3封印されているようだ。\\壁に文字がきざまれている。@@「紫の輝きを示せ」	{t3}It seems to be sealed.\\Letters are carved into the wall.@@"Show the purple radiance."	
+sol.39.6	0	t3b3巨石像の石版b0を手に入れた。	{t3}Got the {b3}Colossus Tablet{b0}.	
+sol.39.7	0	t3プレートらしきものがある。@@プレートを拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}There's something like a plate here.@@Pick up the plate?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.39.8	0	t3b3銅のプレートb0を手に入れた。	{t3}Got the {b3}Copper Plate{b0}.	
+sol.39.9	0	t3b3青の輝玉b0を手に入れた。	{t3}Got the {b3}Blue Gleaming Orb{b0}.	
+sol.39.10	0	t3b3紅の輝玉b0を手に入れた。	{t3}Got the {b3}Crimson Gleaming Orb{b0}.	
+sol.39.11	0	t3台座に石版をはめますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Set the tablet in the pedestal?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.39.12	0	t3動物が描かれた石版の台座によく似ている‥‥	{t3}It looks a lot like the pedestal for the\\tablet with animals on it...	
+sol.39.13	0	t3輝玉の台座だ。	{t3}It's a pedestal for a Gleaming Orb.	
+sol.39.14	0	t3なにかをはめ込む凹みがある。\\	{t3}There's a hollow for setting something in.\\	
+sol.39.15	0	t3台座に動物が描かれた石版がはめ込まれている。@@この石版を取り外しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}A tablet with animals on it is set\\in the pedestal.@@Remove this tablet?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.39.16	0	t3b3巨石像の石版b0を取り外しました。	{t3}Removed the {b3}Colossus Tablet{b0}.	
+sol.39.17	0	t3上になにか置けそうだ。	{t3}Looks like something could be placed on top.	
+sol.39.18	0	t3台座から紅の輝玉を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Take the Crimson Gleaming Orb from the pedestal?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.39.19	0	t3台座から青の輝玉を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Take the Blue Gleaming Orb from the pedestal?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.39.20	0	t3ここの壁だけ周りのと作りが違う‥‥	{t3}Only this wall is built differently\\from the rest...	
+sol.39.21	0	t3この石像は押しても動きそうにない。	{t3}This statue won't budge, no matter how hard\\you push.	
+sol.39.22	0	t3何かの台座らしい。\\物を載せた跡がついている‥‥	{t3}Looks like a pedestal for something.\\There are marks where something sat...	
+sol.39.23	0	CSA0t0e00101さーて、どこ行きやがった？	{CSA0t0e00101}All right, where the hell'd they go?	
+sol.39.24	0	CSA0t0e00357団体様だから手がかりは\\多いはずなんだがな‥‥‥	{CSA0t0e00357}A whole tour group like that should've\\left plenty of clues...	
+sol.39.25	0	t3青の輝玉を拾いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Pick up the Blue Gleaming Orb?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.39.26	0	t3扉が壊れていて開きそうにない‥‥‥	{t3}The door is broken and won't open...	
+sol.39.27	0	t3仕掛けは作動しています。	{t3}The mechanism is working.	
+sol.39.28	0	t3こいつは、もう必要ないな‥‥‥	{t3}Don't need this anymore...	
+sol.39.29	0	t3プレートを使いますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Use the plate?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.39.30	0	t3仕掛けが作動しない………	{t3}The mechanism doesn't work...	
+sol.39.31	0	t3台座が壊れている……	{t3}The pedestal is broken...	
+sol.39.32	0	t0＜b6第１層b0＞\\	{t0}＜{b6}Level 1{b0}＞\\	
+sol.39.33	0	t0＜b6第２層b0＞\\	{t0}＜{b6}Level 2{b0}＞\\	
+sol.39.34	0	t0＜b6第３層b0＞\\	{t0}＜{b6}Level 3{b0}＞\\	
 sol.39.35	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.39.36	0	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
-sol.39.37	0	t3なにか強い力で封じられている‥‥		
-sol.39.38	1	t3銅のプレートをはめた‥\\		
-sol.39.39	1	t3銅のプレートはしっかりはまっていて\\取れそうにない		
+sol.39.37	0	t3なにか強い力で封じられている‥‥	{t3}It's sealed by some powerful force...	
+sol.39.38	1	t3銅のプレートをはめた‥\\	{t3}Set the Copper Plate in place...\\	
+sol.39.39	1	t3銅のプレートはしっかりはまっていて\\取れそうにない	{t3}The Copper Plate is stuck fast.\\It won't come out.	

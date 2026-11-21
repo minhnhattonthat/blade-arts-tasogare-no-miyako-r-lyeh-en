@@ -1,16 +1,16 @@
 id	sector	jp	en	notes
-sol.52.0	0	CSA0t0e00251あーっ！\\零、あんた生きてたの！？		
-sol.52.1	0	CSA0t0e00341ランファ、\\なんでこんなとこにいるんだよ！？@@って、それよりも生きてる？		
-sol.52.2	0	CSA0t0e00431あんたって男は‥‥\\とにかく、お互いに鬼ではないようね。		
-sol.52.3	0	CSA0t0e00520で、零。\\あんたがここにいるってことは‥‥@@もしかして入口のセキュリティ、\\壊しちゃったんじゃないでしょうね？		
-sol.52.4	0	CSA0t0e00607なんか‥‥まずかった？		
-sol.52.5	0	CSA0t0e00703考えなしに人の生命線壊さないでよっ！\\どーするのよぉ！@@ＤＳＯＮが襲って来ちゃうじゃない！		
-sol.52.6	0	CSA0t0e00784って、もうきたぁー！		
-sol.52.7	0	CSA0t0e00868零、あんた責任とってよね。		
-sol.52.8	0	CSA0t0e00951‥‥つい今さっき、\\敵を撃退したばっかりだろうが？		
-sol.52.9	0	CSA0t0e01034そんなの、時間がたてば、\\また襲ってくるわよっ！@@一人見かけたら三十人はいると思わなきゃ\\ダメなんだからね。		
-sol.52.10	0	CSA0t0e01120いや、ゴキブリじゃないんだから‥‥		
-sol.52.11	0	CSA0t0e01208で、具体的になにすればいいんだよ？		
-sol.52.12	0	CSA0t0e01300そぉね、\\とりあえず隠れ場所がほしいかな。@@あ、そうそう。さっきマンホール見かけたから、\\地下坑なんかいいかも。		
-sol.52.13	0	CSA0t0e00001へぇへ。\\じゃぁ、とりあえず探してくるけども、@@やたらに動くなよ。		
-sol.52.14	0	t3「ＤＳＯＮを倒すのが先だ！」		
+sol.52.0	0	CSA0t0e00251あーっ！\\零、あんた生きてたの！？	{CSA0t0e00251}Ahh!\\Rei, you're alive!?	
+sol.52.1	0	CSA0t0e00341ランファ、\\なんでこんなとこにいるんだよ！？@@って、それよりも生きてる？	{CSA0t0e00341}Ranfa,\\what are you doing in a place like this!?@@Wait, more importantly, are you alive?	
+sol.52.2	0	CSA0t0e00431あんたって男は‥‥\\とにかく、お互いに鬼ではないようね。	{CSA0t0e00431}Honestly, you...\\Anyway, looks like neither of us is a ghost.	
+sol.52.3	0	CSA0t0e00520で、零。\\あんたがここにいるってことは‥‥@@もしかして入口のセキュリティ、\\壊しちゃったんじゃないでしょうね？	{CSA0t0e00520}So, Rei.\\If you're here, that means...@@you didn't go and break\\the entrance security, did you?	
+sol.52.4	0	CSA0t0e00607なんか‥‥まずかった？	{CSA0t0e00607}Was that... bad?	
+sol.52.5	0	CSA0t0e00703考えなしに人の生命線壊さないでよっ！\\どーするのよぉ！@@ＤＳＯＮが襲って来ちゃうじゃない！	{CSA0t0e00703}Don't go wrecking people's lifelines like that!\\What are we gonna do~!@@The DSON are gonna come after us!	
+sol.52.6	0	CSA0t0e00784って、もうきたぁー！	{CSA0t0e00784}And here they come already~!	
+sol.52.7	0	CSA0t0e00868零、あんた責任とってよね。	{CSA0t0e00868}Rei, you'd better take responsibility.	
+sol.52.8	0	CSA0t0e00951‥‥つい今さっき、\\敵を撃退したばっかりだろうが？	{CSA0t0e00951}...Didn't we just\\drive the enemy off a second ago?	
+sol.52.9	0	CSA0t0e01034そんなの、時間がたてば、\\また襲ってくるわよっ！@@一人見かけたら三十人はいると思わなきゃ\\ダメなんだからね。	{CSA0t0e01034}Give it time and\\they'll be back on the attack!@@See one, and you gotta assume\\there's thirty more around~.	
+sol.52.10	0	CSA0t0e01120いや、ゴキブリじゃないんだから‥‥	{CSA0t0e01120}Hey, they're not cockroaches...	
+sol.52.11	0	CSA0t0e01208で、具体的になにすればいいんだよ？	{CSA0t0e01208}So what exactly am I supposed to do?	
+sol.52.12	0	CSA0t0e01300そぉね、\\とりあえず隠れ場所がほしいかな。@@あ、そうそう。さっきマンホール見かけたから、\\地下坑なんかいいかも。	{CSA0t0e01300}Let's see~\\For now, I'd like somewhere to hide.@@Oh, right! I saw a manhole earlier,\\so maybe an underground shaft would be good.	
+sol.52.13	0	CSA0t0e00001へぇへ。\\じゃぁ、とりあえず探してくるけども、@@やたらに動くなよ。	{CSA0t0e00001}Yeah, yeah.\\I'll go look for one, then,@@but don't go wandering off.	
+sol.52.14	0	t3「ＤＳＯＮを倒すのが先だ！」	{t3}"Gotta take out the DSON first!"	

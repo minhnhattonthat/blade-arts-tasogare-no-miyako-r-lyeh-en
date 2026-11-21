@@ -1,24 +1,24 @@
 id	sector	jp	en	notes
-sol.36.0	0	CSA0t0e00020あ‥‥\\ぶじでよかった‥‥		
-sol.36.1	0	CSA0t0e00972あんた‥‥\\なんで、先回りできるんだ？		
-sol.36.2	0	CSA0t0e01322それは‥‥\\みえないみちを、とおったから‥‥		
-sol.36.3	0	CSA0t0e01229光の道？\\俺はそこを通れないのか？		
-sol.36.4	0	CSA0t0e00189みえないみちは‥‥わたしだけしか、\\とおれません。@@もし、とおったら‥‥\\からだがなくなります。		
-sol.36.5	0	CSA0t0e01143死ぬ‥‥って事か？\\結構危ないのかもな‥‥		
-sol.36.6	0	CSA0t0e00364それはそうと‥‥質問いいか？\\この金属球‥‥どういった物なんだ？		
-sol.36.7	0	CSA0t0e00454‥‥せつめいすること‥‥むずかしい、です。\\スフィアは‥‥いろいろできます、から。		
-sol.36.8	0	CSA0t0e00804スフィア、ねぇ。\\‥‥まぁ、それについてはおいといて。@@で、これ壊せるのか？		
-sol.36.9	0	CSA0t0e00107‥‥こわすこと、ないです。\\スフィアのちからを、かえれば‥‥@@べつのちから、つかえます‥‥		
-sol.36.10	0	CSA0t0e00541へぇ、そんな事出来るんだ‥‥		
-sol.36.11	0	CSA0t0e00633でも、いいのか？\\俺にそんな能力をくれちまって‥‥		
-sol.36.12	0	CSA0t0e00723へいきです‥‥\\わたし、しんじてます。		
-sol.36.13	0	CSA0t0e00273‥‥こっ恥ずかしいね、どうも。		
-sol.36.14	0	CSA0t0e00973大体わかったが‥‥\\あんたら、いったい何者だ？@@‥‥なんでこんな技術を持っている？		
-sol.36.15	0	CSA0t0e01054わたし、わかりません。\\つかいかた、しってます。@@でも、なぜつかえるか、しりません。		
-sol.36.16	0	CSA0t0e01230‥‥技術の基本的な概念が伝承されていない\\って事か。まぁ、ありがちな話だな‥‥		
-sol.36.17	0	CSA0t0e00021あんまり難しい事を聞くのもなんだな‥‥\\それじゃ、俺いくから。		
-sol.36.18	0	CSA0t0e01144危ない連中がうろついてるから、\\安全な所に隠れておけよ。		
-sol.36.19	0	CSA0t0e00542きを、つけて‥‥		
-sol.36.20	0	CSA0t0e01323おぅ。		
-sol.36.21	0	WP-134-016WS2204BS0805BYB+00BKC002剣にスフィアを装着することで\\スフィアに備わっているアーツを\\放つことができる。@@手に入れたスフィアを付け替えることで\\剣の形状が変化する。@@剣を変化させると\\変化した剣の持つ\\技やアーツを放つことができる。\\		
-sol.36.22	1	WP-134-016WS2204BS0805BYB+00BKC002手に入れたスフィアを付け替えることで\\剣の形状が変化する。\\変化した剣はその形状にあった\\技やアーツを使用することができる。t300		
+sol.36.0	0	CSA0t0e00020あ‥‥\\ぶじでよかった‥‥	{CSA0t0e00020}Ah...\\I'm glad... you're safe...	
+sol.36.1	0	CSA0t0e00972あんた‥‥\\なんで、先回りできるんだ？	{CSA0t0e00972}You...\\how do you keep getting ahead of me?	
+sol.36.2	0	CSA0t0e01322それは‥‥\\みえないみちを、とおったから‥‥	{CSA0t0e01322}That's... because...\\I took... the unseen path...	
+sol.36.3	0	CSA0t0e01229光の道？\\俺はそこを通れないのか？	{CSA0t0e01229}A path of light?\\I can't go that way?	
+sol.36.4	0	CSA0t0e00189みえないみちは‥‥わたしだけしか、\\とおれません。@@もし、とおったら‥‥\\からだがなくなります。	{CSA0t0e00189}The unseen path... only I...\\can take it.@@If you... took it...\\your body... would be gone.	
+sol.36.5	0	CSA0t0e01143死ぬ‥‥って事か？\\結構危ないのかもな‥‥	{CSA0t0e01143}You mean... I'd die?\\Sounds pretty dangerous...	
+sol.36.6	0	CSA0t0e00364それはそうと‥‥質問いいか？\\この金属球‥‥どういった物なんだ？	{CSA0t0e00364}Anyway... mind if I ask something?\\This metal ball... what exactly is it?	
+sol.36.7	0	CSA0t0e00454‥‥せつめいすること‥‥むずかしい、です。\\スフィアは‥‥いろいろできます、から。	{CSA0t0e00454}...It is... hard... to explain.\\Spheres... can do... many things.	
+sol.36.8	0	CSA0t0e00804スフィア、ねぇ。\\‥‥まぁ、それについてはおいといて。@@で、これ壊せるのか？	{CSA0t0e00804}Spheres, huh.\\...Well, let's put that aside for now.@@So, can I break this thing?	
+sol.36.9	0	CSA0t0e00107‥‥こわすこと、ないです。\\スフィアのちからを、かえれば‥‥@@べつのちから、つかえます‥‥	{CSA0t0e00107}...No need... to break it.\\If you change... the Sphere's power...@@you can use... a different power...	
+sol.36.10	0	CSA0t0e00541へぇ、そんな事出来るんだ‥‥	{CSA0t0e00541}Huh, so you can do that...	
+sol.36.11	0	CSA0t0e00633でも、いいのか？\\俺にそんな能力をくれちまって‥‥	{CSA0t0e00633}But is it okay?\\Giving me a power like that...	
+sol.36.12	0	CSA0t0e00723へいきです‥‥\\わたし、しんじてます。	{CSA0t0e00723}It is... okay...\\I... believe in you.	
+sol.36.13	0	CSA0t0e00273‥‥こっ恥ずかしいね、どうも。	{CSA0t0e00273}...Well, that's kinda embarrassing.	
+sol.36.14	0	CSA0t0e00973大体わかったが‥‥\\あんたら、いったい何者だ？@@‥‥なんでこんな技術を持っている？	{CSA0t0e00973}I mostly get it, but...\\who the hell are you people?@@...How do you have tech like this?	
+sol.36.15	0	CSA0t0e01054わたし、わかりません。\\つかいかた、しってます。@@でも、なぜつかえるか、しりません。	{CSA0t0e01054}I... don't know.\\I know... how to use it.@@But I don't know... why I can.	
+sol.36.16	0	CSA0t0e01230‥‥技術の基本的な概念が伝承されていない\\って事か。まぁ、ありがちな話だな‥‥	{CSA0t0e01230}...So the basic concepts behind the tech\\weren't passed down. Happens a lot...	
+sol.36.17	0	CSA0t0e00021あんまり難しい事を聞くのもなんだな‥‥\\それじゃ、俺いくから。	{CSA0t0e00021}Guess I shouldn't grill you too hard...\\Well, I'm off, then.	
+sol.36.18	0	CSA0t0e01144危ない連中がうろついてるから、\\安全な所に隠れておけよ。	{CSA0t0e01144}There are dangerous guys prowling around,\\so stay hidden somewhere safe.	
+sol.36.19	0	CSA0t0e00542きを、つけて‥‥	{CSA0t0e00542}Be... careful...	
+sol.36.20	0	CSA0t0e01323おぅ。	{CSA0t0e01323}Yeah.	
+sol.36.21	0	WP-134-016WS2204BS0805BYB+00BKC002剣にスフィアを装着することで\\スフィアに備わっているアーツを\\放つことができる。@@手に入れたスフィアを付け替えることで\\剣の形状が変化する。@@剣を変化させると\\変化した剣の持つ\\技やアーツを放つことができる。\\	{WP-134-016WS2204BS0805BYB+00BKC002}Mount a Sphere on your sword\\to unleash the Art\\held within it.@@Switching the Spheres you find\\changes the shape of your sword.@@When your sword changes,\\you can unleash the skills\\and Arts of its new form.\\	
+sol.36.22	1	WP-134-016WS2204BS0805BYB+00BKC002手に入れたスフィアを付け替えることで\\剣の形状が変化する。\\変化した剣はその形状にあった\\技やアーツを使用することができる。t300	{WP-134-016WS2204BS0805BYB+00BKC002}Switching the Spheres you find\\changes the shape of your sword.\\Each new form lets you use skills\\and Arts suited to its shape.{t300}	

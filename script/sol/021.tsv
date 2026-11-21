@@ -1,14 +1,14 @@
 id	sector	jp	en	notes
-sol.21.0	0	t3それぞれのケースには\\遺跡の入り口を開けるのに@@必要な翡翠版のカケラが\\１つずつ入っている。		
-sol.21.1	0	t3「中にはb3Ｐ．Ｅ．爆弾b0が入っている」@@Ｐ．Ｅ．爆弾を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.21.2	0	t3「今日は疲れたし、ジイさんの用事を済ませて\\とっとと寝ちまうとするか」		
-sol.21.3	0	CSA0t0e00814なんだ？今頃、誰が来たんだ？		
-sol.21.4	0	t3「いま書類を制作していて忙しいんだ\\悪いが急用でないなら後にしてくれないか」		
-sol.21.5	0	t3入り口は閉められている		
-sol.21.6	0	t3「零、ドクが呼んでるよ\\本営まで来てくれないか、だって」		
-sol.21.7	0	t3「ちょっと、何処へ行くのよ\\ドクが呼んでるって言ったでしょ」		
-sol.21.8	0	t3b2＜ナカムラ登場イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.21.9	0	t3b2＜Ｄｒとナカムラの本営イベント＞b0\\誠意制作中、乞うご期待！！		
+sol.21.0	0	t3それぞれのケースには\\遺跡の入り口を開けるのに@@必要な翡翠版のカケラが\\１つずつ入っている。	{t3}Each case holds one of\\the Jade Tablet Fragments@@needed to open\\the entrance to the ruins.	
+sol.21.1	0	t3「中にはb3Ｐ．Ｅ．爆弾b0が入っている」@@Ｐ．Ｅ．爆弾を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}"There's a {b3}P.E. Bomb{b0} inside."@@Take the P.E. Bomb?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.21.2	0	t3「今日は疲れたし、ジイさんの用事を済ませて\\とっとと寝ちまうとするか」	{t3}"I'm beat. I'll take care of Gramps's errand\\and hit the sack."	
+sol.21.3	0	CSA0t0e00814なんだ？今頃、誰が来たんだ？	{CSA0t0e00814}What? Who the hell's showing up at this hour?	
+sol.21.4	0	t3「いま書類を制作していて忙しいんだ\\悪いが急用でないなら後にしてくれないか」	{t3}"I'm busy writing up documents right now.\\Sorry, but unless it's urgent, can it wait?"	
+sol.21.5	0	t3入り口は閉められている	{t3}The entrance is closed.	
+sol.21.6	0	t3「零、ドクが呼んでるよ\\本営まで来てくれないか、だって」	{t3}"Rei, Doc's calling for you.\\He wants you to come to headquarters."	
+sol.21.7	0	t3「ちょっと、何処へ行くのよ\\ドクが呼んでるって言ったでしょ」	{t3}"Hey, where are you going?\\I told you Doc's calling for you!"	
+sol.21.8	0	t3b2＜ナカムラ登場イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Nakamura's arrival event＞{b0}\\Under construction, stay tuned!!	
+sol.21.9	0	t3b2＜Ｄｒとナカムラの本営イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Dr. and Nakamura HQ event＞{b0}\\Under construction, stay tuned!!	
 sol.21.10	0	CSA0t0e00365‥‥んぁ‥‥まぶしぃ‥‥ぞ‥‥	{CSA0t0e00365}...Ngh... so... bright...	
 sol.21.11	0	CSA0t0e00274っつぁ‥‥あたまが‥‥\\‥‥ってぇ、なぁ‥‥	{CSA0t0e00274}Ugh... my head...\\...damn, that hurts...	
 sol.21.12	0	CSA0t0e00724あれ‥‥ここは？	{CSA0t0e00724}Huh... where am I?	
@@ -18,25 +18,25 @@ sol.21.15	0	CSA0t0e00888ああ、怖がらせちまったか‥‥	{CSA0t0e00888
 sol.21.16	0	CSA0t0e00022現地の人‥‥って訳ねえよな‥‥	{CSA0t0e00022}Guess you're not a local... huh...	
 sol.21.17	0	CSA0t0e00805‥‥あんた、誰？	{CSA0t0e00805}...Who are you?	
 sol.21.18	0	CSA0t0e00974うあぁっ！	{CSA0t0e00974}Whoa!	
-sol.21.19	0	CSA0t0e00635‥‥何‥‥だ、ってんだ‥‥\\こい‥‥つ‥‥は‥？		
+sol.21.19	0	CSA0t0e00635‥‥何‥‥だ、ってんだ‥‥\\こい‥‥つ‥‥は‥？	{CSA0t0e00635}...What... the hell...\\is... this... thing...?	
 sol.21.20	0	CSA0t0e01145ランファ‥‥？	{CSA0t0e01145}Ranfa...?	
-sol.21.21	0	CSA0t0e00190ナカムラ‥‥リズィ？		
+sol.21.21	0	CSA0t0e00190ナカムラ‥‥リズィ？	{CSA0t0e00190}Nakamura... Lizzie?	
 sol.21.22	0	CSA0t0e01231みんな‥‥まだ、生きているのか？	{CSA0t0e01231}Everyone... they're still alive?	
-sol.21.23	0	CSA0t0e00455教えてくれっ！\\奴らはどこに！？@@みんなはどこにいる！？		
+sol.21.23	0	CSA0t0e00455教えてくれっ！\\奴らはどこに！？@@みんなはどこにいる！？	{CSA0t0e00455}Tell me!\\Where are they!?@@Where is everyone!?	
 sol.21.24	0	CSA0t0e01325‥‥カエリナサイ‥‥	{CSA0t0e01325}...Go... home...	
 sol.21.25	0	CSA0t0e00275何‥‥だと？	{CSA0t0e00275}What... did you say?	
 sol.21.26	0	CSA0t0e00366‥‥ゼンイン‥‥シヌ‥	{CSA0t0e00366}...Everyone... will die...	
 sol.21.27	0	CSA0t0e00544ココカラ‥‥キエナイト‥‥シヌ‥	{CSA0t0e00544}Leave... this place... or die...	
 sol.21.28	0	CSA0t0e00889だったら、なおさら急がねぇと！！\\頼む、教えてくれ！みんなはどこに行った！？	{CSA0t0e00889}Then I've gotta hurry even more!!\\Please, tell me! Where did everyone go!?	
 sol.21.29	0	CSA0t0e00108‥‥遺跡の‥‥方角？	{CSA0t0e00108}...Toward... the ruins?	
-sol.21.30	0	CSA0t0e00975よっし、わかった。\\わざわざ方角を教えてくれるんだ。@@まだなんとかなるんだな？		
+sol.21.30	0	CSA0t0e00975よっし、わかった。\\わざわざ方角を教えてくれるんだ。@@まだなんとかなるんだな？	{CSA0t0e00975}All right, got it.\\You went to the trouble of showing me the way.@@So there's still time, right?	
 sol.21.31	0	CSA0t0e00806‥‥どこに行った？	{CSA0t0e00806}...Where'd she go?	
 sol.21.32	0	CSA0t0e00725昨日の剣‥‥？\\いや、少し違うか‥‥	{CSA0t0e00725}The sword from yesterday...?\\No, it's a little different...	
 sol.21.33	1	CSA0t0e01055‥‥剣の精霊？\\んなことぁ、ねぇか‥‥	{CSA0t0e01055}...A sword spirit?\\Nah, no way...	
 sol.21.34	1	CSA0t0e00023無いよりかは、まし‥‥かな？	{CSA0t0e00023}Better than nothing... I guess?	
 sol.21.35	1	CSA0t0e01146まずは、みんなを見つけないと！	{CSA0t0e01146}First, I've gotta find everyone!	
-sol.21.36	1	t3「ジイさんには悪いけど\\リズィの報告書は少し待ってもらおう」		
-sol.21.37	1	t3「ジイさんにリズィの報告書の事を知らせて\\俺は寝るとするか」		
-sol.21.38	1	t3「リズィの報告書が上がるまで\\テントの周りでウロウロして暇を潰すか」		
-sol.21.39	1	t3「テント内にいた、みんなは無事だろうか\\先ずは、みんなと合流しないと」		
-sol.21.40	1	t3「リズィの報告書がまだだったな」		
+sol.21.36	1	t3「ジイさんには悪いけど\\リズィの報告書は少し待ってもらおう」	{t3}"Sorry, Gramps, but Lizzie's report\\is gonna have to wait a bit."	
+sol.21.37	1	t3「ジイさんにリズィの報告書の事を知らせて\\俺は寝るとするか」	{t3}"Guess I'll tell Gramps about Lizzie's report\\and get some sleep."	
+sol.21.38	1	t3「リズィの報告書が上がるまで\\テントの周りでウロウロして暇を潰すか」	{t3}"Till Lizzie's report is done, guess I'll\\kill time wandering around the tents."	
+sol.21.39	1	t3「テント内にいた、みんなは無事だろうか\\先ずは、みんなと合流しないと」	{t3}"I hope everyone in the tents is okay.\\First, I gotta meet up with them."	
+sol.21.40	1	t3「リズィの報告書がまだだったな」	{t3}"Lizzie's report isn't done yet."	

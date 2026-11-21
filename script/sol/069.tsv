@@ -1,28 +1,28 @@
 id	sector	jp	en	notes
-sol.69.0	0	CSA0t0e00736ナカムラぁっ！		
-sol.69.1	0	CSA0t0e01160ム、貴様っ！		
-sol.69.2	0	CSA0t0e00469足止めをっ！		
-sol.69.3	0	CSA0t0e00821待って‥‥‥わかった！		
-sol.69.4	0	CSA0t0e00378これねっ！		
-sol.69.5	0	CSA0t0e00650くっそぉ！\\間に合えっ！		
-sol.69.6	0	CSA0t0e00289畜生っ！		
-sol.69.7	0	CSA0t0e00899ここまで追って来れた事については、\\ほめてやろう。		
-sol.69.8	0	CSA0t0だが、いい加減目障りなのでな‥‥‥。		
-sol.69.9	0	CSA0t0e01339出来れば\\ハラキリ見たかったけど‥‥‥		
-sol.69.10	0	CSA0t0まぁ、そこで死ぬことに\\変わりないからいいわよね		
-sol.69.11	0	CSA0t0アハハハハハハ‥‥‥		
-sol.69.12	0	CSA0t0e00988さようなら‥‥‥		
-sol.69.13	0	CSA0t0e01247野郎っ！\\ガスかっ！		
-sol.69.14	0	t3開閉スイッチらしき物は無く\\隔壁を開けられそうもない。		
-sol.69.15	0	t3人の力では隔壁を開けられそうもないが\\この隔壁には操作パネルが付いている。		
-sol.69.16	0	t3人の力では隔壁を開けられそうもないが\\この隔壁には操作パネルが付いている。		
-sol.69.17	0	t3＜隔壁緊急開放操作パネル＞\\緊急開放の際にはパスコードを入力して下さい。		
-sol.69.18	0	t3＜機材リフト緊急操作パネル＞\\緊急運転の際にはパスコードを入力して下さい。		
-sol.69.19	0	t3パスコードを入力しますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.69.20	0	t3パスコードが間違っています。\\もう一度、最初からコードを入力して下さい。		
-sol.69.21	0	t3パスコード確認\\隔壁を開放します。		
-sol.69.22	0	t3一桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４		
-sol.69.23	0	t3二桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４		
-sol.69.24	0	t3三桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４		
-sol.69.25	0	t3四桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４		
-sol.69.26	0	t3＜機材リフト＞\\現在、機材リフトは休止中です。		
+sol.69.0	0	CSA0t0e00736ナカムラぁっ！	{CSA0t0e00736}Nakamuraaa!	
+sol.69.1	0	CSA0t0e01160ム、貴様っ！	{CSA0t0e01160}Hm, you!	
+sol.69.2	0	CSA0t0e00469足止めをっ！	{CSA0t0e00469}Hold him off!	
+sol.69.3	0	CSA0t0e00821待って‥‥‥わかった！	{CSA0t0e00821}Wait...... got it!	
+sol.69.4	0	CSA0t0e00378これねっ！	{CSA0t0e00378}This one, right!	
+sol.69.5	0	CSA0t0e00650くっそぉ！\\間に合えっ！	{CSA0t0e00650}Dammit!\\Make it in time!	
+sol.69.6	0	CSA0t0e00289畜生っ！	{CSA0t0e00289}Son of a bitch!	
+sol.69.7	0	CSA0t0e00899ここまで追って来れた事については、\\ほめてやろう。	{CSA0t0e00899}I'll give you credit\\for following me this far.	
+sol.69.8	0	CSA0t0だが、いい加減目障りなのでな‥‥‥。	{CSA0t0}But you've become quite the eyesore......	
+sol.69.9	0	CSA0t0e01339出来れば\\ハラキリ見たかったけど‥‥‥	{CSA0t0e01339}If I had my way,\\I'd have liked to see some harakiri......	
+sol.69.10	0	CSA0t0まぁ、そこで死ぬことに\\変わりないからいいわよね	{CSA0t0}Oh well, you're gonna die in there\\all the same, so that's fine, right?	
+sol.69.11	0	CSA0t0アハハハハハハ‥‥‥	{CSA0t0}Ahahahahahaha......	
+sol.69.12	0	CSA0t0e00988さようなら‥‥‥	{CSA0t0e00988}Goodbye......	
+sol.69.13	0	CSA0t0e01247野郎っ！\\ガスかっ！	{CSA0t0e01247}You bastards!\\Gas!?	
+sol.69.14	0	t3開閉スイッチらしき物は無く\\隔壁を開けられそうもない。	{t3}There's nothing like an open/close switch.\\Doesn't look like I can open the bulkhead.	
+sol.69.15	0	t3人の力では隔壁を開けられそうもないが\\この隔壁には操作パネルが付いている。	{t3}No way I can open this bulkhead by hand,\\but it has a control panel on it.	
+sol.69.16	0	t3人の力では隔壁を開けられそうもないが\\この隔壁には操作パネルが付いている。	{t3}No way I can open this bulkhead by hand,\\but it has a control panel on it.	
+sol.69.17	0	t3＜隔壁緊急開放操作パネル＞\\緊急開放の際にはパスコードを入力して下さい。	{t3}＜Bulkhead Emergency Release Panel＞\\Enter the passcode for an emergency release.	
+sol.69.18	0	t3＜機材リフト緊急操作パネル＞\\緊急運転の際にはパスコードを入力して下さい。	{t3}＜Equipment Lift Emergency Panel＞\\Enter the passcode for emergency operation.	
+sol.69.19	0	t3パスコードを入力しますか？\\[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Enter the passcode?\\{[DD1}　Yes　　　　　　{[2}　　No	
+sol.69.20	0	t3パスコードが間違っています。\\もう一度、最初からコードを入力して下さい。	{t3}Incorrect passcode.\\Please enter the code again from the start.	
+sol.69.21	0	t3パスコード確認\\隔壁を開放します。	{t3}Passcode confirmed.\\Opening the bulkhead.	
+sol.69.22	0	t3一桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４	{t3}Enter the first digit.\\{[DD1}　　0　{[2}　　1　{[3}　　2　{[4}　　3　{[5}　　4	
+sol.69.23	0	t3二桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４	{t3}Enter the second digit.\\{[DD1}　　0　{[2}　　1　{[3}　　2　{[4}　　3　{[5}　　4	
+sol.69.24	0	t3三桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４	{t3}Enter the third digit.\\{[DD1}　　0　{[2}　　1　{[3}　　2　{[4}　　3　{[5}　　4	
+sol.69.25	0	t3四桁目を入力して下さい\\[DD1　　０　[2　　１　[3　　２　[4　　３　[5　　４	{t3}Enter the fourth digit.\\{[DD1}　　0　{[2}　　1　{[3}　　2　{[4}　　3　{[5}　　4	
+sol.69.26	0	t3＜機材リフト＞\\現在、機材リフトは休止中です。	{t3}＜Equipment Lift＞\\The equipment lift is currently out of service.	

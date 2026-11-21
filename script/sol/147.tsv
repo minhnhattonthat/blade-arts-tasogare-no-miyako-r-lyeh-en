@@ -1,167 +1,167 @@
 id	sector	jp	en	notes
-sol.147.0	0	WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0\\　　　　　　g7ＧＡＭＥ　ＯＶＥＲ\\　　　　　　　　　　g7i060		
-sol.147.1	0	t3Ｉ　ｆｏｕｎｄ　ｔｈｅ　ｓｔｏｎｅ\\ｌｉｋｅ　ｓｔｉｃｋ\\		
-sol.147.2	0	t0b3　　　　　g7石の把手b0を手に入れた。\\　　　　　　　　　　g7i015		
-sol.147.3	0	g7台の上に石の歯車が取り付けられている‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.4	0	　　歯車が固くて、素手では回せない‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.5	0	t0　　　　歯車にb3石の把手b0を取り付けた。\\　　　　　　　　　　g7i015		
-sol.147.6	0	　　g7石の把手b0が取り付けられている‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.7	0	t0b3　　　　　g7石の把手b0を回しますか？\\　　　　[DD1　左　　　[2　右　　　[3　やめる		
-sol.147.8	0	t0　　　　　何かが動いたようだ‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.9	0	t0　　　　　　g7扉は開かない‥‥‥\\　　　　　　　　　　g7i015		
+sol.147.0	0	WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0\\　　　　　　g7ＧＡＭＥ　ＯＶＥＲ\\　　　　　　　　　　g7i060	{WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0}\\　　　　　　{g7}GAME OVER\\　　　　　　　　　　{g7i060}	
+sol.147.1	0	t3Ｉ　ｆｏｕｎｄ　ｔｈｅ　ｓｔｏｎｅ\\ｌｉｋｅ　ｓｔｉｃｋ\\	{t3}I found the stone\\like stick\\	
+sol.147.2	0	t0b3　　　　　g7石の把手b0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　　　{g7}Got the {b3}Stone Handle{b0}.\\　　　　　　　　　　{g7i015}	
+sol.147.3	0	g7台の上に石の歯車が取り付けられている‥‥‥\\　　　　　　　　　　g7i015	{g7}A stone gear is mounted on the pedestal...\\　　　　　　　　　　{g7i015}	
+sol.147.4	0	　　歯車が固くて、素手では回せない‥‥‥\\　　　　　　　　　　g7i015	　　The gear's too stiff to turn by hand...\\　　　　　　　　　　{g7i015}	
+sol.147.5	0	t0　　　　歯車にb3石の把手b0を取り付けた。\\　　　　　　　　　　g7i015	{t0}　　　Attached the {b3}Stone Handle{b0} to the gear.\\　　　　　　　　　　{g7i015}	
+sol.147.6	0	　　g7石の把手b0が取り付けられている‥‥‥\\　　　　　　　　　　g7i015	　　{g7}The Stone Handle{b0} is attached...\\　　　　　　　　　　{g7i015}	
+sol.147.7	0	t0b3　　　　　g7石の把手b0を回しますか？\\　　　　[DD1　左　　　[2　右　　　[3　やめる	{t0}　　　　　{g7}Turn the {b3}Stone Handle{b0}?\\　　　　{[DD1}　Left　　　{[2}　Right　　　{[3}　Cancel	
+sol.147.8	0	t0　　　　　何かが動いたようだ‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　Something seems to have moved...\\　　　　　　　　　　{g7i015}	
+sol.147.9	0	t0　　　　　　g7扉は開かない‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　　{g7}The door won't open...\\　　　　　　　　　　{g7i015}	
 sol.147.10	0	　　　　何か仕掛けがあるようだ‥‥‥\\　　　　　　　　　　g7i015	　　　　Looks like there's some kind of mechanism...\\　　　　　　　　　　{g7i015}	
-sol.147.11	0	t0　　　　　g7仕掛けを動かした‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.12	0	t0　　　　　何かが動く音がした‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.13	0	t0　　　　　g7仕掛けを起動しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.147.14	0	t0　　　　　　何も起こらない‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.15	0	t0b3　　　　　g7紅の石像b0を手に入れた。\\　　　　　　　　　　g7i015		
-sol.147.16	0	t0b3　　　　　g7蒼の石像b0を手に入れた。\\　　　　　　　　　　g7i015		
-sol.147.17	0	　　　何かを奉るための祭壇らしい‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.18	0	　　何かが置かれた形跡が２ヶ所ある‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.19	0	t0b3　　　　　紅の石像b0を台座に置いた。\\　　　　　　　　　　g7i015		
-sol.147.20	0	t0b3　　　　　蒼の石像b0を台座に置いた。\\　　　　　　　　　　g7i015		
-sol.147.21	0	　　　　　g7「汝の力で我を照らせ」i015\\　　　　　g7と、記されている‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.22	0	　　　g7何らかの文章のように見えるが、\\　何が記されているのか、解読できない‥‥‥\\　　　　　　　　　　g7i015		
-sol.147.23	0	　　　　　　　g7こいつぁ‥‥‥		
-sol.147.24	0	　　　　　　　t1‥‥‥やべぇ！！		
-sol.147.25	1	　　　　おわぁぁぁぁぁぁぁぁぁ‥‥‥		
-sol.147.26	1	　　　　g7ようこそ、我らが郷へ‥‥‥		
-sol.147.27	1	　　　　　道中つつがない様子‥‥‥\\g7貴方の技にはつくづく感嘆させられます‥‥‥		
-sol.147.28	1	t4　　　　　　　g7‥‥‥i045皮肉か？		
-sol.147.29	1	t3　　　化け物やら、ばかでかい人形やらに\\　　　　　さんざ追い回されて‥‥‥		
-sol.147.30	1	t2　　あんなのがいるとは聞いてなかったぞ！		
-sol.147.31	1	t3g7貴方の他にも数多くの曲者がおります故‥‥‥\\g7彼の者共に区別はつかなかったのでしょう‥‥		
-sol.147.32	1	　　　かわりにお詫び申し上げます‥‥‥		
-sol.147.33	1	t1　　　　　んなこた、どうでもいい！		
-sol.147.34	1	t2g7どうせこの先にもガーディアンはいるんだろう\\i030　　g7そいつらはどうにかなんねぇのか！？		
-sol.147.35	1	t3　g7この聖域は、その全てが聖域を司る司祭に\\　　　　g7委ねられております故‥‥‥		
-sol.147.36	1	　彼の者共はもとより聖域の如何なる物であれ\\　　g7残念ながら私の力は及びませぬ‥‥‥		
-sol.147.37	1	それで、この剣をそこまで持って行けってのか！\\i030　　　g7かなり都合がよすぎやしねぇか？		
-sol.147.38	1	　　　御礼の品は、先の約定通りに‥‥‥		
-sol.147.39	1	　　　　　　g7重ねて無理を承知で\\　　　　　お願い申しあげます‥‥‥		
-sol.147.40	1	　　　　その剣を‥‥‥聖域の最奥まで\\　　　お持ち頂けませぬでしょうか‥‥‥		
-sol.147.41	1	乗りかかった船だし、やらねぇ事はないが‥‥‥\\i030　せめて、ここらへんの案内も出来ないのか？		
-sol.147.42	1	　　　　　g7私も封印されし身‥‥‥\\i030　　g7このうつし身を為すが力の限り‥‥‥		
-sol.147.43	1	　　　　g7判った‥‥‥i030もういい‥‥‥		
-sol.147.44	1	　g7ただ、この先を往かれるのであれば‥‥‥\\　道なき道を見出されますよう心掛けて下さい		
-sol.147.45	1	　　　　　　　‥‥‥i045t1何だって？		
-sol.147.46	1	t3　　　道なき道を見出されますよう‥‥‥i030\\　　　くれぐれもお忘れなきように‥‥‥		
-sol.147.47	1	　　　　　　　　お、i015t1おいっ！		
-sol.147.48	1	t3　　　　私の力も、今はここまで‥‥‥\\i030　　貴方の無事をお祈りしております‥‥‥		
-sol.147.49	1	　　　　　　　　‥‥‥‥‥‥i030		
-sol.147.50	1	t4　　　　乗りかかった船とは言え‥‥‥\\i045　　　g7泥船に乗っちまったかなぁ‥‥‥		
-sol.147.51	1	t0b3　　　　　石黄の石板b0を手に入れた。\\　　　　　　　　　　g7i015		
-sol.147.52	2	t5b6　蘭花：b0零、聞こえる？i030		
-sol.147.53	2	t5b4　零：b0ああ、ランファか。どうした？i030		
-sol.147.54	2	t5b6　蘭花：b0さっき、調査隊のキャンプ跡で、\\　遺跡の調査メモが見つかったの。i030@@　で、判ってるとこはこっちでナビするから、\\　細かいとこの確認お願いね。i030\\		
-sol.147.55	2	t5b4　零：b0細かいとこ、ねぇ・・・\\　なんか適当っぽくねぇか？i030		
-sol.147.56	2	t5b6　蘭花：b0適当かどうかは、\\　あんたの働き次第でしょ。i030@@　みんなに迷惑かかるんだから、\\　ちゃんとがんばりなさいよ。i030		
-sol.147.57	2	t5b4　零：b0へぇへ・・・i030		
-sol.147.58	2	t5b6　蘭花：b0あと、位置はちゃんとこっちで\\　モニターしてるから、より道しないでね。i030@@　何かネコババしたって、\\　すぐに判るんだからね！i030		
-sol.147.59	2	t5b4　零：b0・・・信用ねえの。i030		
-sol.147.60	2	t5b6　蘭花：b0うだうだ言わずに、とっとと始める！i030		
-sol.147.61	2	t5b6　蘭花：b0急いで移動するなら、Ｒ１ボタンを\\　押しながら方向キーを押すの。i030@@　走って回らないと\\　夜までに終わらないよぉ？i030		
-sol.147.62	2	t3b4　零：b0・・・よぉ、このあたりの猫科の\\　大型に何がいる？i030		
-sol.147.63	2	t3b6　蘭花：b0さぁ？\\　南米ならジャガーか山猫ぐらいじゃない？i030@@　・・・って、何かいるの？i030		
-sol.147.64	2	t3b4　零：b0あぁ・・・っと、やっぱり来るかっ！i030@@　Ｒ２ボタンでナイフを抜いて・・・\\　□ボタンを押してナイフで斬りつける！i030@@　やばいと思ったら、○ボタンでガード！\\　Ｒ２ボタンでナイフをしまおう。i030		
-sol.147.65	2	t3b4　零：b0なんで・・・\\　出てきて１ヶ月の島に動物がいるんだ？i030		
-sol.147.66	2	t3b4　零：b0っと、まだいたかっ！i030		
-sol.147.67	2	t3b4　零：b0・・・行けよ。i030		
-sol.147.68	2	t3b4　零：b0何もしねえから、早く行け・・・i030		
-sol.147.69	2	t3b6　蘭花：b0大丈夫？どうかしたの？i030		
-sol.147.70	2	t3b4　零：b0・・・いや、何でもない。i030		
-sol.147.71	2	t3b4　零：b0ランファ、ここの扉はこれ以上\\　開かないのか？i015		
-sol.147.72	2	t3b6　蘭花：b0ん～、開く仕掛けが\\　見あたらなかったみたい・・・i015@@　でも、奥には行けるんでしょ？i015		
-sol.147.73	2	t3b4　零：b0まぁ、なんとかなるか。i015		
-sol.147.74	2	t3b6　蘭花：b0○ボタンを２回押して屈んでみてよ。i015		
-sol.147.75	3	t3b6　蘭花：b0で、そのままＬ１ボタン押すと、\\　屈んだ状態で扉の奥が見えるでしょ？i015		
-sol.147.76	3	t3b6　蘭花：b0Ｌ１ボタンを放して、Ｒ１を\\　押しながら方向キーの上を押すと、扉の下をi015@@　くぐり抜けられるから。i015		
-sol.147.77	3	t3b6　蘭花：b0えーと、そこにある\\　階段おりちゃって。i015		
-sol.147.78	3	t3b4　零：b0って、脇の回廊は見なくていいのか？i015		
-sol.147.79	3	t3b6　蘭花：b0奥に扉があるらしいんだけど、\\　調査隊の方で開けらんなかったみたい。i015@@　真っ当な調査は明日やるから、\\　とりあえず先進んどいて。i015		
-sol.147.80	3	t3b4　零：b0ちぃっと、逃げるのは厳しいか・・・@@　敵に後ろを取られたら、\\　十字キーを後ろの敵に向かって押そう。@@　その後に□ボタンを押すと、\\　後ろにいる敵に攻撃できる。		
-sol.147.81	3	t3b6　蘭花：b0ちょっと、どこに行ってるのよ？\\　勝手に適当なとこに行かないでよね！i015		
-sol.147.82	3	t3b6　蘭花：b0あー、もう！\\　なんで人の言うこと聞かないかなー！i015		
-sol.147.83	3	t3b6　蘭花：b0あー、その先のトカゲっぽい彫像\\　火ふくから気をつけてね。i015		
-sol.147.84	3	t3b4　零：b0そういう事を、お気楽そうに言うな！i015		
-sol.147.85	3	t3b6　蘭花：b0えっと、奥にある石碑に\\　仕掛けっぽいのがあって、i015@@　それ押せば止まるって書いてある・・・i015		
-sol.147.86	3	t3b4　零：b0そういう事は、早めに言え！i015		
-sol.147.87	3	t3b4　零：b0石碑の前に立って、っと・・・\\　□ボタンで仕掛けを動かしてみよう。i015		
-sol.147.88	3	t3b4　零：b0なんか、空気が澱んでるな・・・\\　ガスか？i015		
-sol.147.89	3	t3b6　蘭花：b0ん、そうみたい。i015		
-sol.147.90	3	t3b6　蘭花：b0多分致死性じゃないと思うけど、体に\\　悪そうだから近づかない方がいいかもね。i015		
-sol.147.91	3	t3b4　零：b0ここにもガスか・・・\\　さっきの場所と続いているのか？i015		
-sol.147.92	3	t3b6　蘭花：b0そのあたり、足元崩れやすく\\　なってるみたいだから、気をつけてね。i015		
-sol.147.93	3	t3b4　零：b0この壁の奥、進めるのか？i015		
-sol.147.94	3	t3b6　蘭花：b0ちょっと待って・・・\\　うん、何とかぎりぎり進めるみたい。i015@@　でも、ついでだからそこに通路開けといてって\\　ドクが言ってるけど？i015		
-sol.147.95	3	t3b4　零：b0言ってるのは良いけどさ・・・\\　どうやって開けろっての、これ？i015		
-sol.147.96	4	t3b6　蘭花：b0あー、今さっきブリジットがそっちに\\　Ｃ４持ってったから、それ使って。i015		
-sol.147.97	4	t3b4　零：b0Ｃ４ねぇ・・・i015\\　で、ジッティは、あとどれぐらいで着くって？i015		
-sol.147.98	4	t3b6　ブリジット：b0今、ここにいるが。i015		
-sol.147.99	4	t3b4　零：b0うわっ！！i015		
-sol.147.100	4	t3b6　ブリジット：b0何を驚いている？i015		
-sol.147.101	4	t3b4　零：b0えらくお茶目・・　いや、早いじゃねえか・・i060で、Ｃ４は？i015		
-sol.147.102	4	t3b6　ブリジット：b0ああ、ここにある。　気をつけて使えよ。@@　間違っても遺跡に余計な被害を与えないようにi015\\　・・・貴様と心中など御免だからな。i015		
-sol.147.103	4	t3b4　零：b0じゃ、早速使ってみるか。i015		
-sol.147.104	4	t3b6　ブリジット：b0そんな高い所に置こうとしても、\\　手が届かないんじゃないのか？i015		
-sol.147.105	4	t3b6　ブリジット：b0そこの岩を足場に\\　使ってみてはどうだ？i015		
-sol.147.106	4	t3b6　ブリジット：b0岩の前に立って□ボタンを\\　押し続けて、岩をつかんだら・・・i015@@　そのまま十字キーを前に押して、\\　岩を押すんだ。i015		
-sol.147.107	4	t3b6　ブリジット：b0あぁ、間違えて押しすぎたら・・i015@@　そのまま十字キーを後ろに押して、\\　岩を引っ張るといい。i015		
-sol.147.108	4	t3　Ｃ４に関わらず道具を使いたいときは、\\　まず使う場所へ行くんだ。i015@@　壁の崩れてる場所にＣ４を使うには、\\　そこでＳＴＡＲＴボタンを押す。i015@@　アイテムモードを選んで、Ｃ４を選ぶと、\\　その場所でＣ４を使うことが出来る。@@　早く退避しないと、爆発に巻き込まれるぞ！i015		
-sol.147.109	4	t3b4　零：b0あれ、どこに行くんだ？i015		
-sol.147.110	4	t3b6　ブリジット：b0あぁ、貴様が大雑把だと\\　言われてな。i015@@　前調査の確認作業だよ・・・i030\\　貴様の尻拭いさ。i015		
-sol.147.111	4	t3b4　零：b0・・・俺って、そんなに信用ないのか？i015		
-sol.147.112	4	t3b6　ブリジット：b0そう、くさるな。i015@@　調査隊の消息がたどれない今、細心の注意を\\　はらっておいても、間違いはあるまい？i015		
-sol.147.113	4	t3b4　零：b0・・・まぁ、いいか。i060\\　だが、俺の邪魔だけは勘弁してくれよな？i015		
-sol.147.114	4	t3b6　ブリジット：b0その言葉は、そのまま貴様に\\　返しておこう。i060じゃあな。i015		
-sol.147.115	4	t3b4　零：b0・・・i060\\　かわいくねぇの。i015		
-sol.147.116	5	t3b4　零：b0・・・調査隊の連中、火の始末ぐらい\\　きちんとしとけよな・・・i015		
-sol.147.117	5	t3b4　零：b0どぉわっ！i015		
-sol.147.118	5	t3b6　蘭花：b0あ～、そこにかかってる橋も\\　崩れやすくなってるって。i015@@　気をつけてね。i015		
-sol.147.119	5	t3b4　零：b0だから、早めに言ってくれっ！i015		
-sol.147.120	5	t3b6　蘭花：b0零、あんた水ダメなんだっけ？i015		
-sol.147.121	5	t3b4　零：b0・・・顔を付けるのが苦手なだけだ。i015\\　人をカナズチみたいに言うなっ！i015		
-sol.147.122	5	t3b6　蘭花：b0じゃぁ、いいわ。i030@@　方向キーと×ボタンを押せば、\\　そのまま押した方向に泳ぐからね。i030@@　あと泳いでるときには、i030@@　壁につかまること以外は\\　出来ないから注意してね。i015		
-sol.147.123	5	t3b4　零：b0なんだ、あれは？i015		
-sol.147.124	5	t3b6　蘭花：b0ストップ！i015@@　そこから先行くと、\\　そのまま下まで落っこちちゃうよ。i030@@　床の構造がもろくなってるって書いてある。i015		
-sol.147.125	5	t3b4　零：b0ゆっくり歩けば平気だろ？i015		
-sol.147.126	5	t3b6　蘭花：b0試して見たければ、どうぞ。\\　でも、どうなっても知らないからね！i015@@　とにかく、そこの置物は\\　ダミーみたいだから、先に進んでみて。i015		
-sol.147.127	5	t3　下へ降りるには道を探す\\　必要がありそうだ・・・i030@@　周りを見渡したいときは、\\　Ｒ１ボタンを押しながら方向キーを押すと、i030@@　その方向を見渡すことが出来る。i030@@　左右を見渡すときは体の向きもi030@@　同じ方向に向いているから、\\　元に戻したときに注意しよう。i030		
-sol.147.128	5	t3b4　零：b0馬鹿でっかい柱が立ってるところは、\\　なんて書いてある。i015		
-sol.147.129	5	t3b6　蘭花：b0う～ん・・・i015\\　そのあたりについては、何も書かれてないよ。@@　っていうか、そのあたりから\\　先の記述が残ってないの。i015@@　・・・もうそろそろ、\\　戻ったほうが良いんじゃない？i015		
-sol.147.130	5	t3b4　零：b0そうだな・・・i060\\　いや、もう少し先まで様子を見てくるわ。i015		
-sol.147.131	5	t3b4　零：b0こいつは・・・i015		
-sol.147.132	5	t3b4　零：b0聞こえるか・・・祭壇を見つけた。\\　何か奉られているらしい。調べてみる。i015		
-sol.147.133	5	t3b6　蘭花：b0・・・・・・・・・・i015		
-sol.147.134	5	t3b4　零：b0これは・・・剣か？i015		
-sol.147.135	6	t3b4　零：b0おい、聞こえるか？\\　刀剣らしい棒状の金属を発見した。i015@@　回収した方が良いのか、\\　ジイさんに確認してくれ。i015		
-sol.147.136	6	t3b6　蘭花：b0・・・・・・・・・・i015		
-sol.147.137	6	t3b4　零：b0おい、聞こえているのか？応答しろ！！i015		
-sol.147.138	6	t3b6　蘭花：b0ええ、ああ・・・i060うん、聞こえてる。i015		
-sol.147.139	6	t3b4　零：b0居眠りしてるんじゃねぇぞ！！i015@@　・・・金属製の棒を発見した。\\　回収の判断を頼む。i015		
-sol.147.140	6	t3b6　蘭花：b0ええっと・・・回収してだって。\\　特に罠らしい物はないって言ってるし。i015		
-sol.147.141	6	t3b4　零：b0そうか？まぁ、わかった。\\　これを回収してから、そっちに戻る。i015		
-sol.147.142	6	t3b6　蘭花：b0わかった、お願いね。i015		
-sol.147.143	6	t3b4　零：b0・・・さてと。i015		
-sol.147.144	6	t3b4　零：b0鉄・・・じゃないな・・・\\　なんだ・・・これは？i015		
-sol.147.145	6	t3b4　零：b0おぅわっ！！i015		
-sol.147.146	6	t3b4　零：b0くそっ、やっぱり罠があったか！！i015		
-sol.147.147	6	t3b4　零：b0あの馬鹿の言うことなん・・・\\　てぁっ・・・！！i015		
-sol.147.148	6	t3b4　零：b0おわあああああぁぁぁぁぁぁぁ・・i015		
-sol.147.149	6	t3b4　零：b0ナイフ程度がこんなのに効くかっ！i015		
-sol.147.150	6	t3b4　零：b0ちったぁ、ましかっ！i015		
-sol.147.151	6	t3b6　ブリジット：b0無事だったか？i015		
-sol.147.152	6	t3b4　零：b0ああ、何とかね・・・i015		
-sol.147.153	6	t3b6　ブリジット：b0上から影は見えたが・・・i060\\　あんな化物がここには居るのか？i015		
-sol.147.154	6	t3b4　零：b0ここだけだと良いんだけどな・・・i060\\　あちこちに居られても困る。i015		
-sol.147.155	6	t3b6　ブリジット：b0ここだけに\\　居るとは限らないか・・・i060@@　外に警戒を強めるように\\　警告したほうが良いな。i015		
-sol.147.156	6	t3b4　零：b0ああ、そうした方が良いだろうな・・i060\\　早く戻ろう、晩飯の時間だ。i015@@　晩飯に供されるのはゾッとしない・・・i015		
-sol.147.157	6	t3b6　ブリジット：b0ああ、そうしよう。\\　・・・ところで、その物騒な代物は何だ？i015		
-sol.147.158	6	t3b4　零：b0そんな風に言う事はないだろ？i015@@　これが、今のところ唯一の戦利品だ・・・i060\\　それに・・・i015		
-sol.147.159	6	t3b6　ブリジット：b0それに？i015		
-sol.147.160	6	t3b4　零：b0俺の命の救い主にそんな口きいたら、\\　バチがあたる。i015		
-sol.147.161	7	t3　i030Ｃ４爆弾を手に入れた。i015		
-sol.147.162	7	t3　・・・反応しないようだ。i015		
-sol.147.163	7	t3a1ca0a　我を崇めぬ者に死の呪いを！！i015crrr		
-sol.147.164	7	t3a1　何か文字が書いてある・・・\\cf00　この先は危険！　近づくな！！i015crrr		
-sol.147.165	7	t3a1　開け～っ、胡麻ッ！！\\　・・・よし！！i015		
+sol.147.11	0	t0　　　　　g7仕掛けを動かした‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　{g7}Activated the mechanism...\\　　　　　　　　　　{g7i015}	
+sol.147.12	0	t0　　　　　何かが動く音がした‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　Heard something move...\\　　　　　　　　　　{g7i015}	
+sol.147.13	0	t0　　　　　g7仕掛けを起動しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Activate the mechanism?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.147.14	0	t0　　　　　　何も起こらない‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　　Nothing happens...\\　　　　　　　　　　{g7i015}	
+sol.147.15	0	t0b3　　　　　g7紅の石像b0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　　　{g7}Got the {b3}Crimson Statue{b0}.\\　　　　　　　　　　{g7i015}	
+sol.147.16	0	t0b3　　　　　g7蒼の石像b0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　　　{g7}Got the {b3}Blue Statue{b0}.\\　　　　　　　　　　{g7i015}	
+sol.147.17	0	　　　何かを奉るための祭壇らしい‥‥‥\\　　　　　　　　　　g7i015	　Looks like an altar for worshipping something...\\　　　　　　　　　　{g7i015}	
+sol.147.18	0	　　何かが置かれた形跡が２ヶ所ある‥‥‥\\　　　　　　　　　　g7i015	　Two spots show signs of something placed there...\\　　　　　　　　　　{g7i015}	
+sol.147.19	0	t0b3　　　　　紅の石像b0を台座に置いた。\\　　　　　　　　　　g7i015	{t0}　Placed the {b3}Crimson Statue{b0} on the pedestal.\\　　　　　　　　　　{g7i015}	
+sol.147.20	0	t0b3　　　　　蒼の石像b0を台座に置いた。\\　　　　　　　　　　g7i015	{t0}　　Placed the {b3}Blue Statue{b0} on the pedestal.\\　　　　　　　　　　{g7i015}	
+sol.147.21	0	　　　　　g7「汝の力で我を照らせ」i015\\　　　　　g7と、記されている‥‥‥\\　　　　　　　　　　g7i015	　　　　　{g7}"Illuminate me with thy power"{i015}\\　　　　　{g7}is what it says...\\　　　　　　　　　　{g7i015}	
+sol.147.22	0	　　　g7何らかの文章のように見えるが、\\　何が記されているのか、解読できない‥‥‥\\　　　　　　　　　　g7i015	　　　{g7}It looks like some kind of writing,\\　but there's no deciphering what it says...\\　　　　　　　　　　{g7i015}	
+sol.147.23	0	　　　　　　　g7こいつぁ‥‥‥	　　　　　　　{g7}This is...	
+sol.147.24	0	　　　　　　　t1‥‥‥やべぇ！！	　　　　　　　{t1}...Oh, crap!!	
+sol.147.25	1	　　　　おわぁぁぁぁぁぁぁぁぁ‥‥‥	　　　　Whoaaaaaaaaaaa...	
+sol.147.26	1	　　　　g7ようこそ、我らが郷へ‥‥‥	　　　　{g7}Welcome to our homeland...	
+sol.147.27	1	　　　　　道中つつがない様子‥‥‥\\g7貴方の技にはつくづく感嘆させられます‥‥‥	　　　　　Thy journey was without mishap, I see...\\{g7}Thy skill never ceases to amaze me...	
+sol.147.28	1	t4　　　　　　　g7‥‥‥i045皮肉か？	{t4}　　　　　　　{g7}...{i045}Is that sarcasm?	
+sol.147.29	1	t3　　　化け物やら、ばかでかい人形やらに\\　　　　　さんざ追い回されて‥‥‥	{t3}　　　Monsters, giant dolls, all of 'em\\　　　　　chasing me all over the place...	
+sol.147.30	1	t2　　あんなのがいるとは聞いてなかったぞ！	{t2}　　Nobody told me there'd be stuff like that!	
+sol.147.31	1	t3g7貴方の他にも数多くの曲者がおります故‥‥‥\\g7彼の者共に区別はつかなかったのでしょう‥‥	{t3g7}There are many intruders here besides thee...\\{g7}They could not have told thee apart, I fear...	
+sol.147.32	1	　　　かわりにお詫び申し上げます‥‥‥	　　　Allow me to apologize in their stead...	
+sol.147.33	1	t1　　　　　んなこた、どうでもいい！	{t1}　　　　　Who gives a damn about that!	
+sol.147.34	1	t2g7どうせこの先にもガーディアンはいるんだろう\\i030　　g7そいつらはどうにかなんねぇのか！？	{t2g7}There's more Guardians up ahead, right?\\{i030}　　{g7}Can't you do something about 'em!?	
+sol.147.35	1	t3　g7この聖域は、その全てが聖域を司る司祭に\\　　　　g7委ねられております故‥‥‥	{t3}　{g7}This sanctuary, in its entirety, is entrusted\\　　　　{g7}to the priest who presides over it...	
+sol.147.36	1	　彼の者共はもとより聖域の如何なる物であれ\\　　g7残念ながら私の力は及びませぬ‥‥‥	　Neither they nor aught else in the sanctuary\\　　{g7}lies within my power, regrettably...	
+sol.147.37	1	それで、この剣をそこまで持って行けってのか！\\i030　　　g7かなり都合がよすぎやしねぇか？	So you want me to haul this sword all the way there!\\{i030}　　　{g7}Isn't that a little too convenient?	
+sol.147.38	1	　　　御礼の品は、先の約定通りに‥‥‥	　　　Thy reward shall be as was agreed...	
+sol.147.39	1	　　　　　　g7重ねて無理を承知で\\　　　　　お願い申しあげます‥‥‥	　　　　　　{g7}Knowing well what I ask,\\　　　　　I beseech thee once more...	
+sol.147.40	1	　　　　その剣を‥‥‥聖域の最奥まで\\　　　お持ち頂けませぬでしょうか‥‥‥	　　　　Wouldst thou bear that sword...\\　　　to the innermost depths of the sanctuary...	
+sol.147.41	1	乗りかかった船だし、やらねぇ事はないが‥‥‥\\i030　せめて、ここらへんの案内も出来ないのか？	I'm already in this deep, so I'm not saying no, but...\\{i030}　Can't you at least show me around here?	
+sol.147.42	1	　　　　　g7私も封印されし身‥‥‥\\i030　　g7このうつし身を為すが力の限り‥‥‥	　　　　　{g7}I, too, am one who is sealed...\\{i030}　　{g7}This projected form is all my power allows...	
+sol.147.43	1	　　　　g7判った‥‥‥i030もういい‥‥‥	　　　　{g7}Got it...{i030} Forget it...	
+sol.147.44	1	　g7ただ、この先を往かれるのであれば‥‥‥\\　道なき道を見出されますよう心掛けて下さい	　{g7}But if thou wouldst go on ahead...\\　take care to find the path where no path lies.	
+sol.147.45	1	　　　　　　　‥‥‥i045t1何だって？	　　　　　　　...{i045t1}Come again?	
+sol.147.46	1	t3　　　道なき道を見出されますよう‥‥‥i030\\　　　くれぐれもお忘れなきように‥‥‥	{t3}　　　Find the path where no path lies...{i030}\\　　　Pray, do not forget it...	
+sol.147.47	1	　　　　　　　　お、i015t1おいっ！	　　　　　　　　H-{i015t1}Hey!	
+sol.147.48	1	t3　　　　私の力も、今はここまで‥‥‥\\i030　　貴方の無事をお祈りしております‥‥‥	{t3}　　　　My power, too, ends here for now...\\{i030}　　I shall pray for thy safety...	
+sol.147.49	1	　　　　　　　　‥‥‥‥‥‥i030	　　　　　　　　......{i030}	
+sol.147.50	1	t4　　　　乗りかかった船とは言え‥‥‥\\i045　　　g7泥船に乗っちまったかなぁ‥‥‥	{t4}　　　　Sure, I'm already on board, but...\\{i045}　　　{g7}feels like I boarded a sinking ship...	
+sol.147.51	1	t0b3　　　　　石黄の石板b0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　　　Got the {b3}Yellow Tablet{b0}.\\　　　　　　　　　　{g7i015}	
+sol.147.52	2	t5b6　蘭花：b0零、聞こえる？i030	{t5b6}　Ranfa:{b0} Rei, can you hear me?{i030}	
+sol.147.53	2	t5b4　零：b0ああ、ランファか。どうした？i030	{t5b4}　Rei:{b0} Yeah, Ranfa. What's up?{i030}	
+sol.147.54	2	t5b6　蘭花：b0さっき、調査隊のキャンプ跡で、\\　遺跡の調査メモが見つかったの。i030@@　で、判ってるとこはこっちでナビするから、\\　細かいとこの確認お願いね。i030\\	{t5b6}　Ranfa:{b0} We just found some notes on the ruins\\　at the survey team's old campsite.{i030}@@　So I'll navigate you through what we know,\\　and you check the details, okay?{i030}\\	
+sol.147.55	2	t5b4　零：b0細かいとこ、ねぇ・・・\\　なんか適当っぽくねぇか？i030	{t5b4}　Rei:{b0} "The details," huh...\\　Sounds kinda half-assed, doesn't it?{i030}	
+sol.147.56	2	t5b6　蘭花：b0適当かどうかは、\\　あんたの働き次第でしょ。i030@@　みんなに迷惑かかるんだから、\\　ちゃんとがんばりなさいよ。i030	{t5b6}　Ranfa:{b0} Whether it's half-assed\\　depends on how well you work.{i030}@@　Everyone's gonna be in trouble otherwise,\\　so put your back into it, okay?{i030}	
+sol.147.57	2	t5b4　零：b0へぇへ・・・i030	{t5b4}　Rei:{b0} Yeah, yeah...{i030}	
+sol.147.58	2	t5b6　蘭花：b0あと、位置はちゃんとこっちで\\　モニターしてるから、より道しないでね。i030@@　何かネコババしたって、\\　すぐに判るんだからね！i030	{t5b6}　Ranfa:{b0} Also, I'm monitoring your position\\　from here, so no detours.{i030}@@　If you pocket anything,\\　I'll know right away!{i030}	
+sol.147.59	2	t5b4　零：b0・・・信用ねえの。i030	{t5b4}　Rei:{b0} ...So much for trust.{i030}	
+sol.147.60	2	t5b6　蘭花：b0うだうだ言わずに、とっとと始める！i030	{t5b6}　Ranfa:{b0} Quit grumbling and get started!{i030}	
+sol.147.61	2	t5b6　蘭花：b0急いで移動するなら、Ｒ１ボタンを\\　押しながら方向キーを押すの。i030@@　走って回らないと\\　夜までに終わらないよぉ？i030	{t5b6}　Ranfa:{b0} To move fast, hold the R1 button\\　and press the directional buttons.{i030}@@　If you don't run around,\\　you won't finish by nightfall~?{i030}	
+sol.147.62	2	t3b4　零：b0・・・よぉ、このあたりの猫科の\\　大型に何がいる？i030	{t3b4}　Rei:{b0} ...Hey, what kind of big cats\\　live around here?{i030}	
+sol.147.63	2	t3b6　蘭花：b0さぁ？\\　南米ならジャガーか山猫ぐらいじゃない？i030@@　・・・って、何かいるの？i030	{t3b6}　Ranfa:{b0} Dunno~?\\　South America, so jaguars or wildcats, maybe?{i030}@@　...Wait, is something there?{i030}	
+sol.147.64	2	t3b4　零：b0あぁ・・・っと、やっぱり来るかっ！i030@@　Ｒ２ボタンでナイフを抜いて・・・\\　□ボタンを押してナイフで斬りつける！i030@@　やばいと思ったら、○ボタンでガード！\\　Ｒ２ボタンでナイフをしまおう。i030	{t3b4}　Rei:{b0} Yeah... whoa, here it comes!{i030}@@　Draw your knife with the R2 button...\\　then press the □ button to slash!{i030}@@　If things look bad, guard with the ○ button!\\　Put the knife away with the R2 button.{i030}	
+sol.147.65	2	t3b4　零：b0なんで・・・\\　出てきて１ヶ月の島に動物がいるんだ？i030	{t3b4}　Rei:{b0} Why are there animals on an island\\　that surfaced just a month ago?{i030}	
+sol.147.66	2	t3b4　零：b0っと、まだいたかっ！i030	{t3b4}　Rei:{b0} Whoa, there's still more!?{i030}	
+sol.147.67	2	t3b4　零：b0・・・行けよ。i030	{t3b4}　Rei:{b0} ...Go on.{i030}	
+sol.147.68	2	t3b4　零：b0何もしねえから、早く行け・・・i030	{t3b4}　Rei:{b0} I won't hurt you, so get going...{i030}	
+sol.147.69	2	t3b6　蘭花：b0大丈夫？どうかしたの？i030	{t3b6}　Ranfa:{b0} You okay? What happened?{i030}	
+sol.147.70	2	t3b4　零：b0・・・いや、何でもない。i030	{t3b4}　Rei:{b0} ...Nah, it's nothing.{i030}	
+sol.147.71	2	t3b4　零：b0ランファ、ここの扉はこれ以上\\　開かないのか？i015	{t3b4}　Rei:{b0} Ranfa, this door won't\\　open any further?{i015}	
+sol.147.72	2	t3b6　蘭花：b0ん～、開く仕掛けが\\　見あたらなかったみたい・・・i015@@　でも、奥には行けるんでしょ？i015	{t3b6}　Ranfa:{b0} Hmm~, looks like nobody found\\　a way to open it...{i015}@@　But you can get further in, right?{i015}	
+sol.147.73	2	t3b4　零：b0まぁ、なんとかなるか。i015	{t3b4}　Rei:{b0} Well, I'll manage somehow.{i015}	
+sol.147.74	2	t3b6　蘭花：b0○ボタンを２回押して屈んでみてよ。i015	{t3b6}　Ranfa:{b0} Press the ○ button twice to crouch.{i015}	
+sol.147.75	3	t3b6　蘭花：b0で、そのままＬ１ボタン押すと、\\　屈んだ状態で扉の奥が見えるでしょ？i015	{t3b6}　Ranfa:{b0} Then hold the L1 button, and you\\　can see past the door while crouched, right?{i015}	
+sol.147.76	3	t3b6　蘭花：b0Ｌ１ボタンを放して、Ｒ１を\\　押しながら方向キーの上を押すと、扉の下をi015@@　くぐり抜けられるから。i015	{t3b6}　Ranfa:{b0} Let go of L1, then hold R1\\　and press up on the directional buttons{i015}@@　to crawl under the door.{i015}	
+sol.147.77	3	t3b6　蘭花：b0えーと、そこにある\\　階段おりちゃって。i015	{t3b6}　Ranfa:{b0} Umm, just head down\\　the stairs there.{i015}	
+sol.147.78	3	t3b4　零：b0って、脇の回廊は見なくていいのか？i015	{t3b4}　Rei:{b0} Wait, I don't need to check\\　the side corridor?{i015}	
+sol.147.79	3	t3b6　蘭花：b0奥に扉があるらしいんだけど、\\　調査隊の方で開けらんなかったみたい。i015@@　真っ当な調査は明日やるから、\\　とりあえず先進んどいて。i015	{t3b6}　Ranfa:{b0} There's supposed to be a door in back,\\　but the survey team couldn't open it.{i015}@@　We'll do a proper survey tomorrow,\\　so just keep going for now.{i015}	
+sol.147.80	3	t3b4　零：b0ちぃっと、逃げるのは厳しいか・・・@@　敵に後ろを取られたら、\\　十字キーを後ろの敵に向かって押そう。@@　その後に□ボタンを押すと、\\　後ろにいる敵に攻撃できる。	{t3b4}　Rei:{b0} Tough to shake 'em off, huh...@@　If an enemy gets behind you,\\　press the D-pad toward it.@@　Then press the □ button\\　to attack the enemy behind you.	
+sol.147.81	3	t3b6　蘭花：b0ちょっと、どこに行ってるのよ？\\　勝手に適当なとこに行かないでよね！i015	{t3b6}　Ranfa:{b0} Hey, where are you going?\\　Don't just wander off wherever you like!{i015}	
+sol.147.82	3	t3b6　蘭花：b0あー、もう！\\　なんで人の言うこと聞かないかなー！i015	{t3b6}　Ranfa:{b0} Aargh, jeez!\\　Why won't you ever listen~!{i015}	
+sol.147.83	3	t3b6　蘭花：b0あー、その先のトカゲっぽい彫像\\　火ふくから気をつけてね。i015	{t3b6}　Ranfa:{b0} Oh, that lizard-ish statue up ahead\\　breathes fire, so be careful~.{i015}	
+sol.147.84	3	t3b4　零：b0そういう事を、お気楽そうに言うな！i015	{t3b4}　Rei:{b0} Don't say stuff like that so casually!{i015}	
+sol.147.85	3	t3b6　蘭花：b0えっと、奥にある石碑に\\　仕掛けっぽいのがあって、i015@@　それ押せば止まるって書いてある・・・i015	{t3b6}　Ranfa:{b0} Umm, the stele in back has\\　something like a switch on it,{i015}@@　and it says pushing it stops the fire...{i015}	
+sol.147.86	3	t3b4　零：b0そういう事は、早めに言え！i015	{t3b4}　Rei:{b0} Tell me stuff like that sooner!{i015}	
+sol.147.87	3	t3b4　零：b0石碑の前に立って、っと・・・\\　□ボタンで仕掛けを動かしてみよう。i015	{t3b4}　Rei:{b0} Stand in front of the stele, and...\\　press the □ button to work the switch.{i015}	
+sol.147.88	3	t3b4　零：b0なんか、空気が澱んでるな・・・\\　ガスか？i015	{t3b4}　Rei:{b0} The air's kinda stale in here...\\　Gas?{i015}	
+sol.147.89	3	t3b6　蘭花：b0ん、そうみたい。i015	{t3b6}　Ranfa:{b0} Hm, looks like it.{i015}	
+sol.147.90	3	t3b6　蘭花：b0多分致死性じゃないと思うけど、体に\\　悪そうだから近づかない方がいいかもね。i015	{t3b6}　Ranfa:{b0} Probably not lethal, but it can't be\\　good for you, so maybe keep away.{i015}	
+sol.147.91	3	t3b4　零：b0ここにもガスか・・・\\　さっきの場所と続いているのか？i015	{t3b4}　Rei:{b0} Gas here too...\\　Is it connected to that last spot?{i015}	
+sol.147.92	3	t3b6　蘭花：b0そのあたり、足元崩れやすく\\　なってるみたいだから、気をつけてね。i015	{t3b6}　Ranfa:{b0} The ground around there looks\\　kinda crumbly, so watch your step.{i015}	
+sol.147.93	3	t3b4　零：b0この壁の奥、進めるのか？i015	{t3b4}　Rei:{b0} Can I get past this wall?{i015}	
+sol.147.94	3	t3b6　蘭花：b0ちょっと待って・・・\\　うん、何とかぎりぎり進めるみたい。i015@@　でも、ついでだからそこに通路開けといてって\\　ドクが言ってるけど？i015	{t3b6}　Ranfa:{b0} Hang on...\\　Yeah, looks like you can just squeeze by.{i015}@@　But Doc says while you're at it,\\　open up a passage there, okay?{i015}	
+sol.147.95	3	t3b4　零：b0言ってるのは良いけどさ・・・\\　どうやって開けろっての、これ？i015	{t3b4}　Rei:{b0} He can say that all he wants...\\　but how the hell do I open this?{i015}	
+sol.147.96	4	t3b6　蘭花：b0あー、今さっきブリジットがそっちに\\　Ｃ４持ってったから、それ使って。i015	{t3b6}　Ranfa:{b0} Oh, Bridget just headed your way\\　with some C4, so use that.{i015}	
+sol.147.97	4	t3b4　零：b0Ｃ４ねぇ・・・i015\\　で、ジッティは、あとどれぐらいで着くって？i015	{t3b4}　Rei:{b0} C4, huh...{i015}\\　So how long till Jitty gets here?{i015}	
+sol.147.98	4	t3b6　ブリジット：b0今、ここにいるが。i015	{t3b6}　Bridget:{b0} I'm already here.{i015}	
+sol.147.99	4	t3b4　零：b0うわっ！！i015	{t3b4}　Rei:{b0} Whoa!!{i015}	
+sol.147.100	4	t3b6　ブリジット：b0何を驚いている？i015	{t3b6}　Bridget:{b0} What are you jumping for?{i015}	
+sol.147.101	4	t3b4　零：b0えらくお茶目・・　いや、早いじゃねえか・・i060で、Ｃ４は？i015	{t3b4}　Rei:{b0} Quite the prankster.. I mean,\\　you're fast..{i060} So, the C4?{i015}	
+sol.147.102	4	t3b6　ブリジット：b0ああ、ここにある。　気をつけて使えよ。@@　間違っても遺跡に余計な被害を与えないようにi015\\　・・・貴様と心中など御免だからな。i015	{t3b6}　Bridget:{b0} Yes, right here. Handle it with care.@@　Don't do any needless damage to the ruins.{i015}\\　...I've no wish to die alongside you, fool.{i015}	
+sol.147.103	4	t3b4　零：b0じゃ、早速使ってみるか。i015	{t3b4}　Rei:{b0} Well then, let's give it a shot.{i015}	
+sol.147.104	4	t3b6　ブリジット：b0そんな高い所に置こうとしても、\\　手が届かないんじゃないのか？i015	{t3b6}Bridget:{b0} Trying to put it up that high?\\You won't be able to reach it, will you?{i015}	
+sol.147.105	4	t3b6　ブリジット：b0そこの岩を足場に\\　使ってみてはどうだ？i015	{t3b6}Bridget:{b0} Why not try using that rock\\over there as a foothold?{i015}	
+sol.147.106	4	t3b6　ブリジット：b0岩の前に立って□ボタンを\\　押し続けて、岩をつかんだら・・・i015@@　そのまま十字キーを前に押して、\\　岩を押すんだ。i015	{t3b6}Bridget:{b0} Stand in front of the rock and hold\\the □ button. Once you've grabbed it...{i015}@@keep pushing the D-pad forward\\to push the rock.{i015}	
+sol.147.107	4	t3b6　ブリジット：b0あぁ、間違えて押しすぎたら・・i015@@　そのまま十字キーを後ろに押して、\\　岩を引っ張るといい。i015	{t3b6}Bridget:{b0} Ah, and if you push it too far...{i015}@@keep pressing the D-pad backward\\to pull the rock back.{i015}	
+sol.147.108	4	t3　Ｃ４に関わらず道具を使いたいときは、\\　まず使う場所へ行くんだ。i015@@　壁の崩れてる場所にＣ４を使うには、\\　そこでＳＴＡＲＴボタンを押す。i015@@　アイテムモードを選んで、Ｃ４を選ぶと、\\　その場所でＣ４を使うことが出来る。@@　早く退避しないと、爆発に巻き込まれるぞ！i015	{t3}Whenever you want to use an item, C4 or not,\\first go to the spot where you'll use it.{i015}@@To use C4 on a crumbling wall,\\press the START button right there.{i015}@@Choose Item Mode and select the C4,\\and you can use the C4 at that spot.@@Get clear fast, or you'll be caught\\in the blast!{i015}	
+sol.147.109	4	t3b4　零：b0あれ、どこに行くんだ？i015	{t3b4}Rei:{b0} Hey, where are you off to?{i015}	
+sol.147.110	4	t3b6　ブリジット：b0あぁ、貴様が大雑把だと\\　言われてな。i015@@　前調査の確認作業だよ・・・i030\\　貴様の尻拭いさ。i015	{t3b6}Bridget:{b0} Ah, I was told you're sloppy.{i015}@@I'm double-checking the earlier survey...{i030}\\cleaning up after you.{i015}	
+sol.147.111	4	t3b4　零：b0・・・俺って、そんなに信用ないのか？i015	{t3b4}Rei:{b0} ...Am I really that untrustworthy?{i015}	
+sol.147.112	4	t3b6　ブリジット：b0そう、くさるな。i015@@　調査隊の消息がたどれない今、細心の注意を\\　はらっておいても、間違いはあるまい？i015	{t3b6}Bridget:{b0} Don't sulk like that.{i015}@@With no trace of the survey team for now,\\taking extra care can't hurt, can it?{i015}	
+sol.147.113	4	t3b4　零：b0・・・まぁ、いいか。i060\\　だが、俺の邪魔だけは勘弁してくれよな？i015	{t3b4}Rei:{b0} ...Well, whatever.{i060}\\Just don't get in my way, got it?{i015}	
+sol.147.114	4	t3b6　ブリジット：b0その言葉は、そのまま貴様に\\　返しておこう。i060じゃあな。i015	{t3b6}Bridget:{b0} I'll hand those words\\right back to you.{i060} See you.{i015}	
+sol.147.115	4	t3b4　零：b0・・・i060\\　かわいくねぇの。i015	{t3b4}Rei:{b0} ...{i060}\\Not exactly adorable, is she.{i015}	
+sol.147.116	5	t3b4　零：b0・・・調査隊の連中、火の始末ぐらい\\　きちんとしとけよな・・・i015	{t3b4}Rei:{b0} ...The survey team could've at least\\put their damn fires out properly...{i015}	
+sol.147.117	5	t3b4　零：b0どぉわっ！i015	{t3b4}Rei:{b0} Whoa-aah!{i015}	
+sol.147.118	5	t3b6　蘭花：b0あ～、そこにかかってる橋も\\　崩れやすくなってるって。i015@@　気をつけてね。i015	{t3b6}Ranfa:{b0} Uh~, they say the bridge there\\is about to give way, too.{i015}@@Be careful~.{i015}	
+sol.147.119	5	t3b4　零：b0だから、早めに言ってくれっ！i015	{t3b4}Rei:{b0} Then tell me sooner, dammit!{i015}	
+sol.147.120	5	t3b6　蘭花：b0零、あんた水ダメなんだっけ？i015	{t3b6}Ranfa:{b0} Rei, you're no good with water, right?{i015}	
+sol.147.121	5	t3b4　零：b0・・・顔を付けるのが苦手なだけだ。i015\\　人をカナズチみたいに言うなっ！i015	{t3b4}Rei:{b0} ...I just hate getting my face wet.{i015}\\Don't make it sound like I sink like a rock!{i015}	
+sol.147.122	5	t3b6　蘭花：b0じゃぁ、いいわ。i030@@　方向キーと×ボタンを押せば、\\　そのまま押した方向に泳ぐからね。i030@@　あと泳いでるときには、i030@@　壁につかまること以外は\\　出来ないから注意してね。i015	{t3b6}Ranfa:{b0} Okay then, fine.{i030}@@Press a direction and the × button,\\and you'll swim that way.{i030}@@Oh, and while you're swimming,{i030}@@you can't do anything but grab\\onto walls, so watch out~.{i015}	
+sol.147.123	5	t3b4　零：b0なんだ、あれは？i015	{t3b4}Rei:{b0} What the hell is that?{i015}	
+sol.147.124	5	t3b6　蘭花：b0ストップ！i015@@　そこから先行くと、\\　そのまま下まで落っこちちゃうよ。i030@@　床の構造がもろくなってるって書いてある。i015	{t3b6}Ranfa:{b0} Stop!{i015}@@Go any farther from there,\\and you'll fall straight to the bottom.{i030}@@It says the floor's structure is all brittle.{i015}	
+sol.147.125	5	t3b4　零：b0ゆっくり歩けば平気だろ？i015	{t3b4}Rei:{b0} I'll be fine if I walk slow, right?{i015}	
+sol.147.126	5	t3b6　蘭花：b0試して見たければ、どうぞ。\\　でも、どうなっても知らないからね！i015@@　とにかく、そこの置物は\\　ダミーみたいだから、先に進んでみて。i015	{t3b6}Ranfa:{b0} Try it if you want.\\But don't blame me for what happens!{i015}@@Anyway, that ornament there looks like\\a dummy, so just keep going.{i015}	
+sol.147.127	5	t3　下へ降りるには道を探す\\　必要がありそうだ・・・i030@@　周りを見渡したいときは、\\　Ｒ１ボタンを押しながら方向キーを押すと、i030@@　その方向を見渡すことが出来る。i030@@　左右を見渡すときは体の向きもi030@@　同じ方向に向いているから、\\　元に戻したときに注意しよう。i030	{t3}Looks like you'll need to find\\a way down...{i030}@@To look around, hold the R1 button\\and press a direction{i030}@@to look that way.{i030}@@When you look left or right, your body{i030}@@turns that way too, so watch out\\when you turn back.{i030}	
+sol.147.128	5	t3b4　零：b0馬鹿でっかい柱が立ってるところは、\\　なんて書いてある。i015	{t3b4}Rei:{b0} What does it say about the place\\with those huge pillars?{i015}	
+sol.147.129	5	t3b6　蘭花：b0う～ん・・・i015\\　そのあたりについては、何も書かれてないよ。@@　っていうか、そのあたりから\\　先の記述が残ってないの。i015@@　・・・もうそろそろ、\\　戻ったほうが良いんじゃない？i015	{t3b6}Ranfa:{b0} Hmm~...{i015}\\It doesn't say anything about that area.@@Actually, nothing past that point\\made it into the records.{i015}@@...Isn't it about time\\you came back?{i015}	
+sol.147.130	5	t3b4　零：b0そうだな・・・i060\\　いや、もう少し先まで様子を見てくるわ。i015	{t3b4}Rei:{b0} Yeah...{i060}\\Nah, I'll go scope things out a bit further.{i015}	
+sol.147.131	5	t3b4　零：b0こいつは・・・i015	{t3b4}Rei:{b0} This is...{i015}	
+sol.147.132	5	t3b4　零：b0聞こえるか・・・祭壇を見つけた。\\　何か奉られているらしい。調べてみる。i015	{t3b4}Rei:{b0} You hear me... I found an altar.\\Something's enshrined here. I'll check it.{i015}	
+sol.147.133	5	t3b6　蘭花：b0・・・・・・・・・・i015	{t3b6}Ranfa:{b0} ...{i015}	
+sol.147.134	5	t3b4　零：b0これは・・・剣か？i015	{t3b4}Rei:{b0} Is this... a sword?{i015}	
+sol.147.135	6	t3b4　零：b0おい、聞こえるか？\\　刀剣らしい棒状の金属を発見した。i015@@　回収した方が良いのか、\\　ジイさんに確認してくれ。i015	{t3b4}Rei:{b0} Hey, you hear me? I found a metal\\rod that looks like some kind of blade.{i015}@@Ask Gramps if I should\\bring it back.{i015}	
+sol.147.136	6	t3b6　蘭花：b0・・・・・・・・・・i015	{t3b6}Ranfa:{b0} ...{i015}	
+sol.147.137	6	t3b4　零：b0おい、聞こえているのか？応答しろ！！i015	{t3b4}Rei:{b0} Hey, are you listening? Answer me!!{i015}	
+sol.147.138	6	t3b6　蘭花：b0ええ、ああ・・・i060うん、聞こえてる。i015	{t3b6}Ranfa:{b0} Huh, oh...{i060} yeah, I hear you.{i015}	
+sol.147.139	6	t3b4　零：b0居眠りしてるんじゃねぇぞ！！i015@@　・・・金属製の棒を発見した。\\　回収の判断を頼む。i015	{t3b4}Rei:{b0} Don't you doze off on me!!{i015}@@...I found a metal rod.\\Tell me if I should bring it back.{i015}	
+sol.147.140	6	t3b6　蘭花：b0ええっと・・・回収してだって。\\　特に罠らしい物はないって言ってるし。i015	{t3b6}Ranfa:{b0} Umm... he says bring it back.\\He says there's nothing like a trap there.{i015}	
+sol.147.141	6	t3b4　零：b0そうか？まぁ、わかった。\\　これを回収してから、そっちに戻る。i015	{t3b4}Rei:{b0} Yeah? Well, okay.\\I'll grab this and head back your way.{i015}	
+sol.147.142	6	t3b6　蘭花：b0わかった、お願いね。i015	{t3b6}Ranfa:{b0} Got it, counting on you~.{i015}	
+sol.147.143	6	t3b4　零：b0・・・さてと。i015	{t3b4}Rei:{b0} ...Right then.{i015}	
+sol.147.144	6	t3b4　零：b0鉄・・・じゃないな・・・\\　なんだ・・・これは？i015	{t3b4}Rei:{b0} Iron... no, it's not...\\What... is this thing?{i015}	
+sol.147.145	6	t3b4　零：b0おぅわっ！！i015	{t3b4}Rei:{b0} Whoaaa!!{i015}	
+sol.147.146	6	t3b4　零：b0くそっ、やっぱり罠があったか！！i015	{t3b4}Rei:{b0} Damn, I knew there was a trap!!{i015}	
+sol.147.147	6	t3b4　零：b0あの馬鹿の言うことなん・・・\\　てぁっ・・・！！i015	{t3b4}Rei:{b0} Never trust a word that idiot...\\Gyaah...!!{i015}	
+sol.147.148	6	t3b4　零：b0おわあああああぁぁぁぁぁぁぁ・・i015	{t3b4}Rei:{b0} Whoaaaaaaaaaaaahhhhhh...{i015}	
+sol.147.149	6	t3b4　零：b0ナイフ程度がこんなのに効くかっ！i015	{t3b4}Rei:{b0} Like a knife's gonna work on this thing!{i015}	
+sol.147.150	6	t3b4　零：b0ちったぁ、ましかっ！i015	{t3b4}Rei:{b0} That's a little better!{i015}	
+sol.147.151	6	t3b6　ブリジット：b0無事だったか？i015	{t3b6}Bridget:{b0} Are you all right?{i015}	
+sol.147.152	6	t3b4　零：b0ああ、何とかね・・・i015	{t3b4}Rei:{b0} Yeah, more or less...{i015}	
+sol.147.153	6	t3b6　ブリジット：b0上から影は見えたが・・・i060\\　あんな化物がここには居るのか？i015	{t3b6}Bridget:{b0} I saw its shadow from above...{i060}\\There are monsters like that down here?{i015}	
+sol.147.154	6	t3b4　零：b0ここだけだと良いんだけどな・・・i060\\　あちこちに居られても困る。i015	{t3b4}Rei:{b0} Let's hope it's just here...{i060}\\Don't need 'em all over the place.{i015}	
+sol.147.155	6	t3b6　ブリジット：b0ここだけに\\　居るとは限らないか・・・i060@@　外に警戒を強めるように\\　警告したほうが良いな。i015	{t3b6}Bridget:{b0} There's no saying\\it's only here...{i060}@@We'd better warn the people outside\\to tighten their guard.{i015}	
+sol.147.156	6	t3b4　零：b0ああ、そうした方が良いだろうな・・i060\\　早く戻ろう、晩飯の時間だ。i015@@　晩飯に供されるのはゾッとしない・・・i015	{t3b4}Rei:{b0} Yeah, that'd be smart...{i060}\\Let's head back, it's dinnertime.{i015}@@Getting served AS dinner is no fun at all...{i015}	
+sol.147.157	6	t3b6　ブリジット：b0ああ、そうしよう。\\　・・・ところで、その物騒な代物は何だ？i015	{t3b6}Bridget:{b0} Yes, let's.\\...By the way, what is that dangerous thing?{i015}	
+sol.147.158	6	t3b4　零：b0そんな風に言う事はないだろ？i015@@　これが、今のところ唯一の戦利品だ・・・i060\\　それに・・・i015	{t3b4}Rei:{b0} No need to put it like that, is there?{i015}@@This is my only loot so far...{i060}\\Besides...{i015}	
+sol.147.159	6	t3b6　ブリジット：b0それに？i015	{t3b6}Bridget:{b0} Besides?{i015}	
+sol.147.160	6	t3b4　零：b0俺の命の救い主にそんな口きいたら、\\　バチがあたる。i015	{t3b4}Rei:{b0} Talk like that about the thing that\\saved my life, and I'm asking for it.{i015}	
+sol.147.161	7	t3　i030Ｃ４爆弾を手に入れた。i015	{t3}{i030}Got the C4 Bomb.{i015}	
+sol.147.162	7	t3　・・・反応しないようだ。i015	{t3}...It doesn't seem to respond.{i015}	
+sol.147.163	7	t3a1ca0a　我を崇めぬ者に死の呪いを！！i015crrr	{t3a1ca0a}A curse of death upon all who worship me not!!{i015crrr}	
+sol.147.164	7	t3a1　何か文字が書いてある・・・\\cf00　この先は危険！　近づくな！！i015crrr	{t3a1}Something is written here...\\{cf00}Danger ahead! Keep away!!{i015crrr}	
+sol.147.165	7	t3a1　開け～っ、胡麻ッ！！\\　・・・よし！！i015	{t3a1}Open... sesame!!\\...All right!!{i015}	

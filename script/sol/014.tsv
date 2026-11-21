@@ -1,12 +1,12 @@
 id	sector	jp	en	notes
-sol.14.0	0	CSA0t0e00814なんだ？今頃、誰が来たんだ？\\		
-sol.14.1	0	CSA0t0e01154ミスター・ナカムラ、わざわざ\\お出でになるとは‥‥		
-sol.14.2	0	CSA0t0e00114警備の増員の件で来た。\\サンダーソン教授の所へ案内してくれ！		
-sol.14.3	0	CSA0t0e00031こちらです‥‥\\		
-sol.14.4	0	CSA0t0e01239御苦労。\\		
-sol.14.5	0	CSA0t0e00643あなたが‥‥ミスター・シドウ？\\		
-sol.14.6	0	CSA0t0e00983聞いてるわよ。カタナでモンスターを\\仕留めたんですって？@@あなた‥‥本物のサムライなの？		
-sol.14.7	0	CSA0t0e00462摩耶、パトリシア！何をしている？\\虚言癖のある奴に用はない。行くぞ！		
-sol.14.8	0	CSA0t0e01062今時、侍なんていないわ、パット。さぁ、\\こっちに‥‥社長が先に行ってしまうわ。		
-sol.14.9	0	CSA0t0e01334あはははははは‥‥バァーイ、\\サムライボーイ‥‥		
-sol.14.10	0	CSA0t0e00032‥‥なんだってんだ、ありゃ？\\		
+sol.14.0	0	CSA0t0e00814なんだ？今頃、誰が来たんだ？\\	{CSA0t0e00814}What? Who the hell's showing up at this hour?\\	
+sol.14.1	0	CSA0t0e01154ミスター・ナカムラ、わざわざ\\お出でになるとは‥‥	{CSA0t0e01154}Mr. Nakamura, coming here\\in person...	
+sol.14.2	0	CSA0t0e00114警備の増員の件で来た。\\サンダーソン教授の所へ案内してくれ！	{CSA0t0e00114}I'm here about the extra security.\\Take me to Professor Sanderson!	
+sol.14.3	0	CSA0t0e00031こちらです‥‥\\	{CSA0t0e00031}This way...\\	
+sol.14.4	0	CSA0t0e01239御苦労。\\	{CSA0t0e01239}Good.\\	
+sol.14.5	0	CSA0t0e00643あなたが‥‥ミスター・シドウ？\\	{CSA0t0e00643}So you're... Mr. Shido?\\	
+sol.14.6	0	CSA0t0e00983聞いてるわよ。カタナでモンスターを\\仕留めたんですって？@@あなた‥‥本物のサムライなの？	{CSA0t0e00983}I've heard all about you. You took down\\a monster with a katana?@@Are you... a real samurai?	
+sol.14.7	0	CSA0t0e00462摩耶、パトリシア！何をしている？\\虚言癖のある奴に用はない。行くぞ！	{CSA0t0e00462}Maya, Patricia! What are you doing?\\I've no use for a compulsive liar. Let's go!	
+sol.14.8	0	CSA0t0e01062今時、侍なんていないわ、パット。さぁ、\\こっちに‥‥社長が先に行ってしまうわ。	{CSA0t0e01062}There are no samurai these days, Pat. Come,\\this way... the president is leaving us behind.	
+sol.14.9	0	CSA0t0e01334あはははははは‥‥バァーイ、\\サムライボーイ‥‥	{CSA0t0e01334}Ahahahahaha... Bye-bye,\\samurai boy...	
+sol.14.10	0	CSA0t0e00032‥‥なんだってんだ、ありゃ？\\	{CSA0t0e00032}...What the hell was that about?\\	

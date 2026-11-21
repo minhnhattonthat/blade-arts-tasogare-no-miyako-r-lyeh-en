@@ -1,9 +1,9 @@
 id	sector	jp	en	notes
-sol.20.0	0	CSA0t0e00808そこの不審者に告ぐぅ！\\そこの陰からおとなしく出て来いぃ！		
-sol.20.1	0	CSA0t0e00368むぅ、貴様‥‥\\獅堂とかいうやつかぁ！		
-sol.20.2	0	CSA0t0e01328ザグナスのやつぅ！\\しくじったなぁ！		
-sol.20.3	0	CSA0t0e00025ヘリの動きが制限されている‥‥		
-sol.20.4	0	CSA0t0e00278よしっ、ここなら戦えるっ！		
-sol.20.5	0	CSA0t0e00193あ～あ、未確認の文化財だってのに、\\ぜんぜんお構いなしだな‥‥		
-sol.20.6	0	CSA0t0e01148一応は、助かったが‥‥\\		
-sol.20.7	0	CSA0t0e00546しかし‥‥\\この能力は、いったいなんだってんだ？		
+sol.20.0	0	CSA0t0e00808そこの不審者に告ぐぅ！\\そこの陰からおとなしく出て来いぃ！	{CSA0t0e00808}Attention, intruderrr!\\Come out from behind there quietlyyy!	
+sol.20.1	0	CSA0t0e00368むぅ、貴様‥‥\\獅堂とかいうやつかぁ！	{CSA0t0e00368}Hmm, you...\\You're that Shido guyyy!	
+sol.20.2	0	CSA0t0e01328ザグナスのやつぅ！\\しくじったなぁ！	{CSA0t0e01328}That Zagnusss!\\He screwed it uppp!	
+sol.20.3	0	CSA0t0e00025ヘリの動きが制限されている‥‥	{CSA0t0e00025}The chopper can't move freely in here...	
+sol.20.4	0	CSA0t0e00278よしっ、ここなら戦えるっ！	{CSA0t0e00278}All right, I can fight here!	
+sol.20.5	0	CSA0t0e00193あ～あ、未確認の文化財だってのに、\\ぜんぜんお構いなしだな‥‥	{CSA0t0e00193}Aw, man, this is an undocumented cultural relic,\\and they don't give a damn...	
+sol.20.6	0	CSA0t0e01148一応は、助かったが‥‥\\	{CSA0t0e01148}Well, I made it out, at least...\\	
+sol.20.7	0	CSA0t0e00546しかし‥‥\\この能力は、いったいなんだってんだ？	{CSA0t0e00546}But...\\what the hell is this power, anyway?	

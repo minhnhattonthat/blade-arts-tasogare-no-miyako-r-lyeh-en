@@ -1,31 +1,31 @@
 id	sector	jp	en	notes
-sol.59.0	0	CSA0t0e00437ぬぅ‥‥\\貴様、ここまで入り込んできたか。@@トラップだけでは足りなかったか‥‥		
-sol.59.1	0	CSA0t0e00789別にあんたらの私有地って\\訳でもないだろう‥‥@@入り込んで何が悪いってんだ？		
-sol.59.2	0	CSA0t0e00090うぬぅ、口の減らん奴め‥‥@@地上では遅れをとったが、\\ここではそうは行かんぞ。		
-sol.59.3	0	CSA0t0e01304へ？\\もしかして、あん時ヘリに乗ってたの、あんたか？\\		
-sol.59.4	0	CSA0t0e00955あ～、そいつは悪い事したねぇ‥‥		
-sol.59.5	0	CSA0t0e00614貴様ぁっ！\\黙っていればべらべらと軽口をっ！		
-sol.59.6	0	CSA0t0e00173もぅ、ゆるせん！@@地上での態度といい、今の態度といい、\\人を舐めくさるにも程があるっ！@@その腐った性根叩き直してくれるわっ！		
-sol.59.7	0	CSA0t0e00345人の土地に土足で上がりこんで\\開き直っている馬鹿野郎に、@@そんな事言われる筋合いは無いね！		
-sol.59.8	0	CSA0t0e01213一回で足りないなら、\\何度でもぶちのめしてやる！@@かかってきなっ！		
-sol.59.9	0	CSA0t0e01038あ、いたいた。\\零っ、ＤＳＯＮの隊長は？		
-sol.59.10	0	CSA0t0e01127ああ、ナカムラじゃなくていいなら、\\ここにぶっ倒れているけど‥‥なに？		
-sol.59.11	0	CSA0t0e00707んっふふぅ。さっき気がついたんだけど、\\こいつらヘリでここまで来たんだよね？		
-sol.59.12	0	CSA0t0e00525ああ。俺がここに来た時に\\ちょうど飛んでたな。		
-sol.59.13	0	CSA0t0e00874分隊ぐらいの人、運んできてたよね？		
-sol.59.14	0	CSA0t0e00004まぁ、そのぐらい運べる\\大きさだったような‥‥		
-sol.59.15	0	CSA0t0e00956うっしゃぁ！\\これで楽して地上に帰れるぅ～。		
-sol.59.16	0	CSA0t0e01305おい、どこにおいてあるか分かってるのか？		
-sol.59.17	0	CSA0t0e00790わかんないよぉ。\\だから隊長さんがいるかって聞いたんじゃない。		
-sol.59.18	0	CSA0t0e00256聞いたって‥‥どうするの。		
-sol.59.19	0	CSA0t0e00615尋問するに決まってるじゃない。\\当然でしょぉ。		
-sol.59.20	0	CSA0t0e00438あ、もう縛ってあるわね。\\じゃ、あたしこれもらってくから。		
-sol.59.21	0	CSA0t0e00091もらってくって‥‥ええ？		
-sol.59.22	0	CSA0t0e01039じゃぁ、あんたも早めに戻ってくるのよ。\\でないと、ここにおいてっちゃうからね。		
-sol.59.23	0	CSA0t0e01214んっふっふっふっふ。\\ど～んないじめ方しようかな～？		
-sol.59.24	1	CSA0t0e00346この手のは普通のいじめ方じゃ、だめよねぇ。@@くすぐり地獄かな～？\\バンジージャンプ百連発かな～？@@もっとえぐいのでも良いかもね‥‥		
-sol.59.25	1	CSA0t0e00875‥‥ある意味、かわいそうな奴だよな。		
-sol.59.26	1	CSA0t0e00526さて、一応やる事はやったけど‥‥\\どうするかな‥‥		
-sol.59.27	1	CSA0t0e01306貴様のような奴は\\性根を直すのも面倒だ！@@よって、貴様とはここでお別れだ。		
-sol.59.28	1	CSA0t0e00005俺って結構、合理的だろう？		
-sol.59.29	1	t3b3テンペリエスb0のスフィアを手に入れた		
+sol.59.0	0	CSA0t0e00437ぬぅ‥‥\\貴様、ここまで入り込んできたか。@@トラップだけでは足りなかったか‥‥	{CSA0t0e00437}Nngh...\\So you've made it in this far, have you?@@The traps alone weren't enough...	
+sol.59.1	0	CSA0t0e00789別にあんたらの私有地って\\訳でもないだろう‥‥@@入り込んで何が悪いってんだ？	{CSA0t0e00789}It's not like this is\\your private property or anything...@@What's wrong with coming in?	
+sol.59.2	0	CSA0t0e00090うぬぅ、口の減らん奴め‥‥@@地上では遅れをとったが、\\ここではそうは行かんぞ。	{CSA0t0e00090}Grr, you never shut your mouth, do you...@@You got the better of me on the surface,\\but it won't go that way down here.	
+sol.59.3	0	CSA0t0e01304へ？\\もしかして、あん時ヘリに乗ってたの、あんたか？\\	{CSA0t0e01304}Huh?\\Wait, was that you in the chopper back then?\\	
+sol.59.4	0	CSA0t0e00955あ～、そいつは悪い事したねぇ‥‥	{CSA0t0e00955}Ahh, my bad on that one, pal...	
+sol.59.5	0	CSA0t0e00614貴様ぁっ！\\黙っていればべらべらと軽口をっ！	{CSA0t0e00614}You bastard!\\I keep quiet and you just keep yapping!	
+sol.59.6	0	CSA0t0e00173もぅ、ゆるせん！@@地上での態度といい、今の態度といい、\\人を舐めくさるにも程があるっ！@@その腐った性根叩き直してくれるわっ！	{CSA0t0e00173}That's it, I've had it!@@Your attitude up there, your attitude now...\\there are limits to how far you can mock a man!@@I'll beat that rotten spirit out of you!	
+sol.59.7	0	CSA0t0e00345人の土地に土足で上がりこんで\\開き直っている馬鹿野郎に、@@そんな事言われる筋合いは無いね！	{CSA0t0e00345}I don't need to hear that from an idiot\\who barges onto other people's land@@and then acts like he owns the place!	
+sol.59.8	0	CSA0t0e01213一回で足りないなら、\\何度でもぶちのめしてやる！@@かかってきなっ！	{CSA0t0e01213}If once wasn't enough,\\I'll knock you flat as many times as it takes!@@Come and get it!	
+sol.59.9	0	CSA0t0e01038あ、いたいた。\\零っ、ＤＳＯＮの隊長は？	{CSA0t0e01038}Oh, there you are.\\Rei, where's the DSON captain?	
+sol.59.10	0	CSA0t0e01127ああ、ナカムラじゃなくていいなら、\\ここにぶっ倒れているけど‥‥なに？	{CSA0t0e01127}Well, if it doesn't have to be Nakamura,\\he's out cold right here... Why?	
+sol.59.11	0	CSA0t0e00707んっふふぅ。さっき気がついたんだけど、\\こいつらヘリでここまで来たんだよね？	{CSA0t0e00707}Mm-hmhm~. I just realized something.\\These guys came here by chopper, right?	
+sol.59.12	0	CSA0t0e00525ああ。俺がここに来た時に\\ちょうど飛んでたな。	{CSA0t0e00525}Yeah. It was flying around\\right when I got here.	
+sol.59.13	0	CSA0t0e00874分隊ぐらいの人、運んできてたよね？	{CSA0t0e00874}It brought in a squad's worth of people, right?	
+sol.59.14	0	CSA0t0e00004まぁ、そのぐらい運べる\\大きさだったような‥‥	{CSA0t0e00004}Well, it looked big enough\\to carry that many...	
+sol.59.15	0	CSA0t0e00956うっしゃぁ！\\これで楽して地上に帰れるぅ～。	{CSA0t0e00956}All riiight!\\Now we can ride home to the surface in comfort~!	
+sol.59.16	0	CSA0t0e01305おい、どこにおいてあるか分かってるのか？	{CSA0t0e01305}Hey, do you even know where it's parked?	
+sol.59.17	0	CSA0t0e00790わかんないよぉ。\\だから隊長さんがいるかって聞いたんじゃない。	{CSA0t0e00790}No idea~.\\That's why I asked if the captain was around!	
+sol.59.18	0	CSA0t0e00256聞いたって‥‥どうするの。	{CSA0t0e00256}You asked... so what're you gonna do?	
+sol.59.19	0	CSA0t0e00615尋問するに決まってるじゃない。\\当然でしょぉ。	{CSA0t0e00615}Interrogate him, obviously.\\What else~?	
+sol.59.20	0	CSA0t0e00438あ、もう縛ってあるわね。\\じゃ、あたしこれもらってくから。	{CSA0t0e00438}Oh, he's already tied up.\\Then I'll just be taking this one with me.	
+sol.59.21	0	CSA0t0e00091もらってくって‥‥ええ？	{CSA0t0e00091}Taking him with you... huh?	
+sol.59.22	0	CSA0t0e01039じゃぁ、あんたも早めに戻ってくるのよ。\\でないと、ここにおいてっちゃうからね。	{CSA0t0e01039}Then you hurry back too, okay?\\Or else we'll leave you behind here.	
+sol.59.23	0	CSA0t0e01214んっふっふっふっふ。\\ど～んないじめ方しようかな～？	{CSA0t0e01214}Mmhuhuhuhu.\\How shall I torment him~?	
+sol.59.24	1	CSA0t0e00346この手のは普通のいじめ方じゃ、だめよねぇ。@@くすぐり地獄かな～？\\バンジージャンプ百連発かな～？@@もっとえぐいのでも良いかもね‥‥	{CSA0t0e00346}The usual stuff won't work on this type, huh.@@Tickle torture, maybe~?\\Or a hundred bungee jumps in a row~?@@Maybe something even nastier...	
+sol.59.25	1	CSA0t0e00875‥‥ある意味、かわいそうな奴だよな。	{CSA0t0e00875}...Kinda feel sorry for the guy, in a way.	
+sol.59.26	1	CSA0t0e00526さて、一応やる事はやったけど‥‥\\どうするかな‥‥	{CSA0t0e00526}Okay, I did what I came to do, sort of...\\Now what...	
+sol.59.27	1	CSA0t0e01306貴様のような奴は\\性根を直すのも面倒だ！@@よって、貴様とはここでお別れだ。	{CSA0t0e01306}Fixing the spirit of a wretch like you\\is far too much trouble!@@Therefore, this is where we part ways.	
+sol.59.28	1	CSA0t0e00005俺って結構、合理的だろう？	{CSA0t0e00005}Pretty logical of me, huh?	
+sol.59.29	1	t3b3テンペリエスb0のスフィアを手に入れた	{t3}Got the {b3}Temperies{b0} Sphere.	

@@ -1,3 +1,3 @@
 id	sector	jp	en	notes
-sol.146.0	0	BKAft3セーブしますか？\\　　　t0[DD1　Ｙｅｓ　　　　　[2　Ｎｏ		
-sol.146.1	0	BKAft3セーブします。		
+sol.146.0	0	BKAft3セーブしますか？\\　　　t0[DD1　Ｙｅｓ　　　　　[2　Ｎｏ	{BKAft3}Save your game?\\　　　{t0[DD1}　Yes　　　　　　{[2}　No	
+sol.146.1	0	BKAft3セーブします。	{BKAft3}Saving.	

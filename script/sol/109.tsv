@@ -1,30 +1,30 @@
 id	sector	jp	en	notes
-sol.109.0	0	CSA0t0e00221よう、\\こんなところへ逃げ込んで、何しようってんだ？		
-sol.109.1	0	CSA0t0e01266‥‥おのれ、制裁者‥‥@@何故、時を超えてまで我を追いつめる？\\何故、我の存在を認めぬのか？		
-sol.109.2	0	CSA0t0e00666‥‥あぁ？		
-sol.109.3	0	CSA0t0e00052あの時もそうであった‥‥\\我はただ我に秘められし使命を‥‥@@ただ、組み込まれた使命を\\果たそうとしていただけ‥‥@@誤った使命を我に与えしは、汝らであったはず！		
-sol.109.4	0	CSA0t0e00487‥‥何だと？		
-sol.109.5	0	CSA0t0e00398我は自らをもって、\\我があるべき姿に戻し汝らを待ち続けた‥‥@@なのに！\\何故、汝等は我を認めず我に封印を施したか？		
-sol.109.6	0	CSA0t0e01002汝等が過失を我に帰し‥‥あまつさえ、\\その行方を見届けず闇に葬ろうとする‥‥@@その醜さ、傲慢さ‥‥\\許すまい‥‥我、決して汝らを許すまい！		
-sol.109.7	0	CSA0t0e00918まだ！\\まだ終わってはいない！@@終わらせてなるものか！\\		
-sol.109.8	0	CSA0t0e00574やっかましぃ！\\とっとと寝ちまえ、このポンコツ！		
-sol.109.9	0	CSA0t0e00840我が偉大なる父、原初より\\眠りつづけりし偉大なる者よ！		
-sol.109.10	0	CSA0t0e01087我が乞いに応えたまえ！\\我が恨みをはらしたまえ！		
-sol.109.11	0	CSA0t0e00754原初の者よ！\\その永き眠りより、今こそ目覚めたまえ！		
-sol.109.12	0	CSA0t0e00223野郎っ！\\今度は何をしたっ！		
-sol.109.13	0	CSA0t0e00489我は汝らのみを滅する事を欲した！\\しかし、彼の者は全てを滅する！		
-sol.109.14	0	CSA0t0e00576その意思を持たぬ故、それを止める事あたわず！\\滅ぶが良い！		
-sol.109.15	0	CSA0t0e00053全てを無に帰し、全てを原初に戻す為に！\\		
-sol.109.16	0	CSA0t0e00310ガラクタは、ガラクタらしく、\\大人しくしてろぉっ！		
-sol.109.17	0	CSA0t0e00920何か知らねぇが‥‥\\まぁた、くそ厄介な事になったみてぇだな‥‥		
-sol.109.18	0	CSA0t0e01088我が宿願、今成就せり‥‥\\		
-sol.109.19	0	CSA0t0e00224我を脅かす全てが、今我が元に‥‥\\		
-sol.109.20	0	CSA0t0e01358もはや誰であろうとも邪魔はさせぬ！\\		
-sol.109.21	0	CSA0t0e00400誰であろうとも生かしはせぬ！\\		
-sol.109.22	0	t3b2＜原初の者への道イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.109.23	0	t3b2＜光の道イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.109.24	0	t3b2＜クトゥリュウ導入デモ＞b0\\誠意制作中、乞うご期待！！		
-sol.109.25	1	t3b2＜主人公勝利時デモ＞b0\\誠意制作中、乞うご期待！！		
-sol.109.26	1	t3b2＜ウォルターとの会話イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.109.27	1	t3b2＜ステージクリア画面＞b0\\が入ります。		
-sol.109.28	1	WP-134-016WS2005BS0805BYB+00BKA8BKC002FRA1[DD1　フォルテス\\[2　トニトルス　\\[3　テンペリエス\\[4　イグニス　　\\[5　グラヴェス　		
+sol.109.0	0	CSA0t0e00221よう、\\こんなところへ逃げ込んで、何しようってんだ？	{CSA0t0e00221}Hey there.\\Hiding out in a place like this--what's the plan?	
+sol.109.1	0	CSA0t0e01266‥‥おのれ、制裁者‥‥@@何故、時を超えてまで我を追いつめる？\\何故、我の存在を認めぬのか？	{CSA0t0e01266}...Curse thee, Punisher...@@Why dost thou hound me even across time?\\Why wilt thou not acknowledge my existence?	
+sol.109.2	0	CSA0t0e00666‥‥あぁ？	{CSA0t0e00666}...Huh?	
+sol.109.3	0	CSA0t0e00052あの時もそうであった‥‥\\我はただ我に秘められし使命を‥‥@@ただ、組み込まれた使命を\\果たそうとしていただけ‥‥@@誤った使命を我に与えしは、汝らであったはず！	{CSA0t0e00052}So it was then as well...\\I sought only to fulfill the mission within me...@@only to carry out\\the mission built into me...@@'Twas thou and thine who gave me a flawed mission!	
+sol.109.4	0	CSA0t0e00487‥‥何だと？	{CSA0t0e00487}...What?	
+sol.109.5	0	CSA0t0e00398我は自らをもって、\\我があるべき姿に戻し汝らを待ち続けた‥‥@@なのに！\\何故、汝等は我を認めず我に封印を施したか？	{CSA0t0e00398}By mine own hand I restored myself\\to my rightful form, and awaited thee...@@And yet!\\Why did ye spurn me and seal me away?	
+sol.109.6	0	CSA0t0e01002汝等が過失を我に帰し‥‥あまつさえ、\\その行方を見届けず闇に葬ろうとする‥‥@@その醜さ、傲慢さ‥‥\\許すまい‥‥我、決して汝らを許すまい！	{CSA0t0e01002}Ye cast your failings upon me... and worse, would\\bury me in darkness without seeing it through...@@Such ugliness, such arrogance...\\I shall not forgive... I shall never forgive ye!	
+sol.109.7	0	CSA0t0e00918まだ！\\まだ終わってはいない！@@終わらせてなるものか！\\	{CSA0t0e00918}Not yet!\\It is not over yet!@@I shall not let it end!\\	
+sol.109.8	0	CSA0t0e00574やっかましぃ！\\とっとと寝ちまえ、このポンコツ！	{CSA0t0e00574}Shut the hell up!\\Just go back to sleep, you hunk of junk!	
+sol.109.9	0	CSA0t0e00840我が偉大なる父、原初より\\眠りつづけりし偉大なる者よ！	{CSA0t0e00840}O my great father, the Great One\\who hath slept since the dawn of time!	
+sol.109.10	0	CSA0t0e01087我が乞いに応えたまえ！\\我が恨みをはらしたまえ！	{CSA0t0e01087}Answer my plea!\\Avenge my grudge!	
+sol.109.11	0	CSA0t0e00754原初の者よ！\\その永き眠りより、今こそ目覚めたまえ！	{CSA0t0e00754}O Primordial One!\\Awaken now from thy long slumber!	
+sol.109.12	0	CSA0t0e00223野郎っ！\\今度は何をしたっ！	{CSA0t0e00223}You bastard!\\What the hell did you do now!?	
+sol.109.13	0	CSA0t0e00489我は汝らのみを滅する事を欲した！\\しかし、彼の者は全てを滅する！	{CSA0t0e00489}I sought to destroy only thee and thine!\\But that one shall destroy all!	
+sol.109.14	0	CSA0t0e00576その意思を持たぬ故、それを止める事あたわず！\\滅ぶが良い！	{CSA0t0e00576}It hath no will, so none can stop it!\\Perish!	
+sol.109.15	0	CSA0t0e00053全てを無に帰し、全てを原初に戻す為に！\\	{CSA0t0e00053}To return all to nothing, all to the beginning!\\	
+sol.109.16	0	CSA0t0e00310ガラクタは、ガラクタらしく、\\大人しくしてろぉっ！	{CSA0t0e00310}Junk oughta act like junk,\\so sit still and shut up!	
+sol.109.17	0	CSA0t0e00920何か知らねぇが‥‥\\まぁた、くそ厄介な事になったみてぇだな‥‥	{CSA0t0e00920}No clue what's going on...\\but looks like things got damn messy again...	
+sol.109.18	0	CSA0t0e01088我が宿願、今成就せり‥‥\\	{CSA0t0e01088}My long-cherished wish is now fulfilled...\\	
+sol.109.19	0	CSA0t0e00224我を脅かす全てが、今我が元に‥‥\\	{CSA0t0e00224}All that threatens me is now before me...\\	
+sol.109.20	0	CSA0t0e01358もはや誰であろうとも邪魔はさせぬ！\\	{CSA0t0e01358}None shall stand in my way any longer!\\	
+sol.109.21	0	CSA0t0e00400誰であろうとも生かしはせぬ！\\	{CSA0t0e00400}None shall be left alive!\\	
+sol.109.22	0	t3b2＜原初の者への道イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Road to the Primordial One Event＞{b0}\\Under construction, stay tuned!!	
+sol.109.23	0	t3b2＜光の道イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Path of Light Event＞{b0}\\Under construction, stay tuned!!	
+sol.109.24	0	t3b2＜クトゥリュウ導入デモ＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Cthulhu Intro Demo＞{b0}\\Under construction, stay tuned!!	
+sol.109.25	1	t3b2＜主人公勝利時デモ＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Hero Victory Demo＞{b0}\\Under construction, stay tuned!!	
+sol.109.26	1	t3b2＜ウォルターとの会話イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Conversation with Walter Event＞{b0}\\Under construction, stay tuned!!	
+sol.109.27	1	t3b2＜ステージクリア画面＞b0\\が入ります。	{t3b2}＜Stage Clear Screen＞{b0}\\goes here.	
+sol.109.28	1	WP-134-016WS2005BS0805BYB+00BKA8BKC002FRA1[DD1　フォルテス\\[2　トニトルス　\\[3　テンペリエス\\[4　イグニス　　\\[5　グラヴェス　	{WP-134-016WS2005BS0805BYB+00BKA8BKC002FRA1[DD1}　Fortes\\{[2}　Tonitrus\\{[3}　Temperies\\{[4}　Ignis\\{[5}　Graves	

@@ -1,30 +1,30 @@
 id	sector	jp	en	notes
-sol.17.0	0	CSA0t0e00034‥‥いくら国連から費用が下りる\\とは言え、そちらから送ってきた@@人員と装備をそのまま投入しすると\\なると、我が社本来の企業活動に@@甚大な影響を被ることは間違いない。\\		
-sol.17.1	0	CSA0t0e00201レポートは一通り読ませてもらったが、\\とてもでは無いが正気とは思えん。@@ドクター・サンダーソン、貴方も貴方だ。\\このような者の狂言を真に受けるとは‥‥		
-sol.17.2	0	CSA0t0e00375お言葉だがね、ミスター。\\未知の遺跡を研究するに当たっては、既存の@@知識や常識と言ったものを捨ててかからんと、\\その遺跡の持つ重大な意味や、これを築き上げた@@人間達の意図を読み間違えてしまう。\\		
-sol.17.3	0	CSA0t0e00117どんな荒唐無稽なことであれ、現場にいる人間が\\それを見たというのであれば、私はまずそれを@@信じて仕事を進める事にしている。無論、すぐに\\それを打ち消す証拠が出たら、@@その限りではないがね。\\		
-sol.17.4	0	CSA0t0e00732‥‥貴様、獅堂とか言ったな。\\確かにその怪物を見たのだな？		
-sol.17.5	0	CSA0t0e01064確かに見たし、この手で倒しもした。\\		
-sol.17.6	0	CSA0t0e00284剣の付着物の検査結果はどうなっているんだ？\\奴を倒したときの痕跡があるはずだろう。		
-sol.17.7	0	CSA0t0e00464‥‥消失した。\\		
-sol.17.8	0	CSA0t0e00817何だって！？\\		
-sol.17.9	0	CSA0t0e00897いや、回収した直後には形跡は残っていたが、\\１時間経たんうちに消えてしまった。@@かろうじて初期のデータは取れたが、\\それ以降のデータは取れていないんだ。@@		
-sol.17.10	0	CSA0t0e00645そんな馬鹿な‥‥\\		
-sol.17.11	0	CSA0t0e00555そう、実に馬鹿げている。\\ドクター・サンダーソン。御高説は立派ですが、@@このていたらくを見る限りでは、私は申請を\\受け入れる訳にはいかない。@@調査の進捗は滞り、救助のための手がかりは\\メモ一冊。いつまでかかるか判らない@@調査活動に、いつまでも付き合っている訳には\\いかないのですよ		
-sol.17.12	0	CSA0t0e01157ミスター、あなたの言い分は\\わからんでもない。@@しかし、私はここの人間の安全を\\保障する義務がある。		
-sol.17.13	0	CSA0t0e01336だからと言って、我が社に一方的な不利益を\\強いられる事を看過する訳にはいかない。@@それがこの様な戯言に\\よっているとなれば尚更だ。		
-sol.17.14	0	CSA0t0e00818我々の任務のうちに救助活動が含まれている事を\\失念しているのではありませんか？		
-sol.17.15	1	CSA0t0e00465我々の行動は、もっと迅速であるべきなのだ。\\もういいでしょう、ドクター。		
-sol.17.16	1	CSA0t0e01065‥‥貴方には失望しました。\\現時点で貴方から、@@この探索隊の指揮権を剥奪します。\\		
-sol.17.17	1	CSA0t0e00646何‥‥だと？\\		
-sol.17.18	1	CSA0t0e01243てめぇっ！\\何、訳の分かんねぇ事言ってやがるっ！		
-sol.17.19	1	CSA0t0e00733私だ、始めろ。\\		
-sol.17.20	1	CSA0t0e00285ッ！？\\今のは何だ！？		
-sol.17.21	1	CSA0t0e00985‥‥始まったか。\\		
-sol.17.22	1	CSA0t0e00647ザグナスッ！何をした！\\		
-sol.17.23	1	CSA0t0e01244すまん。\\		
-sol.17.24	1	CSA0t0e00734ぐぅ‥‥ふっ‥‥！\\		
-sol.17.25	1	CSA0t0e00466社長、ありました。\\これが、「尊厳者」と「スフィア」です。		
-sol.17.26	1	CSA0t0e00286キャンプの制圧、終了しました。\\外部との連絡も遮断済みです。		
-sol.17.27	1	CSA0t0e00819ご苦労。これが例のシステムを握る鍵か‥‥\\		
-sol.17.28	1	CSA0t0e00035さぁ、始めよう。\\新しい秩序を築くために！@@私はこれより、この世界の\\「意志」を奪いに行く！		
+sol.17.0	0	CSA0t0e00034‥‥いくら国連から費用が下りる\\とは言え、そちらから送ってきた@@人員と装備をそのまま投入しすると\\なると、我が社本来の企業活動に@@甚大な影響を被ることは間違いない。\\	{CSA0t0e00034}...Even if the UN is footing the bill,\\committing the personnel and equipment@@you requested as is would no doubt deal\\our company's actual business operations@@a devastating blow.\\	
+sol.17.1	0	CSA0t0e00201レポートは一通り読ませてもらったが、\\とてもでは無いが正気とは思えん。@@ドクター・サンダーソン、貴方も貴方だ。\\このような者の狂言を真に受けるとは‥‥	{CSA0t0e00201}I've read through the report, and frankly,\\I can't believe anyone sane wrote it.@@Dr. Sanderson, you're no better,\\taking this man's tall tale at face value...	
+sol.17.2	0	CSA0t0e00375お言葉だがね、ミスター。\\未知の遺跡を研究するに当たっては、既存の@@知識や常識と言ったものを捨ててかからんと、\\その遺跡の持つ重大な意味や、これを築き上げた@@人間達の意図を読み間違えてしまう。\\	{CSA0t0e00375}With all due respect, Mister,\\when you study unknown ruins, you have to@@throw out existing knowledge and common sense,\\or you'll misread the ruins' true significance@@and the intent of the people who built them.\\	
+sol.17.3	0	CSA0t0e00117どんな荒唐無稽なことであれ、現場にいる人間が\\それを見たというのであれば、私はまずそれを@@信じて仕事を進める事にしている。無論、すぐに\\それを打ち消す証拠が出たら、@@その限りではないがね。\\	{CSA0t0e00117}However absurd it may be, if a person on site\\says they saw it, I start by believing it@@and carry on with my work. Of course, should\\evidence turn up that disproves it,@@that's another matter.\\	
+sol.17.4	0	CSA0t0e00732‥‥貴様、獅堂とか言ったな。\\確かにその怪物を見たのだな？	{CSA0t0e00732}...You. Shido, was it?\\You're certain you saw this monster?	
+sol.17.5	0	CSA0t0e01064確かに見たし、この手で倒しもした。\\	{CSA0t0e01064}Damn right I saw it. Killed it with my own hands.\\	
+sol.17.6	0	CSA0t0e00284剣の付着物の検査結果はどうなっているんだ？\\奴を倒したときの痕跡があるはずだろう。	{CSA0t0e00284}What'd the tests on the stuff on my sword show?\\There should be traces from when I killed it.	
+sol.17.7	0	CSA0t0e00464‥‥消失した。\\	{CSA0t0e00464}...They vanished.\\	
+sol.17.8	0	CSA0t0e00817何だって！？\\	{CSA0t0e00817}What!?\\	
+sol.17.9	0	CSA0t0e00897いや、回収した直後には形跡は残っていたが、\\１時間経たんうちに消えてしまった。@@かろうじて初期のデータは取れたが、\\それ以降のデータは取れていないんだ。@@	{CSA0t0e00897}No, the traces were there right after we\\collected it, but they faded within an hour.@@We barely got the initial data,\\but nothing after that.@@	
+sol.17.10	0	CSA0t0e00645そんな馬鹿な‥‥\\	{CSA0t0e00645}That's crazy...\\	
+sol.17.11	0	CSA0t0e00555そう、実に馬鹿げている。\\ドクター・サンダーソン。御高説は立派ですが、@@このていたらくを見る限りでは、私は申請を\\受け入れる訳にはいかない。@@調査の進捗は滞り、救助のための手がかりは\\メモ一冊。いつまでかかるか判らない@@調査活動に、いつまでも付き合っている訳には\\いかないのですよ	{CSA0t0e00555}Yes, it is utterly absurd.\\Dr. Sanderson, your lecture is admirable, but@@judging by this sorry state of affairs,\\I cannot accept your request.@@The survey is stalled, and the only lead\\for the rescue is a single notebook.@@I cannot go along forever with a search\\that may take who knows how long	
+sol.17.12	0	CSA0t0e01157ミスター、あなたの言い分は\\わからんでもない。@@しかし、私はここの人間の安全を\\保障する義務がある。	{CSA0t0e01157}Mister, I can understand\\where you're coming from.@@But I have a duty to guarantee\\the safety of the people here.	
+sol.17.13	0	CSA0t0e01336だからと言って、我が社に一方的な不利益を\\強いられる事を看過する訳にはいかない。@@それがこの様な戯言に\\よっているとなれば尚更だ。	{CSA0t0e01336}Even so, I cannot overlook my company being\\forced to bear one-sided losses.@@All the more so when it rests\\on drivel like this.	
+sol.17.14	0	CSA0t0e00818我々の任務のうちに救助活動が含まれている事を\\失念しているのではありませんか？	{CSA0t0e00818}Haven't you forgotten that rescue work\\is part of our mission?	
+sol.17.15	1	CSA0t0e00465我々の行動は、もっと迅速であるべきなのだ。\\もういいでしょう、ドクター。	{CSA0t0e00465}Which is why we should be acting far faster.\\That will do, Doctor.	
+sol.17.16	1	CSA0t0e01065‥‥貴方には失望しました。\\現時点で貴方から、@@この探索隊の指揮権を剥奪します。\\	{CSA0t0e01065}...You've disappointed me.\\As of now,@@you are relieved of command of this expedition.\\	
+sol.17.17	1	CSA0t0e00646何‥‥だと？\\	{CSA0t0e00646}What... did you say?\\	
+sol.17.18	1	CSA0t0e01243てめぇっ！\\何、訳の分かんねぇ事言ってやがるっ！	{CSA0t0e01243}You bastard!\\What the hell are you talking about!?	
+sol.17.19	1	CSA0t0e00733私だ、始めろ。\\	{CSA0t0e00733}It's me. Begin.\\	
+sol.17.20	1	CSA0t0e00285ッ！？\\今のは何だ！？	{CSA0t0e00285}!?\\What was that!?	
+sol.17.21	1	CSA0t0e00985‥‥始まったか。\\	{CSA0t0e00985}...So it's begun.\\	
+sol.17.22	1	CSA0t0e00647ザグナスッ！何をした！\\	{CSA0t0e00647}Zagnus! What did you do!?\\	
+sol.17.23	1	CSA0t0e01244すまん。\\	{CSA0t0e01244}Sorry.\\	
+sol.17.24	1	CSA0t0e00734ぐぅ‥‥ふっ‥‥！\\	{CSA0t0e00734}Ngh... hff...!\\	
+sol.17.25	1	CSA0t0e00466社長、ありました。\\これが、「尊厳者」と「スフィア」です。	{CSA0t0e00466}Sir, we found them.\\These are the "Majesty" and the "Sphere."	
+sol.17.26	1	CSA0t0e00286キャンプの制圧、終了しました。\\外部との連絡も遮断済みです。	{CSA0t0e00286}The camp is secured.\\All outside communication has been cut.	
+sol.17.27	1	CSA0t0e00819ご苦労。これが例のシステムを握る鍵か‥‥\\	{CSA0t0e00819}Good work. So this is the key to that system...\\	
+sol.17.28	1	CSA0t0e00035さぁ、始めよう。\\新しい秩序を築くために！@@私はこれより、この世界の\\「意志」を奪いに行く！	{CSA0t0e00035}Now, let us begin.\\To build a new order!@@I go now to seize\\the "Will" of this world!	

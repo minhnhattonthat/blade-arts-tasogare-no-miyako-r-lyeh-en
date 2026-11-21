@@ -1,68 +1,68 @@
 id	sector	jp	en	notes
-sol.173.0	0	　　　　　　　　g7‥‥‥ん？		
-sol.173.1	0	　　　　　なんだ、i015墓荒らしか‥‥‥\\i045　　　　　予想より、結構早かったな		
-sol.173.2	0	　　　　　意外なところで会う‥‥‥\\i030　　　g7と言いたいところだが、i015今更だな@@　　　　　‥‥‥で、i015何をしている？		
-sol.173.3	0	　　　　　　　見れば判るだろ？\\i030　　　　おまえを歓迎する準備さ‥‥‥@@　　　　まぁ、i015無駄になっちまったがな		
-sol.173.4	0	　　　　ハッ！i015歓迎が聞いてあきれる。\\i045　　　‥‥‥そこをどきな、i015仕事の邪魔だ		
-sol.173.5	0	　　　　　　g7こっちだって仕事さ\\i030　　　　g7ガキのお遊びとはわけが違う		
-sol.173.6	0	　g7おっと、i015そんな物騒なもの持ち出したって\\　　　　　　g7どうにもならんぜ。@@　　　　‥‥‥これだから、i015ガキは困る		
-sol.173.7	0	　　　　もともとそのつもりなんだろう\\i015　　　　g7なら早いほうが良いさ‥‥‥@@　足止め如きに時間を割くほど暇じゃないしな		
-sol.173.8	0	　　　　　　‥‥‥i015言ってくれる。\\i045　　　まぁ、i015それならそれで構わんがね。@@　g7遺物のなまくらを振り回して勝てるほど、\\　　　　　　甘くはないがな‥‥‥		
-sol.173.9	0	　　　　　　　まぁ、見てろよ。\\i045　　　g7卜伝の剣だって無形だったんだぜ		
-sol.173.10	0	　　　　　　我流がほざいてやがる\\i060　　　　　g7‥‥‥さぁ、i015殺ろうか！		
-sol.173.11	0	　　　　　そこまで剣を使うか‥‥‥\\i045　　　　g7その技、i015どこで身につけた？		
-sol.173.12	0	　　　　甘く見た時点で負けてんだよ！@@　　　　　　　　g7まぁ‥‥‥\\i045　　普段はこんな物持って歩いてないけどな		
-sol.173.13	0	　　　　　　　　‥‥‥‥‥‥@@　　　　　ある意味サギだな、i015それは		
-sol.173.14	0	　　見る目を持たない奴が悪いのさ‥‥‥i015と\\i045　　　　　　さて、i015仕事を進めるか		
-sol.173.15	0	　g7で？i045‥‥‥先発隊はどこまで進んでいる？		
-sol.173.16	0	　　　　　その仕事ならこっちが上だ。\\i030　g7何をされようとも、i015しゃべるつもりはない		
-sol.173.17	0	　　　　g7なら、しゃべらなくていい。\\i015　　　　　　　これだけで十分だ		
-sol.173.18	0	　　　　　　　　g7‥‥‥ッ！		
-sol.173.19	0	t0b3　　　　g7先発隊の地図b0を手に入れた。\\　　　　　　　　　　g7		
-sol.173.20	0	　遺跡の最奥部‥‥‥i015地下に続く坑道‥‥‥i015か\\i045　　　　‥‥‥軍隊にしては結構早いな		
-sol.173.21	1	　　　　　　　　‥‥‥‥‥‥		
-sol.173.22	1	　　　おまえがここで張ってるって事は、\\　　g7腕のいいのがまだいるって事か‥‥‥\\i045　　　　　g7めんどくせぇなぁ‥‥‥@@　まぁ、i015使われ方としては、妥当なところだな		
-sol.173.23	1	　　　　ッ！i015‥‥‥墓荒らし如きがっ！		
-sol.173.24	1	　　　　　g7じゃあな。i030運が良ければ\\　　　バックアップに助けてもらえるだろ@@　　　　死んだからって化けて出るなよ		
-sol.173.25	1	　　　我流が。i045武器に振り回されるから、\\　　　　　g7そういう目に遭う‥‥‥		
-sol.173.26	1	　　　お遊び如きにやられる俺じゃない！		
-sol.173.27	1	WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0\\　　　　　　g7ＧＡＭＥ　ＯＶＥＲ\\　　　　　　　　　　g7i060		
-sol.173.28	1	t0b3　　　　g7孔雀石の石板b0を手に入れた。\\　　　　　　　　　　g7i015		
-sol.173.29	1	t0b3　　　　孔雀石の石板b0が反応している。\\　　　　　　　　　　g7i015		
-sol.173.30	1	t0　　　　　　g7扉は開かない‥‥‥\\　　　　　　　　　　g7i015		
-sol.173.31	1	t0　　　　何か仕掛けがあるようだ‥‥‥\\　　　　　　　　　　g7i015		
-sol.173.32	1	t0　　　　　g7仕掛けを動かした‥‥‥\\　　　　　　　　　　g7i015		
-sol.173.33	1	t0　　　　　何かが動く音がした‥‥‥\\　　　　　　　　　　g7i015		
-sol.173.34	1	t0　　　　　g7仕掛けを起動しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.173.35	1	t0　　　　　　何も起こらない‥‥‥\\　　　　　　　　　　g7i015		
-sol.173.36	1	　　　　g7ようこそ、我らが郷へ‥‥‥		
-sol.173.37	1	　　　　　道中つつがない様子‥‥‥\\g7御身の技にはつくづく感嘆させられます‥‥‥		
-sol.173.38	1	t4　　　　　　　g7‥‥‥i045皮肉か？		
-sol.173.39	1	t3　　　化け物やら、ばかでかい人形やらに\\　　　　　さんざ追い回されて‥‥‥		
-sol.173.40	1	t2　　あんなのがいるとは聞いてなかったぞ！		
-sol.173.41	1	t3g7御身の他にも数多くの曲者がおります故‥‥‥\\彼の者共に区別はつかなかったのでしょう‥‥‥		
-sol.173.42	1	　　　かわりにお詫び申し上げます‥‥‥		
-sol.173.43	1	t1　　　　　んなこた、どうでもいい！		
-sol.173.44	1	t2g7どうせこの先にもガーディアンはいるんだろう\\i030　　g7そいつらはどうにかなんねぇのか！？		
-sol.173.45	1	t3　g7この聖域は、その全てが聖域を司る司祭に\\　　　　g7委ねられております故‥‥‥		
-sol.173.46	2	　彼の者共はもとより聖域の如何なる物であれ\\　　g7残念ながら私の力は及びませぬ‥‥‥		
-sol.173.47	2	それで、この剣をそこまで持って行けってのか！\\i030　　　g7かなり都合がよすぎやしねぇか？		
-sol.173.48	2	　　　御礼の品は、先の約定通りに‥‥‥		
-sol.173.49	2	　　　　　　g7重ねて無理を承知で\\　　　　　お願い申しあげます‥‥‥		
-sol.173.50	2	　　　　その剣を‥‥‥聖域の最奥まで\\　　　お持ち頂けませぬでしょうか‥‥‥		
-sol.173.51	2	乗りかかった船だし、やらねぇ事はないが‥‥‥\\i030　せめて、ここらへんの案内も出来ないのか？		
-sol.173.52	2	　　　　　g7私も封印されし身‥‥‥\\i030　　g7このうつし身を為すが力の限り‥‥‥		
-sol.173.53	2	　　　　g7判った‥‥‥i030もういい‥‥‥		
-sol.173.54	2	　g7ただ、この先を往かれるのであれば‥‥‥\\　道なき道を見出されますよう心掛けて下さい		
-sol.173.55	2	　　　　　　　‥‥‥i045t1何だって？		
-sol.173.56	2	t3　　　道なき道を見出されますよう‥‥‥i030\\　　　くれぐれもお忘れなきように‥‥‥		
-sol.173.57	2	　　　　　　　　お、i015t1おいっ！		
-sol.173.58	2	t3　　　　私の力も、今はここまで‥‥‥\\i030　　御身の無事をお祈りしております‥‥‥		
-sol.173.59	2	　　　　　　　　‥‥‥‥‥‥i015		
-sol.173.60	2	t4　　　　乗りかかった船とは言え‥‥‥\\i045　　　g7泥船に乗っちまったかなぁ‥‥‥		
-sol.173.61	2	t0b3　　　　　　翡翠盤b0を手に入れた。\\　　　　　　　　　　g7i015		
-sol.173.62	2	t0b3　　　　　　翡翠盤b0を台座に置いた\\　　　　　　　　　　g7i015		
-sol.173.63	2	t0b3　　　　　　翡翠盤b0を使いますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.173.64	2	　　　　　　　g7こいつぁ‥‥‥		
-sol.173.65	2	　　　　　　　t1‥‥‥やべぇ！！		
-sol.173.66	2	　　　　おわぁぁぁぁぁぁぁぁぁ‥‥‥		
+sol.173.0	0	　　　　　　　　g7‥‥‥ん？	　　　　　　　　　　  ...Hm?	
+sol.173.1	0	　　　　　なんだ、i015墓荒らしか‥‥‥\\i045　　　　　予想より、結構早かったな	　　　　　  Oh,{i015} it's the grave robber...\\　　  {i045}You got here a lot sooner than I figured	
+sol.173.2	0	　　　　　意外なところで会う‥‥‥\\i030　　　g7と言いたいところだが、i015今更だな@@　　　　　‥‥‥で、i015何をしている？	　　　　　Fancy running into you here...\\　　 {i030}I'd love to say,{i015} but that's old news by now@@　　　　　　...So,{i015} what are you doing?	
+sol.173.3	0	　　　　　　　見れば判るだろ？\\i030　　　　おまえを歓迎する準備さ‥‥‥@@　　　　まぁ、i015無駄になっちまったがな	　　　　　　Can't you tell by looking?\\　　　　 {i030}A little welcome party for you...@@　　　　　　　Well,{i015} it went to waste	
+sol.173.4	0	　　　　ハッ！i015歓迎が聞いてあきれる。\\i045　　　‥‥‥そこをどきな、i015仕事の邪魔だ	　　　　　　　  Hah!{i015} Some welcome.\\　 {i045}...Out of my way,{i015} you're keeping me from my job	
+sol.173.5	0	　　　　　　g7こっちだって仕事さ\\i030　　　　g7ガキのお遊びとはわけが違う	　　　　　　　　I'm on the job too\\　　　　 {i030}This is nothing like a kids' game	
+sol.173.6	0	　g7おっと、i015そんな物騒なもの持ち出したって\\　　　　　　g7どうにもならんぜ。@@　　　　‥‥‥これだから、i015ガキは困る	　　　Whoa,{i015} pulling out a nasty toy like that\\　　　　　　  won't get you anywhere.@@　　　　...This is why{i015} kids are such a pain	
+sol.173.7	0	　　　　もともとそのつもりなんだろう\\i015　　　　g7なら早いほうが良いさ‥‥‥@@　足止め如きに時間を割くほど暇じゃないしな	　　　　That was the plan all along, right?\\　　　　　 {i015}Then the sooner the better...@@　　　I'm not wasting time on some roadblock	
+sol.173.8	0	　　　　　　‥‥‥i015言ってくれる。\\i045　　　まぁ、i015それならそれで構わんがね。@@　g7遺物のなまくらを振り回して勝てるほど、\\　　　　　　甘くはないがな‥‥‥	　　　　　　　　　 ...{i015}Big talk.\\　　　　　　　 {i045}Well,{i015} suit yourself.@@　　　　  But you won't win just by waving\\　　　　　 some dull old relic around...	
+sol.173.9	0	　　　　　　　まぁ、見てろよ。\\i045　　　g7卜伝の剣だって無形だったんだぜ	　　　　　　　　Well, just watch.\\　　　 {i045}Even Bokuden's sword had no set form	
+sol.173.10	0	　　　　　　我流がほざいてやがる\\i060　　　　　g7‥‥‥さぁ、i015殺ろうか！	　　 Listen to the self-taught punk mouth off\\　　　　　　　{i060}...Now,{i015} let's do this!	
+sol.173.11	0	　　　　　そこまで剣を使うか‥‥‥\\i045　　　　g7その技、i015どこで身につけた？	　　　　　You handle a sword that well...\\　　　 {i045}That technique,{i015} where'd you learn it?	
+sol.173.12	0	　　　　甘く見た時点で負けてんだよ！@@　　　　　　　　g7まぁ‥‥‥\\i045　　普段はこんな物持って歩いてないけどな	　　  You lost the moment you took me lightly!@@　　　　　　　　　　 Well...\\　  {i045}normally I don't carry stuff like this around	
+sol.173.13	0	　　　　　　　　‥‥‥‥‥‥@@　　　　　ある意味サギだな、i015それは	　　　　　　　　　　　 ...@@　　　　  That's kind of a scam,{i015} you know	
+sol.173.14	0	　　見る目を持たない奴が悪いのさ‥‥‥i015と\\i045　　　　　　さて、i015仕事を進めるか	　Your fault for not having an eye for it...{i015} Right\\　　　　　　　　{i045}Now,{i015} back to work	
+sol.173.15	0	　g7で？i045‥‥‥先発隊はどこまで進んでいる？	　　So?{i045} ...How far has the advance team gotten?	
+sol.173.16	0	　　　　　その仕事ならこっちが上だ。\\i030　g7何をされようとも、i015しゃべるつもりはない	　　　　 At that game, I'm a cut above you.\\  {i030}Whatever you do,{i015} I've got no intention of talking	
+sol.173.17	0	　　　　g7なら、しゃべらなくていい。\\i015　　　　　　　これだけで十分だ	　　　　　 Then you don't have to talk.\\　　　　　　　　{i015}This is all I need	
+sol.173.18	0	　　　　　　　　g7‥‥‥ッ！	　　　　　　　　　　　 ...!	
+sol.173.19	0	t0b3　　　　g7先発隊の地図b0を手に入れた。\\　　　　　　　　　　g7	{t0}　　　　　  Got the {b3}Advance Team's Map{b0}.\\{g7}	
+sol.173.20	0	　遺跡の最奥部‥‥‥i015地下に続く坑道‥‥‥i015か\\i045　　　　‥‥‥軍隊にしては結構早いな	　 Deep in the ruins...{i015} a shaft leading down...{i015} huh\\　　　　　  {i045}...Pretty quick, for an army	
+sol.173.21	1	　　　　　　　　‥‥‥‥‥‥	　　　　　　　　　　　 ...	
+sol.173.22	1	　　　おまえがここで張ってるって事は、\\　　g7腕のいいのがまだいるって事か‥‥‥\\i045　　　　　g7めんどくせぇなぁ‥‥‥@@　まぁ、i015使われ方としては、妥当なところだな	　　　　  You staking out this spot means\\　　　there's still somebody good up ahead...@@　　　　　　　　  {i045}What a pain...@@　　  Well,{i015} that's about the right use for you	
+sol.173.23	1	　　　　ッ！i015‥‥‥墓荒らし如きがっ！	　　　　　Tch!{i015} ...A lousy grave robber...!	
+sol.173.24	1	　　　　　g7じゃあな。i030運が良ければ\\　　　バックアップに助けてもらえるだろ@@　　　　死んだからって化けて出るなよ	　　　　　　 See ya.{i030} If you're lucky,\\　　　　  your backup'll come bail you out@@　  And don't come back to haunt me when you die	
+sol.173.25	1	　　　我流が。i045武器に振り回されるから、\\　　　　　g7そういう目に遭う‥‥‥	　　  Amateur.{i045} Let a weapon swing you around,\\　　　　　　and that's what you get...	
+sol.173.26	1	　　　お遊び如きにやられる俺じゃない！	　　　　 Like I'd lose to some kiddie game!	
+sol.173.27	1	WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0\\　　　　　　g7ＧＡＭＥ　ＯＶＥＲ\\　　　　　　　　　　g7i060	{WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0}\\　　　　　　{g7}GAME OVER\\　　　　　　　　　　{g7i060}	
+sol.173.28	1	t0b3　　　　g7孔雀石の石板b0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　　　　Got the {b3}Malachite Tablet{b0}.\\{g7i015}	
+sol.173.29	1	t0b3　　　　孔雀石の石板b0が反応している。\\　　　　　　　　　　g7i015	{t0}　　　　 The {b3}Malachite Tablet{b0} is reacting.\\{g7i015}	
+sol.173.30	1	t0　　　　　　g7扉は開かない‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　　{g7}The door won't open...\\　　　　　　　　　　{g7i015}	
+sol.173.31	1	t0　　　　何か仕掛けがあるようだ‥‥‥\\　　　　　　　　　　g7i015	{t0}　　Looks like there's some kind of mechanism...\\{g7i015}	
+sol.173.32	1	t0　　　　　g7仕掛けを動かした‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　{g7}Activated the mechanism...\\　　　　　　　　　　{g7i015}	
+sol.173.33	1	t0　　　　　何かが動く音がした‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　Heard something move...\\　　　　　　　　　　{g7i015}	
+sol.173.34	1	t0　　　　　g7仕掛けを起動しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Activate the mechanism?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.173.35	1	t0　　　　　　何も起こらない‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　　Nothing happens...\\　　　　　　　　　　{g7i015}	
+sol.173.36	1	　　　　g7ようこそ、我らが郷へ‥‥‥	　　　　{g7}Welcome to our homeland...	
+sol.173.37	1	　　　　　道中つつがない様子‥‥‥\\g7御身の技にはつくづく感嘆させられます‥‥‥	　　 Your journey seems to go without mishap...\\　　　 Your skill never ceases to amaze me...	
+sol.173.38	1	t4　　　　　　　g7‥‥‥i045皮肉か？	{t4}　　　　　　　{g7}...{i045}Is that sarcasm?	
+sol.173.39	1	t3　　　化け物やら、ばかでかい人形やらに\\　　　　　さんざ追い回されて‥‥‥	{t3}　　　Monsters, giant dolls, all of 'em\\　　　　　chasing me all over the place...	
+sol.173.40	1	t2　　あんなのがいるとは聞いてなかったぞ！	{t2}　　Nobody told me there'd be stuff like that!	
+sol.173.41	1	t3g7御身の他にも数多くの曲者がおります故‥‥‥\\彼の者共に区別はつかなかったのでしょう‥‥‥	{t3}        For there are many intruders besides you...\\    They could not tell you apart from the rest...	
+sol.173.42	1	　　　かわりにお詫び申し上げます‥‥‥	　　　Allow me to apologize in their stead...	
+sol.173.43	1	t1　　　　　んなこた、どうでもいい！	{t1}　　　　　Who gives a damn about that!	
+sol.173.44	1	t2g7どうせこの先にもガーディアンはいるんだろう\\i030　　g7そいつらはどうにかなんねぇのか！？	{t2g7}There's more Guardians up ahead, right?\\{i030}　　{g7}Can't you do something about 'em!?	
+sol.173.45	1	t3　g7この聖域は、その全てが聖域を司る司祭に\\　　　　g7委ねられております故‥‥‥	{t3}　{g7}This sanctuary, in its entirety, is entrusted\\　　　　{g7}to the priest who presides over it...	
+sol.173.46	2	　彼の者共はもとより聖域の如何なる物であれ\\　　g7残念ながら私の力は及びませぬ‥‥‥	　Neither they nor aught else in the sanctuary\\　　{g7}lies within my power, regrettably...	
+sol.173.47	2	それで、この剣をそこまで持って行けってのか！\\i030　　　g7かなり都合がよすぎやしねぇか？	So you want me to haul this sword all the way there!\\{i030}　　　{g7}Isn't that a little too convenient?	
+sol.173.48	2	　　　御礼の品は、先の約定通りに‥‥‥	　　　Thy reward shall be as was agreed...	
+sol.173.49	2	　　　　　　g7重ねて無理を承知で\\　　　　　お願い申しあげます‥‥‥	　　　　　　{g7}Knowing well what I ask,\\　　　　　I beseech thee once more...	
+sol.173.50	2	　　　　その剣を‥‥‥聖域の最奥まで\\　　　お持ち頂けませぬでしょうか‥‥‥	　　　　Wouldst thou bear that sword...\\　　　to the innermost depths of the sanctuary...	
+sol.173.51	2	乗りかかった船だし、やらねぇ事はないが‥‥‥\\i030　せめて、ここらへんの案内も出来ないのか？	I'm already in this deep, so I'm not saying no, but...\\{i030}　Can't you at least show me around here?	
+sol.173.52	2	　　　　　g7私も封印されし身‥‥‥\\i030　　g7このうつし身を為すが力の限り‥‥‥	　　　　　{g7}I, too, am one who is sealed...\\{i030}　　{g7}This projected form is all my power allows...	
+sol.173.53	2	　　　　g7判った‥‥‥i030もういい‥‥‥	　　　　{g7}Got it...{i030} Forget it...	
+sol.173.54	2	　g7ただ、この先を往かれるのであれば‥‥‥\\　道なき道を見出されますよう心掛けて下さい	　{g7}But if thou wouldst go on ahead...\\　take care to find the path where no path lies.	
+sol.173.55	2	　　　　　　　‥‥‥i045t1何だって？	　　　　　　　...{i045t1}Come again?	
+sol.173.56	2	t3　　　道なき道を見出されますよう‥‥‥i030\\　　　くれぐれもお忘れなきように‥‥‥	{t3}　　　Find the path where no path lies...{i030}\\　　　Pray, do not forget it...	
+sol.173.57	2	　　　　　　　　お、i015t1おいっ！	　　　　　　　　H-{i015t1}Hey!	
+sol.173.58	2	t3　　　　私の力も、今はここまで‥‥‥\\i030　　御身の無事をお祈りしております‥‥‥	{t3}　 My power, too, can reach no further for now...\\　　　　　　 {i030}I pray for your safety...	
+sol.173.59	2	　　　　　　　　‥‥‥‥‥‥i015	　　　　　　　　　　　 ...{i015}	
+sol.173.60	2	t4　　　　乗りかかった船とは言え‥‥‥\\i045　　　g7泥船に乗っちまったかなぁ‥‥‥	{t4}　　　　Sure, I'm already on board, but...\\{i045}　　　{g7}feels like I boarded a sinking ship...	
+sol.173.61	2	t0b3　　　　　　翡翠盤b0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　　　　　  Got the {b3}Jade Disc{b0}.\\　　　　　　　　　　{g7i015}	
+sol.173.62	2	t0b3　　　　　　翡翠盤b0を台座に置いた\\　　　　　　　　　　g7i015	{t0}　　　 Placed the {b3}Jade Disc{b0} on the pedestal.\\　　　　　　　　　　{g7i015}	
+sol.173.63	2	t0b3　　　　　　翡翠盤b0を使いますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　　　  Use the {b3}Jade Disc{b0}?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.173.64	2	　　　　　　　g7こいつぁ‥‥‥	　　　　　　　{g7}This is...	
+sol.173.65	2	　　　　　　　t1‥‥‥やべぇ！！	　　　　　　　{t1}...Oh, crap!!	
+sol.173.66	2	　　　　おわぁぁぁぁぁぁぁぁぁ‥‥‥	　　　　Whoaaaaaaaaaaa...	

@@ -1,39 +1,39 @@
 id	sector	jp	en	notes
-sol.34.0	0	CSA0t0e01319よう、おまえんとこの大将はどこに行った？		
-sol.34.1	0	CSA0t0e00802‥‥墓荒らしか。外から連絡は入っていたが、\\結構早かったな。@@しかし、この状況でここに来るとはな。\\お前らしくもない無理をする。		
-sol.34.2	0	CSA0t0e00187今のあんたの方が、\\よっぽどらしくないさ。@@そんなに金が大事か、ザグナス？		
-sol.34.3	0	CSA0t0e00451貴様のような墓泥棒に、\\そんな事を言われる筋合いは無い。@@しょせん貴様には判らん事だ。		
-sol.34.4	0	CSA0t0e00720メリンダが悲しむぜ‥‥		
-sol.34.5	0	CSA0t0e00970私がしてきた事は変えられない。\\そして変えるつもりも無い。		
-sol.34.6	0	CSA0t0e00886それよりも零。おまえはここで手を引け。\\必要以上の仕事をする必要は無いだろう‥‥@@いまなら俺の権限で、安全に帰してやれる。		
-sol.34.7	0	CSA0t0e00361他のやつはどうしてる？\\俺だけ生きて帰っても寝覚めが悪いだろう。		
-sol.34.8	0	CSA0t0e00270無論帰してやれるさ‥‥		
-sol.34.9	0	CSA0t0e00538嘘をつくな！おまえがそうしても\\ナカムラが許すはずが無い！		
-sol.34.10	0	CSA0t0e00105ザグナス‥‥おまえ、何を隠している？\\‥‥何を知っている？		
-sol.34.11	0	CSA0t0e00631知ってるような口を利くな、小僧！\\この俺をそこまでなめてかかるか！@@慈悲をかけてやろうと思ったが、\\もう止めだ！@@その思いあがり、後悔させてやろう！		
-sol.34.12	0	CSA0t0e01320はっ！\\欲に眼のくもった奴にやられるかっ！		
-sol.34.13	0	CSA0t0e01140よぅ、目は覚めたか？		
-sol.34.14	0	CSA0t0e01227お前に負けるとはな‥‥\\腕か‥‥それとも、道具か？		
-sol.34.15	0	CSA0t0e00721さぁ、何が理由なんだかね。\\で？ナカムラはどこだ？@@探索隊のみんなはどこにいる？		
-sol.34.16	0	CSA0t0e00018ああ、両方とも遺跡の奥に向かっている。		
-sol.34.17	0	CSA0t0e00271両方？\\なんでみんなを連れて行く必要があるんだ？@@ＤＳＯＮの連中の足手まといに\\しかならねぇだろう？		
-sol.34.18	0	CSA0t0e00971人質だよ‥‥\\ブリジット・ランダースと言ったか‥‥@@女の冒険屋に道案内をさせるためのな。		
-sol.34.19	0	CSA0t0e00452人質ねぇ‥‥@@まぁ、あいつなら自分の命じゃ\\動きそうに無いな。		
-sol.34.20	0	CSA0t0e01141なぜ‥‥俺を生かした？		
-sol.34.21	0	CSA0t0e00188ばぁーか、俺にそんな力ねぇよ。\\それにメリンダに恨まれたくねぇ。		
-sol.34.22	0	CSA0t0e00362‥‥強くなったな。		
-sol.34.23	1	CSA0t0e01321お前が弱くなったんだろ？\\とっとと引退して、メリンダを安心させな。		
-sol.34.24	1	CSA0t0e00539‥‥考えておこう。		
-sol.34.25	1	CSA0t0e00106ああ、それと。\\そんなに早くカタはつかないと思うから、@@それまで一応身を隠しときなよ。		
-sol.34.26	1	CSA0t0e00803そうだな‥‥なら、ついでに頼みがある。\\こいつを始末してくれないか？		
-sol.34.27	1	CSA0t0e00019なんだ‥‥って、こいつは！		
-sol.34.28	1	CSA0t0e01228知っているのか？\\なら話は早い。		
-sol.34.29	1	CSA0t0e00887この遺跡内部での通信手段として渡された‥‥@@具体的にどのように使うかは説明を\\受けていないが、@@持っているだけで良いと言われた事を考えると、\\私の行動が筒抜けになってしまうのだろう‥‥@@まぁ、もう遅いかもしれんがな‥‥		
-sol.34.30	1	CSA0t0e01142わかった。一応預かっておく‥‥		
-sol.34.31	1	CSA0t0e00363‥‥すまんな。\\助けになれんで。		
-sol.34.32	1	CSA0t0e00540仕方ないさ。\\‥‥気をつけてな。		
-sol.34.33	1	CSA0t0e01053あと‥‥\\メリンダは、無事だと思うよ。きっと。		
-sol.34.34	1	CSA0t0e00632ああ‥‥\\じゃぁな。		
-sol.34.35	1	CSA0t0e00722あれを悲しませたくは無かったが‥‥		
-sol.34.36	1	CSA0t0e00272２度目のミスをナカムラは\\許しはしないだろう。		
-sol.34.37	1	CSA0t0e00453すまん。		
+sol.34.0	0	CSA0t0e01319よう、おまえんとこの大将はどこに行った？	{CSA0t0e01319}Yo, where'd your boss run off to?	
+sol.34.1	0	CSA0t0e00802‥‥墓荒らしか。外から連絡は入っていたが、\\結構早かったな。@@しかし、この状況でここに来るとはな。\\お前らしくもない無理をする。	{CSA0t0e00802}...The grave robber. I got word from outside,\\but you're earlier than I expected.@@Still, coming here, in this situation...\\That's a reckless move, even for you.	
+sol.34.2	0	CSA0t0e00187今のあんたの方が、\\よっぽどらしくないさ。@@そんなに金が大事か、ザグナス？	{CSA0t0e00187}You're the one acting\\way out of character right now.@@Is money really that important, Zagnus?	
+sol.34.3	0	CSA0t0e00451貴様のような墓泥棒に、\\そんな事を言われる筋合いは無い。@@しょせん貴様には判らん事だ。	{CSA0t0e00451}I don't need to hear that\\from a grave robber like you.@@You could never understand anyway.	
+sol.34.4	0	CSA0t0e00720メリンダが悲しむぜ‥‥	{CSA0t0e00720}Melinda's gonna be heartbroken...	
+sol.34.5	0	CSA0t0e00970私がしてきた事は変えられない。\\そして変えるつもりも無い。	{CSA0t0e00970}I can't change what I've done.\\And I have no intention of changing it.	
+sol.34.6	0	CSA0t0e00886それよりも零。おまえはここで手を引け。\\必要以上の仕事をする必要は無いだろう‥‥@@いまなら俺の権限で、安全に帰してやれる。	{CSA0t0e00886}More importantly, Rei, back off now.\\No need to do more than the job asks...@@Right now, my authority can still\\get you home safe.	
+sol.34.7	0	CSA0t0e00361他のやつはどうしてる？\\俺だけ生きて帰っても寝覚めが悪いだろう。	{CSA0t0e00361}What about everybody else?\\I'd never sleep right if I made it back alone.	
+sol.34.8	0	CSA0t0e00270無論帰してやれるさ‥‥	{CSA0t0e00270}Of course I can send them home...	
+sol.34.9	0	CSA0t0e00538嘘をつくな！おまえがそうしても\\ナカムラが許すはずが無い！	{CSA0t0e00538}Don't lie to me! Even if you did,\\there's no way Nakamura would allow it!	
+sol.34.10	0	CSA0t0e00105ザグナス‥‥おまえ、何を隠している？\\‥‥何を知っている？	{CSA0t0e00105}Zagnus... what are you hiding?\\...What do you know?	
+sol.34.11	0	CSA0t0e00631知ってるような口を利くな、小僧！\\この俺をそこまでなめてかかるか！@@慈悲をかけてやろうと思ったが、\\もう止めだ！@@その思いあがり、後悔させてやろう！	{CSA0t0e00631}Don't talk like you know anything, boy!\\You dare take me this lightly!?@@I meant to show you mercy,\\but no more!@@I'll make you regret that arrogance!	
+sol.34.12	0	CSA0t0e01320はっ！\\欲に眼のくもった奴にやられるかっ！	{CSA0t0e01320}Hah!\\Like I'd lose to a guy blinded by greed!	
+sol.34.13	0	CSA0t0e01140よぅ、目は覚めたか？	{CSA0t0e01140}Yo, you awake?	
+sol.34.14	0	CSA0t0e01227お前に負けるとはな‥‥\\腕か‥‥それとも、道具か？	{CSA0t0e01227}To think I'd lose to you...\\Was it skill... or the tool?	
+sol.34.15	0	CSA0t0e00721さぁ、何が理由なんだかね。\\で？ナカムラはどこだ？@@探索隊のみんなはどこにいる？	{CSA0t0e00721}Who knows what it was.\\So? Where's Nakamura?@@Where's everyone from the search party?	
+sol.34.16	0	CSA0t0e00018ああ、両方とも遺跡の奥に向かっている。	{CSA0t0e00018}Ah, they're both headed deep into the ruins.	
+sol.34.17	0	CSA0t0e00271両方？\\なんでみんなを連れて行く必要があるんだ？@@ＤＳＯＮの連中の足手まといに\\しかならねぇだろう？	{CSA0t0e00271}Both?\\Why the hell would he need to drag everyone along?@@They'd just slow\\the DSON guys down, right?	
+sol.34.18	0	CSA0t0e00971人質だよ‥‥\\ブリジット・ランダースと言ったか‥‥@@女の冒険屋に道案内をさせるためのな。	{CSA0t0e00971}They're hostages...\\Bridget Landers, was it...@@To make that female adventurer act as guide.	
+sol.34.19	0	CSA0t0e00452人質ねぇ‥‥@@まぁ、あいつなら自分の命じゃ\\動きそうに無いな。	{CSA0t0e00452}Hostages, huh...@@Well, she sure wouldn't budge\\just for her own life.	
+sol.34.20	0	CSA0t0e01141なぜ‥‥俺を生かした？	{CSA0t0e01141}Why... did you let me live?	
+sol.34.21	0	CSA0t0e00188ばぁーか、俺にそんな力ねぇよ。\\それにメリンダに恨まれたくねぇ。	{CSA0t0e00188}Moron, I don't have that kinda power.\\Besides, I don't want Melinda hating me.	
+sol.34.22	0	CSA0t0e00362‥‥強くなったな。	{CSA0t0e00362}...You've gotten stronger.	
+sol.34.23	1	CSA0t0e01321お前が弱くなったんだろ？\\とっとと引退して、メリンダを安心させな。	{CSA0t0e01321}You've gotten weaker, more like.\\Hurry up and retire, and put Melinda's mind at ease.	
+sol.34.24	1	CSA0t0e00539‥‥考えておこう。	{CSA0t0e00539}...I'll think about it.	
+sol.34.25	1	CSA0t0e00106ああ、それと。\\そんなに早くカタはつかないと思うから、@@それまで一応身を隠しときなよ。	{CSA0t0e00106}Oh, and one more thing.\\I doubt this'll be settled anytime soon,@@so lie low till then, just in case.	
+sol.34.26	1	CSA0t0e00803そうだな‥‥なら、ついでに頼みがある。\\こいつを始末してくれないか？	{CSA0t0e00803}I suppose so... Then while you're at it,\\I have a favor. Would you get rid of this?	
+sol.34.27	1	CSA0t0e00019なんだ‥‥って、こいつは！	{CSA0t0e00019}What is it... wait, this is!	
+sol.34.28	1	CSA0t0e01228知っているのか？\\なら話は早い。	{CSA0t0e01228}You know it?\\Then that saves time.	
+sol.34.29	1	CSA0t0e00887この遺跡内部での通信手段として渡された‥‥@@具体的にどのように使うかは説明を\\受けていないが、@@持っているだけで良いと言われた事を考えると、\\私の行動が筒抜けになってしまうのだろう‥‥@@まぁ、もう遅いかもしれんがな‥‥	{CSA0t0e00887}It was given to me as a means of communication\\inside these ruins...@@I wasn't told how exactly\\it's supposed to work,@@but since they said just carrying it was enough,\\they can probably see every move I make...@@Well, it may already be too late...	
+sol.34.30	1	CSA0t0e01142わかった。一応預かっておく‥‥	{CSA0t0e01142}Got it. I'll hang on to it for now...	
+sol.34.31	1	CSA0t0e00363‥‥すまんな。\\助けになれんで。	{CSA0t0e00363}...Sorry.\\I couldn't be of help.	
+sol.34.32	1	CSA0t0e00540仕方ないさ。\\‥‥気をつけてな。	{CSA0t0e00540}Can't be helped.\\...Take care.	
+sol.34.33	1	CSA0t0e01053あと‥‥\\メリンダは、無事だと思うよ。きっと。	{CSA0t0e01053}Oh, and...\\I think Melinda's okay. I'm sure of it.	
+sol.34.34	1	CSA0t0e00632ああ‥‥\\じゃぁな。	{CSA0t0e00632}Yeah...\\See you.	
+sol.34.35	1	CSA0t0e00722あれを悲しませたくは無かったが‥‥	{CSA0t0e00722}I never wanted to make her sad, but...	
+sol.34.36	1	CSA0t0e00272２度目のミスをナカムラは\\許しはしないだろう。	{CSA0t0e00272}Nakamura won't forgive\\a second mistake.	
+sol.34.37	1	CSA0t0e00453すまん。	{CSA0t0e00453}Forgive me.	

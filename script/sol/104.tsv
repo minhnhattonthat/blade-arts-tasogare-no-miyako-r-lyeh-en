@@ -1,32 +1,32 @@
 id	sector	jp	en	notes
-sol.104.0	0	CSA0t0e00931‥‥来るのはわかっていた。		
-sol.104.1	0	CSA0t0e00681なんだ、えらく話が早いじゃないか。		
-sol.104.2	0	CSA0t0e00764これも試練と言うなら、\\敢えて受けよう。		
-sol.104.3	0	CSA0t0e00587それにしても、最後の試練が貴様を\\倒す事とはな‥‥		
-sol.104.4	0	CSA0t0e01366何をうだうだ言ってやがる？@@てめぇには、返さなくちゃいけねぇ物が\\山程あるんだ。		
-sol.104.5	0	CSA0t0e00320貴様‥‥何も知らされずに\\ここまで来たのか？@@私が、何のためにここにいると思っている？		
-sol.104.6	0	CSA0t0e01099全ての生物の深層心理に影響を与える\\システムか‥‥		
-sol.104.7	0	CSA0t0e00849どうせ、全世界の人間を精神操作して\\世界征服ってところだろう？@@手法としちゃ面白いが、目的が俗だな。		
-sol.104.8	0	CSA0t0e00411貴様に何がわかると言う？@@拡大する貧富の差、民族や宗教での対立、\\環境破壊‥‥@@全世界の人間を改革しなければ、\\我々は滅亡する！		
-sol.104.9	0	CSA0t0e00932いや、我ら人間だけならまだいい。\\種族的な全滅だけでなく、@@この星すらも滅ぼしてしまうかも知れんのだ！		
-sol.104.10	0	CSA0t0e01189この緩やかな破滅劇を、\\指をくわえて黙って見ていろというのか？		
-sol.104.11	0	CSA0t0e01279あんたの言いたい事は、\\わからないでもない。@@‥‥だが、あんたにそれを任せられない\\理由があるんだよ。		
-sol.104.12	0	CSA0t0e00682‥‥拝聴させてもらおうか？		
-sol.104.13	0	CSA0t0e01014まず、能力的な問題として、\\そのシステムを操れるだけの能力が@@あんたにあるか？		
-sol.104.14	0	CSA0t0e00148機能から考えれば、そいつを使うには\\全世界の人間の心理に通じている必要がある。		
-sol.104.15	0	CSA0t0e00765システムを通して習得するって方法が\\あるかもしれないが、@@人間一人の脳にやらせるにはあまりにも\\重過ぎる。		
-sol.104.16	0	CSA0t0e00500大昔の、一民族単位でなら\\何とかなるかもしれないが、@@人間全てをまとめるには、\\今の状況は複雑過ぎるんじゃないか？		
-sol.104.17	0	CSA0t0e00231ほう、結構物を考えられる\\ようだな。		
-sol.104.18	0	CSA0t0e00065次に‥‥@@あんたはその目的を果たす為に障害と\\なる人間を、いともあっさり殺しちまった。		
-sol.104.19	0	CSA0t0e00065あんたはその目的を果たす為に障害と\\なる人間を、いともあっさり殺しちまった。		
-sol.104.20	1	CSA0t0e00588そのシステムを使ったとしても、\\それで思うように動かなければ、@@次に待ってるのは大虐殺だ		
-sol.104.21	1	CSA0t0b0e01100賛同しないものを排除するって優性思想は、\\いい加減時代遅れなんだよ。		
-sol.104.22	1	CSA0t0b0e01100民族、思想、宗教、どれにしたって\\賛同しないものを排除するって優性思想は、@@いい加減時代遅れなんだよ。		
-sol.104.23	1	CSA0t0e00683‥‥だから、どうした。		
-sol.104.24	1	CSA0t0e01367ああ？		
-sol.104.25	1	CSA0t0e01190全てを統べる事が無理ならば、\\統べられる程度に減らせば良い。@@いずれにせよ、人間は増えすぎてしまっている。		
-sol.104.26	1	CSA0t0e00321優性思想を否定する所以が、\\その被害者の人権にあるのなら、@@それに賛同する者が自ら生贄となるので\\あれば、何ら問題無い‥‥		
-sol.104.27	1	CSA0t0e00232幸い、賛同しない者など、これからは一人もいなくなるのだがな。		
-sol.104.28	1	CSA0t0e01368‥‥確信犯か。\\つくづく、始末に負えねぇ‥‥		
-sol.104.29	1	CSA0t0e00684貴様が、その剣、「制裁者」の\\銘の通りに、制裁を私に下すと言うのなら‥‥@@私は、この剣、「尊厳者」の銘にかけて\\貴様を倒し、偉大なる世界を築こう！		
-sol.104.30	1	CSA0t0e01015さぁ、かかって来い！		
+sol.104.0	0	CSA0t0e00931‥‥来るのはわかっていた。	{CSA0t0e00931}...I knew you would come.	
+sol.104.1	0	CSA0t0e00681なんだ、えらく話が早いじゃないか。	{CSA0t0e00681}Huh, that makes this nice and quick.	
+sol.104.2	0	CSA0t0e00764これも試練と言うなら、\\敢えて受けよう。	{CSA0t0e00764}If this, too, is a trial,\\then I shall face it.	
+sol.104.3	0	CSA0t0e00587それにしても、最後の試練が貴様を\\倒す事とはな‥‥	{CSA0t0e00587}Still, to think the final trial\\would be defeating you...	
+sol.104.4	0	CSA0t0e01366何をうだうだ言ってやがる？@@てめぇには、返さなくちゃいけねぇ物が\\山程あるんだ。	{CSA0t0e01366}What the hell are you babbling about?@@I've got a whole mountain of stuff\\to pay you back for, you bastard.	
+sol.104.5	0	CSA0t0e00320貴様‥‥何も知らされずに\\ここまで来たのか？@@私が、何のためにここにいると思っている？	{CSA0t0e00320}You... came all this way\\without being told anything?@@Why do you think I am here?	
+sol.104.6	0	CSA0t0e01099全ての生物の深層心理に影響を与える\\システムか‥‥	{CSA0t0e01099}A system that can sway the subconscious\\of every living thing, huh...	
+sol.104.7	0	CSA0t0e00849どうせ、全世界の人間を精神操作して\\世界征服ってところだろう？@@手法としちゃ面白いが、目的が俗だな。	{CSA0t0e00849}Let me guess: mind-control everyone\\on Earth and take over the world?@@Fun method, but a pretty cheap goal.	
+sol.104.8	0	CSA0t0e00411貴様に何がわかると言う？@@拡大する貧富の差、民族や宗教での対立、\\環境破壊‥‥@@全世界の人間を改革しなければ、\\我々は滅亡する！	{CSA0t0e00411}What could you possibly understand?@@The widening gap between rich and poor,\\ethnic and religious strife, environmental ruin...@@Unless all humanity is reformed,\\we will perish!	
+sol.104.9	0	CSA0t0e00932いや、我ら人間だけならまだいい。\\種族的な全滅だけでなく、@@この星すらも滅ぼしてしまうかも知れんのだ！	{CSA0t0e00932}No, were it only humanity, that would be one thing.\\Not only would our species be wiped out,@@we may well destroy this very planet!	
+sol.104.10	0	CSA0t0e01189この緩やかな破滅劇を、\\指をくわえて黙って見ていろというのか？	{CSA0t0e01189}Am I to sit idly by\\and watch this slow-motion catastrophe?	
+sol.104.11	0	CSA0t0e01279あんたの言いたい事は、\\わからないでもない。@@‥‥だが、あんたにそれを任せられない\\理由があるんだよ。	{CSA0t0e01279}I kinda get\\what you're saying.@@...But there's a reason I can't\\leave it in your hands.	
+sol.104.12	0	CSA0t0e00682‥‥拝聴させてもらおうか？	{CSA0t0e00682}...Then let me hear it.	
+sol.104.13	0	CSA0t0e01014まず、能力的な問題として、\\そのシステムを操れるだけの能力が@@あんたにあるか？	{CSA0t0e01014}First, there's the question of ability.\\Do you even have what it takes@@to run that system?	
+sol.104.14	0	CSA0t0e00148機能から考えれば、そいつを使うには\\全世界の人間の心理に通じている必要がある。	{CSA0t0e00148}Going by what it does, using it means\\knowing the minds of every person alive.	
+sol.104.15	0	CSA0t0e00765システムを通して習得するって方法が\\あるかもしれないが、@@人間一人の脳にやらせるにはあまりにも\\重過ぎる。	{CSA0t0e00765}Maybe you could pick that up\\through the system itself,@@but that's way too heavy a load\\for one human brain.	
+sol.104.16	0	CSA0t0e00500大昔の、一民族単位でなら\\何とかなるかもしれないが、@@人間全てをまとめるには、\\今の状況は複雑過ぎるんじゃないか？	{CSA0t0e00500}Back in the old days, one tribe at a time,\\you might've pulled it off,@@but isn't the world today way too\\complicated to unite every human in it?	
+sol.104.17	0	CSA0t0e00231ほう、結構物を考えられる\\ようだな。	{CSA0t0e00231}Oh? You seem capable of\\some real thought.	
+sol.104.18	0	CSA0t0e00065次に‥‥@@あんたはその目的を果たす為に障害と\\なる人間を、いともあっさり殺しちまった。	{CSA0t0e00065}Next...@@To get what you want, you killed off anyone\\in your way without batting an eye.	
+sol.104.19	0	CSA0t0e00065あんたはその目的を果たす為に障害と\\なる人間を、いともあっさり殺しちまった。	{CSA0t0e00065}To get what you want, you killed off anyone\\in your way without batting an eye.	
+sol.104.20	1	CSA0t0e00588そのシステムを使ったとしても、\\それで思うように動かなければ、@@次に待ってるのは大虐殺だ	{CSA0t0e00588}Even with that system, if people\\don't move the way you want,@@next up is a massacre.	
+sol.104.21	1	CSA0t0b0e01100賛同しないものを排除するって優性思想は、\\いい加減時代遅れなんだよ。	{CSA0t0b0e01100}That master-race crap about wiping out anyone\\who won't fall in line is way past its expiry date.	
+sol.104.22	1	CSA0t0b0e01100民族、思想、宗教、どれにしたって\\賛同しないものを排除するって優性思想は、@@いい加減時代遅れなんだよ。	{CSA0t0b0e01100}Race, ideology, religion, whatever it is--\\that master-race crap about wiping out anyone who@@won't fall in line is way past its expiry date.	
+sol.104.23	1	CSA0t0e00683‥‥だから、どうした。	{CSA0t0e00683}...What of it?	
+sol.104.24	1	CSA0t0e01367ああ？	{CSA0t0e01367}Huh?	
+sol.104.25	1	CSA0t0e01190全てを統べる事が無理ならば、\\統べられる程度に減らせば良い。@@いずれにせよ、人間は増えすぎてしまっている。	{CSA0t0e01190}If ruling them all is impossible,\\then cut them down to a number that can be ruled.@@Either way, there are far too many humans.	
+sol.104.26	1	CSA0t0e00321優性思想を否定する所以が、\\その被害者の人権にあるのなら、@@それに賛同する者が自ら生贄となるので\\あれば、何ら問題無い‥‥	{CSA0t0e00321}If eugenics is rejected on the grounds\\of its victims' human rights,@@then there is no problem at all if those\\who agree offer themselves up as sacrifices...	
+sol.104.27	1	CSA0t0e00232幸い、賛同しない者など、これからは一人もいなくなるのだがな。	{CSA0t0e00232}Fortunately, from now on, there will not be\\a single person who disagrees.	
+sol.104.28	1	CSA0t0e01368‥‥確信犯か。\\つくづく、始末に負えねぇ‥‥	{CSA0t0e01368}...So you know exactly what you're doing.\\You really are beyond help...	
+sol.104.29	1	CSA0t0e00684貴様が、その剣、「制裁者」の\\銘の通りに、制裁を私に下すと言うのなら‥‥@@私は、この剣、「尊厳者」の銘にかけて\\貴様を倒し、偉大なる世界を築こう！	{CSA0t0e00684}If you mean to pass judgment on me,\\as that sword's name, 'Punisher', suggests...@@then I swear on this sword's name, 'Majesty',\\to defeat you and build a glorious world!	
+sol.104.30	1	CSA0t0e01015さぁ、かかって来い！	{CSA0t0e01015}Now, come at me!	

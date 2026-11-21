@@ -1,12 +1,12 @@
 id	sector	jp	en	notes
-sol.103.0	0	　　　棒のような石塊が落ちている‥‥‥\\　　　　　　　　　　g7i015@@　　　　　　石塊を取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.103.1	0	t0b3　　　　　g7ハンドルb0を手に入れた。g7i015		
-sol.103.2	0	　　b3ハンドルb0を取り付けますか？g7i015　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.103.3	0	t0　　　b3ハンドルb0を取り付けた。g7i015		
-sol.103.4	0	t0b3　　　　　g7ハンドルb0を回しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.103.5	0	　　　　　　g7宝珠を取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.103.6	0	t0b3　　　　　g7蹟玉b0を手に入れた。g7i015		
-sol.103.7	0	t0b3　　　g7送風口開閉スイッチb0を開きますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.103.8	0	t0b3　　　g7送風口開閉スイッチb0を閉じますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.103.9	0	　　　　　　g7プレートを取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.103.10	0	t0b3　　　　　g7プレートb0を手に入れた。g7i015		
+sol.103.0	0	　　　棒のような石塊が落ちている‥‥‥\\　　　　　　　　　　g7i015@@　　　　　　石塊を取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	　　A rod-shaped chunk of stone is lying here...\\　　　　　　　　　　{g7i015}@@　　　　　Take the chunk of stone?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.103.1	0	t0b3　　　　　g7ハンドルb0を手に入れた。g7i015	{t0}　　　　　{g7}Got the {b3}Handle{b0}.{g7i015}	
+sol.103.2	0	　　b3ハンドルb0を取り付けますか？g7i015　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	　Attach the {b3}Handle{b0}?{g7i015}\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.103.3	0	t0　　　b3ハンドルb0を取り付けた。g7i015	{t0}　　　Attached the {b3}Handle{b0}.{g7i015}	
+sol.103.4	0	t0b3　　　　　g7ハンドルb0を回しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Turn the {b3}Handle{b0}?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.103.5	0	　　　　　　g7宝珠を取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	　　　　　{g7}Take the orb?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.103.6	0	t0b3　　　　　g7蹟玉b0を手に入れた。g7i015	{t0}　　　　{g7}Got the {b3}Relic Orb{b0}.{g7i015}	
+sol.103.7	0	t0b3　　　g7送風口開閉スイッチb0を開きますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　{g7}Open the {b3}vent switch{b0}?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.103.8	0	t0b3　　　g7送風口開閉スイッチb0を閉じますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　{g7}Close the {b3}vent switch{b0}?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.103.9	0	　　　　　　g7プレートを取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	　　　　　{g7}Take the plate?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.103.10	0	t0b3　　　　　g7プレートb0を手に入れた。g7i015	{t0}　　　　　{g7}Got the {b3}Plate{b0}.{g7i015}	
