@@ -32,5 +32,15 @@ def test_rules():
     assert any("leading blank" in p for p in batches.layout_problems(indented, indented["en"].replace("　", "", 1)))
 
 
+def test_glyph_cap():
+    desc, name = ENTRIES["DATA/STATUS.BIN:007D8"], ENTRIES["SLPM_866.02:00DB8"]
+    assert (batches.glyph_cap(desc), batches.glyph_cap(name), batches.glyph_cap(e := ENTRIES["sol.125.59"])) == (90, 27, 200)
+    assert batches.glyph_cap(ENTRIES["SLPM_866.02:AB878"]) is None  # a message, not an item name
+    assert batches.glyph_records("{t4b6}Ab c\\\\d　e") == 5
+    assert any("glyph cap 90" in p for p in batches.problems(desc, "word " * 23, []))
+    assert any("glyph cap 27" in p for p in batches.problems(name, "W" * 28, []))
+    assert not any("glyph cap" in p for p in batches.problems(e, e["en"], []))
+
+
 def test_shipped_english_passes():
     assert batches.main(["check"]) == 0

@@ -229,6 +229,29 @@ def layout_problems(entry, text):
     return out
 
 
+GLYPH_CAP_OK = {"DATA/STATUS.BIN:00748"}  # unused debug item; its JP overflows the JP cap too
+ITEM_TABLE = 0xA58F0  # EXE file offset of the item table (RAM 0x800B50F0, 16-byte rows, JP-name pointer at +12)
+
+
+def glyph_cap(entry):
+    """Glyph records the text's window holds (docs/re/text.md §Glyph cap; past it the game cuts the text): ITEM BOX
+    description 90, item name line 30 less ": nn", SOL windows 200 per page. None = not a capped window we track."""
+    disc, off = entry["id"].rsplit(":", 1) if is_raw(entry) else ("", "0")
+    if not is_raw(entry):
+        return 200
+    if disc == "DATA/STATUS.BIN" and 0x700 <= int(off, 16) < 0x1100:
+        return 90
+    refs = [int(r, 16) for r in entry["refs"].split(",") if re.fullmatch(r"[0-9A-Fa-f]+", r)]
+    if disc == "SLPM_866.02" and any(0 <= r - ITEM_TABLE < 0x1000 and (r - ITEM_TABLE) % 16 == 12 for r in refs):
+        return 30 - 3
+    return None
+
+
+def glyph_records(page):
+    """Records a page spends: one per visible letter, spaces and codes free."""
+    return len(re.sub(r"\{[^}]*\}|\\\\|[ 　]", "", page))
+
+
 def problems(entry, text, terms):
     """Every rule, on one line of English."""
     jp = entry["jp"]
@@ -264,6 +287,9 @@ def problems(entry, text, terms):
         if re.search(jp_form, jp_plain) and en_form.lower() not in text.lower():
             out.append(f"honorific {jp_form[-2:]} needs {en_form}")
     out += layout_problems(entry, text)
+    if (cap := glyph_cap(entry)) and entry["id"] not in GLYPH_CAP_OK:
+        out += [f"{n} letters on a page > glyph cap {cap} (the game cuts the rest)"
+                for n in map(glyph_records, text.split("@@")) if n > cap]
     return out + (width_problems(entry, text) if measurable else [])
 
 
