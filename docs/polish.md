@@ -112,3 +112,11 @@ reviewer brief and fixed before phase 7 (harness review of phase 6).
 - [ ] sol.46.x / 125.x - "gravity elevator" lower case after a "<Gravity Elevator Control Panel>" header; b042 capitalises it: pick one
 - [ ] sol.104.x / 106.x - 'Majesty' / 'Punisher' in single quotes; elsewhere "Majesty", "the Punisher" in double quotes
 - [ ] sol.42.x - "Activation Plate 1 is needed" vs item name "Control Panel Activation Plate 1" (fine as dialogue; check JP)
+
+## Story pass (phase 9, `docs/reviews/story.report.md`)
+- [ ] sol.15.23 - 汚れすぎている "too filthy to see my daughter" reads physical -> "my hands are too dirty to see my daughter"
+- [ ] sol.17.11 - add the final period ("...who knows how long.")
+- [ ] sol.24.57 (+26.57 and copies) - "Wouldst thou have the sword's memory keep thee?" -> sol.1.0's "Wouldst thou preserve the sword's memory?" (same JP)
+- [ ] sol.48.2 - "You worked the mechanism..." -> "Activated the mechanism..." (24.11, same JP)
+- [ ] sol.48.4 - "Riding this will take you to the upper level." -> "...should take me..." (42.12 is first person)
+- [ ] sol.28.95 - どぉわっ "Whoa-ho!" sounds gleeful -> "Whoaaa!"
