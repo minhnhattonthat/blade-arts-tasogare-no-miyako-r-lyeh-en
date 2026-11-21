@@ -13,6 +13,7 @@ One 8 KB block per save, product code `BISLPM-86602-00` (`-01`... for more saves
 | 0x1C8 + 8*i | 0x800BABD0 | 20 entries of 8 bytes (03 in entry 0 at start) | NOT the herb count: with 0x1C8=99 the JP and EN builds both still show Herb : 3 (`work/qa/herb99.png`); purpose unknown |
 | 0x268 + i | 0x800BAC70 | 8 weapon slots (item ids, 0xFF = empty; slot 0 = 0x05 Survival Knife) | verified: non-weapon ids draw a garbage weapon icon top left (`work/qa/probe_inv`) |
 | 0x144.. 0x193 | 0x800BAB4C | ITEM BOX id list (item ids from `tools/items.py`, 0xFF = empty): 0x10 Herb, 0x12 Medi-pack at the start | verified: ids written at 0x146.. show as the ITEM / ITEM BOX slot bar icons in that order (scenes `probe_ids`, `probe_ids_box`); Object ids 0x0D/0x0E draw a "?" icon. The earlier note said 0x14C, the 9th slot, off screen |
+| 0x270 + row | 0x800BAC78 | item counts, one byte per item-table row (row = position in `tools/items.py`'s list: Survival Knife 0, Herb 4 = 0x274, Medi-pack 6); add-item 0x80037CD8 clamps at 99; the ITEM BOX name line shows ": nn" when the count is 2+ | verified: 3 herbs at the start; scenes `stress_box_99*` set 99 and the name line reads "Jade Tablet Fragment 4 : 99" (`work/qa/stress99/pair.png`) |
 | 0x578 | | u16 checksum = byte sum of 0x100-0x577 | verified: a wrong sum gives the red "load failed / file is broken" box |
 | 0x57C | | SJIS dev note: "the checksum protects the data; it is not anti-cheat" | |
 

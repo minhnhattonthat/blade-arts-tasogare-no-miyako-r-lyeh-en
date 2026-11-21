@@ -2,11 +2,30 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator, in progress (started 2026-11-22; phase 7 review minors fixed first, commit 1af6d3c).
-  Last good build: `build/blade_arts_en.bin` 2026-11-22 (ITEM BOX glyph-cap fix) with all
-  graphics, sha1 c0e5ec017fae..., smoke ok (`work/qa/smoke`). textcover over `work/qa`: 3643/3643 shown, exit 0.
-  Rawview gate: `qa_gate check work/qa/rawview/manifest.tsv work/qa/rawview/verdicts` exit 0 (7 sheets, this build).
-- **Phase 8 so far:**
+- **Phase:** 9. Release, not started (phase 8 done 2026-11-22).
+  Last good build: `build/blade_arts_en.bin` 2026-11-22 (Test Play 1 fix), sha1 ee3dc1aacdc1..., smoke ok
+  (`work/qa/smoke`). Gates on this build, all exit 0 (`$SKILL/scripts/qa_gate.py check work/qa/<m>/manifest.tsv
+  work/qa/<m>/verdicts` for m = solview (148 sheets), rawview (7), final_tour (61); each WAIVED for ee3dc1aa with the
+  reason in `manifest.tsv.waive`: later changes were re-checked by hand). textcover: `textcover.py work/qa
+  build/strings.tsv` 3644/3644 shown, exit 0.
+- **Next (phase 9):** story-pass verdict per chapter (`work/qa/story/manifest.tsv`, `references/translation.md`
+  §Review; codex is out of quota until 2026-11-26, so review in-thread), work off `docs/polish.md` (no unticked line
+  may remain), `tools/release.py` (runs every qa_gate manifest + textcover; jp_left on the release build; debug tool
+  off; xdelta patch built + re-applied; README hashes; zip = patch + README). Never `gh release create`.
+- **Phase 8 closing pass (2026-11-22):**
+  - Glyph-cap lint in `tools/batches.py check` (`glyph_cap`: ITEM BOX description 90, item name 27 = 30 less ": nn",
+    SOL page 200; letters only, spaces/codes free; STATUS 00748 debug item exempt), test `test_glyph_cap`.
+  - Item counts mapped: save 0x270 + item-table row (Herb 0x274), max 99 (add-item 0x80037CD8). Scenes
+    `stress_box_99*`: "Jade Tablet Fragment 4 : 99" fits (`work/qa/stress99/pair.png`).
+  - G2 STICON.BIN proven unused (no binary names it; the status screen loads STATUS2.DAT into the same VRAM):
+    `docs/re/graphics.md` G2 row; probe `tools/lua/vramdump.lua` + `tools/vram_png.py`.
+  - Final menu/graphics tour `work/qa/final_tour` (44 scenes: title, load/save, status/ITEM/BOX/SYSTEM and popups,
+    stress saves, game overs, ending, thanks, demo, 14 stage cards, flashback, boss/event maps), deduped sheets in
+    `final_tour/sheets`, verdicts in `final_tour/verdicts` (60 ok, 1 fixed). Found and fixed: LOADSAVE 001C8
+    テストプレイ１ (dev location name, shown in the LOAD list for warp-made saves) -> "Test Play 1". "Save your game?"
+    box centred (`work/qa/final_tour/z_savebox.png`). Status scenes on M03_00_0 are letterboxed (box cut at y 196):
+    the JP is cut identically (`work/qa/final_jp`).
+- **Phase 8 history:**
   - Text coverage infra: `build.py` writes `build/strings.tsv` (3643 keys: SOL `5BBBNNNN` = old block id + message n,
     raw `(file no.<<24)|addr`, from the write log so relocated strings carry their EXE address) and
     `build/textcover_tbl.lua`; probe `tools/lua/textcover.lua` (needs --debugger; `--var TCTBL='<abs path>'`,
@@ -132,33 +151,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     patched file, EXE writes only in the free area / 4 hook sites, font writes in DATA1.PAC entries 118-119, built SOL
     = en column (all 3351 strings), sol_map = remap. `batches.py check`: 0 problems (100 warnings = raw strings over
     their in-place bytes, relocated by the build).
-- **Next (phase 8):** done: SOL verdicts, 20 cut voiced lines, raw-string display (rawview) + glyph-cap fix, choice
-  rows, rawview verdicts (7 sheets ok/fixed), textcover exit 0. Left: (b) a lint for the glyph caps in
-  `tools/batches.py check` (desc <= 90 visible letters, names + ": nn" <= 30, SOL page <= 200) so new text can't be
-  cut again; (c) item counts (find the count field; 2-digit counts in the name line); (d) G2 STICON labels: prove
-  unused or find their screen; (e) a final tour of the menu/graphics scenes on the final build with verdicts, then
-  re-run or `qa_gate waive` the solview manifest for the final build (its sheets pass; only STALE). `build/` is now the full build (graphics included,
-  sha1 887644db..., smoke ok 2026-11-22 08:0x). Card title: English location + ／TIME (D12), check the LOAD
-  list and the title length in game. Moved SOL blocks 117, 132 (ending), 159, 173, 176 not yet seen in game after
-  the remap (review minor 2): make them coverage targets.
 - **Open for later phases (not blocking):**
-  - Check in game (phase 8): choices where translators added `\\` before `{[DD1}` (sol.98.3, 100.3, 103.2), `{g9}`
-    spaced options (72.5, 72.40), digit pickers (62.140-143, 69.22-25), sol.169.0 (voiced, @@ re-split, same screen
-    count), sol.132.110 written `{CSA0t4b4}` (JP had a bare `b`), centring of t0 panel lines in blocks 125/147/159/166.
   - Memory-card title: LOADSAVE 0x22C "ブレイドアーツ／" is written into each save and 0x6D0/0xBDC must match it or the
     load list rejects the file (verified by bisecting the marker build): keep all three Japanese. The title also
     holds "／ＴＩＭＥ" and the location name, shown by the BIOS card manager in Shift-JIS: English location names
     in letter bytes are garbage there, but the in-game LOAD list draws the same title: decided English (D12).
   - warp_all with --debugger needs a longer --timeout (7 map scenes hit 240 s); run save_* before load*.
   - Lowercase letter bytes overlap level-2 kanji lead bytes (E0-EA): no line may mix English with those kanji.
-  - Item names in the status menu draw in the 252 px description box via `%s%s：%s個` (needs a stocked inventory:
-    phase 8 stress save).
-  - Text coverage hook for phase 8: message lookup 0x80078728(n) + current block 0x800D7BDA (docs/re/text.md).
-  - Inventory (ITEM list), item box contents, nerves and story flags are not mapped: phase 8 stress saves need them
-    (`tools/debug/save_layout.md` lists the leads: 0x800BABD0 table, add-item code 0x8003874C).
-  - 19 map packs never finish loading from a direct warp (list in `docs/re/debug.md`); reach them via the previous map
-    if phase 8 text coverage needs them.
-  - The ending's CAST roll shows Japanese names (ENDINGP; part of G3, check whether TIM or text in phase 8).
+  - Not mapped (not needed so far): the ITEM list (right column), nerves, story flags. 19 map packs never finish
+    loading from a direct warp (`docs/re/debug.md`).
   - Map packs and states: regenerate with `warp_all.py --states` after any engine/font/graphics change.
 - **Open bugs:** none.
 - **Waiting on the user:** nothing (all once-per-project answers came with the dispatch: `docs/decisions.md`).
