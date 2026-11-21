@@ -73,7 +73,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Memory-card title: LOADSAVE 0x22C "ブレイドアーツ／" is written into each save and 0x6D0/0xBDC must match it or the
     load list rejects the file (verified by bisecting the marker build): keep all three Japanese. The title also
     holds "／ＴＩＭＥ" and the location name, shown by the BIOS card manager in Shift-JIS: English location names
-    in letter bytes would be garbage there; phase 7 must give the title a fullwidth/SJIS copy or keep it JP.
+    in letter bytes are garbage there, but the in-game LOAD list draws the same title: decided English (D12).
   - warp_all with --debugger needs a longer --timeout (7 map scenes hit 240 s); run save_* before load*.
   - Lowercase letter bytes overlap level-2 kanji lead bytes (E0-EA): no line may mix English with those kanji.
   - Item names in the status menu draw in the 252 px description box via `%s%s：%s個` (needs a stocked inventory:
