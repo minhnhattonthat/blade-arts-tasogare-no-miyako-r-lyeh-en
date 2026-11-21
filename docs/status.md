@@ -3,7 +3,9 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 6. Translate next (phase 5 engine + marker build done 2026-11-22). Last build: marker build
-  `build/marker/blade_arts_en.bin` 2026-11-22 (`build.py --marker --out build/marker`), smoke ok.
+  `build/marker/blade_arts_en.bin` 2026-11-22, sha1 3ae3648e (`build.py --marker --out build/marker`), smoke ok;
+  marker tour 297/307 with --debugger (7 timeouts from the slow interpreter, 3 load scenes) and all 10 pass on rerun
+  (`work/qa/marker_retry`, no debugger, save_* first).
 - **Done:**
   - Step 0: template, guard hook proven (sed -i blocked), pre-commit runs `tools/check.py` and rejects a failing test,
     `rom.sha1` (Redump .bin/.cue), PCSX-Redux + SCPH-5500 BIOS fetched, mkpsxiso/armips in `tools/`, smoke route
@@ -45,6 +47,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Open for later phases (not blocking):**
   - SOL space is per block (7 sectors max for block 159; growing a block shifts later block ids): phase 7 lint must
     check per-block bytes; marker filler at JP width only overflowed block 159 (90%).
+  - Memory-card title: LOADSAVE 0x22C "ブレイドアーツ／" is written into each save and 0x6D0/0xBDC must match it or the
+    load list rejects the file (verified by bisecting the marker build): keep all three Japanese. The title also
+    holds "／ＴＩＭＥ" and the location name, shown by the BIOS card manager in Shift-JIS: English location names
+    in letter bytes would be garbage there; phase 7 must give the title a fullwidth/SJIS copy or keep it JP.
+  - warp_all with --debugger needs a longer --timeout (7 map scenes hit 240 s); run save_* before load*.
   - Lowercase letter bytes overlap level-2 kanji lead bytes (E0-EA): no line may mix English with those kanji.
   - Item names in the status menu draw in the 252 px description box via `%s%s：%s個` (needs a stocked inventory:
     phase 8 stress save).

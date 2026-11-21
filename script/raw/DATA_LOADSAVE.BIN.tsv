@@ -31,8 +31,8 @@ DATA/LOADSAVE.BIN:001C0	801499C0	8	FF74	樹海１
 DATA/LOADSAVE.BIN:001C8	801499C8	16	FF6C	テストプレイ１		dev: test-play location name
 DATA/LOADSAVE.BIN:00224	80149A24	4	151C,10080	／		
 DATA/LOADSAVE.BIN:00228	80149A28	4	1007C	×		
-DATA/LOADSAVE.BIN:0022C	80149A2C	20	14AC	ブレイドアーツ／		
-DATA/LOADSAVE.BIN:00240	80149A40	12	1550	／ＴＩＭＥ		
+DATA/LOADSAVE.BIN:0022C	80149A2C	20	14AC	ブレイドアーツ／		card: memory-card title prefix written into each save; 006D0/00BDC must match it or the save list rejects the file (verified): keep Japanese (also keeps JP-version saves loadable)
+DATA/LOADSAVE.BIN:00240	80149A40	12	1550	／ＴＩＭＥ		card: memory-card title tail shown by the BIOS card manager: fullwidth Shift-JIS only (English letter bytes would be garbage there)
 DATA/LOADSAVE.BIN:0024C	80149A4C	4	158C	：		
 DATA/LOADSAVE.BIN:00250	80149A50	4	278,4570	０		
 DATA/LOADSAVE.BIN:00254	80149A54	4	27C	１		
@@ -47,7 +47,7 @@ DATA/LOADSAVE.BIN:00274	80149A74	4	29C	９
 DATA/LOADSAVE.BIN:002A0	80149AA0	16	10090	ビガヂュー！！		
 DATA/LOADSAVE.BIN:002B0	80149AB0	40	1008C	いつも月夜の晩とはかぎらないのです。		
 DATA/LOADSAVE.BIN:002D8	80149AD8	32	10088	洗濯物がたまる一方で・・・。		
-DATA/LOADSAVE.BIN:002F8	80149AF8	88	10084	チェックサムはデータの保全のためにつけているのです。チート防止のためではないのです。		
+DATA/LOADSAVE.BIN:002F8	80149AF8	88	10084	チェックサムはデータの保全のためにつけているのです。チート防止のためではないのです。		data: dev note copied into every save (card +0x57C); changing it still loads (verified), never shown: keep
 DATA/LOADSAVE.BIN:0035C	80149B5C	24	1B9C	操作を選んでください。		
 DATA/LOADSAVE.BIN:00374	80149B74	12	1C2C	cfffセーブ		
 DATA/LOADSAVE.BIN:00380	80149B80	20	1C50	c555パラメータ設定		
@@ -84,7 +84,7 @@ DATA/LOADSAVE.BIN:00678	80149E78	8	100D8	０２
 DATA/LOADSAVE.BIN:00680	80149E80	8	100D4	０１		
 DATA/LOADSAVE.BIN:00698	80149E98	24	5314	　未使用ファイルです。		
 DATA/LOADSAVE.BIN:006B0	80149EB0	32	5328	　他のゲームのファイルです。		
-DATA/LOADSAVE.BIN:006D0	80149ED0	20	10110	ブレイドアーツ／		
+DATA/LOADSAVE.BIN:006D0	80149ED0	20	10110	ブレイドアーツ／		card: title prefix the loader matches against the save (verified: changing it breaks loading): keep Japanese
 DATA/LOADSAVE.BIN:006E4	80149EE4	28	5398	　ファイルが壊れています。		
 DATA/LOADSAVE.BIN:0070C	80149F0C	40	5E30	ブレイドアーツのファイルがありません。		
 DATA/LOADSAVE.BIN:00734	80149F34	44	5F04	ブレイドアーツのセーブデータがありません。		
@@ -130,7 +130,7 @@ DATA/LOADSAVE.BIN:00B84	8014A384	8	1015C	０２
 DATA/LOADSAVE.BIN:00B8C	8014A38C	8	10158	０１		
 DATA/LOADSAVE.BIN:00BA4	8014A3A4	24	7000	　　　　未使用ファイル		
 DATA/LOADSAVE.BIN:00BBC	8014A3BC	32	7014	　他のゲームのファイルです。		
-DATA/LOADSAVE.BIN:00BDC	8014A3DC	20	10194	ブレイドアーツ／		
+DATA/LOADSAVE.BIN:00BDC	8014A3DC	20	10194	ブレイドアーツ／		card: title prefix the loader matches against the save (verified: changing it breaks loading): keep Japanese
 DATA/LOADSAVE.BIN:00BF0	8014A3F0	28	7080	　ファイルが壊れています。		
 DATA/LOADSAVE.BIN:00C28	8014A428	44	7898	メモリーカードに空きブロックがありません。		
 DATA/LOADSAVE.BIN:00C54	8014A454	36	78AC	１ブロック以上の空きブロックがある		

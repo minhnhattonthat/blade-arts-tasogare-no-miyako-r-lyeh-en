@@ -14,7 +14,7 @@ import rawtext  # noqa: E402
 
 FILLER = "The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs!".split()
 # Raw strings that are not text for the marker: data tables, printf formats, debug and dev-only lines.
-RAW_SKIP = ("data:", "fullwidth space", "printf", "debug", "dev:")
+RAW_SKIP = ("data:", "fullwidth space", "printf", "debug", "dev:", "card:")
 RAW_TAG = {"SLPM_866.02": "E", "DATA/STATUS.BIN": "S", "DATA/LOADSAVE.BIN": "L", "DATA/BOSS0P.BIN": "B",
            "DATA/BOSS3P.BIN": "B", "DATA/GAME.BIN": "G"}
 
