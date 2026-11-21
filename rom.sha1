@@ -1,2 +1,3 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump (Redump), in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
+c266b85e1af7fa57605814e0c47fd68f002998c8  rom/Blade Arts - Tasogare no Miyako R'lyeh (Japan).bin
+dffcca8a7861d5c7584cd6b2c6d50edbacda7ab8  rom/Blade Arts - Tasogare no Miyako R'lyeh (Japan).cue

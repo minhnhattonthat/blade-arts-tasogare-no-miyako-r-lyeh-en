@@ -1,0 +1,9 @@
+# Cold boot -> logos -> sword intro (Start skips) -> title (New Game / Continue); up+circle = New Game
+# -> earthquake news intro with subtitles (text from DATA/SOL.SRP). Circle confirms; cross does nothing on the title.
+1300 -
+6 start
+700 -
+6 up
+20 -
+6 circle
+1800 -
