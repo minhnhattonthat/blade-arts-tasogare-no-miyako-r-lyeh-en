@@ -64,7 +64,7 @@ def title(im):
     return im, rects, [b1, b2]
 
 
-def ramp_text(im, rect, text, f, align="right"):
+def ramp_text(im, rect, text, f, align="right", bg=None, bold=False):
     """Indexed (P) picture: clear rect to its most common index and draw text antialiased with the indices the
     original text in the rect used, each pixel taking the index whose preview luminance is nearest the blend of
     background and ink (ink = the used index farthest from the background)."""
@@ -76,7 +76,7 @@ def ramp_text(im, rect, text, f, align="right"):
     for cy in range(y, y + h):
         for cx in range(x, x + w):
             used[px[cx, cy]] = used.get(px[cx, cy], 0) + 1
-    bg = max(used, key=used.get)
+    bg = max(used, key=used.get) if bg is None else bg  # pass bg when ink can outnumber it (dense kanji)
     ink = max(used, key=lambda i: abs(lum[i] - lum[bg]))
     levels = sorted(used, key=lambda i: lum[i])
     for cy in range(y, y + h):
@@ -87,8 +87,11 @@ def ramp_text(im, rect, text, f, align="right"):
     x0, y0, x1, y1 = d.textbbox((0, 0), text, font=f)
     if x1 - x0 > w or y1 - y0 > h:
         sys.exit(f"{text!r}: {x1 - x0}x{y1 - y0} px > rect {w}x{h}")
-    tx = {"right": w - x1, "left": -x0, "centre": (w - (x1 - x0)) // 2 - x0}[align]
-    d.text((tx, (h - (y1 - y0)) // 2 - y0), text, font=f, fill=255)
+    if bold and x1 - x0 + 1 > w:
+        sys.exit(f"{text!r}: {x1 - x0 + 1} px bold > rect {w}")
+    tx = {"right": w - x1 - bold, "left": -x0, "centre": (w - (x1 - x0) - bold) // 2 - x0}[align]
+    for dx in range(1 + bold):  # bold: the text again 1 px right
+        d.text((tx + dx, (h - (y1 - y0)) // 2 - y0), text, font=f, fill=255)
     for (cx, cy), v in zip(((i % w, i // w) for i in range(w * h)), mask.getdata()):
         if v:
             want = lum[bg] + (lum[ink] - lum[bg]) * v / 255
@@ -206,7 +209,20 @@ def flash(im):
     return im, rects, []
 
 
-DRAWERS = {"flash": flash, "title": title, "thanks": thanks, "prestage": prestage, "prestage2": prestage2,
+def sticon(im):
+    # G2 STICON.BIN help labels, ink 0 on background 15 (CLUT row 0 preview). The sprite rects are unknown (no table;
+    # not seen in game yet), so each English label stays inside its Japanese label's own extent (column gaps)
+    f = font("lato_Lato-Regular.ttf", 12)
+    labels = [((72, 0, 70, 13), "Cancel"), ((3, 13, 30, 14), "Yes"), ((35, 13, 41, 14), "No"),
+              ((79, 13, 31, 14), "Select"), ((114, 13, 28, 14), "OK"), ((146, 13, 27, 14), "Use"),
+              ((178, 13, 28, 14), "Drop")]
+    rects = []
+    for r, t in labels:
+        rects += ramp_text(im, r, t, fit(f.path, f.size, t, r[2] - 2, r[3]), align="centre", bg=15, bold=True)
+    return im, rects, []
+
+
+DRAWERS = {"flash": flash, "sticon": sticon, "title": title, "thanks": thanks, "prestage": prestage, "prestage2": prestage2,
            **{"card%02d" % n: card(n) for n in range(14)}}
 
 

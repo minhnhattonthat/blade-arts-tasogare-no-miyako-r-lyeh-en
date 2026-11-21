@@ -306,3 +306,5 @@ m93_18_0	M93_18_0					1200		map M93_18_0
 m93_19_0	M93_19_0					1200		map M93_19_0 -> settles on M92_11_0
 m93_20_0	M93_20_0					1200		map M93_20_0 -> settles on M00_20_0
 load_lowhp	LOAD:M05_00_0	4			150 -;6 circle	400	save_first+area=5,room=0,variant=0,hp=50	save.py edit: map M05_00_0, HP 50/200 (short red bar); status -> ITEM
+status_itembox_take	M03_00_0	4			150 -;6 circle;80 -;6 triangle;80 -;6 circle	400		status -> ITEM BOX -> circle on the first item (G2 help labels?)
+status_itembox_take2	M03_00_0	4			150 -;6 circle;80 -;6 triangle;80 -;6 circle;60 -;6 circle	400		status -> ITEM BOX -> circle twice
