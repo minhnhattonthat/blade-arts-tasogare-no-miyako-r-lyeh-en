@@ -14,7 +14,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     text address; `work/qa/cov_t3`). Report: `python -X utf8 $SKILL/scripts/textcover.py work/qa/cover
     work/qa/strings_cover1.tsv --waive docs/text_unshown.tsv`.
   - Coverage sweep of all 307 scenes on the 06:31 build was started in the background into `work/qa/cover/warp`
-    (log `work/qa/cover_warp.out`, strings `work/qa/strings_cover1.tsv`); not yet read. Warps hold only 400-900
+    (log `work/qa/cover_warp.out`, strings `work/qa/strings_cover1.tsv`; ~2 h at --jobs 6, 60/307 done at hand-back);
+    not yet read: if `work/qa/cover/warp/summary.tsv` is missing the run died, re-run it (same command as the
+    status sweep, `warp_all.py --jobs 6 --debugger --probe tools/lua/textwin.lua --probe tools/lua/textcover.lua
+    --var TCTBL=... --out work/qa/cover/warp --timeout 400`). Warps hold only 400-900
     frames, so most SOL (event) text stays unreached: plan = event tour over the map scenes with `--var
     CIRCLE_EVERY=40 --var AFTER_FRAMES=6000` (warp.lua presses circle so events play), each run under work/qa/cover/.
   - Graphics text: pipeline built (`tools/gfx.py`, `tools/gfx_draw.py`, `gfx/gfx.tsv`, `tests/test_gfx.py`, OFL fonts
