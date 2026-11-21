@@ -130,6 +130,7 @@ def pack(orig, texts):
     Same sectors per block and same string order, so block ids and string indexes stay valid; a block whose strings
     no longer fit their original sectors is reflowed over its sectors."""
     out = bytearray(orig[:SECTOR])
+    errors = []
     for bid, pos, blk in blocks(orig):
         secs = [[] for _ in sector_counts(blk)]
         for gi, s, o, flags, x in strings(blk):
@@ -141,7 +142,10 @@ def pack(orig, texts):
             try:
                 out += pack_block(bid, reflow([it for s in secs for it in s], len(secs), hdr), hdr)
             except ValueError as e:
-                raise ValueError(f"SOL block {bid}: {e}") from None
+                errors.append(f"SOL block {bid}: {e}")
+                out += blk  # keep later blocks at their sectors so every overflow gets reported
+    if errors:
+        raise ValueError("; ".join(errors))
     return bytes(out + orig[len(out):])
 
 

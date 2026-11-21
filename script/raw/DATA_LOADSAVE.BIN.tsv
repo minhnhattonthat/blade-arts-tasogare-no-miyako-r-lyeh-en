@@ -32,7 +32,7 @@ DATA/LOADSAVE.BIN:001C8	801499C8	16	FF6C	テストプレイ１		dev: test-play l
 DATA/LOADSAVE.BIN:00224	80149A24	4	151C,10080	／	/	
 DATA/LOADSAVE.BIN:00228	80149A28	4	1007C	×	×	
 DATA/LOADSAVE.BIN:0022C	80149A2C	20	14AC	ブレイドアーツ／		card: memory-card title prefix written into each save; 006D0/00BDC must match it or the save list rejects the file (verified): keep Japanese (also keeps JP-version saves loadable)
-DATA/LOADSAVE.BIN:00240	80149A40	12	1550	／ＴＩＭＥ		card: memory-card title tail shown by the BIOS card manager: fullwidth Shift-JIS only (English letter bytes would be garbage there)
+DATA/LOADSAVE.BIN:00240	80149A40	12	1550	／ＴＩＭＥ	／TIME	card: memory-card title tail shown by the BIOS card manager: fullwidth Shift-JIS only (English letter bytes would be garbage there)
 DATA/LOADSAVE.BIN:0024C	80149A4C	4	158C	：	:	
 DATA/LOADSAVE.BIN:00250	80149A50	4	278,4570	０	0	
 DATA/LOADSAVE.BIN:00254	80149A54	4	27C	１	1	

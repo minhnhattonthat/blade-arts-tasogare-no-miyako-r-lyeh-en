@@ -43,7 +43,7 @@ def emu():
     from unicorn import mips_const as m
     if not HAVE_TREE:
         pytest.skip("no unpacked disc")
-    exe = build.exe()
+    exe, _ = build.exe()
 
     class Kseg0:  # unicorn runs kseg0 code but maps memory physically: strip the 0x80000000
         def __init__(self, uc):

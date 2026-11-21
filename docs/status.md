@@ -6,8 +6,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   0 problems; every batch reviewed incl. b001 (`docs/reviews/b001.report.md`); the harness phase-6 review's Important
   findings fixed and re-reviewed (`docs/reviews/fix01.report.md`): save prompt, 石碑/隊長/大将/我流 glossary rows,
   villain 貴様 "you wretch", Millers, ellipsis rule D11 (lint in `batches.py`). Minors in `docs/polish.md`).
-  Last build: pilot build (b001 only) 2026-11-22, smoke ok. A full build stops at raw strings longer than their bytes
-  in place (104 warnings): relocation is the first phase-7 job.
+  Last good build: pilot build (b001 only) 2026-11-22, smoke ok; marker build still builds (`--marker`).
+  **Phase 7 so far:** raw strings done: `build.py raw_texts` writes in place up to the next 4-byte boundary, else
+  moves the string into the EXE free area after `vwf_end` (asm/vwf.asm label, read from the armips `-sym` file) and
+  repoints its data-word refs (all 88 movable ones are data words; `+k` refs were coincidental lui hits), zeroing the
+  old bytes. Every write is logged (`Writes`, build/writes/*.txt); romdiff.py with those logs passes on the marker
+  build for all 6 patched files. Card-title budget enforced (D12, tail ／TIME). BOSS lines shortened (D13).
+  **Blocker for the full build: SOL.SRP block overflow** (`sol.pack` now lists all): blocks 24, 26, 117, 176 (2 sectors,
+  need 3), 43, 53 (1 -> 2), 62, 159 (7 -> 8), 132 (6 -> 7), 173 (3 -> 4); ~1.2 KB over in total, 92 KB free elsewhere.
+  Block id = sector offset, set by script opcodes through 0x80037930 (no jal callers: an opcode table), load at
+  0x8003793C: `jal 0x80077958(name, dest, a2 = s1 >> 11 sectors, a3 = sector)` at 0x8003796C.
+  Plan (D4: engine before cutting text): hook that jal -> remap table {old sector: new sector} in the EXE free area, and
+  append the grown blocks at the end of SOL.SRP (old copy stays). First probe at runtime (Lua exec hook on 0x8003796C)
+  what a2 (sectors read) and the dest buffer size are: a grown block (8 sectors for 62/159; header u16 table allows 2/4/8
+  sectors by hdr_size 0x0C/0x10/0x18) must fit both. Fallback: trim English in those blocks (and dedupe identical
+  strings inside a sector: offsets may share data; flags 7->5 marks decoded, so a shared string isn't re-XORed - verify).
+  Then: full build, a romdiff test (tests/, writes inside allowed regions: text spans, pointer words, free area, hook
+  sites, font), smoke.
 - **Done:**
   - Step 0: template, guard hook proven (sed -i blocked), pre-commit runs `tools/check.py` and rejects a failing test,
     `rom.sha1` (Redump .bin/.cue), PCSX-Redux + SCPH-5500 BIOS fetched, mkpsxiso/armips in `tools/`, smoke route
@@ -47,11 +62,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/pairs.py` (reviewer pairs), briefs `docs/translator-brief.md` / `docs/reviewer-brief.md`, glossary,
     `docs/style-reference.md` (pilot b001), `docs/synopsis.md`. Batches in `work/tl/` (gitignored), reviews: every
     Important fixed; Minors in `docs/polish.md`.
-- **Next (phase 7):** relocate raw strings that outgrow their bytes (item names in the EXE, STATUS descriptions,
-  LOADSAVE menu text: pointer refs in the raw TSVs' `refs` column); per-block SOL size check (block 159 risk); full
-  build, `romdiff.py` ranges, smoke. Memory-card title stays JP (see below).
+- **Next (phase 7):** SOL block overflow (plan in the Phase field), then full build, romdiff test, smoke; then
+  phase 8. Card title: English location + ／TIME (D12), check the LOAD list and the title length in game.
 - **Open for later phases (not blocking):**
-  - Raw strings over their in-place bytes (104, mostly item names/descriptions): phase 7 relocation; build.py exits on them.
   - Check in game (phase 8): choices where translators added `\\` before `{[DD1}` (sol.98.3, 100.3, 103.2), `{g9}`
     spaced options (72.5, 72.40), digit pickers (62.140-143, 69.22-25), sol.169.0 (voiced, @@ re-split, same screen
     count), sol.132.110 written `{CSA0t4b4}` (JP had a bare `b`), centring of t0 panel lines in blocks 125/147/159/166.

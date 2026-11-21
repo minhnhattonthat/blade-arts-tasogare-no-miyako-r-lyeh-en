@@ -145,6 +145,7 @@ en_meas:
 
 .align 4
 .include EN_TABLES              ; en_glyph: 128 words, en_width: 128 bytes
+vwf_end:                        ; build.py places relocated raw strings from here to FREE_END
 
 .if . > FREE_END
     .error "VWF code overflows the free area"
