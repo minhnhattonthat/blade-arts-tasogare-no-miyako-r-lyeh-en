@@ -34,9 +34,10 @@ scan hits are pixel noise (ヨヨヨヨ runs).
   after the sector header, padded to 4; each string = u32 flags + XORed text + `0A 0A 00 00` + NUL pad to 4; rest of
   the sector zero. The one odd string (132/110) keeps its raw tail `86 86 8C 00 00` only while its text is unchanged.
 - **Space:** each string page is one 0x800 sector; total free 108,970 bytes over 177 sectors, min 2 bytes free in the
-  tightest sector. The budget is per block (strings reflow across its sectors, `sol.reflow`); growing a block would
-  renumber later block ids (= sector offsets the loader seeks to). Marker build at JP pixel width: only block 159
-  overflowed (filler cut to 90%).
+  tightest sector. The budget is per block (strings reflow across its sectors, `sol.reflow`). A block that still
+  overflows is appended at the end of the file on as many sectors as it needs (its header entry gets the new id, old
+  bytes stay) and the EXE maps its old id to the new sector (`asm/vwf.asm sol_remap`, table `sol_map`). Repacking
+  every block on its fewest sectors does not help: slack is per sector, so the English needs 187 sectors packed tight.
 
 ## Raw Shift-JIS strings (phase 4, `tools/rawtext.py`)
 
@@ -95,7 +96,12 @@ Solved in phase 5 with letter bytes >= 0xA0 (§English below).
 - **SOL load:** `\DATA\SOL.SRP;1` (string 0x8001144C) is read by 0x8003793C -> 0x80077958 (name, dest, sectors, block
   id = sector offset in the file; current block id in 0x800D7BDA, setter 0x80037930). Message lookup 0x80078728(n):
   n = global index in the loaded block ("srf %d"), sector found through the last-index table; so strings may move
-  between a block's sectors (`sol.reflow`). Growing a block past its sectors would shift every later block id: not done.
+  between a block's sectors (`sol.reflow`). Callers: 0x80034E3C / 0x80036E24 (reset, a0 = 0) and GAME.BIN 0x800EB794
+  (`size` = 0x800: one sector). 0x80077958 keeps base sector at 0x800D9C30 (struct 0x800D9C28 +8) and fetches sector
+  base+k on demand into the 1-sector buffer, so a block may have any length; sector 0's last-index table is copied to
+  struct +0x10 up to its first 0 entry (0x80077A9C; room for ~30 sectors), so table[0] must not be 0. The block id
+  setter 0x80037930 is called from GAME.BIN 0x800EB37C (script opcode). Every disc file is opened by name
+  (`\DATA\%s.BIN;1`, SOL.SRP, DATA1.PAC, XA.XA/XA2.XA, map packs): growing SOL.SRP shifts later files safely.
 - **Decode:** 0x800788DC XORs the text with 0x8C8C **by halfwords** until a halfword 0x0A0A, so text length must be
   even (the terminator must be halfword-aligned). Flags word bit 1 = still encoded (7 -> 5).
 - **Open:** 0x80078918 (from 0x80077E18) -> 0x80015360(window, text): copies the window setup; geometry at entry:

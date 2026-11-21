@@ -24,7 +24,22 @@ FREE_END   equ 0x800BA1FC
     j    en_meas
     nop
 
+; --- SOL.SRP block load (0x8003793C): a3 = block id (its sector in the original file) -> sector in the repacked file
+.org 0x8003796C                 ; was: jal 0x80077958 (delay slot sra a2,s1,0xB stays)
+    jal  sol_remap
+
 .org FREE_START
+sol_remap:                      ; a3 < SOL_MAP_N: a3 = sol_map[a3]; then the original call
+    sltiu at, a3, SOL_MAP_N
+    beqz at, @@out
+    sll  t0, a3, 1
+    la   t1, sol_map
+    addu t1, t1, t0
+    lhu  a3, 0(t1)
+@@out:
+    j    0x80077958
+    nop
+
 en_char:
     lbu  t0, 0(s1)
     nop
@@ -144,8 +159,9 @@ en_meas:
     lbu  v1, 0xF(s1)
 
 .align 4
-.include EN_TABLES              ; en_glyph: 128 words, en_width: 128 bytes
-vwf_end:                        ; build.py places relocated raw strings from here to FREE_END
+.include EN_TABLES              ; en_glyph: 128 words, en_width: 128 bytes; sol_map: SOL_MAP_N halfwords
+.align 4
+vwf_end:                       ; build.py places relocated raw strings from here to FREE_END
 
 .if . > FREE_END
     .error "VWF code overflows the free area"

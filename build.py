@@ -40,19 +40,22 @@ def unpack():
                    check=True, stdout=subprocess.DEVNULL)
 
 
-def exe():
-    """SLPM_866.02 with asm/vwf.asm applied (armips); the glyph/width tables are generated from tools/en.py."""
+def exe(sol_map=()):
+    """SLPM_866.02 with asm/vwf.asm applied (armips); the glyph/width tables are generated from tools/en.py,
+    sol_map (old SOL block id -> sector; empty = no remap) from sol.remap()."""
     gen = OUT / "asm"
     gen.mkdir(parents=True, exist_ok=True)
     glyph, wid = en.tables()
     tables = gen / "en_tables.asm"
     tables.write_text("en_glyph:\n" + "".join(f"    .word 0x{x:08X}\n" for x in glyph)
-                      + "en_width:\n" + "".join(f"    .byte {x}\n" for x in wid), encoding="ascii")
+                      + "en_width:\n" + "".join(f"    .byte {x}\n" for x in wid)
+                      + ".align 2\nsol_map:\n" + "".join(f"    .halfword {x}\n" for x in sol_map), encoding="ascii")
     out = gen / "SLPM_866.02"
     sym = gen / "vwf.sym"
     r = subprocess.run([str(ROOT / "tools/armips/armips.exe"), str(ROOT / "asm/vwf.asm"), "-sym", str(sym),
                         "-strequ", "EXE_IN", str(TREE / "SLPM_866.02"), "-strequ", "EXE_OUT", str(out),
-                        "-strequ", "EN_TABLES", str(tables)], capture_output=True, text=True)
+                        "-strequ", "EN_TABLES", str(tables), "-equ", "SOL_MAP_N", str(len(sol_map))],
+                       capture_output=True, text=True)
     if r.returncode:
         sys.exit(f"armips failed:\n{r.stdout}\n{r.stderr}")
     labels = {ln.split()[1].lower(): int(ln.split()[0], 16) for ln in sym.read_text().splitlines() if len(ln.split()) == 2}
@@ -107,6 +110,8 @@ class Writes:
                 self.log.setdefault(disc, []).append((i, old[i:j], bytes(new[i:j]), by))
                 i = j
             i += 1
+        if len(new) > n:  # appended bytes: romdiff.py reads past the original's end as FF
+            self.log.setdefault(disc, []).append((n, b"\xff" * (len(new) - n), bytes(new[n:]), by + " (appended)"))
 
     def save(self, out):
         for disc, rows in self.log.items():
@@ -186,12 +191,7 @@ def patches(qa=None, marker=False, writes=None):
     `writes` (a Writes) collects the write log for romdiff."""
     writes = writes or Writes()
     sol_orig = (TREE / "DATA" / "SOL.SRP").read_bytes()
-    code, vwf_end = exe()
-    writes.runs("SLPM_866.02", code, "vwf.asm")
-    files = {"SLPM_866.02": bytearray(code)}
-    raw_texts(files, writes, Free(vwf_end, FREE_END), qa, markers.raw_marker if marker else None)
-    files["DATA/DATA1.PAC"] = font.patch((TREE / "DATA" / "DATA1.PAC").read_bytes())
-    writes.runs("DATA/DATA1.PAC", files["DATA/DATA1.PAC"], "font")
+    files = {}
     while True:
         try:
             files["DATA/SOL.SRP"] = sol.pack(sol_orig, sol_texts(qa, markers.sol_marker if marker else None))
@@ -203,9 +203,16 @@ def patches(qa=None, marker=False, writes=None):
             markers.SOL_SCALE[int(m[1])] = markers.SOL_SCALE.get(int(m[1]), 1.0) - 0.1
     if markers.SOL_SCALE:
         print("marker filler scaled down to fit:", {k: round(v, 1) for k, v in markers.SOL_SCALE.items()})
-    if len(files["DATA/SOL.SRP"]) != len(sol_orig):
-        sys.exit(f"SOL.SRP size changed: {len(files['DATA/SOL.SRP'])} != {len(sol_orig)}")
     writes.runs("DATA/SOL.SRP", files["DATA/SOL.SRP"], "sol")
+    moved = sol.remap(sol_orig, files["DATA/SOL.SRP"])
+    if moved:
+        print(f"SOL.SRP repacked: {len(moved)} block ids remapped in the EXE")
+    code, vwf_end = exe([moved.get(i, i) for i in range(max(b for b, _ in sol.header(sol_orig)) + 1)] if moved else [])
+    writes.runs("SLPM_866.02", code, "vwf.asm")
+    files["SLPM_866.02"] = bytearray(code)
+    raw_texts(files, writes, Free(vwf_end, FREE_END), qa, markers.raw_marker if marker else None)
+    files["DATA/DATA1.PAC"] = font.patch((TREE / "DATA" / "DATA1.PAC").read_bytes())
+    writes.runs("DATA/DATA1.PAC", files["DATA/DATA1.PAC"], "font")
     return {k: bytes(v) for k, v in files.items()}
 
 

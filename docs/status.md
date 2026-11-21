@@ -2,27 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check in progress (phase 6 translate done 2026-11-22: 19 batches, `batches.py check`
-  0 problems; every batch reviewed incl. b001 (`docs/reviews/b001.report.md`); the harness phase-6 review's Important
-  findings fixed and re-reviewed (`docs/reviews/fix01.report.md`): save prompt, 石碑/隊長/大将/我流 glossary rows,
-  villain 貴様 "you wretch", Millers, ellipsis rule D11 (lint in `batches.py`). Minors in `docs/polish.md`).
-  Last good build: pilot build (b001 only) 2026-11-22, smoke ok; marker build still builds (`--marker`).
-  **Phase 7 so far:** raw strings done: `build.py raw_texts` writes in place up to the next 4-byte boundary, else
-  moves the string into the EXE free area after `vwf_end` (asm/vwf.asm label, read from the armips `-sym` file) and
-  repoints its data-word refs (all 88 movable ones are data words; `+k` refs were coincidental lui hits), zeroing the
-  old bytes. Every write is logged (`Writes`, build/writes/*.txt); romdiff.py with those logs passes on the marker
-  build for all 6 patched files. Card-title budget enforced (D12, tail ／TIME). BOSS lines shortened (D13).
-  **Blocker for the full build: SOL.SRP block overflow** (`sol.pack` now lists all): blocks 24, 26, 117, 176 (2 sectors,
-  need 3), 43, 53 (1 -> 2), 62, 159 (7 -> 8), 132 (6 -> 7), 173 (3 -> 4); ~1.2 KB over in total, 92 KB free elsewhere.
-  Block id = sector offset, set by script opcodes through 0x80037930 (no jal callers: an opcode table), load at
-  0x8003793C: `jal 0x80077958(name, dest, a2 = s1 >> 11 sectors, a3 = sector)` at 0x8003796C.
-  Plan (D4: engine before cutting text): hook that jal -> remap table {old sector: new sector} in the EXE free area, and
-  append the grown blocks at the end of SOL.SRP (old copy stays). First probe at runtime (Lua exec hook on 0x8003796C)
-  what a2 (sectors read) and the dest buffer size are: a grown block (8 sectors for 62/159; header u16 table allows 2/4/8
-  sectors by hdr_size 0x0C/0x10/0x18) must fit both. Fallback: trim English in those blocks (and dedupe identical
-  strings inside a sector: offsets may share data; flags 7->5 marks decoded, so a shared string isn't re-XORed - verify).
-  Then: full build, a romdiff test (tests/, writes inside allowed regions: text spans, pointer words, free area, hook
-  sites, font), smoke.
+- **Phase:** 8. QA in the emulator, next (phase 7 done 2026-11-22).
+  Last good build: full English build 2026-11-22 06:10, sha1 b92d333e7f46d0704a233ce32092bd72a12a30d8, smoke ok;
+  warp sample (title, intro, status, item, gameover, ending, thanks, rolldemo, boss game over, boss map, stage-clear,
+  flashback + maps M03/M04/M06/M07) all arrive (`work/qa/p7sample`, `work/qa/p7grow`); marker build still builds.
 - **Done:**
   - Step 0: template, guard hook proven (sed -i blocked), pre-commit runs `tools/check.py` and rejects a failing test,
     `rom.sha1` (Redump .bin/.cue), PCSX-Redux + SCPH-5500 BIOS fetched, mkpsxiso/armips in `tools/`, smoke route
@@ -62,14 +45,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/pairs.py` (reviewer pairs), briefs `docs/translator-brief.md` / `docs/reviewer-brief.md`, glossary,
     `docs/style-reference.md` (pilot b001), `docs/synopsis.md`. Batches in `work/tl/` (gitignored), reviews: every
     Important fixed; Minors in `docs/polish.md`.
-- **Next (phase 7):** SOL block overflow (plan in the Phase field), then full build, romdiff test, smoke; then
-  phase 8. Card title: English location + ／TIME (D12), check the LOAD list and the title length in game.
+  - Phase 7: raw strings in place or relocated to the EXE free area with data-word refs repointed (`build.py
+    raw_texts`); card-title budget (D12), BOSS lines (D13). SOL.SRP overflow (10 blocks: 24 26 43 53 62 117 132 159
+    173 176) solved by engine: `sol.pack` appends a block that outgrows its sectors at the end of the file (old bytes
+    stay, header entry gets the new id; file 364544 -> 452608 bytes, later disc files shift: every file is loaded by
+    name, warp sample ok) and `asm/vwf.asm sol_remap` hooks the loader's `jal 0x80077958` at 0x8003796C: a3 (block id
+    = old sector, 0x800D7BDA) -> `sol_map[a3]` (generated, identity except moved blocks). Loader facts: the reader
+    reads one sector at a time into a 1-sector buffer (a2 = 1) and fetches sector base+k on demand, so block length
+    is free; sector 0's last-index table is copied up to its first 0 entry (0x80077A9C), so hdr_size grows with the
+    sector count and sector 0 must hold 2+ strings (`pack_block` checks). Verified in game: English from moved blocks
+    incl. sector-1 strings (`work/qa/p7grow` TEXTWIN logs). `tests/test_build.py`: romdiff with the write log on every
+    patched file, EXE writes only in the free area / 4 hook sites, font writes in DATA1.PAC entries 118-119, built SOL
+    = en column (all 3351 strings), sol_map = remap. `batches.py check`: 0 problems (100 warnings = raw strings over
+    their in-place bytes, relocated by the build).
+- **Next (phase 8):** QA per the skill table: text coverage (hook 0x80078728 + block 0x800D7BDA = old ids, unchanged by
+  the remap), tours with visual-QA verdicts, graphics text G1-G8, stress saves, `inkbox.py` on choices. Card title:
+  English location + ／TIME (D12), check the LOAD list and the title length in game.
 - **Open for later phases (not blocking):**
   - Check in game (phase 8): choices where translators added `\\` before `{[DD1}` (sol.98.3, 100.3, 103.2), `{g9}`
     spaced options (72.5, 72.40), digit pickers (62.140-143, 69.22-25), sol.169.0 (voiced, @@ re-split, same screen
     count), sol.132.110 written `{CSA0t4b4}` (JP had a bare `b`), centring of t0 panel lines in blocks 125/147/159/166.
-  - SOL space is per block (7 sectors max for block 159; growing a block shifts later block ids): phase 7 lint must
-    check per-block bytes; marker filler at JP width only overflowed block 159 (90%).
   - Memory-card title: LOADSAVE 0x22C "ブレイドアーツ／" is written into each save and 0x6D0/0xBDC must match it or the
     load list rejects the file (verified by bisecting the marker build): keep all three Japanese. The title also
     holds "／ＴＩＭＥ" and the location name, shown by the BIOS card manager in Shift-JIS: English location names

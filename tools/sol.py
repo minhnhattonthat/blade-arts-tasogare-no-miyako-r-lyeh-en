@@ -23,12 +23,12 @@ SECTOR = 0x800
 
 
 def blocks(d):
+    """(block_id, file offset, bytes) in header order; a block starts at sector block_id (pack() may move a block to
+    the end of the file and give it a new id)."""
     one, n = struct.unpack_from("<II", d, 0)
-    pos = SECTOR
     for i in range(n):
         bid, size = struct.unpack_from("<II", d, 8 + 8 * i)
-        yield bid, pos, d[pos:pos + size]
-        pos += size
+        yield bid, bid * SECTOR, d[bid * SECTOR:bid * SECTOR + size]
 
 
 def sector_counts(blk):
@@ -45,7 +45,8 @@ def text_end(raw, p):
     0A 0A can stop inside a character. Block 132 string 110 has its terminator and padding XORed too (86 86 8C 00)."""
     while raw[p:p + 2] not in (b"\n\n", b"\x86\x86"):
         c = raw[p] ^ KEY
-        p += 2 if 0x81 <= c <= 0x9F or 0xE0 <= c <= 0xFC else 1
+        # English letters (>= 0xA0, tools/en.py) come in 2-byte units; a lead-byte test would split a pair like A0 E1
+        p += 2 if 0x81 <= c <= 0x9F or c >= 0xA0 else 1
     return p
 
 
@@ -90,6 +91,8 @@ def pack_block(bid, sectors, hdr_size):
     for items in sectors:
         gi += len(items)
         last.append(gi - 1)
+    if len(last) > 1 and last[0] == 0:  # the loader stops copying the table at its first 0 entry
+        raise ValueError("sector 0 holds one string")
     out, gi = b"", 0
     for s, items in enumerate(sectors):
         if s == 0:
@@ -125,28 +128,59 @@ def reflow(items, nsec, hdr_size):
     return secs + [[] for _ in range(nsec - len(secs))]
 
 
+def min_block(bid, items, hdr):
+    """Block bytes on the fewest sectors that hold `items`; sector 0's header grows to fit one last-index entry per
+    sector plus the 0 terminator the loader copies up to (0x80077A9C)."""
+    for n in range(1, 32):
+        h = max(hdr, 8 + ((2 * (n + 1) + 3) & ~3))
+        try:
+            return pack_block(bid, reflow(items, n, h), h)
+        except ValueError:
+            pass
+    raise ValueError(f"SOL block {bid}: does not fit 31 sectors")
+
+
 def pack(orig, texts):
     """Rebuild SOL.SRP: orig = original file bytes, texts = {(block_id, global_index): text_bytes} (missing = original).
-    Same sectors per block and same string order, so block ids and string indexes stay valid; a block whose strings
-    no longer fit their original sectors is reflowed over its sectors."""
+    Same string order per block, so string indexes stay valid. A block whose strings no longer fit their original
+    sectors is reflowed over them; one that still doesn't fit is appended at the end of the file on the sectors it
+    needs (its old bytes stay, unused), and its header entry gets the new id (= first sector): the EXE maps the old id
+    to it (remap(), asm/vwf.asm sol_remap). Every other block keeps its sectors and id."""
     out = bytearray(orig[:SECTOR])
-    errors = []
+    table, grown = [], []
     for bid, pos, blk in blocks(orig):
         secs = [[] for _ in sector_counts(blk)]
         for gi, s, o, flags, x in strings(blk):
             secs[s].append((flags, texts.get((bid, gi), x), x))
         hdr = struct.unpack_from("<I", blk, 0)[0]
         try:
-            out += pack_block(bid, secs, hdr)
+            new = pack_block(bid, secs, hdr)
         except ValueError:
             try:
-                out += pack_block(bid, reflow([it for s in secs for it in s], len(secs), hdr), hdr)
-            except ValueError as e:
-                errors.append(f"SOL block {bid}: {e}")
-                out += blk  # keep later blocks at their sectors so every overflow gets reported
-    if errors:
-        raise ValueError("; ".join(errors))
-    return bytes(out + orig[len(out):])
+                new = pack_block(bid, reflow([it for s in secs for it in s], len(secs), hdr), hdr)
+            except ValueError:
+                grown.append((len(table), bid, [it for s in secs for it in s], hdr))
+                new = blk
+        table.append((bid, len(new)))
+        out += new
+    out += orig[len(out):]
+    for i, bid, items, hdr in grown:
+        blk = min_block(bid, items, hdr)
+        table[i] = (len(out) // SECTOR, len(blk))
+        out += blk
+    if grown:
+        struct.pack_into(f"<{2 * len(table)}I", out, 8, *[v for t in table for v in t])
+    return bytes(out)
+
+
+def remap(orig, new):
+    """{old block id: new block id} for every block whose id changed (pack() repacked the file)."""
+    return {a: b for (a, _), (b, _) in zip(header(orig), header(new)) if a != b}
+
+
+def header(d):
+    n = struct.unpack_from("<I", d, 4)[0]
+    return [struct.unpack_from("<II", d, 8 + 8 * i) for i in range(n)]
 
 
 if __name__ == "__main__":
