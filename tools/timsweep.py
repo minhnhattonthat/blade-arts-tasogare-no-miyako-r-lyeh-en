@@ -1,7 +1,7 @@
 """Graphics-text static sweep: find every PS1 TIM in the given files, render each with its first CLUT, and write
 numbered contact sheets plus an index (sheet, cell, file, offset, bpp, size) for a reviewer to list Japanese cells.
 
-usage: python -X utf8 tools/timsweep.py OUTDIR FILE.. [--min 16]
+usage: python -X utf8 tools/timsweep.py OUTDIR FILE.. [--gray]
 Skipped candidates are printed with the reason (never dropped silently).
 """
 import struct
@@ -13,8 +13,10 @@ from PIL import Image, ImageDraw
 CELL = 256
 
 
-def parse_tim(d, o):
-    """Return (bpp, w, h, pixels_rgba Image, end) or raise ValueError."""
+def parse_tim(d, o, gray=False):
+    """Return (bpp, w, h, pixels_rgba Image, end) or raise ValueError.
+    gray: ignore the CLUT and draw palette indices as grey (16bpp data drawn as 4bpp indices), which shows text
+    hidden by an all-black first CLUT or a TIM whose header says 16bpp over 4bpp data."""
     magic, flags = struct.unpack_from("<II", d, o)
     if magic != 0x10 or flags & ~0xF or (flags & 7) > 3:
         raise ValueError("not a TIM")
@@ -39,7 +41,13 @@ def parse_tim(d, o):
     def rgb(c):
         return ((c & 31) * 255 // 31, (c >> 5 & 31) * 255 // 31, (c >> 10 & 31) * 255 // 31, 255 if c else 0)
 
-    if mode == 0:
+    if gray and mode in (0, 2):
+        w, out = iw * 4, []
+        for b in pix:
+            out += [(b & 15) * 17, (b >> 4) * 17]
+    elif gray and mode == 1:
+        w, out = iw * 2, list(pix[:iw * 2 * ih])
+    elif mode == 0:
         w, out = iw * 4, []
         for b in pix:
             out += [rgb(clut[b & 15]), rgb(clut[b >> 4 & 15])] if len(clut) >= 16 else [(b & 15) * 17] * 2
@@ -55,14 +63,14 @@ def parse_tim(d, o):
     return 4 if mode == 0 else 8 if mode == 1 else 16 if mode == 2 else 24, w, ih, im, p + blen
 
 
-def find_tims(d):
+def find_tims(d, gray=False):
     o = 0
     while True:
         o = d.find(b"\x10\x00\x00\x00", o)
         if o < 0 or o + 20 > len(d):
             return
         try:
-            yield (o,) + parse_tim(d, o)
+            yield (o,) + parse_tim(d, o, gray)
         except (ValueError, struct.error) as e:
             if str(e) not in ("not a TIM",):
                 pass
@@ -73,14 +81,19 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     out = Path(args[0])
     out.mkdir(parents=True, exist_ok=True)
-    cells, index = [], []
+    cells, index, seen = [], [], {}
     for f in args[1:]:
         d = Path(f).read_bytes()
         n = 0
-        for o, bpp, w, h, im, end in find_tims(d):
+        for o, bpp, w, h, im, end in find_tims(d, "--gray" in sys.argv):
             if w < 16 or h < 8:
                 print(f"skip {f} @{o:X}: {w}x{h} too small")
                 continue
+            key = im.tobytes()
+            if key in seen:  # same picture in another map pack: list it, draw it once
+                index.append(f"dup\t{seen[key]}\t{Path(f).as_posix()}\t{o:X}\t{bpp}\t{w}x{h}")
+                continue
+            seen[key] = len(cells)
             cells.append((f, o, bpp, w, h, im))
             n += 1
         print(f"{f}: {n} TIMs")
