@@ -222,8 +222,126 @@ def sticon(im):
     return im, rects, []
 
 
+# G3 ending staff roll (DATA/ENDINGP.BIN @74E8, 4bpp 1188x500, one texture page per 256 px column). The game draws
+# each group as a sprite over u 0-159 of its column at screen x 160 (marker build, work/qa/g3_mark), so a line may run
+# to u 158. CLUTs fitted from JP shots (tools/clutfit.py): the TIM's own for most groups, ROLL_B for the debugger
+# group (column 3 y 383-496) and the Planning/Directors group (column 4 y 158-253), ROLL_C for the (c) line.
+ROLL_B = [(0, 0, 0), (41, 41, 41), (24, 24, 24), (82, 90, 90), (49, 57, 57), (0, 0, 0), (189, 213, 222),
+          (172, 197, 205), (148, 164, 172), (164, 180, 189), (131, 148, 156), (213, 238, 255), (123, 131, 139),
+          (106, 115, 123), (8, 8, 16), (0, 0, 0)]  # index 5 never seen: kept black so it is never picked
+ROLL_C = [(0, 0, 0), (41, 41, 41), (24, 24, 24), (82, 90, 90), (49, 57, 57), (90, 106, 106), (189, 213, 222),
+          (164, 180, 189), (131, 148, 156), (106, 123, 131), (213, 238, 255), (123, 131, 139), (106, 115, 123),
+          (205, 222, 238), (8, 8, 16), (0, 0, 0)]
+ROLL_B_RECTS = [(768, 383, 256, 114), (1024, 158, 164, 96)]
+H, N, A = 4, 60, 8  # x in column: heading, name (the JP names' column, also Paul Handelman / MBA), cast actor dots
+# (column, JP line top y, x, text). Names in Western order (D1); official on-disc spellings where the intro credits
+# texture (M0/M02_10_0.PAC) has them (Tuchida, Yuuki, Satuki, Syoutarou, Nishimatu ...; its "Isizka" typo fixed),
+# else Hepburn readings of the kanji (glossary.md §Credits). Already English, left as drawn: Paul Handelman, MBA,
+# STAFF / ENIX STAFF / CAST, Fin.
+ROLL = [
+    (0, 2, H, "Special Thanks"), (0, 15, N, "Katsunori Yamagishi"), (0, 28, N, "Yasuhito Watanabe"),
+    (0, 41, N, "Yosuke Saito"), (0, 54, N, "Hiroki Fujimoto"), (0, 67, N, "Yukihiro Shibuya"),
+    (0, 80, N, "Daisuke Kobayashi"), (0, 93, N, "Rie Narisawa"), (0, 106, N, "Wataru Higuchi"),
+    (0, 119, N, "Tatsuki Watanabe"), (0, 132, N, "Takamasa Shiba"), (0, 145, N, "Naoyuki Masuda"),
+    (0, 158, N, "Nobuhisa Hiroshige"), (0, 171, N, "Keisuke Moroki"), (0, 184, N, "Eriko Kobayashi"),
+    (0, 223, N, "Takashi Torii"),
+    (0, 257, H, "Map Design"), (0, 270, N, "Kenji Tuchida"), (0, 283, N, "Katsuhiko Shiono"),
+    (0, 309, H, "Character Models"), (0, 322, N, "Kenji Tuchida"), (0, 335, N, "Tomoko Kamiyama"),
+    (0, 361, H, "2D Graphics"), (0, 374, N, "Kenji Tuchida"), (0, 387, N, "Tomoko Kamiyama"),
+    (1, 2, H, "Sales"), (1, 15, N, "Hajime Kanie"), (1, 28, N, "Koji Taguchi"), (1, 41, N, "Masaharu Katsuragi"),
+    (1, 54, N, "Tomoyoshi Osaki"), (1, 67, N, "Yutaka Tani"), (1, 80, N, "Koji Takada"), (1, 93, N, "Ariyoshi Furo"),
+    (1, 106, N, "Jun Toda"), (1, 119, N, "Hirotomo Kikumoto"), (1, 132, N, "Mari Shimada"),
+    (1, 145, N, "Keiko Katsumata"), (1, 171, N, "Tsutomu Yamada"), (1, 184, N, "Kazuo Kusakawa"),
+    (1, 197, N, "Tatsuhiko Tsubota"), (1, 210, N, "Mika Sakai"),
+    (1, 257, H, "Promotion"), (1, 270, N, "Shinji Futami"), (1, 283, N, "Hideki Yamamoto"),
+    (1, 296, N, "Munehiro Osawa"), (1, 309, N, "Rumi Yoshikawa"), (1, 322, N, "Hodaka Yamagishi"),
+    (1, 335, N, "Yasunori Furuta"), (1, 361, H, "Artwork"), (1, 374, N, "Naoki Oishi"), (1, 387, N, "Takashi Kamimura"),
+    (2, 2, H, "Music"), (2, 15, N, "Shinji Nukaga"), (2, 28, N, "Tsuyoshi Kaneko"), (2, 54, H, "Sound"),
+    (2, 67, N, "Hiroyuki Sano"), (2, 93, H, "Technical Support"), (2, 106, N, "Yukinobu Wakata"),
+    (2, 119, N, "Asako Miyashita"), (2, 145, H, "In Cooperation With"), (2, 158, N, "Usami Kikaku"),
+    (2, 257, N, "Yu Miyake"), (2, 270, N, "Taichi Inuzuka"), (2, 283, N, "Hiroyoshi Shibahara"),
+    (2, 296, N, "Jun Miyamoto"), (2, 309, N, "Ryutaro Ichimura"), (2, 356, H, "Producer"), (2, 369, N, "Shinji Wachi"),
+    (2, 385, H, "Executive Producers"), (2, 398, N, "Yukinobu Chida"), (2, 411, N, "Keiji Honda"),
+    (2, 450, H, "Publisher"), (2, 463, N, "Yasuhiro Fukushima"),
+    (3, 3, H, "Walter Landers"), (3, 19, A, "Unshou Ishizuka"), (3, 43, H, "Patricia Millers"),
+    (3, 58, A, "Satuki Yukino"), (3, 75, H, "Basetet"), (3, 88, A, "Satuki Yukino"), (3, 106, H, "Maya"),
+    (3, 118, A, "Rika Fukami"), (3, 136, H, "Zagnus"), (3, 148, A, "Yoshikazu Nagano"),
+    (3, 259, H, "Rei Shido"), (3, 271, A, "Syoutarou Morikubo"), (3, 286, H, "Nakamura"), (3, 298, A, "Norio Wakamoto"),
+    (3, 316, H, "Ilum"), (3, 327, A, "Mariko Kouda"), (3, 351, H, "Bridget Landers"), (3, 366, A, "Mariko Kouda"),
+    (3, 383, H, "Debuggers"), (3, 396, N, "Mika Endo"), (3, 409, N, "Kensuke Yokoyama"), (3, 422, N, "Teppei Kobayashi"),
+    (3, 435, N, "Yasuhito Suzuki"), (3, 448, N, "Tadahiro Minamijima"), (3, 461, N, "Kiyoyoshi Hikima"),
+    (3, 474, N, "Akiyuki Ichi"), (3, 487, N, "Kazuto Sekine"),
+    (4, 2, H, "Programming"), (4, 15, N, "Seishiro Mizukami"), (4, 28, N, "Kenji Yoshino"),
+    (4, 41, N, "Osamu Sugiyama"), (4, 54, N, "Jiro Hirano"), (4, 80, H, "Event Programming"),
+    (4, 93, N, "Kazuhiro Nomura"), (4, 119, N, "Hiroki Ishikawa"), (4, 132, N, "Takanari Wakasugi"),
+    (4, 145, N, "Ryo Misawa"), (4, 158, H, "Planning"), (4, 171, N, "Gentaro Mizukami"), (4, 192, H, "Directors"),
+    (4, 205, N, "Kenji Tuchida"), (4, 218, N, "Osamu Sugiyama"), (4, 244, 36, "Yoshitaka Oura (Romantec)"),
+    (4, 257, H, "Marion"), (4, 270, A, "Norihisa Mori"), (4, 289, H, "Tindalos"), (4, 303, A, "Yoshinobu Kaneko"),
+    (4, 321, H, "Ranfa"), (4, 334, A, "Umi Tenjin"), (4, 353, H, "Dr. Harry Sanderson"),
+    (4, 368, A, "Kazuhiko Nishimatu"), (4, 383, H, "Technical Support"), (4, 396, N, "Teruhiko Hanawa"),
+    (4, 409, N, "Kenjiro Kano"), (4, 422, N, "Tomoyuki Iwai"), (4, 435, N, "Noriko Nakame"),
+    (4, 461, N, "Hiroshi Sato"), (4, 474, N, "Hideki Yoneyama"),
+]
+ROLL_COPYRIGHT = (768, 241, 3, 240)  # column x, JP line top y, x in column, right limit (the Fin sprite is wider)
+
+
+def roll_line(im, lum, levels, x, y, text, f, right, clear=10):
+    """Clear the JP line (rows y..y+clear-1, non-transparent pixels of its column) and draw text with its baseline on
+    the JP glyphs' bottom row, each pixel the level nearest its blend of black and the brightest level; a pixel only
+    brightens, so descenders and the next line's ascenders may share rows."""
+    px = im.load()
+    col = x - x % 256
+    for cy in range(y, y + clear):
+        for cx in range(col, min(col + 256, im.width)):
+            if px[cx, cy] != 0:
+                px[cx, cy] = 15
+    d = ImageDraw.Draw(Image.new("L", (1, 1)))
+    x0, y0, x1, y1 = d.textbbox((x, y + 9), text, font=f, anchor="ls")
+    if x1 > right:
+        sys.exit(f"{text!r}: ends at u {x1 - col} > {right - col}")
+    mask = Image.new("L", (x1 - x0 + 2, y1 - y0 + 2))
+    ImageDraw.Draw(mask).text((x - x0, y + 9 - y0), text, font=f, fill=255, anchor="ls")
+    ink = max(levels, key=lambda i: lum[i])
+    for (cx, cy), v in zip(((i % mask.width, i // mask.width) for i in range(mask.width * mask.height)), mask.getdata()):
+        if v:
+            want = lum[ink] * v / 255
+            best = min(levels, key=lambda i: abs(lum[i] - want))
+            if lum[best] > lum[px[x0 + cx, y0 + cy]]:
+                px[x0 + cx, y0 + cy] = best
+    return (x0, y0, x1 - x0, y1 - y0)
+
+
+def ending(im):
+    def lums(colours):
+        return [0.3 * r + 0.59 * g + 0.11 * b for r, g, b in colours]
+    pal = im.getpalette()
+    lum_a = lums([tuple(pal[3 * i:3 * i + 3]) for i in range(16)])
+    lum_b, lum_c = lums(ROLL_B), lums(ROLL_C)
+    f = font("crimsontext_CrimsonText-Regular.ttf", 11)  # same 8 px caps as 12, and every name fits at u 60
+    dots ="· · · · ·"
+    rects, boxes = [], []
+    for c, y, u, text in ROLL:
+        x = 256 * c
+        in_b = any(bx <= x < bx + bw and by <= y < by + bh for bx, by, bw, bh in ROLL_B_RECTS)
+        lum = lum_b if in_b else lum_a
+        levels = [i for i in range(1, 16) if not (in_b and i == 5)]
+        rects.append((x, y, min(256, im.width - x), 10))
+        if u == A:  # cast actor: dots, then the name in the names' column like the JP line
+            boxes.append(roll_line(im, lum, levels, x + A, y, dots, f, x + 158))
+            boxes.append(roll_line(im, lum, levels, x + N, y, text, f, x + 158, clear=0))
+        else:
+            boxes.append(roll_line(im, lum, levels, x + u, y, text, f, x + 158))
+    cx, cy, cu, cr = ROLL_COPYRIGHT
+    rects.append((cx, cy, 256, 11))
+    text = "© Ea Co.,Ltd / Nobuteru Yuki / ENIX 2000"
+    w = ImageDraw.Draw(Image.new("L", (1, 1))).textlength(text, font=f)
+    u = round((cu + cr) / 2 - w / 2)  # centred on the JP line, as "Fin" above it
+    boxes.append(roll_line(im, lum_c, range(1, 16), cx + u, cy, text, f, cx + cr, clear=11))
+    return im, rects, boxes
+
+
 DRAWERS = {"flash": flash, "sticon": sticon, "title": title, "thanks": thanks, "prestage": prestage, "prestage2": prestage2,
-           **{"card%02d" % n: card(n) for n in range(14)}}
+           "ending": ending, **{"card%02d" % n: card(n) for n in range(14)}}
 
 
 def main():

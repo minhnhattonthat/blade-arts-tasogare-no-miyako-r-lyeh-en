@@ -146,6 +146,16 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 剣の神殿 | Temple of the Sword | | | |
 | Ｃ４爆弾 | C4 | | C4 Bomb | |
 
+## Credits (G3 ending staff roll, `tools/gfx_draw.py` ROLL)
+- Spellings on the intro credits texture (`M0/M02_10_0.PAC`) are official and used as is: Kenji Tuchida, Nobuteru
+  Yuuki, Tomoko Kamiyama, Yoshitaka Oura, Satuki Yukino, Syoutarou Morikubo, Kazuhiko Nishimatu ...; one typo fixed:
+  "Unshou Isizka" -> Unshou Ishizuka. The © line keeps the title screen's "Nobuteru Yuki".
+- Every other name: Hepburn reading of the kanji (no furigana on disc, so readings are best guesses). Least certain:
+  風呂有賢 Ariyoshi Furo, 草川量雄 Kazuo Kusakawa, 柴原宏佳 Hiroyoshi Shibahara, 市招幸 Akiyuki Ichi, 南島忠弘 Tadahiro
+  Minamijima, 渡部辰城 Tatsuki Watanabe, 広重演久 Nobuhisa Hiroshige, 大浦由貴 (ろまんてっく) "(Romantec)".
+- Headings: 特別協力 Special Thanks, 作曲 Music, 協力 In Cooperation With, 企画 Planning, デバッガー Debuggers,
+  パブリッシャー Publisher. Cast role イールム -> Ilum (not in the script text).
+
 ## Decisions from earlier batches
 - 零クン (Ranfa teasing) -> "Rei-kun" (b008 review).
 - 石碑 -> stele, 隊長 -> Captain, 大将 -> boss, 我流 -> self-taught (phase-6 review, rows above).
