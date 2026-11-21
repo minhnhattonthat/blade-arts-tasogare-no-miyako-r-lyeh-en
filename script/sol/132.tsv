@@ -32,7 +32,7 @@ sol.132.29	1	t0　　g7地下水を汲み上げるポンプみたいだ。\\　�
 sol.132.30	1	t0　　g7こんなところに起動カードがささっている\\　　　　　　　　　　g7i015@@　　　　　　起動カードを取りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　{g7}There's an activation card stuck in here.\\　　　　　　　　　　{g7i015}@@　　　　　　Take the activation card?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No　　　{g7i015}	
 sol.132.31	1	t0　　g7地下水を汲み上げるポンプみたいだ。\\g7ポンプ前面ににb3カードリーダーb0が付いている‥‥\\　　　　　　　　　　g7i015	{t0}　　{g7}Looks like a pump that draws up groundwater.\\{g7}There's a {b3}card reader{b0} on the front of the pump...\\　　　　　　　　　　{g7i015}	
 sol.132.32	1	t0　　　　　　g7ハシゴを上りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　　　　{g7}Climb the ladder?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No　　　{g7i015}	
-sol.132.33	1	t0　　　　　　g7‥‥‥‥‥‥あっ！\\　　　　　g7これじゃぁ、あがれねぇ。\\　　　　　　　　　　g7i015	{t0}　　　　　　　　{g7}......Ah!\\　　　　{g7}No way I can climb up like this.\\　　　　　　　　　　{g7i015}	
+sol.132.33	1	t0　　　　　　g7‥‥‥‥‥‥あっ！\\　　　　　g7これじゃぁ、あがれねぇ。\\　　　　　　　　　　g7i015	{t0}　　　　　　　　{g7}...Ah!\\　　　　{g7}No way I can climb up like this.\\　　　　　　　　　　{g7i015}	
 sol.132.34	1	t0　　　　　g7これじゃぁ、あがれねぇ。\\　　　g7まずは、あのドアを開けねぇと‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　{g7}Can't get up there like this.\\　　　　{g7}Gotta open that door first...\\　　　　　　　　　　{g7i015}	
 sol.132.35	1	t0　　　　g7b3＜南街区出口操作盤＞b0\\　g7現在、南街区への出口はb3閉鎖中b0です。\\　　　　　　　　　　g7i015	{t0}　　　　{g7b3}＜South District Exit Panel＞{b0}\\{g7}The exit to the South District is currently {b3}sealed{b0}.\\　　　　　　　　　　{g7i015}	
 sol.132.36	1	t0　　　g7南街区への出口を解放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　{g7}Open the exit to the South District?\\　　　{[DD1}　Yes　　　　　　{[2}　　No　　　{g7i015}	
@@ -40,7 +40,7 @@ sol.132.37	2	t0　　　　g7南街区への出口を解放しました\\　　�
 sol.132.38	2	g7０９８７６５４３２１□１２３４５６７８９０\\　　　　　　　水門は閉じています。\\　　　　　　　　　　g7i015	{g7}　　　　0987654321□1234567890\\　　　　　　The floodgate is closed.\\　　　　　　　　　　{g7i015}	
 sol.132.39	2	t0　　　　　g7水門を開きますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Open the floodgate?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
 sol.132.40	2	　　　　　　g7水門を開きました。\\　　　　　　　　　　g7i015	　　　　　　{g7}Floodgate opened.\\　　　　　　　　　　{g7i015}	
-sol.132.41	2	　　　　g7地下に通じるドアみたいだが\\　　　　　　g7開かない‥‥‥‥‥\\　　　　　　　　　　g7i015	　　　{g7}Looks like a door leading underground,\\　　　　　　{g7}but it won't open......\\　　　　　　　　　　{g7i015}	
+sol.132.41	2	　　　　g7地下に通じるドアみたいだが\\　　　　　　g7開かない‥‥‥‥‥\\　　　　　　　　　　g7i015	　　　{g7}Looks like a door leading underground,\\　　　　　　{g7}but it won't open...\\　　　　　　　　　　{g7i015}	
 sol.132.42	2	t0　　g7ポンプのb3起動カードb0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　{g7}Got the pump's {b3}Activation Card{b0}.\\　　　　　　　　　　{g7i015}	
 sol.132.43	2	CSA0t4b4零：b0ん？i030	{CSA0t4b4}Rei:{b0} Hm?{i030}	
 sol.132.44	2	CSA0t4b4零：b0どこから、ヘリが？i030	{CSA0t4b4}Rei:{b0} Where'd a chopper come from?{i030}	
@@ -80,7 +80,7 @@ sol.132.77	3	CSA0t4b6サンダーソン：b0おいおい、われわれの命の
 sol.132.78	3	CSA0t4b4零：b0‥‥i020死んだよ。\\助けられなかった‥‥i030	{CSA0t4b4}Rei:{b0} ...{i020}She's dead.\\I couldn't save her...{i030}	
 sol.132.79	3	CSA0t4b6サンダーソン：b0‥‥そうか。i020\\あまり自分を責めるな。i020@@状況が状況だ。仕方あるまい。i030	{CSA0t4b6}Sanderson:{b0} ...I see.{i020}\\Don't blame yourself too much.{i020}@@Given the circumstances, it couldn't be helped.{i030}	
 sol.132.80	4	CSA0t4b6サンダーソン：b0‥‥i020今は、ワシらが生き残る事を考えよう。\\リズの為にも‥‥i030	{CSA0t4b6}Sanderson:{b0} ...{i020}For now, let's think about surviving.\\For Liz's sake as well...{i030}	
-sol.132.81	4	CSA0t4b4零：b0ああ、そうだな‥‥\\‥‥‥‥i020@@で、ナカムラ様ご一行はどこに行った？i030	{CSA0t4b4}Rei:{b0} Yeah, you're right...\\......{i020}@@So, where'd Nakamura-sama and his entourage go?{i030}	
+sol.132.81	4	CSA0t4b4零：b0ああ、そうだな‥‥\\‥‥‥‥i020@@で、ナカムラ様ご一行はどこに行った？i030	{CSA0t4b4}Rei:{b0} Yeah, you're right...\\...{i020}@@So, where'd Nakamura-sama and his entourage go?{i030}	
 sol.132.82	4	CSA0t4b6サンダーソン：b0ああ、研究棟へ行くとか言うておった。\\この奥にある大きな建築物がそれらしい。i030	{CSA0t4b6}Sanderson:{b0} Ah, they said they were headed\\for the research facility.@@That big structure further in seems to be it.{i030}	
 sol.132.83	4	CSA0t4b4零：b0研究棟？\\なんで、ナカムラがここの建物の用途‥‥i020@@いや、その前に何でここの事を知ってるんだ？i030	{CSA0t4b4}Rei:{b0} Research facility? How does Nakamura\\know what the buildings here are for...{i020}@@No, before that, how does he even\\know about this place?{i030}	
 sol.132.84	4	CSA0t4b6サンダーソン：b0ああ、それはワシも不思議に思っていた。\\にもかかわらず、ここまで来るためにi020@@リズの力を必要としていた‥‥i020\\ヤツらの行動は、まったく矛盾しておる。i030	{CSA0t4b6}Sanderson:{b0} Yes, I found that strange myself.\\And yet, to make it this far,{i020}@@they needed Liz's skills...{i020}\\Their actions are a complete contradiction.{i030}	

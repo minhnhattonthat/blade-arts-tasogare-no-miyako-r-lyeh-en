@@ -59,9 +59,9 @@ sol.28.56	1	t3b6　藍花：b0ちょっと、どこに行ってるのよ？\\　
 sol.28.57	1	t3b6　藍花：b0あー、もう！\\　なんで人の言うこと聞かないかなー！i030	{t3b6}Ranfa:{b0} Ugh, seriously!\\Why won't you ever listen to me~!{i030}	
 sol.28.58	1	CSA0t0e00405あー、その先のトカゲっぽい彫像\\火ふくから気をつけてね。	{CSA0t0e00405}Oh, careful, those lizard-ish statues\\up ahead breathe fire.	
 sol.28.59	1	CSA0t0e00582そういう事を、お気楽そうに言うな！	{CSA0t0e00582}Don't say stuff like that so casually!	
-sol.28.60	1	CSA0t0e00315えっと、奥にある石碑に\\仕掛けっぽいのがあって、@@それ押せば止まるって書いてある‥‥	{CSA0t0e00315}Umm, it says there's something like\\a mechanism on a stone tablet at the back,@@and if you push it, they'll stop...	
+sol.28.60	1	CSA0t0e00315えっと、奥にある石碑に\\仕掛けっぽいのがあって、@@それ押せば止まるって書いてある‥‥	{CSA0t0e00315}Umm, it says there's something like\\a mechanism on the stele at the back,@@and if you push it, they'll stop...	
 sol.28.61	1	CSA0t0e01008そういう事はなぁ、早めに言え！	{CSA0t0e01008}Stuff like that, you tell me sooner!	
-sol.28.62	2	WP-134-016WS2002BS0805BYB+00BKC002　石碑の前に立ち、□ボタンで\\　仕掛けを動かす事が出来ます。	{WP-134-016WS2002BS0805BYB+00BKC002}Stand in front of a stone tablet\\and press □ to work its mechanism.	
+sol.28.62	2	WP-134-016WS2002BS0805BYB+00BKC002　石碑の前に立ち、□ボタンで\\　仕掛けを動かす事が出来ます。	{WP-134-016WS2002BS0805BYB+00BKC002}Stand in front of a stele\\and press □ to work its mechanism.	
 sol.28.63	2	CSA0t0e01183なんか、空気が澱んでるな‥‥ガスか？	{CSA0t0e01183}The air's kinda stale here... Gas?	
 sol.28.64	2	CSA0t0e01274ここにもガスか‥‥\\さっきの場所と続いているのか？	{CSA0t0e01274}Gas here too...?\\Is it connected to where I was before?	
 sol.28.65	2	CSA0t0e01094ん、そうみたい。	{CSA0t0e01094}Mm, looks like it.	
@@ -77,7 +77,7 @@ sol.28.74	2	CSA0t0e00676今、ここにいるが。	{CSA0t0e00676}I'm already he
 sol.28.75	2	CSA0t0e00406うわっ！！	{CSA0t0e00406}Whoa!!	
 sol.28.76	2	CSA0t0e00845何を驚いている？	{CSA0t0e00845}What are you so surprised about?	
 sol.28.77	2	CSA0t0e01095えらくお茶目‥‥　いや、早いじゃねえか‥‥\\で、Ｐ．Ｅ．は？	{CSA0t0e01095}Real cute...  I mean, you got here fast...\\So, where's the P.E.?	
-sol.28.78	2	CSA0t0e00227ああ、ここにある。気をつけて使えよ。\\間違っても遺跡に余計な被害を与えないように@@‥‥貴様と心中など御免だからな。	{CSA0t0e00227}Ah, right here. Use it carefully.\\Don't you dare do any extra damage to the ruins.@@...I've no wish to die alongside you.	
+sol.28.78	2	CSA0t0e00227ああ、ここにある。気をつけて使えよ。\\間違っても遺跡に余計な被害を与えないように@@‥‥貴様と心中など御免だからな。	{CSA0t0e00227}Yes, right here. Handle it with care.\\Don't do any needless damage to the ruins.@@...I've no wish to die alongside you, fool.	
 sol.28.79	2	CSA0t0e00060じゃ、早速使ってみるか。	{CSA0t0e00060}Okay, let's give it a shot.	
 sol.28.80	2	CSA0t0e01275そんな高い所に置こうとしても、\\手が届かないんじゃないのか？	{CSA0t0e01275}If you try to put it up that high,\\won't it be out of your reach?	
 sol.28.81	2	CSA0t0e00316そこの岩を足場に使ってみてはどうだ？	{CSA0t0e00316}Why not use that rock there as a step?	
@@ -110,10 +110,10 @@ sol.28.107	4	CSA0t0e00318う～ん‥‥\\そのあたりについては、何�
 sol.28.108	4	CSA0t0e00762そうだな‥‥\\いや、もう少し先まで様子を見てくるわ。	{CSA0t0e00762}Yeah...\\Nah, I'll go check things out a bit further.	
 sol.28.109	4	CSA0t0e00062こいつは‥‥	{CSA0t0e00062}What's this...	
 sol.28.110	4	CSA0t0e00145聞こえるか‥‥祭壇を見つけた。\\何か奉られているらしい。調べてみる。	{CSA0t0e00145}Can you hear me... I found an altar.\\Something's enshrined here. I'll check it out.	
-sol.28.111	4	CSA0t0‥‥‥‥‥‥‥	{CSA0t0}......	
+sol.28.111	4	CSA0t0‥‥‥‥‥‥‥	{CSA0t0}...	
 sol.28.112	4	CSA0t0e01186これは‥‥剣か？	{CSA0t0e01186}Is this... a sword?	
 sol.28.113	4	CSA0t0e00929おい、聞こえるか？\\刀剣らしい棒状の金属を発見した。@@回収した方が良いのか、\\ジイさんに確認してくれ。	{CSA0t0e00929}Hey, can you hear me?\\I found a metal rod, looks like a blade.@@Check with Gramps whether\\I should bring it back.	
-sol.28.114	4	CSA0t0‥‥‥‥‥‥‥	{CSA0t0}......	
+sol.28.114	4	CSA0t0‥‥‥‥‥‥‥	{CSA0t0}...	
 sol.28.115	4	CSA0t0e01011おい、聞こえているのか？応答しろ！！	{CSA0t0e01011}Hey, are you listening? Answer me!!	
 sol.28.116	4	CSA0t0e01364ええ、ああ‥‥\\うん、聞こえてる。	{CSA0t0e01364}Huh, oh...\\Yeah, I hear you.	
 sol.28.117	4	CSA0t0e01097居眠りしてるんじゃねぇぞ！！\\‥‥金属製の棒を発見した。回収の判断を頼む。	{CSA0t0e01097}Don't you dare doze off on me!!\\...I found a metal rod. Should I bring it back?	

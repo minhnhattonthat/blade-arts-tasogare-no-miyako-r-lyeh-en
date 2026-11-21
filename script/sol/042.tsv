@@ -23,7 +23,7 @@ sol.42.20	0	t3b3銅のプレートb0を手に入れた。	{t3}Got the {b3}Copper
 sol.42.21	0	t3b3銅のプレートb0を手に入れた。	{t3}Got the {b3}Copper Plate{b0}.	
 sol.42.22	0	t3このスイッチを動かすには\\起動プレート１が必要です。	{t3}Activation Plate 1 is needed\\to work this switch.	
 sol.42.23	0	t3このスイッチを動かすには\\起動プレート２が必要です。	{t3}Activation Plate 2 is needed\\to work this switch.	
-sol.42.24	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.42.24	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou preserve the sword's memory?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.42.25	0	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
 sol.42.26	0	CSA0t0e00269さーて、手間食っちまったが‥‥	{CSA0t0e00269}All right, that took a while, but...	
 sol.42.27	0	CSA0t0e00360‥‥これで、動くか？	{CSA0t0e00360}...Will this get it moving?	

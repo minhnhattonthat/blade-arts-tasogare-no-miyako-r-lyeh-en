@@ -2,10 +2,12 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check next (phase 6 translate done 2026-11-22: 19 batches translated, `batches.py check`
-  0 problems, every batch reviewed, all Critical/Important fixed, Minors in `docs/polish.md`). Last build: pilot build
-  (b001 only) 2026-11-22, smoke ok. A full build now stops at raw strings longer than their bytes in place
-  (103 warnings in `batches.py check`): relocation is the first phase-7 job.
+- **Phase:** 7. Insert, fit, check in progress (phase 6 translate done 2026-11-22: 19 batches, `batches.py check`
+  0 problems; every batch reviewed incl. b001 (`docs/reviews/b001.report.md`); the harness phase-6 review's Important
+  findings fixed and re-reviewed (`docs/reviews/fix01.report.md`): save prompt, 石碑/隊長/大将/我流 glossary rows,
+  villain 貴様 "you wretch", Millers, ellipsis rule D11 (lint in `batches.py`). Minors in `docs/polish.md`).
+  Last build: pilot build (b001 only) 2026-11-22, smoke ok. A full build stops at raw strings longer than their bytes
+  in place (104 warnings): relocation is the first phase-7 job.
 - **Done:**
   - Step 0: template, guard hook proven (sed -i blocked), pre-commit runs `tools/check.py` and rejects a failing test,
     `rom.sha1` (Redump .bin/.cue), PCSX-Redux + SCPH-5500 BIOS fetched, mkpsxiso/armips in `tools/`, smoke route
@@ -49,7 +51,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   LOADSAVE menu text: pointer refs in the raw TSVs' `refs` column); per-block SOL size check (block 159 risk); full
   build, `romdiff.py` ranges, smoke. Memory-card title stays JP (see below).
 - **Open for later phases (not blocking):**
-  - Raw strings over their in-place bytes (103, mostly item names/descriptions): phase 7 relocation; build.py exits on them.
+  - Raw strings over their in-place bytes (104, mostly item names/descriptions): phase 7 relocation; build.py exits on them.
   - Check in game (phase 8): choices where translators added `\\` before `{[DD1}` (sol.98.3, 100.3, 103.2), `{g9}`
     spaced options (72.5, 72.40), digit pickers (62.140-143, 69.22-25), sol.169.0 (voiced, @@ re-split, same screen
     count), sol.132.110 written `{CSA0t4b4}` (JP had a bare `b`), centring of t0 panel lines in blocks 125/147/159/166.

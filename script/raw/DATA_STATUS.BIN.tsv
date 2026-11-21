@@ -20,7 +20,7 @@ DATA/STATUS.BIN:00A1C	8014A21C	64	FDAC	機械的な文様が刻まれたプレ�
 DATA/STATUS.BIN:00A5C	8014A25C	32	FDA4	神聖なる場所へ通じる道しるべ。	A guidepost on the road\\to the sacred place.	
 DATA/STATUS.BIN:00A7C	8014A27C	64	FD9C	ＤＳＯＮが重要な物を運ぶときに使用するジュラルミン製のケース。	A duralumin case DSON uses\\to carry important items.	
 DATA/STATUS.BIN:00ABC	8014A2BC	28	FD94	ジュラルミンケースの鍵。	The key to the duralumin case.	
-DATA/STATUS.BIN:00AD8	8014A2D8	56	FD8C,FDC4,FDCC,FDD4	翡翠で作られたプレートの欠片。遺跡へ通ずる道を開く。	A fragment of a plate made of jade.\\Opens the way to the ruins.	
+DATA/STATUS.BIN:00AD8	8014A2D8	56	FD8C,FDC4,FDCC,FDD4	翡翠で作られたプレートの欠片。遺跡へ通ずる道を開く。	A fragment of a tablet made of jade.\\Opens the way to the ruins.	
 DATA/STATUS.BIN:00B10	8014A310	28	FD84	核心部へ導く力をもつ宝剣。	A treasured sword with the power\\to lead you to the core.	
 DATA/STATUS.BIN:00B2C	8014A32C	28	FD7C	核心部へ導く力をもつ宝玉。	A treasured orb with the power\\to lead you to the core.	
 DATA/STATUS.BIN:00B48	8014A348	52	FD74	丸い形状をした木の棒。\\i005隔壁を開けるための鍵。	A round wooden rod.\\{i005}A key for opening bulkheads.	

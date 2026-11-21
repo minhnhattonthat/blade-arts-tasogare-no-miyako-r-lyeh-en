@@ -228,6 +228,8 @@ def problems(entry, text, terms):
     want, have = code_atoms(jp, True), code_atoms(text, False)
     if want != have:
         out.append(f"control codes differ: missing {dict(want - have)} extra {dict(have - want)}")
+    if re.search(r"\.{4,}", re.sub(r"\{[^}]*\}|\\\\|@@", " ", text)):
+        out.append('ellipsis of 4+ dots: one "..." per pause however long the JP run (glossary, D11)')
     if re.search(VARIABLE + r"(st|nd|rd|th)\b", text):
         out.append('ordinal suffix after a variable (write "No. {%s}")')
     jp_plain = CODE_RUN.sub("", jp)

@@ -1,6 +1,6 @@
 # Style reference
 
-Approved pilot: batch b001 (blocks 1-11: sword-memory save prompt, item pickups, the earthquake news intro, Rei waking
+Pilot: batch b001 (reviewed 2026-11-22, `work/qa/review/b001.report.md`: Approved after the sol.5.3 fix) (blocks 1-11: sword-memory save prompt, item pickups, the earthquake news intro, Rei waking
 in the ruins, the first Sphere tutorial, Rei and Ranfa at camp). Seen in game in the smoke run (news subtitles).
 
 ## Voices
@@ -22,7 +22,7 @@ in the ruins, the first Sphere tutorial, Rei and Ranfa at camp). Seen in game in
 
 ## Example pairs
 - `{t3}剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？` ->
-  `{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?`
+  `{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou preserve the sword's memory?`
 - `{CSA0t0e00894}最後の最後でテキトーな事ぬかしたのは、\\どこのどいつだ！@@おかげで、転落死しかけるわ、恐竜もどきに\\追いかけ回されるわ。` ->
   `{CSA0t0e00894}Who fed me that half-baked garbage\\at the very last second!?@@Thanks to you, I nearly fell to my death\\and got chased around by some dino-thing!`
 - `{CSA0t0e01059}えー、あたし何にもしてないよー？\\` -> `{CSA0t0e01059}Huh~? I didn't do anything~?\\`

@@ -55,7 +55,8 @@ Warnings ("bytes > in place") are fine: those raw strings get relocated later. D
 - Use names and terms exactly as in the glossary. Never abbreviate to fit: rephrase, add a page (unvoiced) or keep
   the meaning and report `LONG: id`.
 - Honorifics kept (Nakamura-sama, Lizzie-chan, Kiki-kun); ミスター/ドクター -> Mr./Dr.; Western name order.
-- Punctuation: 「」 -> "...", 『』 -> '...', ‥‥/・・・ -> `...`, ！？ -> `!?`, ～ -> `~`; ＜X＞ headings keep ＜＞.
+- Punctuation: 「」 -> "...", 『』 -> '...', ‥‥/・・・ -> `...` (one ellipsis however long the JP run; the check
+  rejects 4+ dots), ！？ -> `!?`, ～ -> `~`; ＜X＞ headings keep ＜＞.
 - Identical strings were deduplicated: each id stands for every copy of its text, so translate it to read well alone.
 - Item names and pick-up lines (`Xを手に入れた。` -> "Got the X.", `Xを取りますか？` -> "Take the X?") stay uniform.
 - Debug/dev placeholders that a player can still meet (`＜...イベント＞誠意制作中、乞うご期待！！`) are translated too
@@ -63,6 +64,14 @@ Warnings ("bytes > in place") are fine: those raw strings get relocated later. D
 
 ## Consistency
 Never edit `glossary.md`. For a recurring name or term not in it, pick a form, use it consistently, and report it.
+
+## Notes from earlier batches (review findings that recurred)
+- Voice markers were the most-flattened thing: 貴様 from a villain is "you wretch" (never "you bastard"), Marion's
+  ボウヤ is "boy", Nakamura speaks lordly (ほめてやろう -> "I shall commend you"), Rei's てめぇ needs "pal"/"you bastard".
+- Same term, same English across scenes: 石碑 stele, 隊長 Captain, 我流 self-taught; a text-panel replay of a voiced line
+  (blocks 125/138/147) should read like the voiced original.
+- Check who and what: いた is for people (「ミラー」ってのがいた = someone called "Millers"); 送ってきた = "sent over".
+- Ellipses came out in two styles (... and ......): only "..." is allowed.
 
 ## Report (reply with only this)
 Files written and entry count; then any lines: `NEW TERM: jp -> en`, `UNSURE: id - note`, `LONG: id - note`.

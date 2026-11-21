@@ -8,6 +8,6 @@ sol.97.5	0	CSA0t0e00499剣が神格化されているってのは‥‥\\今一�
 sol.97.6	0	t3ここだけ壁の色が違う‥‥\\何か、この先にあるのだろうか‥‥。	{t3}Only this part of the wall is a different color...\\Could there be something beyond it...?	
 sol.97.7	0	t3玉を持っている絵が描いてある‥‥。	{t3}There's a picture of someone holding an orb...	
 sol.97.8	0	t3剣を持っている絵が描いてある‥‥。	{t3}There's a picture of someone holding a sword...	
-sol.97.9	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.97.9	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou preserve the sword's memory?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.97.10	0	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
 sol.97.11	0	t3b2＜グノフ＝ケーの終了後イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Post-Gnoph-Keh Event＞{b0}\\Under construction, stay tuned!!	

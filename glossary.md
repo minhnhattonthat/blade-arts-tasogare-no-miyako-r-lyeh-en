@@ -15,7 +15,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 - Abbreviations: full names and terms everywhere, prefer engine changes over shortening.
 
 ## Style rules
-- Punctuation: 「」 -> "...", 『』 -> '...', ‥‥ / ・・・ -> "..." (one ellipsis however long the JP run), ！？ -> ?!,
+- Punctuation: 「」 -> "...", 『』 -> '...', ‥‥ / ・・・ -> "..." (one ellipsis however long the JP run), ！？ -> !?,
   ～ -> ~, ＜X＞ headings keep the fullwidth ＜＞ (the font has no < >). Button symbols ○ △ □ × stay as the fullwidth
   JP glyphs ("Press ○ twice"); L1/R1/L2/R2/START/SELECT in ASCII.
 - Characters not in the English font: # $ < > @ \ ^ _ ` { | }. Use "and" for &? (& is fine), "No." for #.
@@ -132,9 +132,18 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | 重力エレベーター / 重力エレベータ | Gravity Elevator / gravity elevator | | | |
 | 研究棟 | research facility | | | |
 | 記憶の石碑 | Memory Stele | | plain 石碑 -> stele | |
+| 石碑 | stele | | never "stone tablet" (that is 石板) | |
+| 隊長 | Captain / captain | | Nakamura as DSON's commander; 隊長さん -> "the captain" | |
+| 大将 | boss | | Rei's slangy おまえんとこの大将 | |
+| 我流 | self-taught | | 我流が -> "self-taught punk" | Amateur |
 | 優性思想 | eugenics / master-race | | Nakamura's ideology (block 104) | elitist |
 | 剣の神殿 | Temple of the Sword | | | |
 | Ｃ４爆弾 | C4 | | C4 Bomb | |
 
 ## Decisions from earlier batches
-- (none yet)
+- 零クン (Ranfa teasing) -> "Rei-kun" (b008 review).
+- 石碑 -> stele, 隊長 -> Captain, 大将 -> boss, 我流 -> self-taught (phase-6 review, rows above).
+- ミラー / ミラーズ both point at Patricia Millers: "Millers" (sol.58.10, 89.26).
+- Ellipsis: one "..." per pause, never 4+ dots (D11; `batches.py check` lints it).
+- Save prompt 汝、剣の記憶をとどめる事を欲するか？ -> "Wouldst thou preserve the sword's memory?" (19 copies).
+- 貴様 from any villain -> "you wretch", never "you bastard" (Rei's てめぇ only).

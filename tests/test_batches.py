@@ -25,6 +25,8 @@ def test_rules():
     voiced = ENTRIES["sol.5.0"]  # eNNNNN: page count must match
     assert any("voiced" in p for p in batches.problems(voiced, "{CSA0t0e01005}One page only.", []))
     assert any("not in the font" in p for p in batches.problems(e, good.replace("Marion:", "Marion#"), []))
+    assert any("ellipsis" in p for p in batches.problems(e, good.replace("worry...", "worry......"), []))
+    assert batches.problems(e, good.replace("Do your", "...Do your"), []) == []  # "..." after @@ is a new pause
 
 
 def test_shipped_english_passes():
