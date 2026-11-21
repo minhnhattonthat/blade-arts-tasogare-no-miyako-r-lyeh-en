@@ -10,6 +10,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Extract:  `python -X utf8 tools/extract.py` -> script/sol/*.tsv + script/raw/*.tsv (never overwrites; `--force` only before any English)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/blade_arts_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke` (original: `rom/*.cue`)
 - Warp:     `python -X utf8 tools/debug/warp_all.py <scene|glob*> [--cue build/blade_arts_en.cue] [--states]` -> work/qa/warp/<scene>/proof.png (scenes: `tools/debug/scenes.tsv`; run `save_*` first; never ask the user to play to a scene)
+- SOL view: `python -X utf8 tools/solview.py [sol.4.0|BLOCK ..] --jobs 6` (every message shown in game, coverage log) then `--report` (page check + QA sheets)
 - Saves:    `python -X utf8 tools/debug/save.py show|set CARD.mcd ...` (layout `tools/debug/save_layout.md`)
 - Release:  `python -X utf8 tools/release.py` (xdelta vs the .bin; never publish without the user)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)

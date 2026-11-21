@@ -111,6 +111,15 @@ Solved in phase 5 with letter bytes >= 0xA0 (§English below).
   [ \ a b c d e g i n s t v w`); else a character: glyph record (20 bytes at +0xCC buffer, max +0x30 = 200 per page),
   x += pitch, column += 1, auto-wrap at +0x48 columns. `\\` on the last line (+0x4A) and `@@` both wait for a button
   and start a new page. `tN` = text speed (table 0x800B2470), `gN` = move x by N px, `bN` colour.
+- **Page state** (phase 8, verified with `tools/lua/solview.lua`): window +0x83 low nibble = 0 parsing, 1 waiting at a
+  page break (`@@`, or `\\` on the last line), 2 end of text (handlers 0x80016760 `@`, 0x80016728 `\`, 0x80016780
+  `\0`/`\n`). The window update (0x80015D2C..) runs the parser while +0x83 = 0; at a wait it copies +0x83 to +0x84,
+  and clears both (next page) when `s1 & +0xB8` (s1 = pad word passed in, +0xB8 = confirm mask 0x00A0) is non-zero
+  (0x80015DFC; choice windows: +0x80 = option count, +0x81 = cursor, +0xBA/+0xBC up/down masks, confirm at
+  0x80015E88). The intro passes no pad word, so its pages turn only on the script's timer; solview ORs +0xB8 into s1
+  at 0x80015DF0 to turn them. Lookup 0x80078728 is called once per message (from 0x80077E14 in the intro); it finds
+  the sector through the last-index table at struct 0x800D9C28 +0x10 and the buffer at [struct] (+5 = sectors in
+  buffer, each tagged by its u32 at +4), returning 0 while the sector isn't loaded.
 - **Centring** 0x80015F3C measures each line (own jump table 0x80010098) and sets x = +0xA0 + (+0xA4 - width) / 2.
 - **Glyph** 0x8008DC1C(sjis): binary search in the 1297-code table -> index i -> u = (i % 92 >> 2) * 11,
   v = i // 92 * 11, CLUT = base (0x800E66B4) + (i & 3); 11x11 cells.

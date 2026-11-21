@@ -3,8 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (started 2026-11-22; phase 7 review minors fixed first, commit 1af6d3c).
-  Last good build: `build/blade_arts_en.bin` 2026-11-22 (after 1af6d3c), smoke ok (`work/qa/smoke`); with G1/G6/G8
-  graphics: `build/gfx/blade_arts_en.bin` (title/intro/thanks warps ok).
+  Last good build: `build/blade_arts_en.bin` 2026-11-22 ~08:00 with all graphics, sha1 887644db89c5..., smoke ok
+  (`work/qa/smoke`).
 - **Phase 8 so far:**
   - Text coverage infra: `build.py` writes `build/strings.tsv` (3643 keys: SOL `5BBBNNNN` = old block id + message n,
     raw `(file no.<<24)|addr`, from the write log so relocated strings carry their EXE address) and
@@ -13,16 +13,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (status_item / status_system_0 log `TEXT 02157098`, `020B9240`, `021576C8`, matching `textwin.lua`'s new `at=`
     text address; `work/qa/cov_t3`). Report: `python -X utf8 $SKILL/scripts/textcover.py work/qa/cover
     work/qa/strings_cover1.tsv --waive docs/text_unshown.tsv`.
-  - Coverage: the first sweep (`work/qa/cover/warp`, 06:31 build) finished only 61/307 scenes (the rest never ran:
-    the runner died with the previous session). The other 246 (`work/qa/cover_todo.txt`, all map scenes +
-    load_lowhp) were restarted 07:10 as the event tour into `work/qa/cover/events` (log `work/qa/cover_events.out`):
-    `warp_all.py $(cat work/qa/cover_todo.txt) --cue build/blade_arts_en.cue --jobs 5 --debugger --probe
-    tools/lua/textwin.lua --probe tools/lua/textcover.lua --var "TCTBL='<abs>/build/textcover_tbl.lua'" --var
-    CIRCLE_EVERY=40 --var AFTER_FRAMES=6000 --out work/qa/cover/events --timeout 1200`. It runs ~10 min per scene
-    (~8 h at 5 jobs): if `work/qa/cover/events/summary.tsv` is missing it is still running or died; re-run only the
-    names without a proof.png. Report over both: `python -X utf8 $SKILL/scripts/textcover.py work/qa/cover
-    work/qa/strings_cover1.tsv --waive docs/text_unshown.tsv`. Don't rebuild `build/` (main) while it runs: build
-    graphics tests into `build/gfx` (`build.py --out build/gfx`).
+  - Coverage, SOL (all 3351 messages shown, 2026-11-22): the warp/event tour was dropped (it died at 8/246 scenes
+    and the map scenes it finished logged 0-8 strings: events need story triggers). Instead `tools/solview.py`
+    (+ `tools/lua/solview.lua`, test `tests/test_solview.py`) swaps every message into the intro at the message
+    lookup from one savestate and turns its pages through the game's own confirm path (RE: `docs/re/text.md` §Page
+    state). Run `work/qa/solview` (6 jobs, ~45 min, build 887644db), re-run of 35 host-cut ids with `--var
+    SVFAST=true` in `jf00-03`. `solview.py --report --out work/qa/solview` -> `work/qa/solview_report.txt`: 3331
+    messages show exactly the pages the lint expects; **20 long voiced lines are cut** by the intro's own timer
+    before their last page (sol.132.98, 138.75/84/86/94/97/101/109/115/119/121, 147.54/56/58/61, 159.54/56/58/61,
+    169.0): their last pages are unseen (tried: lookup returning 0 hangs the host; handing the host the rest of the
+    message draws nothing). Next idea: a host whose script waits for the message end (a map event state), or find
+    the intro script's wait counter. textcover over `work/qa` shows no SOL id missing.
+  - Visual QA, SOL: 148 sheets (`work/qa/solview/sheets`, b<block>_sub = subtitle rows 1:1, 60 per sheet; _ws =
+    whole screens) with a `.txt` sidecar of expected text per tile; manifest `work/qa/solview/manifest.tsv` (build
+    recorded), brief `docs/visual-qa-brief.md`, **0 verdicts yet**. codex is out of quota until 2026-11-26
+    (`tools/vqa.py` runs it per chunk when it is back); otherwise review the sheets yourself in fresh read-only
+    passes, ~50 sheets per session: `qa_gate.py todo work/qa/solview/manifest.tsv work/qa/solview/verdicts --size 30
+    --out-dir work/qa/solview/chunks`, write `work/qa/solview/verdicts/<chunk>.tsv`.
+  - The old warp coverage (`work/qa/cover/warp`, 61 scenes) still counts for raw strings: 235 of 305 raw strings
+    are unshown (`work/qa/raw_unshown.txt`: item names/descriptions, sphere/Art texts, save-slot location names,
+    memory-card errors): next coverage target (needs the inventory mapped, or a forced-display hook like solview's).
   - Graphics text: pipeline built (`tools/gfx.py`, `tools/gfx_draw.py`, `gfx/gfx.tsv`, `tests/test_gfx.py`, OFL fonts
     in `fonts/ofl/`). Done in game: G1 title, G8 thanks, G6 Prestage (prologue title card), G7 all 14 stage cards,
     G5 flashback subtitles, G3 ending staff roll (all names, 3 CLUTs; `work/qa/gfx_g3b`; names in glossary §Credits,
@@ -94,10 +104,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     patched file, EXE writes only in the free area / 4 hook sites, font writes in DATA1.PAC entries 118-119, built SOL
     = en column (all 3351 strings), sol_map = remap. `batches.py check`: 0 problems (100 warnings = raw strings over
     their in-place bytes, relocated by the build).
-- **Next (phase 8):** read the event-tour coverage (above) when it ends (started 07:10, ~8 h: done ~15:00), waivers;
-  use `textcover.py ... --runs-for <choice ids>` to find the runs that showed choice boxes and run `inkbox.py` on
-  their shots; stress saves (ITEM list mapping, herb-count check above); then a full tour on the final build
-  (`build/` with graphics: rebuild `build/` only after the event tour ends) with visual-QA verdicts (`qa_gate.py`). Card title: English location + ／TIME (D12), check the LOAD
+- **Next (phase 8):** (1) visual-QA verdicts for the 148 SOL sheets (above); (2) the 20 cut voiced lines;
+  (3) raw-string coverage (235 unshown) + stress saves (ITEM list mapping, herb-count check above); (4) choice
+  boxes: `inkbox.py` on real in-map choice frames (solview shows choices without their frame); (5) a final tour of
+  the menu/graphics scenes on the final build with verdicts. `build/` is now the full build (graphics included,
+  sha1 887644db..., smoke ok 2026-11-22 08:0x). Card title: English location + ／TIME (D12), check the LOAD
   list and the title length in game. Moved SOL blocks 117, 132 (ending), 159, 173, 176 not yet seen in game after
   the remap (review minor 2): make them coverage targets.
 - **Open for later phases (not blocking):**
