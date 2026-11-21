@@ -16,6 +16,17 @@ def test_sjisscan_keeps_kana_runs_only():
 
 
 @pytest.mark.skipif(not SOL.is_file(), reason="disc not dumped (work/disc)")
+def test_sol_parser_finds_every_string():
+    import sol
+    d = SOL.read_bytes()
+    texts = [x for _, _, blk in sol.blocks(d) for _, _, _, _, x in sol.strings(blk)]
+    assert len(texts) == 3351
+    for x in texts:
+        x.decode("cp932")  # every string decodes
+    assert any("昨日未明にチリより".encode("cp932") in x for x in texts)
+
+
+@pytest.mark.skipif(not SOL.is_file(), reason="disc not dumped (work/disc)")
 def test_sol_srp_text_is_xor_8c():
     x = bytes(b ^ 0x8C for b in SOL.read_bytes()[0x800:0x900])
     assert "剣を納めよ".encode("cp932") in x
