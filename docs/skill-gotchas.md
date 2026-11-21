@@ -2,6 +2,9 @@
 
 One line per gotcha: the skill reference file it belongs in, then the fact.
 
+- scripts/sheet.py: `--crop` past the image (y 300 on a 320x240 frame) dies with struct.error in write_png, no clear message; PCSX-Redux frames switch between 320x240 and 320x480 within one run (the title is 480i).
+- graphics.md §Edit: the same TIM pixels can sit in two files under different CLUTs (Blade Arts G6 "Prestage" in M02_10_0 vs M03_01_0): map AA levels to indices per palette by luminance (`tools/gfx_draw.py ramp_text`), never one index ramp for both.
+
 - platform-ps1.md: Blade Arts script text (DATA/SOL.SRP) is Shift-JIS XORed with 0x8C, so a raw SJIS scan of the disc finds only item names and menus; find it by dumping RAM while text shows, then searching the disc for the bytes next to the decoded text (here a string-offset table).
 - platform-ps1.md: on this game's title screen circle confirms and cross does nothing, so `--mash-key cross` idles into the attract demo; check which button confirms before mashing.
 - graphics.md §Survey: a TIM sweep drawn with each TIM's first CLUT hid Japanese twice here (stage-clear card and "on sale summer 2000" screen had all-black first CLUTs; some TIMs are flagged 16bpp over 4bpp data and draw as noise); re-draw every near-black or noisy TIM with palette indices as grey (`tools/timsweep.py --gray`). Dedup identical TIMs across map packs first (1525 -> 157 here).

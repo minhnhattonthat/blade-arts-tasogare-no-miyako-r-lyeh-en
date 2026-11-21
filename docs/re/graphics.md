@@ -22,6 +22,21 @@ Static sweeps (all files with TIMs on the disc; `work/` is gitignored, rerun to 
 | G7 | stage clear card | `M0/M50_00_0.PAC` @401EC (4bpp 512x152, black CLUT: needs `--gray`), same TIM in M50_01..13, M60_00, M91_04 | "NEXT STAGE 魔力エレベーター下層", stage name 地下水路 (sharp + blurred glow copies), "STAGE CLEAR" | stage names are also text in SOL.SRP (地下水路 16 hits): phase 8 must show whether other stages' cards are drawn from text |
 | G8 | "Thank you for playing" screen | `DATA/THANKSP.BIN` @F54 (4bpp 1000x224, black first CLUT) | 2000年 夏 発売予定 ("on sale summer 2000") | probably a demo leftover; translate anyway (D5) |
 
+## Redraw status (phase 8)
+
+Pipeline: `gfx/gfx.tsv` rows -> `tools/gfx_draw.py` (one drawer per row, OFL fonts in `fonts/ofl/`) writes
+`gfx/<name>.png` -> `build.py` (`tools/gfx.py patch`) writes the TIM pixel blocks; `tests/test_gfx.py` (round trip,
+copies identical, writes only inside pixel blocks). Originals: `python -X utf8 tools/gfx.py orig NAME`.
+
+| Row | State |
+|---|---|
+| G1 title | done, English in cold-boot shot (`work/qa/gfx_title/title/proof.png`) |
+| G8 thanks | done, English in game (`work/qa/gfx_g6g8/thanks/f002880.png`, drawn red by the screen's fade) |
+| G6 Prestage | drawn (both copies, own CLUT each); in-game shot not yet found in the intro run (`work/qa/gfx_g6g8/intro`) |
+| G7 stage cards | 14 different TIMs (M50_00..13 @401EC; M91_04 = M50_00, M60_00 = M50_12): big name + streaked copy + "NEXT STAGE <name>"; names = LOADSAVE location names (Jungle, Ruins, Gravity Elevator Upper/Lower, Underground City, Waterway, Research Ruins, Cave of Illusions, Temple of the Sword, Basetet, R'lyeh, Primordial One; M50_00 地下水路 Underground Channel, M50_01 プレステージ Prestage). CLUT row 0 all black: indices are a ramp (15 = paper). Not drawn |
+| G2 STICON | needs the sprite rects (draw code) before English widths |
+| G3 ending staff roll, G5 flashback | not started |
+
 ## Checked, no Japanese
 
 - `DATA/STATUS2.DAT`: status menu labels, all English. `DATA/GAMOVERP.BIN` @7128: TITLE / TRY AGAIN, English.

@@ -1,0 +1,8 @@
+name	file	offset	copies	clut	note
+title	DATA/TITLEP.BIN	5B58			G1 title subtitle + (c) line, 16bpp 320x480
+sticon	DATA/STICON.BIN	0			G2 help-bar labels
+ending	DATA/ENDINGP.BIN	74E8			G3 staff roll
+flash	M0/M05_02_0.PAC	57070			G5 flashback stills
+prestage	M0/M02_10_0.PAC	88CA4			G6 intro credits heading
+thanks	DATA/THANKSP.BIN	F54		1	G8 thanks screen
+prestage2	M0/M03_01_0.PAC	8ACB8			G6 same word alone (96x16, other CLUT)

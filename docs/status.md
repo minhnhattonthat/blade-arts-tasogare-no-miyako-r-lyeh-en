@@ -3,17 +3,23 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (started 2026-11-22; phase 7 review minors fixed first, commit 1af6d3c).
-  Last good build: `build/blade_arts_en.bin` 2026-11-22 (after 1af6d3c), smoke ok (`work/qa/smoke`).
+  Last good build: `build/blade_arts_en.bin` 2026-11-22 (after 1af6d3c), smoke ok (`work/qa/smoke`); with G1/G6/G8
+  graphics: `build/gfx/blade_arts_en.bin` (title/intro/thanks warps ok).
 - **Phase 8 so far:**
   - Text coverage infra: `build.py` writes `build/strings.tsv` (3643 keys: SOL `5BBBNNNN` = old block id + message n,
     raw `(file no.<<24)|addr`, from the write log so relocated strings carry their EXE address) and
     `build/textcover_tbl.lua`; probe `tools/lua/textcover.lua` (needs --debugger; `--var TCTBL='<abs path>'`,
-    `TCDEBUG=1` logs every raw read). SOL half verified (intro logs `TEXT 50040000` = sol.4.0). Raw half NOT yet
-    verified: read breakpoints fire (TCDEBUG shows reads at 0x80149840 during overlay loads) but no raw key matched on
-    status_system, load_list, boss_m09_03_1, gamoverp. Next: find a scene that surely draws a raw string (status
-    ITEM with stock, a BOSS line), log the window text pointer (textwin.lua a1, add the address) and compare with
-    the table; the load list draws the card title, not LOADSAVE's strings. Report: `python -X utf8 $SKILL/scripts/
-    textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv`.
+    `TCDEBUG=1` logs every raw read). Both halves verified: SOL (intro `TEXT 50040000` = sol.4.0) and raw
+    (status_item / status_system_0 log `TEXT 02157098`, `020B9240`, `021576C8`, matching `textwin.lua`'s new `at=`
+    text address; `work/qa/cov_t3`). Report: `python -X utf8 $SKILL/scripts/textcover.py work/qa/cover
+    work/qa/strings_cover1.tsv --waive docs/text_unshown.tsv`.
+  - Coverage sweep of all 307 scenes on the 06:31 build was started in the background into `work/qa/cover/warp`
+    (log `work/qa/cover_warp.out`, strings `work/qa/strings_cover1.tsv`); not yet read. Warps hold only 400-900
+    frames, so most SOL (event) text stays unreached: plan = event tour over the map scenes with `--var
+    CIRCLE_EVERY=40 --var AFTER_FRAMES=6000` (warp.lua presses circle so events play), each run under work/qa/cover/.
+  - Graphics text: pipeline built (`tools/gfx.py`, `tools/gfx_draw.py`, `gfx/gfx.tsv`, `tests/test_gfx.py`, OFL fonts
+    in `fonts/ofl/`); G1 title and G8 thanks English in game, G6 drawn. Per-row state: `docs/re/graphics.md`
+    §Redraw status.
   - G2 (STICON.BIN labels): TIM at VRAM (832,0) 105x224 halfwords (4bpp 420 px; u = x for x < 256), CLUT (832,240)
     x2 rows; labels are white index 15 + antialias 1-14 on transparent 0, row 1 y 0-12 (キャンセル x~72-143), row 2
     y 13-26 (はい いいえ 選択 決定 使う 破棄, no gaps). Sprite rects are not in a data table (byte/halfword search of
@@ -73,9 +79,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     patched file, EXE writes only in the free area / 4 hook sites, font writes in DATA1.PAC entries 118-119, built SOL
     = en column (all 3351 strings), sol_map = remap. `batches.py check`: 0 problems (100 warnings = raw strings over
     their in-place bytes, relocated by the build).
-- **Next (phase 8):** finish raw coverage (above); coverage runs over all scenes + waivers; graphics text G1-G8
-  (no TIM import tool yet: write `tools/gfx.py` = indexed-PNG export/import into raw TIMs via `Writes`, fetch OFL
-  fonts into `fonts/` for `typeset.py`; G3 credits is the big one, G7 has 15+ copies); tours with visual-QA verdicts
+- **Next (phase 8):** read the coverage sweep, run the event tour (above), waivers; graphics: G6 in-game shot,
+  G7 cards (14 TIMs, drawer per card from a name table), G2 (find the help-bar sprite rects), G5, G3 credits (the
+  big one); tours with visual-QA verdicts
   (`qa_gate.py`), stress saves, `inkbox.py` on choices. Card title: English location + ／TIME (D12), check the LOAD
   list and the title length in game. Moved SOL blocks 117, 132 (ending), 159, 173, 176 not yet seen in game after
   the remap (review minor 2): make them coverage targets.

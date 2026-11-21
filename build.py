@@ -17,6 +17,7 @@ import check_rom  # noqa: E402
 import en  # noqa: E402
 import extract  # noqa: E402
 import font  # noqa: E402
+import gfx  # noqa: E402
 import marker as markers  # noqa: E402
 import rawtext  # noqa: E402
 import sol  # noqa: E402
@@ -215,6 +216,7 @@ def patches(qa=None, marker=False, writes=None):
     raw_texts(files, writes, Free(vwf_end, FREE_END), qa, markers.raw_marker if marker else None)
     files["DATA/DATA1.PAC"] = font.patch((TREE / "DATA" / "DATA1.PAC").read_bytes())
     writes.runs("DATA/DATA1.PAC", files["DATA/DATA1.PAC"], "font")
+    gfx.patch(files, writes, original)
     return {k: bytes(v) for k, v in files.items()}
 
 

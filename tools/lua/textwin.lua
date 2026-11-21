@@ -18,6 +18,6 @@ L.on_exec(0x80015360, function()
     hex[#hex + 1] = string.format("%02X", c)
   end
   local text = #s > 0 and table.concat(s) or table.concat(hex)
-  L.log(string.format("TEXTWIN f%d cols=%d lines=%d pitch=%d lineh=%d x0=%d centre=%d text=%s", L.frame,
-    s16(w + 0x40), s16(w + 0x42), u8(w + 0x0F), u8(w + 0x11), s16(w + 0x3C), bit.band(u8(w + 0x2A), 1), text))
+  L.log(string.format("TEXTWIN f%d cols=%d lines=%d pitch=%d lineh=%d x0=%d centre=%d at=%08X text=%s", L.frame,
+    s16(w + 0x40), s16(w + 0x42), u8(w + 0x0F), u8(w + 0x11), s16(w + 0x3C), bit.band(u8(w + 0x2A), 1), t, text))
 end)

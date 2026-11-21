@@ -64,6 +64,8 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
 | ルルイエ | R'lyeh | | | Ruruie |
+| 黄昏の都ルルイエ | R'lyeh, City of Twilight | | title subtitle (G1) | |
+| 地下水路 | Underground Channel | | only on the unused M50_00 stage card (G7); 地下水道 is Waterway | |
 | セイレム | Salem | | セイレム島 -> Salem Island | |
 | ドーン・セキュリティ | Dawn Security | | the security company | |
 | イースター | Easter | | Easter Island | |
