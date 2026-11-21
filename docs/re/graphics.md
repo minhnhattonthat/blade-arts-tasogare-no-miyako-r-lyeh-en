@@ -32,10 +32,11 @@ copies identical, writes only inside pixel blocks). Originals: `python -X utf8 t
 |---|---|
 | G1 title | done, English in cold-boot shot (`work/qa/gfx_title/title/proof.png`) |
 | G8 thanks | done, English in game (`work/qa/gfx_g6g8/thanks/f002880.png`, drawn red by the screen's fade) |
-| G6 Prestage | drawn (both copies, own CLUT each); in-game shot not yet found in the intro run (`work/qa/gfx_g6g8/intro`) |
-| G7 stage cards | 14 different TIMs (M50_00..13 @401EC; M91_04 = M50_00, M60_00 = M50_12): big name + streaked copy + "NEXT STAGE <name>"; names = LOADSAVE location names (Jungle, Ruins, Gravity Elevator Upper/Lower, Underground City, Waterway, Research Ruins, Cave of Illusions, Temple of the Sword, Basetet, R'lyeh, Primordial One; M50_00 地下水路 Underground Channel, M50_01 プレステージ Prestage). CLUT row 0 all black: indices are a ramp (15 = paper). Not drawn |
+| G6 Prestage | done: it is the prologue stage's title card at the end of the intro, English in game (`work/qa/gfx_g6long/intro/f009720.png`: intro warp with `--var AFTER_FRAMES=15000`, frame ~9700) |
+| G5 flashback | done: the stills' subtitles are the texture (still Japanese on the text-only build). Still 1 = "The Majesty... So it was here..." (its trailing ・・・ at x 770 is drawn right of the line in game: cleared), still 3 = "I must move it somewhere / and hide it..."; English in game (`work/qa/gfx_g5`) |
+| G7 stage cards | 14 different TIMs (M50_00..13 @401EC; M91_04 = M50_00, M60_00 = M50_12): big name + streaked copy + "NEXT STAGE <name>"; names = LOADSAVE location names (Jungle, Ruins, Gravity Elevator Upper/Lower, Underground City, Waterway, Research Ruins, Cave of Illusions, Temple of the Sword, Basetet, R'lyeh, Primordial One; M50_00 地下水路 Underground Channel, M50_01 プレステージ Prestage). TIM CLUT all 0x8000: the game builds the real ones, fitted from JP shots with `tools/clutfit.py` (card 00 name = plain ramp, cards 01-13 name = a shuffled ramp, the NEXT STAGE row another per group; palettes in `gfx_draw.py`). Done: rows card00..card13, English in game incl. the streak slide-in (`work/qa/gfx_g7`, `work/qa/gfx_g7_anim`) |
 | G2 STICON | needs the sprite rects (draw code) before English widths |
-| G3 ending staff roll, G5 flashback | not started |
+| G3 ending staff roll | not started |
 
 ## Checked, no Japanese
 

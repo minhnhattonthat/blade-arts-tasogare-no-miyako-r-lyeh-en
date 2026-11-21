@@ -66,6 +66,10 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 | ルルイエ | R'lyeh | | | Ruruie |
 | 黄昏の都ルルイエ | R'lyeh, City of Twilight | | title subtitle (G1) | |
 | 地下水路 | Underground Channel | | only on the unused M50_00 stage card (G7); 地下水道 is Waterway | |
+| プレステージ | Prestage | | the prologue stage: intro title (G6), stage card M50_01 (G7) | |
+| 樹海 / 遺跡 / 地下街 / 地下水道 | Jungle / Ruins / Underground City / Waterway | | stage names (LOADSAVE list, G7 cards) | |
+| 重力エレベータ上層 / 下層 | Gravity Elevator Upper / Lower | | stage names | |
+| 研究遺跡 / 幻影の洞窟 / 剣の神殿 | Research Ruins / Cave of Illusions / Temple of the Sword | | stage names | |
 | セイレム | Salem | | セイレム島 -> Salem Island | |
 | ドーン・セキュリティ | Dawn Security | | the security company | |
 | イースター | Easter | | Easter Island | |

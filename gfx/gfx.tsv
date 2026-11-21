@@ -6,3 +6,17 @@ flash	M0/M05_02_0.PAC	57070			G5 flashback stills
 prestage	M0/M02_10_0.PAC	88CA4			G6 intro credits heading
 thanks	DATA/THANKSP.BIN	F54		1	G8 thanks screen
 prestage2	M0/M03_01_0.PAC	8ACB8			G6 same word alone (96x16, other CLUT)
+card00	M0/M50_00_0.PAC	401EC	M0/M91_04_0.PAC@401EC		G7 stage-clear card
+card01	M0/M50_01_0.PAC	401EC			G7 stage-clear card
+card02	M0/M50_02_0.PAC	401EC			G7 stage-clear card
+card03	M0/M50_03_0.PAC	401EC			G7 stage-clear card
+card04	M0/M50_04_0.PAC	401EC			G7 stage-clear card
+card05	M0/M50_05_0.PAC	401EC			G7 stage-clear card
+card06	M0/M50_06_0.PAC	401EC			G7 stage-clear card
+card07	M0/M50_07_0.PAC	401EC			G7 stage-clear card
+card08	M0/M50_08_0.PAC	401EC			G7 stage-clear card
+card09	M0/M50_09_0.PAC	401EC			G7 stage-clear card
+card10	M0/M50_10_0.PAC	401EC			G7 stage-clear card
+card11	M0/M50_11_0.PAC	401EC			G7 stage-clear card
+card12	M0/M50_12_0.PAC	401EC	M0/M60_00_0.PAC@401EC		G7 stage-clear card
+card13	M0/M50_13_0.PAC	401EC			G7 stage-clear card
