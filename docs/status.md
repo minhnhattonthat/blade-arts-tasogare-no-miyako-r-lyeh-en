@@ -25,9 +25,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     graphics tests into `build/gfx` (`build.py --out build/gfx`).
   - Graphics text: pipeline built (`tools/gfx.py`, `tools/gfx_draw.py`, `gfx/gfx.tsv`, `tests/test_gfx.py`, OFL fonts
     in `fonts/ofl/`). Done in game: G1 title, G8 thanks, G6 Prestage (prologue title card), G7 all 14 stage cards,
-    G5 flashback subtitles. G2 drawn, not yet seen in game. G3 not started. Per-row state and evidence:
-    `docs/re/graphics.md` §Redraw status. `tools/clutfit.py` recovers a runtime-built CLUT from a JP screenshot (G7).
-    Last gfx build `build/gfx/blade_arts_en.bin` 07:18 sha1 2e5a28bc..., smoke ok (`work/qa/smoke_gfx`).
+    G5 flashback subtitles, G3 ending staff roll (all names, 3 CLUTs; `work/qa/gfx_g3b`; names in glossary §Credits,
+    D14). G2 drawn, never seen in game (item popups are runtime text: looks unused). Per-row state and evidence:
+    `docs/re/graphics.md` §Redraw status. `tools/clutfit.py` recovers a runtime-built CLUT from a JP screenshot.
+    Last gfx build `build/gfx/blade_arts_en.bin` 2026-11-22 ~09:00 (commit 9c5e5f3 content) sha1 887644db89c5....
+  - Stress saves (started): `tools/items.py` lists the EXE item table (ids, dev labels, JP names). Save offsets
+    0x268 = weapon slots, 0x1C8 entry 0 = herb count (`tools/debug/save_layout.md`). Scenes `probe_inv`,
+    `probe_inv_box` (load an edited save -> ITEM / ITEM BOX). Herb count 99 draws as ":程" on the EN build: run the
+    same scene on the original (`--cue` default) to see whether the JP game breaks too (count may be 1 digit, max 9?).
+    The ITEM list (key items) is still unmapped: next lead is a RAM diff around picking up a key item, or the STATUS
+    overlay code that draws "NO ITEM".
   - G2 (STICON.BIN labels): TIM at VRAM (832,0), 4bpp 420x224; ink index 0, background 15 (the earlier note had them
     swapped). Row 1 キャンセル x 72-141, row 2 はい 3-32, いいえ 35-75, 選択 79-109, 決定 114-141, 使う 146-172, 破棄
     178-205. Sprite rects are not in a data table, so each English label (Cancel, Yes, No, Select, OK, Use, Drop) is
@@ -87,11 +94,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     patched file, EXE writes only in the free area / 4 hook sites, font writes in DATA1.PAC entries 118-119, built SOL
     = en column (all 3351 strings), sol_map = remap. `batches.py check`: 0 problems (100 warnings = raw strings over
     their in-place bytes, relocated by the build).
-- **Next (phase 8):** read the event-tour coverage (above) when it ends, waivers; graphics: G3 ending staff roll
-  (`DATA/ENDINGP.BIN` @74E8, 4bpp 1188x500, black-on-white blocks of headings + kanji names; romanize per D3; the
-  intro credits texture `M0/M02_10_0.PAC` @88CA4 already has English spellings for shared staff, e.g. 土田賢治 =
-  Kenji Tuchida, Yoshitaka Oura, Nobuteru Yuuki: reuse them), G2 in-game shot; tours with visual-QA verdicts
-  (`qa_gate.py`), stress saves, `inkbox.py` on choices. Card title: English location + ／TIME (D12), check the LOAD
+- **Next (phase 8):** read the event-tour coverage (above) when it ends (started 07:10, ~8 h: done ~15:00), waivers;
+  use `textcover.py ... --runs-for <choice ids>` to find the runs that showed choice boxes and run `inkbox.py` on
+  their shots; stress saves (ITEM list mapping, herb-count check above); then a full tour on the final build
+  (`build/` with graphics: rebuild `build/` only after the event tour ends) with visual-QA verdicts (`qa_gate.py`). Card title: English location + ／TIME (D12), check the LOAD
   list and the title length in game. Moved SOL blocks 117, 132 (ending), 159, 173, 176 not yet seen in game after
   the remap (review minor 2): make them coverage targets.
 - **Open for later phases (not blocking):**

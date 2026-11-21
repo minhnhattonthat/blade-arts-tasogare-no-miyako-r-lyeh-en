@@ -310,3 +310,5 @@ status_itembox_take	M03_00_0	4			150 -;6 circle;80 -;6 triangle;80 -;6 circle	40
 status_itembox_take2	M03_00_0	4			150 -;6 circle;80 -;6 triangle;80 -;6 circle;60 -;6 circle	400		status -> ITEM BOX -> circle twice
 status_item_use	M03_00_0	4			150 -;6 circle;80 -;6 circle	400		status -> ITEM -> circle on Herb (G2 Use/Drop labels?)
 status_item_use2	M03_00_0	4			150 -;6 circle;80 -;6 circle;60 -;6 right	400		status -> ITEM -> circle on Herb -> right (G2 labels)
+probe_inv	LOAD:M05_00_0	4			150 -;6 circle	400	save_first+area=5,room=0,variant=0,0x1C8=99,0x1D0=98,0x1D8=97,0x1E0=96,0x1E8=95,0x1F0=94,0x1F8=93,0x200=92	inventory probe: 0x1C8 table counts -> ITEM
+probe_inv_box	LOAD:M05_00_0	4			150 -;6 circle;80 -;6 triangle	400	save_first+area=5,room=0,variant=0,0x1C8=99,0x1D0=98,0x1D8=97,0x1E0=96,0x1E8=95,0x1F0=94,0x1F8=93,0x200=92	inventory probe -> ITEM BOX (herb count 99 draws as ":程" on the EN build: compare the original)

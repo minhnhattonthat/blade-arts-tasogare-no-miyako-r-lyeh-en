@@ -10,9 +10,9 @@ One 8 KB block per save, product code `BISLPM-86602-00` (`-01`... for more saves
 | 0x108, 0x109, 0x10A | 0x800BAB10.. | map area, room, variant the save loads into | verified: set to 5/0/0, the save loads M05_00_0 |
 | 0x110 / 0x112 | 0x800BAB18 | HP / max HP (u16, 200/200 at start) | verified: hp=50 shows a short red bar |
 | 0x114 / 0x116, 0x118 / 0x11A | | 100/100, 30/30 pairs | guess: other gauges |
-| 0x1C8 + 8*i | 0x800BABD0 | 20 entries of 8 bytes, bit 0 = in use | guess (item-box code 0x800387F8 walks it) |
-| 0x268 + i | 0x800BAC70 | 8 slots of item ids, 0xFF = empty (slot 0 = 0x05 at start) | guess (written by 0x8003874C) |
-| 0x14C.. | 0x800BAB54 | 0x10 0x12 then 0xFF run | not items: editing it changes nothing on the ITEM screen |
+| 0x1C8 + 8*i | 0x800BABD0 | 20 entries of 8 bytes; entry 0 byte 0 = herb count (3 at start) | verified for entry 0: 99 shows as the ITEM BOX herb count (drawn ":程" on the EN build, scene `probe_inv_box`) |
+| 0x268 + i | 0x800BAC70 | 8 weapon slots (item ids, 0xFF = empty; slot 0 = 0x05 Survival Knife) | verified: non-weapon ids draw a garbage weapon icon top left (`work/qa/probe_inv`) |
+| 0x14C.. | 0x800BAB54 | 0x10 0x12 then 0xFF run = Herb, Medi-pack: the ITEM BOX bar's ids? | guess; an earlier edit changed nothing on the ITEM screen |
 | 0x578 | | u16 checksum = byte sum of 0x100-0x577 | verified: a wrong sum gives the red "load failed / file is broken" box |
 | 0x57C | | SJIS dev note: "the checksum protects the data; it is not anti-cheat" | |
 
