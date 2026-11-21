@@ -262,6 +262,31 @@ def build(out=OUT, files=None):
     return out / f"{NAME}.bin"
 
 
+def coverage_tables(log, out):
+    """<out>/strings.tsv (id, hex key) for textcover.py and <out>/textcover_tbl.lua for tools/lua/textcover.lua.
+    SOL key 0x5BBBNNNN (old block id, message n: what 0x80078728 sees). Raw key (file no. << 24) | address low 24 bits,
+    from the write log, so relocated strings carry their new EXE address; overlays share 0x80149800, so the probe
+    matches a read against the string's first 4 bytes before logging its key."""
+    rows, lua = [], []
+    for p in sorted((ROOT / "script" / "sol").glob("*.tsv")):
+        for r in extract.read_tsv(p, extract.SOL_COLS):
+            _, b, n = r["id"].split(".")
+            rows.append((r["id"], 0x50000000 | int(b) << 16 | int(n)))
+    names = list(rawtext.FILES)
+    for disc, entries in log.items():
+        for off, _, new, by in entries:
+            kind, _, rid = by.partition(" ")
+            if kind not in ("text", "reloc"):
+                continue
+            base, hdr = (EXE_BASE, EXE_HDR) if kind == "reloc" else rawtext.FILES[disc]
+            addr = base + off - hdr
+            key = (names.index(rid.rsplit(":", 1)[0]) + 1) << 24 | addr & 0xFFFFFF
+            rows.append((rid, key))
+            lua.append(f'{{0x{addr:08X},0x{key:08X},"{new[:4].hex()}"}},')
+    (out / "strings.tsv").write_text("".join(f"{i}\t{k:08X}\n" for i, k in rows), encoding="utf-8")
+    (out / "textcover_tbl.lua").write_text("return {\n" + "\n".join(lua) + "\n}\n", encoding="utf-8")
+
+
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser()
@@ -276,4 +301,5 @@ if __name__ == "__main__":
     w = Writes()
     files = patches(qa, a.marker, w)
     w.save(Path(a.out))
+    coverage_tables(w.log, Path(a.out))
     print(build(a.out, files))

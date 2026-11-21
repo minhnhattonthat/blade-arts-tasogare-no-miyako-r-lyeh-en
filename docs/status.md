@@ -2,10 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator, next (phase 7 done 2026-11-22).
-  Last good build: full English build 2026-11-22 06:10, sha1 b92d333e7f46d0704a233ce32092bd72a12a30d8, smoke ok;
-  warp sample (title, intro, status, item, gameover, ending, thanks, rolldemo, boss game over, boss map, stage-clear,
-  flashback + maps M03/M04/M06/M07) all arrive (`work/qa/p7sample`, `work/qa/p7grow`); marker build still builds.
+- **Phase:** 8. QA in the emulator, in progress (started 2026-11-22; phase 7 review minors fixed first, commit 1af6d3c).
+  Last good build: `build/blade_arts_en.bin` 2026-11-22 (after 1af6d3c), smoke ok (`work/qa/smoke`).
+- **Phase 8 so far:**
+  - Text coverage infra: `build.py` writes `build/strings.tsv` (3643 keys: SOL `5BBBNNNN` = old block id + message n,
+    raw `(file no.<<24)|addr`, from the write log so relocated strings carry their EXE address) and
+    `build/textcover_tbl.lua`; probe `tools/lua/textcover.lua` (needs --debugger; `--var TCTBL='<abs path>'`,
+    `TCDEBUG=1` logs every raw read). SOL half verified (intro logs `TEXT 50040000` = sol.4.0). Raw half NOT yet
+    verified: read breakpoints fire (TCDEBUG shows reads at 0x80149840 during overlay loads) but no raw key matched on
+    status_system, load_list, boss_m09_03_1, gamoverp. Next: find a scene that surely draws a raw string (status
+    ITEM with stock, a BOSS line), log the window text pointer (textwin.lua a1, add the address) and compare with
+    the table; the load list draws the card title, not LOADSAVE's strings. Report: `python -X utf8 $SKILL/scripts/
+    textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv`.
+  - G2 (STICON.BIN labels): TIM at VRAM (832,0) 105x224 halfwords (4bpp 420 px; u = x for x < 256), CLUT (832,240)
+    x2 rows; labels are white index 15 + antialias 1-14 on transparent 0, row 1 y 0-12 (キャンセル x~72-143), row 2
+    y 13-26 (はい いいえ 選択 決定 使う 破棄, no gaps). Sprite rects are not in a data table (byte/halfword search of
+    EXE/STATUS/LOADSAVE/GAME found none; `DATA/STICON.DAT` is stale C source for an older icon sheet): find the
+    draw code (status help bar) before choosing English widths.
+- Earlier warp sample (title, intro, status, item, gameover, ending, thanks, rolldemo, boss game over, boss map,
+  stage-clear, flashback + maps M03/M04/M06/M07) all arrive (`work/qa/p7sample`, `work/qa/p7grow`).
 - **Done:**
   - Step 0: template, guard hook proven (sed -i blocked), pre-commit runs `tools/check.py` and rejects a failing test,
     `rom.sha1` (Redump .bin/.cue), PCSX-Redux + SCPH-5500 BIOS fetched, mkpsxiso/armips in `tools/`, smoke route
@@ -58,9 +73,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
     patched file, EXE writes only in the free area / 4 hook sites, font writes in DATA1.PAC entries 118-119, built SOL
     = en column (all 3351 strings), sol_map = remap. `batches.py check`: 0 problems (100 warnings = raw strings over
     their in-place bytes, relocated by the build).
-- **Next (phase 8):** QA per the skill table: text coverage (hook 0x80078728 + block 0x800D7BDA = old ids, unchanged by
-  the remap), tours with visual-QA verdicts, graphics text G1-G8, stress saves, `inkbox.py` on choices. Card title:
-  English location + ／TIME (D12), check the LOAD list and the title length in game.
+- **Next (phase 8):** finish raw coverage (above); coverage runs over all scenes + waivers; graphics text G1-G8
+  (no TIM import tool yet: write `tools/gfx.py` = indexed-PNG export/import into raw TIMs via `Writes`, fetch OFL
+  fonts into `fonts/` for `typeset.py`; G3 credits is the big one, G7 has 15+ copies); tours with visual-QA verdicts
+  (`qa_gate.py`), stress saves, `inkbox.py` on choices. Card title: English location + ／TIME (D12), check the LOAD
+  list and the title length in game. Moved SOL blocks 117, 132 (ending), 159, 173, 176 not yet seen in game after
+  the remap (review minor 2): make them coverage targets.
 - **Open for later phases (not blocking):**
   - Check in game (phase 8): choices where translators added `\\` before `{[DD1}` (sol.98.3, 100.3, 103.2), `{g9}`
     spaced options (72.5, 72.40), digit pickers (62.140-143, 69.22-25), sol.169.0 (voiced, @@ re-split, same screen
