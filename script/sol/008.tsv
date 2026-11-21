@@ -1,7 +1,7 @@
 id	sector	jp	en	notes
-sol.8.0	0	CSA0t0e00636この音は‥‥		
-sol.8.1	0	CSA0t0e01326よっしゃぁ！応援かっ！		
-sol.8.2	0	CSA0t0e00276‥‥って、待てよ？		
-sol.8.3	0	CSA0t0e00191あれは‥‥まずいっ！		
-sol.8.4	0	CSA0t0e00367そこの男ぉ、とまれぇ！\\止まらんと射殺するぅ！		
-sol.8.5	0	CSA0t0e00807嘘こけっ！		
+sol.8.0	0	CSA0t0e00636この音は‥‥	{CSA0t0e00636}That sound...	
+sol.8.1	0	CSA0t0e01326よっしゃぁ！応援かっ！	{CSA0t0e01326}All right! Backup!	
+sol.8.2	0	CSA0t0e00276‥‥って、待てよ？	{CSA0t0e00276}...Wait a sec.	
+sol.8.3	0	CSA0t0e00191あれは‥‥まずいっ！	{CSA0t0e00191}That's... bad news!	
+sol.8.4	0	CSA0t0e00367そこの男ぉ、とまれぇ！\\止まらんと射殺するぅ！	{CSA0t0e00367}You therrre! Halt!\\Stop or we'll shoooot!	
+sol.8.5	0	CSA0t0e00807嘘こけっ！	{CSA0t0e00807}Yeah, right!	

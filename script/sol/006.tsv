@@ -1,16 +1,16 @@
 id	sector	jp	en	notes
-sol.6.0	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.6.1	0	t3剣の記憶よ、我が元へ！		
-sol.6.2	0	t3「さっきのビジョンは本当なのか？\\テントに確かめに行かないと」		
-sol.6.3	0	t3ケースの中には翡翠版のカケラが入っている@@翡翠版のカケラを取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.6.4	0	t3「しまった、翡翠版のカケラが１つしかない\\誰かにカケラを奪われちまった」@@翡翠版のカケラを取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.6.5	0	t3b3翡翠版のカケラ４b0を手に入れた		
-sol.6.6	0	t3中にＰ．Ｅ．爆弾が入っている@@Ｐ．Ｅ．爆弾を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.6.7	0	t3b3Ｐ．Ｅ．爆弾b0を手に入れた		
-sol.6.8	0	t3このテントには誰もいない		
-sol.6.9	0	t3ここのテントにも居ない@@「やはり、さっきみたビジョンの通り\\ナカムラ達に連れて行かれたのか」@@「だとしたら、急いで後を追わないと」		
-sol.6.10	0	t3「くそぅ、チョロチョロとすばしっこい奴だ\\先回りして一気に片を付けてやる」		
-sol.6.11	0	t3「遺跡に入る為に必要な残り３枚の\\翡翠版のカケラは何処に行ったんだ？」		
-sol.6.12	0	t3「遺跡に入る為に必要な残り４つの\\翡翠版のカケラは何処に行ったんだ？」		
-sol.6.13	0	t3b3フォルテスb0のスフィアを手に入れた\\		
-sol.6.14	0	WP-134-016WS2004BS0805BYB+00BKC002剣にスフィアを装着することで\\スフィアに備わっているアーツを\\放つことができます。t300		
+sol.6.0	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.6.1	0	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
+sol.6.2	0	t3「さっきのビジョンは本当なのか？\\テントに確かめに行かないと」	{t3}"Was that vision for real?\\I'd better go check the tent."	
+sol.6.3	0	t3ケースの中には翡翠版のカケラが入っている@@翡翠版のカケラを取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}There's a Jade Tablet Fragment in the case.@@Take the Jade Tablet Fragment?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.6.4	0	t3「しまった、翡翠版のカケラが１つしかない\\誰かにカケラを奪われちまった」@@翡翠版のカケラを取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}"Damn, there's only one Jade Tablet Fragment.\\Somebody swiped the others."@@Take the Jade Tablet Fragment?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.6.5	0	t3b3翡翠版のカケラ４b0を手に入れた	{t3}Got {b3}Jade Tablet Fragment 4{b0}.	
+sol.6.6	0	t3中にＰ．Ｅ．爆弾が入っている@@Ｐ．Ｅ．爆弾を取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}There's a P.E. Bomb inside.@@Take the P.E. Bomb?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.6.7	0	t3b3Ｐ．Ｅ．爆弾b0を手に入れた	{t3}Got the {b3}P.E. Bomb{b0}.	
+sol.6.8	0	t3このテントには誰もいない	{t3}Nobody's in this tent.	
+sol.6.9	0	t3ここのテントにも居ない@@「やはり、さっきみたビジョンの通り\\ナカムラ達に連れて行かれたのか」@@「だとしたら、急いで後を追わないと」	{t3}Nobody in this tent either.@@"So it's just like in the vision...\\Nakamura and his men took them?"@@"Then I'd better get after them, fast."	
+sol.6.10	0	t3「くそぅ、チョロチョロとすばしっこい奴だ\\先回りして一気に片を付けてやる」	{t3}"Damn, slippery little runt, darting all over...\\I'll head it off and finish it in one go."	
+sol.6.11	0	t3「遺跡に入る為に必要な残り３枚の\\翡翠版のカケラは何処に行ったんだ？」	{t3}"Where'd the other three Jade Tablet\\Fragments I need for the ruins go?"	
+sol.6.12	0	t3「遺跡に入る為に必要な残り４つの\\翡翠版のカケラは何処に行ったんだ？」	{t3}"Where'd the other four Jade Tablet\\Fragments I need for the ruins go?"	
+sol.6.13	0	t3b3フォルテスb0のスフィアを手に入れた\\	{t3}Got the {b3}Fortes{b0} Sphere.\\	
+sol.6.14	0	WP-134-016WS2004BS0805BYB+00BKC002剣にスフィアを装着することで\\スフィアに備わっているアーツを\\放つことができます。t300	{WP-134-016WS2004BS0805BYB+00BKC002}Mount a Sphere on your sword\\to unleash the Art\\held within it.{t300}	

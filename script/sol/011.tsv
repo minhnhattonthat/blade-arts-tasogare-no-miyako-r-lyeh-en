@@ -1,8 +1,8 @@
 id	sector	jp	en	notes
-sol.11.0	0	CSA0t0e00110‥で、このあたりの床はまとめて落ちたから、\\奥に進むならロープか何か渡す必要がある。@@機材を運ぶならそれなりの準備が必要だろう。\\大体１２メートルあれば足りると思う。		
-sol.11.1	0	CSA0t0e00977数値などの詳細は追って提出します。\\		
-sol.11.2	0	CSA0t0e00727‥‥だって。\\		
-sol.11.3	0	CSA0t0e00809よし、ご苦労さん。\\ひとまず、今日の調査はこれで終わりだ。		
+sol.11.0	0	CSA0t0e00110‥で、このあたりの床はまとめて落ちたから、\\奥に進むならロープか何か渡す必要がある。@@機材を運ぶならそれなりの準備が必要だろう。\\大体１２メートルあれば足りると思う。	{CSA0t0e00110}...So, the floor around here caved in all at once.\\To go deeper, you'll need to rig a rope across.@@Hauling equipment will take some preparation.\\About twelve meters should be enough.	
+sol.11.1	0	CSA0t0e00977数値などの詳細は追って提出します。\\	{CSA0t0e00977}I'll submit the figures and details later.\\	
+sol.11.2	0	CSA0t0e00727‥‥だって。\\	{CSA0t0e00727}...is what he says.\\	
+sol.11.3	0	CSA0t0e00809よし、ご苦労さん。\\ひとまず、今日の調査はこれで終わりだ。	{CSA0t0e00809}Okay, good work.\\That's it for today's survey.	
 sol.11.4	0	CSA0t0e00458リズィには悪いが、早急に報告書の提出を。\\零にはちょっと残ってもらいたいんだが‥‥		
 sol.11.5	0	CSA0t0e01149その前に、先程申請した警備の件は\\どのようになったのでしょうか？		
 sol.11.6	0	CSA0t0e00279ああ、さっきドーン・セキュリティ本社に\\増員の申請をしておいた。@@零を襲った怪物にあわせて\\追加装備を送ってくると聞いている。@@明日の昼には到着するとの事だ。		

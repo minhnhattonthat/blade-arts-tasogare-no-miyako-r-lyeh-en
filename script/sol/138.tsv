@@ -1,5 +1,5 @@
 id	sector	jp	en	notes
-sol.138.0	0	　　　　何か仕掛けがあるようだ‥‥‥\\　　　　　　　　　　g7i015		
+sol.138.0	0	　　　　何か仕掛けがあるようだ‥‥‥\\　　　　　　　　　　g7i015	　　　　Looks like there's some kind of mechanism...\\　　　　　　　　　　{g7i015}	
 sol.138.1	0	t0　　　　　g7仕掛けを起動しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
 sol.138.2	0	t0　　　　　g7仕掛けを動かした‥‥‥\\　　　　　　　　　　g7i015		
 sol.138.3	0	t0　　　　　g7開かない‥‥‥\\　　　　　　　　　　g7i015		

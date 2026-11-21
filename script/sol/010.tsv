@@ -1,13 +1,13 @@
 id	sector	jp	en	notes
-sol.10.0	0	CSA0t0e01151あ、ランファ！\\		
-sol.10.1	0	CSA0t0e00811てめーのせいでえらい目に遭ったぞ！\\		
-sol.10.2	0	CSA0t0e01059えー、あたし何にもしてないよー？\\		
-sol.10.3	0	CSA0t0e00894最後の最後でテキトーな事ぬかしたのは、\\どこのどいつだ！@@おかげで、転落死しかけるわ、恐竜もどきに\\追いかけ回されるわ。		
-sol.10.4	0	CSA0t0e00729大体、メモに無い場所に罠が無いって、\\どうしてそんなとぼけた事が言えるんだ！		
-sol.10.5	0	CSA0t0e01237だぁって、奥に行くって言ったの零じゃない。\\それに、その後零と連絡できなくなったし‥		
-sol.10.6	0	CSA0t0e00641‥‥連絡できない？って、どういう事だ？\\		
-sol.10.7	0	CSA0t0e01332えぇ？\\あの後零からの通信が調子悪くなって、@@こっちから何言っても\\応答しなかったじゃない‥‥		
-sol.10.8	0	CSA0t0e01152だから、わざわざブリジットに頼んで\\様子見に行ってもらったんだし‥		
-sol.10.9	0	CSA0t0e00029‥‥じゃあ、俺の聞いたのは、\\一体何だったんだ？		
-sol.10.10	0	CSA0t0e00371‥‥実はあんたの方が寝ぼけてたんじゃない？\\		
-sol.10.11	0	CSA0t0e00550君、うるさい。\\		
+sol.10.0	0	CSA0t0e01151あ、ランファ！\\	{CSA0t0e01151}Ah, Ranfa!\\	
+sol.10.1	0	CSA0t0e00811てめーのせいでえらい目に遭ったぞ！\\	{CSA0t0e00811}Thanks to you, I went through hell!\\	
+sol.10.2	0	CSA0t0e01059えー、あたし何にもしてないよー？\\	{CSA0t0e01059}Huh~? I didn't do anything~?\\	
+sol.10.3	0	CSA0t0e00894最後の最後でテキトーな事ぬかしたのは、\\どこのどいつだ！@@おかげで、転落死しかけるわ、恐竜もどきに\\追いかけ回されるわ。	{CSA0t0e00894}Who fed me that half-baked garbage\\at the very last second!?@@Thanks to you, I nearly fell to my death\\and got chased around by some dino-thing!	
+sol.10.4	0	CSA0t0e00729大体、メモに無い場所に罠が無いって、\\どうしてそんなとぼけた事が言えるんだ！	{CSA0t0e00729}And how could you say something as dumb as\\"no traps anywhere the notes don't mention"!	
+sol.10.5	0	CSA0t0e01237だぁって、奥に行くって言ったの零じゃない。\\それに、その後零と連絡できなくなったし‥	{CSA0t0e01237}Well, you're the one who said you'd go deeper, Rei.\\And after that, I couldn't reach you...	
+sol.10.6	0	CSA0t0e00641‥‥連絡できない？って、どういう事だ？\\	{CSA0t0e00641}...Couldn't reach me? What do you mean?\\	
+sol.10.7	0	CSA0t0e01332えぇ？\\あの後零からの通信が調子悪くなって、@@こっちから何言っても\\応答しなかったじゃない‥‥	{CSA0t0e01332}Huh?\\After that your signal went all wonky,@@and no matter what I said,\\you never answered...	
+sol.10.8	0	CSA0t0e01152だから、わざわざブリジットに頼んで\\様子見に行ってもらったんだし‥	{CSA0t0e01152}That's why I went and asked Bridget\\to go check on you...	
+sol.10.9	0	CSA0t0e00029‥‥じゃあ、俺の聞いたのは、\\一体何だったんだ？	{CSA0t0e00029}...Then what the hell\\did I hear?	
+sol.10.10	0	CSA0t0e00371‥‥実はあんたの方が寝ぼけてたんじゃない？\\	{CSA0t0e00371}...Maybe you were the one half asleep?\\	
+sol.10.11	0	CSA0t0e00550君、うるさい。\\	{CSA0t0e00550}You're noisy, kid.\\	

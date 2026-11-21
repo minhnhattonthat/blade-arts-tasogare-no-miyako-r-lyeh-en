@@ -9,32 +9,32 @@ sol.21.6	0	t3「零、ドクが呼んでるよ\\本営まで来てくれない�
 sol.21.7	0	t3「ちょっと、何処へ行くのよ\\ドクが呼んでるって言ったでしょ」		
 sol.21.8	0	t3b2＜ナカムラ登場イベント＞b0\\誠意制作中、乞うご期待！！		
 sol.21.9	0	t3b2＜Ｄｒとナカムラの本営イベント＞b0\\誠意制作中、乞うご期待！！		
-sol.21.10	0	CSA0t0e00365‥‥んぁ‥‥まぶしぃ‥‥ぞ‥‥		
-sol.21.11	0	CSA0t0e00274っつぁ‥‥あたまが‥‥\\‥‥ってぇ、なぁ‥‥		
-sol.21.12	0	CSA0t0e00724あれ‥‥ここは？		
-sol.21.13	0	CSA0t0e01324ランファ！\\無事かっ！？		
-sol.21.14	0	CSA0t0e00543‥‥あんた、誰？		
-sol.21.15	0	CSA0t0e00888ああ、怖がらせちまったか‥‥		
-sol.21.16	0	CSA0t0e00022現地の人‥‥って訳ねえよな‥‥		
-sol.21.17	0	CSA0t0e00805‥‥あんた、誰？		
-sol.21.18	0	CSA0t0e00974うあぁっ！		
+sol.21.10	0	CSA0t0e00365‥‥んぁ‥‥まぶしぃ‥‥ぞ‥‥	{CSA0t0e00365}...Ngh... so... bright...	
+sol.21.11	0	CSA0t0e00274っつぁ‥‥あたまが‥‥\\‥‥ってぇ、なぁ‥‥	{CSA0t0e00274}Ugh... my head...\\...damn, that hurts...	
+sol.21.12	0	CSA0t0e00724あれ‥‥ここは？	{CSA0t0e00724}Huh... where am I?	
+sol.21.13	0	CSA0t0e01324ランファ！\\無事かっ！？	{CSA0t0e01324}Ranfa!\\You okay!?	
+sol.21.14	0	CSA0t0e00543‥‥あんた、誰？	{CSA0t0e00543}...Who are you?	
+sol.21.15	0	CSA0t0e00888ああ、怖がらせちまったか‥‥	{CSA0t0e00888}Ah, did I scare you...?	
+sol.21.16	0	CSA0t0e00022現地の人‥‥って訳ねえよな‥‥	{CSA0t0e00022}Guess you're not a local... huh...	
+sol.21.17	0	CSA0t0e00805‥‥あんた、誰？	{CSA0t0e00805}...Who are you?	
+sol.21.18	0	CSA0t0e00974うあぁっ！	{CSA0t0e00974}Whoa!	
 sol.21.19	0	CSA0t0e00635‥‥何‥‥だ、ってんだ‥‥\\こい‥‥つ‥‥は‥？		
-sol.21.20	0	CSA0t0e01145ランファ‥‥？		
+sol.21.20	0	CSA0t0e01145ランファ‥‥？	{CSA0t0e01145}Ranfa...?	
 sol.21.21	0	CSA0t0e00190ナカムラ‥‥リズィ？		
-sol.21.22	0	CSA0t0e01231みんな‥‥まだ、生きているのか？		
+sol.21.22	0	CSA0t0e01231みんな‥‥まだ、生きているのか？	{CSA0t0e01231}Everyone... they're still alive?	
 sol.21.23	0	CSA0t0e00455教えてくれっ！\\奴らはどこに！？@@みんなはどこにいる！？		
-sol.21.24	0	CSA0t0e01325‥‥カエリナサイ‥‥		
-sol.21.25	0	CSA0t0e00275何‥‥だと？		
-sol.21.26	0	CSA0t0e00366‥‥ゼンイン‥‥シヌ‥		
-sol.21.27	0	CSA0t0e00544ココカラ‥‥キエナイト‥‥シヌ‥		
-sol.21.28	0	CSA0t0e00889だったら、なおさら急がねぇと！！\\頼む、教えてくれ！みんなはどこに行った！？		
-sol.21.29	0	CSA0t0e00108‥‥遺跡の‥‥方角？		
+sol.21.24	0	CSA0t0e01325‥‥カエリナサイ‥‥	{CSA0t0e01325}...Go... home...	
+sol.21.25	0	CSA0t0e00275何‥‥だと？	{CSA0t0e00275}What... did you say?	
+sol.21.26	0	CSA0t0e00366‥‥ゼンイン‥‥シヌ‥	{CSA0t0e00366}...Everyone... will die...	
+sol.21.27	0	CSA0t0e00544ココカラ‥‥キエナイト‥‥シヌ‥	{CSA0t0e00544}Leave... this place... or die...	
+sol.21.28	0	CSA0t0e00889だったら、なおさら急がねぇと！！\\頼む、教えてくれ！みんなはどこに行った！？	{CSA0t0e00889}Then I've gotta hurry even more!!\\Please, tell me! Where did everyone go!?	
+sol.21.29	0	CSA0t0e00108‥‥遺跡の‥‥方角？	{CSA0t0e00108}...Toward... the ruins?	
 sol.21.30	0	CSA0t0e00975よっし、わかった。\\わざわざ方角を教えてくれるんだ。@@まだなんとかなるんだな？		
-sol.21.31	0	CSA0t0e00806‥‥どこに行った？		
-sol.21.32	0	CSA0t0e00725昨日の剣‥‥？\\いや、少し違うか‥‥		
-sol.21.33	1	CSA0t0e01055‥‥剣の精霊？\\んなことぁ、ねぇか‥‥		
-sol.21.34	1	CSA0t0e00023無いよりかは、まし‥‥かな？		
-sol.21.35	1	CSA0t0e01146まずは、みんなを見つけないと！		
+sol.21.31	0	CSA0t0e00806‥‥どこに行った？	{CSA0t0e00806}...Where'd she go?	
+sol.21.32	0	CSA0t0e00725昨日の剣‥‥？\\いや、少し違うか‥‥	{CSA0t0e00725}The sword from yesterday...?\\No, it's a little different...	
+sol.21.33	1	CSA0t0e01055‥‥剣の精霊？\\んなことぁ、ねぇか‥‥	{CSA0t0e01055}...A sword spirit?\\Nah, no way...	
+sol.21.34	1	CSA0t0e00023無いよりかは、まし‥‥かな？	{CSA0t0e00023}Better than nothing... I guess?	
+sol.21.35	1	CSA0t0e01146まずは、みんなを見つけないと！	{CSA0t0e01146}First, I've gotta find everyone!	
 sol.21.36	1	t3「ジイさんには悪いけど\\リズィの報告書は少し待ってもらおう」		
 sol.21.37	1	t3「ジイさんにリズィの報告書の事を知らせて\\俺は寝るとするか」		
 sol.21.38	1	t3「リズィの報告書が上がるまで\\テントの周りでウロウロして暇を潰すか」		

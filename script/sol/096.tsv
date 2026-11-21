@@ -20,5 +20,5 @@ sol.96.17	0	CSA0t0e01049‥‥‥マジかよ。
 sol.96.18	0	t3自然石で作られた祭壇がある。i030\\上にはなにか置かれたあとが３つあるが‥i030		
 sol.96.19	0	t3開かない‥‥‥‥‥‥‥i030		
 sol.96.20	0	t3原初の結晶を３つ置いたi030		
-sol.96.21	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ		
-sol.96.22	0	t3剣の記憶よ、我が元へ！		
+sol.96.21	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou have the sword's memory keep thee?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.96.22	0	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
