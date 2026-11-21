@@ -27,6 +27,9 @@ def test_rules():
     assert any("not in the font" in p for p in batches.problems(e, good.replace("Marion:", "Marion#"), []))
     assert any("ellipsis" in p for p in batches.problems(e, good.replace("worry...", "worry......"), []))
     assert batches.problems(e, good.replace("Do your", "...Do your"), []) == []  # "..." after @@ is a new pause
+    assert any("stub last line" in p for p in batches.problems(e, good.replace("nicely...", "nicely,\\\\ok"), []))
+    indented = ENTRIES["sol.147.88"]  # t3b4　零：... the JP indents the speaker
+    assert any("leading blank" in p for p in batches.layout_problems(indented, indented["en"].replace("　", "", 1)))
 
 
 def test_shipped_english_passes():

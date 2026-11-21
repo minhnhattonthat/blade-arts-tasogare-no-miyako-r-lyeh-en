@@ -70,6 +70,18 @@ def cstr(b, i):
     return (j, n) if j < len(b) else None
 
 
+def dest(y):
+    """Register a MIPS instruction writes (None for stores, branches, mult/div)."""
+    op = y >> 26
+    if op == 0:
+        return None if (y & 63) in (8, 0x18, 0x19, 0x1A, 0x1B, 0x11, 0x13) else (y >> 11) & 31
+    if op == 3:
+        return 31
+    if 8 <= op <= 15 or 0x20 <= op <= 0x26:
+        return (y >> 16) & 31
+    return None
+
+
 def refs(b, hdr, exe):
     """{address: [file offsets of the referencing word/instruction]}."""
     w = struct.unpack_from("<%dI" % ((len(b) - hdr) // 4), b, hdr)
@@ -87,6 +99,8 @@ def refs(b, hdr, exe):
                 if y >> 26 in (9, 13) and (y >> 21) & 31 == rt:
                     lo = y & 0xFFFF
                     add(((x & 0xFFFF) << 16) + (((lo ^ 0x8000) - 0x8000) if y >> 26 == 9 else lo), k + d)
+                if dest(y) == rt:  # rt reloaded: later addiu/ori pair with another lui
+                    break
         elif exe and op == 9 and (x >> 21) & 31 == 28:
             add(GP + (((x & 0xFFFF) ^ 0x8000) - 0x8000), k)
     return out

@@ -176,6 +176,8 @@ def raw_texts(files, writes, free, qa=None, marker=None):
         addr = int(row["addr"], 16)
         ptrs = [int(r, 16) for r in row["refs"].split(",") if r not in ("", "-") and "+" not in r]
         bad = [p for p in ptrs if struct.unpack_from("<I", original(disc), p)[0] != addr]
+        if "+" in row["refs"]:  # a pointer into the string's middle would read the vacated (zeroed) bytes
+            sys.exit(f"{row['id']}: relocating it would strand interior refs {row['refs']}: shorten it")
         if not ptrs or bad:
             sys.exit(f"{row['id']}: {len(new)} bytes > {room - 1} in place and no data-word pointer to move it "
                      f"(refs {row['refs']}): shorten it")

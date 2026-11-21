@@ -141,8 +141,12 @@ def warnings(entry, text):
             n, room = len(en.encode(text)), len(rawtext.encode(entry["jp"]))
         except ValueError:
             return []
-        if n > room:
-            return [f"{n} bytes > {room} in place (relocate in phase 7)"]
+        disc, off = entry["id"].rsplit(":", 1)
+        off, hdr = int(off, 16), rawtext.FILES[disc][1]
+        room = min(int(entry["room"]), ((off - hdr + room + 1 + 3) & ~3) + hdr - off) - 1  # same as build.raw_texts
+        plain = [r for r in entry["refs"].split(",") if r not in ("", "-") and "+" not in r]
+        if n > room and (not plain or "+" in entry["refs"]):  # build.py relocates only via a data word
+            return [f"{n} bytes > {room} in place and no data-word pointer: build.py will reject it"]
     return []
 
 
@@ -207,6 +211,24 @@ def plain(text):
     return " ".join(re.sub(r"\{[^}]*\}|\\\\|@@", " ", text).split())
 
 
+def layout_problems(entry, text):
+    """Leading/trailing blanks the JP has (an indent leaves room for a cursor), and stub last lines: a multi-line page
+    ending on under 6 letters, unless the JP page ends on a stub too."""
+    out = []
+    jp = braced(entry["jp"])
+    for side, rx in (("leading", r"^(?:\{[^}]*\})*[ 　]"), ("trailing", r"[ 　](?:\{[^}]*\})*$")):
+        if re.search(rx, jp) and not re.search(rx, text):
+            out.append(f"{side} blank in the JP is missing")
+    jp_pages = pages_of(jp, entry)
+    for k, page in enumerate(pages_of(text, entry)):
+        last = re.sub(r"\{[^}]*\}", "", page[-1]).strip()
+        jp_page = jp_pages[k] if k < len(jp_pages) else [""]
+        jp_stub = len(jp_page) > 1 and len(re.sub(r"\{[^}]*\}", "", jp_page[-1]).strip()) < 6
+        if len(page) > 1 and len(last) < 6 and last.strip(".!?…") and not jp_stub:  # a lone "..." is a timed pause
+            out.append(f"stub last line {last!r}: rewrap so the page's last line holds more than one short word")
+    return out
+
+
 def problems(entry, text, terms):
     """Every rule, on one line of English."""
     jp = entry["jp"]
@@ -241,6 +263,7 @@ def problems(entry, text, terms):
     for jp_form, en_form in HONORIFICS.items():
         if re.search(jp_form, jp_plain) and en_form.lower() not in text.lower():
             out.append(f"honorific {jp_form[-2:]} needs {en_form}")
+    out += layout_problems(entry, text)
     return out + (width_problems(entry, text) if measurable else [])
 
 
@@ -378,7 +401,7 @@ def main(argv):
         warn = [f"{i}: {p}" for i, e in entries.items() if e["en"] for p in warnings(e, e["en"])]
         print(f"{len(entries)} entries, {sum(bool(e['en']) for e in entries.values())} with English, "
               f"{len(bad)} problems, {len(warn)} warnings")
-        print("\n".join(bad[:200]))
+        print("\n".join(bad[:200] + ["warning: " + w for w in warn]))
         return 1 if bad else 0
     if cmd not in ("check", "merge") or not names:
         sys.exit(__doc__)

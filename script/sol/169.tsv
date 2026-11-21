@@ -20,7 +20,7 @@ sol.169.17	1	　g7で？i045‥‥‥先発隊はどこまで進んでいる？	
 sol.169.18	1	　　　　　その仕事ならこっちが上だ。\\i030　g7何をされようとも、i015しゃべるつもりはない	　　　　 At that game, I'm a cut above you.\\  {i030}Whatever you do,{i015} I've got no intention of talking	
 sol.169.19	1	　　　　g7なら、しゃべらなくていい。\\i015　　　　　　　これだけで十分だ	　　　　　 Then you don't have to talk.\\　　　　　　　　{i015}This is all I need	
 sol.169.20	1	　　　　　　　　g7‥‥‥ッ！	　　　　　　　　　　　 ...!	
-sol.169.21	1	t0b3　　　　g7先発隊の地図b0を手に入れた。\\　　　　　　　　　　g7	{t0}　　　　　  Got the {b3}Advance Team's Map{b0}.\\{g7}	
+sol.169.21	1	t0b3　　　　g7先発隊の地図b0を手に入れた。\\　　　　　　　　　　g7	{t0}　　　　　  Got the {b3}Advance Team's Map{b0}.\\　{g7}	
 sol.169.22	1	　遺跡の最奥部‥‥‥i015地下に続く坑道‥‥‥i015か\\i045　　　　‥‥‥軍隊にしては結構早いな	　 Deep in the ruins...{i015} a shaft leading down...{i015} huh\\　　　　　  {i045}...Pretty quick, for an army	
 sol.169.23	1	　　　　　　　　‥‥‥‥‥‥	　　　　　　　　　　　 ...	
 sol.169.24	1	　　　おまえがここで張ってるって事は、\\　　g7腕のいいのがまだいるって事か‥‥‥\\i045　　　　　g7めんどくせぇなぁ‥‥‥@@　まぁ、i015使われ方としては、妥当なところだな	　　　　  You staking out this spot means\\　　　there's still somebody good up ahead...@@　　　　　　　　  {i045}What a pain...@@　　  Well,{i015} that's about the right use for you	
@@ -29,10 +29,10 @@ sol.169.26	1	　　　　　g7じゃあな。i030運が良ければ\\　　　�
 sol.169.27	1	　　　我流が。i045武器に振り回されるから、\\　　　　　g7そういう目に遭う‥‥‥	　 Self-taught punk.{i045} Let a weapon swing you around,\\　　　　　　and that's what you get...	
 sol.169.28	1	　　　お遊び如きにやられる俺じゃない！	　　　　 Like I'd lose to some kiddie game!	
 sol.169.29	1	WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0\\　　　　　　g7ＧＡＭＥ　ＯＶＥＲ\\　　　　　　　　　　g7i060	{WP-142-016WS2203BKA2BKC89aFRA0n1t3s6cc84d1t0}\\　　　　　　{g7}GAME OVER\\　　　　　　　　　　{g7i060}	
-sol.169.30	1	t0b3　　　　g7孔雀石の石板b0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　　　　Got the {b3}Malachite Tablet{b0}.\\{g7i015}	
-sol.169.31	1	t0b3　　　　孔雀石の石板b0が反応している。\\　　　　　　　　　　g7i015	{t0}　　　　 The {b3}Malachite Tablet{b0} is reacting.\\{g7i015}	
+sol.169.30	1	t0b3　　　　g7孔雀石の石板b0を手に入れた。\\　　　　　　　　　　g7i015	{t0}　　　　　　Got the {b3}Malachite Tablet{b0}.\\　{g7i015}	
+sol.169.31	1	t0b3　　　　孔雀石の石板b0が反応している。\\　　　　　　　　　　g7i015	{t0}　　　　 The {b3}Malachite Tablet{b0} is reacting.\\　{g7i015}	
 sol.169.32	1	t0　　　　　　g7扉は開かない‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　　{g7}The door won't open...\\　　　　　　　　　　{g7i015}	
-sol.169.33	1	t0　　　　何か仕掛けがあるようだ‥‥‥\\　　　　　　　　　　g7i015	{t0}　　Looks like there's some kind of mechanism...\\{g7i015}	
+sol.169.33	1	t0　　　　何か仕掛けがあるようだ‥‥‥\\　　　　　　　　　　g7i015	{t0}　　Looks like there's some kind of mechanism...\\　{g7i015}	
 sol.169.34	1	t0　　　　　g7仕掛けを動かした‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　{g7}Activated the mechanism...\\　　　　　　　　　　{g7i015}	
 sol.169.35	1	t0　　　　　何かが動く音がした‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　Heard something move...\\　　　　　　　　　　{g7i015}	
 sol.169.36	1	t0　　　　　g7仕掛けを起動しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Activate the mechanism?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	

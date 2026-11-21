@@ -67,7 +67,30 @@ def test_sol_holds_en_and_map_reaches_moved_blocks(built):
         assert list(struct.unpack_from(f"<{n}H", exe, base)) == [moved.get(i, i) for i in range(n)]
 
 
-def test_sol_pack_appends_a_block_that_outgrows_its_sectors():
+def test_every_raw_en_row_is_written(built):
+    _, log = built
+    want = {r["id"] for p in (build.ROOT / "script" / "raw").glob("*.tsv")
+            for r in build.extract.read_tsv(p, build.extract.RAW_COLS) if r["en"]}
+    got = {by.split(" ", 1)[1] for entries in log.values() for *_, by in entries if by.startswith(("text ", "reloc "))}
+    assert got == want, (sorted(want - got)[:5], sorted(got - want)[:5])
+
+
+def test_no_branch_lands_inside_a_hook():
+    """A hook overwrites 2+ instructions; a branch, j/jal or jump-table word aimed at its 2nd+ word would run half a
+    hook (checked against the original EXE)."""
+    exe = build.original("SLPM_866.02")
+    n = (len(exe) - build.EXE_HDR) // 4
+    words = struct.unpack_from(f"<{n}I", exe, build.EXE_HDR)
+    inside = {h + 4 * k for h, size in HOOKS.items() for k in range(1, size // 4)}
+    for i, x in enumerate(words):
+        pc, op = build.EXE_BASE + 4 * i, x >> 26
+        targets = {x}  # data word (jump table)
+        if op in (2, 3):
+            targets.add((pc & 0xF0000000) | (x & 0x3FFFFFF) << 2)
+        if op in (1, 4, 5, 6, 7):
+            targets.add(pc + 4 + (((x & 0xFFFF) ^ 0x8000) - 0x8000) * 4)
+        assert not targets & inside, hex(pc)
+
     orig = build.original("DATA/SOL.SRP")
     bid, _, blk = next(b for b in sol.blocks(orig) if len(b[2]) == sol.SECTOR)
     texts = {(bid, gi): x + b"\xe1" * 600 for gi, s, o, f, x in sol.strings(blk)}

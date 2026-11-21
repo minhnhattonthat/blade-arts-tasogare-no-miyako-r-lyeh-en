@@ -4,7 +4,7 @@ sol.72.1	0	CSA0t0e00558我が名はバセテト‥‥‥\\古よりこの地を�
 sol.72.2	0	CSA0t0e00653てめぇが、この遺跡の主か？\\聞きてぇ事がいくつかある。	{CSA0t0e00653}So you're the master of these ruins, huh?\\I got a few things I wanna ask you.	
 sol.72.3	0	CSA0t0e00991我はただこの地を司る事のみ為す。	{CSA0t0e00991}I do naught but govern this land.	
 sol.72.4	0	CSA0t0e01250汝が問いは如何なる事か？	{CSA0t0e01250}What is it thou wouldst ask?	
-sol.72.5	0	t0[DD1　ナカムラはどこヘ？[2　なぜウォルターが水槽に？\\[3　ここの存在意義は？[4　質問を終える　　　　　　	{t0[DD1}　Where's Nakamura?{g9}{[2}　Why is Walter in a tank?\\{[3}　What is this place for?{g4}{[4}　No more questions	
+sol.72.5	0	t0[DD1　ナカムラはどこヘ？[2　なぜウォルターが水槽に？\\[3　ここの存在意義は？[4　質問を終える　　　　　　	{t0[DD1}　Where's Nakamura?{g9}{[2}　Why is Walter in a tank?\\{[3}　What is this place for?{g4}{[4}　No more questions　	
 sol.72.6	0	CSA0t0e00292先の客人はすでに、この地の最奥、\\剣の神殿へ向かった。	{CSA0t0e00292}The guest before thee hath already gone to the\\land's innermost depths, the Temple of the Sword.	
 sol.72.7	0	CSA0t0e00739古よりこの地に眠る剣を鍛える為に‥‥‥	{CSA0t0e00739}To forge the sword that hath slept here since\\ages past...	
 sol.72.8	0	CSA0t0e00901剣‥‥‥だと？　たかだか剣一本鍛えるために\\ここまでしたのか、あの野郎は？	{CSA0t0e00901}A sword...? He went through all this\\just to forge one lousy sword, that bastard?	
@@ -39,4 +39,4 @@ sol.72.36	1	CSA0t0e00211汝が「制裁者」の持ち主であれ、\\何する
 sol.72.37	1	CSA0t0e01261我、汝を討ち果たせり！	{CSA0t0e01261}I have struck thee down!	
 sol.72.38	1	CSA0t0e00482我、汝の力全てを得る事を望む‥‥‥\\新たなる憑依となりて、その力を我が物としよう	{CSA0t0e00482}I desire all thy power...\\As my new vessel, thy power shall be mine.	
 sol.72.39	1	t3b2＜バセテト戦闘後勝ち負けイベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Basetet Post-Battle Win/Lose Event＞{b0}\\Under construction, stay tuned!!	
-sol.72.40	1	t0[DD1　ナカムラはどこヘ？[2　なぜウォルターが水槽に？\\[3　ここの存在意義は？　　　　　　　　　　　　　	{t0[DD1}　Where's Nakamura?{g9}{[2}　Why is Walter in a tank?\\{[3}　What is this place for?	
+sol.72.40	1	t0[DD1　ナカムラはどこヘ？[2　なぜウォルターが水槽に？\\[3　ここの存在意義は？　　　　　　　　　　　　　	{t0[DD1}　Where's Nakamura?{g9}{[2}　Why is Walter in a tank?\\{[3}　What is this place for?　	

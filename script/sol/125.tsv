@@ -17,7 +17,7 @@ sol.125.14	0	t0　　　　　　　何も起こらない‥‥g7i015	{t0}　　
 sol.125.15	0	t0b3　　　　　g7紅の石像b0を手に入れた。g7i015	{t0}　　　　{g7}Got the {b3}Crimson Statue{b0}.{g7i015}	
 sol.125.16	0	t0b3　　　　　g7蒼の石像b0を手に入れた。g7i015	{t0}　　　　{g7}Got the {b3}Blue Statue{b0}.{g7i015}	
 sol.125.17	0	　　　　何かを奉るための祭壇らしい‥‥g7i015	　Looks like an altar for enshrining something...{g7i015}	
-sol.125.18	0	　　　何かが置かれた形跡が２ヶ所ある‥‥g7i015	Something was once placed here in two spots...{g7i015}	
+sol.125.18	0	　　　何かが置かれた形跡が２ヶ所ある‥‥g7i015	　Something was once placed here in two spots...{g7i015}	
 sol.125.19	0	t0b3　　　　　紅の石像b0を台座に置いた。g7i015	{t0}　　　Placed the {b3}Crimson Statue{b0} on the pedestal.{g7i015}	
 sol.125.20	0	t0b3　　　　　　蒼の石像b0を台座に置いた。g7i015	{t0}　　　Placed the {b3}Blue Statue{b0} on the pedestal.{g7i015}	
 sol.125.21	0	　　　　　g7「汝の力で我を照らせ」i015\\　　　　　g7と、記されている‥‥‥g7i015	　　　　{g7}"Illuminate me with thy power"{i015}\\　　　　　{g7}is written here...{g7i015}	
@@ -33,8 +33,8 @@ sol.125.30	0	t0b3　　　　　　プレートb0を手に入れた。g7i015	{t0
 sol.125.31	0	t0b3　　　　　　　蒼玉b0を手に入れた。g7i015	{t0}　　　　　　Got the {b3}Sapphire{b0}.{g7i015}	
 sol.125.32	0	t0b3紅玉b0を手に入れた。g7i015	{t0}Got the {b3}Ruby{b0}.{g7i015}	
 sol.125.33	1	t0　　　　　g7台座に石版をはめますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　{g7}Set the stone tablet in the pedestal?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
-sol.125.34	1	t0　動物が描かれた石版の台座によく似ている‥‥g7i015	{t0}It looks a lot like the animal tablet's pedestal...{g7i015}	
-sol.125.35	1	t0　g7これに乗れば、下層部へ降りられるはずだ。g7i015	{t0}{g7}Riding this should take me down to the lower level.{g7i015}	
+sol.125.34	1	t0　動物が描かれた石版の台座によく似ている‥‥g7i015	{t0}　It looks a lot like the animal tablet's pedestal...{g7i015}	
+sol.125.35	1	t0　g7これに乗れば、下層部へ降りられるはずだ。g7i015	{t0}{g7}　Riding this should take me to the lower level.{g7i015}	
 sol.125.36	1	t0　　　　　　g7下層部に降りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Go down to the lower level?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
 sol.125.37	1	t0　　　　g7b3重力エレベーター操作盤b0\\　g7現在、重力エレベーターは休止しています。g7i015	{t0}　　　　{g7b3}Gravity Elevator Control Panel{b0}\\{g7}The gravity elevator is currently out of service.{g7i015}	
 sol.125.38	1	t0　　g7重力エレベーターを稼働させますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　{g7}Activate the gravity elevator?\\　　　{[DD1}　Yes　　　　　　{[2}　　No	

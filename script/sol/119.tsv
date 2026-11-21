@@ -48,20 +48,20 @@ sol.119.45	1	CSA0t0e00404‥‥いや、何でもない。	{CSA0t0e00404}...Nah,
 sol.119.46	1	CSA0t0e00141ランファ、ここの扉はこれ以上開かないのか？	{CSA0t0e00141}Ranfa, this door won't open any further?	
 sol.119.47	1	CSA0t0e00675ん～、開く仕掛けが見あたらなかったみたい‥‥\\でも、奥には行けるんでしょ？	{CSA0t0e00675}Hmm~, looks like they couldn't find a way\\to open it... But you can get inside, right?	
 sol.119.48	1	CSA0t0e01093まぁ、なんとかなるか。	{CSA0t0e01093}Well, I'll manage somehow.	
-sol.119.49	1	t3b6　藍花：b0○ボタンを２回押して屈んでみてよ。i030	{t3b6}Ranfa:{b0} Press ○ twice to crouch.{i030}	
-sol.119.50	1	t3b6　藍花：b0で、そのままＬ１ボタンを押すと、\\　屈んだ状態で扉の奥が見えるでしょ？i030	{t3b6}Ranfa:{b0} Then hold L1, and you can see\\through the door while crouching, right?{i030}	
-sol.119.51	1	t3b6　藍花：b0Ｌ１ボタンを放して、Ｒ１ボタンを\\　押しながら方向キーの上を押すと、扉の下をi030@@　くぐり抜けられるから。i030	{t3b6}Ranfa:{b0} Let go of L1, then hold R1\\and press Up on the D-pad, and you can{i030}@@crawl under the door.{i030}	
-sol.119.52	1	t3b6　藍花：b0えーと、そこにある\\　階段おりちゃって。i030	{t3b6}Ranfa:{b0} Umm, just go on down\\those stairs there.{i030}	
-sol.119.53	1	t3b4　零：b0って、脇の回廊は見なくていいのか？i030	{t3b4}Rei:{b0} Wait, I don't need to check the side corridor?{i030}	
-sol.119.54	1	t3b6　藍花：b0奥に扉があるらしいんだけど、\\　調査団の方で開けらんなかったみたい。i030@@　真っ当な調査は明日やるから、\\　とりあえず先進んどいて。i030	{t3b6}Ranfa:{b0} There's supposed to be a door at the back,\\but the survey team couldn't get it open.{i030}@@We'll do a proper survey tomorrow,\\so just keep going for now.{i030}	
-sol.119.55	1	t3b4　零：b0ちぃっと、逃げるのは厳しいか‥‥\\	{t3b4}Rei:{b0} Tch, running away's gonna be tough...\\	
-sol.119.56	1	t3b6　藍花：b0ちょっと、どこに行ってるのよ？\\　勝手に適当なとこに行かないでよね！i030	{t3b6}Ranfa:{b0} Hey, where are you going?\\Don't just wander off wherever you like!{i030}	
-sol.119.57	1	t3b6　藍花：b0あー、もう！\\　なんで人の言うこと聞かないかなー！i030	{t3b6}Ranfa:{b0} Ugh, seriously!\\Why won't you ever listen to me~!{i030}	
+sol.119.49	1	t3b6　藍花：b0○ボタンを２回押して屈んでみてよ。i030	{t3b6}　Ranfa:{b0} Press ○ twice to crouch.{i030}	
+sol.119.50	1	t3b6　藍花：b0で、そのままＬ１ボタンを押すと、\\　屈んだ状態で扉の奥が見えるでしょ？i030	{t3b6}　Ranfa:{b0} Then hold L1, and you can see\\through the door while crouching, right?{i030}	
+sol.119.51	1	t3b6　藍花：b0Ｌ１ボタンを放して、Ｒ１ボタンを\\　押しながら方向キーの上を押すと、扉の下をi030@@　くぐり抜けられるから。i030	{t3b6}　Ranfa:{b0} Let go of L1, then hold R1\\and press Up on the D-pad, and you can{i030}@@crawl under the door.{i030}	
+sol.119.52	1	t3b6　藍花：b0えーと、そこにある\\　階段おりちゃって。i030	{t3b6}　Ranfa:{b0} Umm, just go on down\\those stairs there.{i030}	
+sol.119.53	1	t3b4　零：b0って、脇の回廊は見なくていいのか？i030	{t3b4}　Rei:{b0} Wait, no need to check the side corridor?{i030}	
+sol.119.54	1	t3b6　藍花：b0奥に扉があるらしいんだけど、\\　調査団の方で開けらんなかったみたい。i030@@　真っ当な調査は明日やるから、\\　とりあえず先進んどいて。i030	{t3b6}　Ranfa:{b0} There's supposed to be a door at the back,\\but the survey team couldn't get it open.{i030}@@We'll do a proper survey tomorrow,\\so just keep going for now.{i030}	
+sol.119.55	1	t3b4　零：b0ちぃっと、逃げるのは厳しいか‥‥\\	{t3b4}　Rei:{b0} Tch, running away's gonna be tough...\\	
+sol.119.56	1	t3b6　藍花：b0ちょっと、どこに行ってるのよ？\\　勝手に適当なとこに行かないでよね！i030	{t3b6}　Ranfa:{b0} Hey, where are you going?\\Don't just wander off wherever you like!{i030}	
+sol.119.57	1	t3b6　藍花：b0あー、もう！\\　なんで人の言うこと聞かないかなー！i030	{t3b6}　Ranfa:{b0} Ugh, seriously!\\Why won't you ever listen to me~!{i030}	
 sol.119.58	1	CSA0t0e00405あー、その先のトカゲっぽい彫像\\火ふくから気をつけてね。	{CSA0t0e00405}Oh, careful, those lizard-ish statues\\up ahead breathe fire.	
 sol.119.59	1	CSA0t0e00582そういう事を、お気楽そうに言うな！	{CSA0t0e00582}Don't say stuff like that so casually!	
 sol.119.60	1	CSA0t0e00315えっと、奥にある石碑に\\仕掛けっぽいのがあって、@@それ押せば止まるって書いてある‥‥	{CSA0t0e00315}Umm, it says there's something like\\a mechanism on the stele at the back,@@and if you push it, they'll stop...	
 sol.119.61	1	CSA0t0e01008そういう事はなぁ、早めに言え！	{CSA0t0e01008}Stuff like that, you tell me sooner!	
-sol.119.62	2	WP-134-016WS2002BS0805BYB+00BKC002　石碑の前に立ち、□ボタンで\\　仕掛けを動かす事が出来ます。	{WP-134-016WS2002BS0805BYB+00BKC002}Stand in front of a stele\\and press □ to work its mechanism.	
+sol.119.62	2	WP-134-016WS2002BS0805BYB+00BKC002　石碑の前に立ち、□ボタンで\\　仕掛けを動かす事が出来ます。	{WP-134-016WS2002BS0805BYB+00BKC002}　Stand in front of a stele\\and press □ to work its mechanism.	
 sol.119.63	2	CSA0t0e01183なんか、空気が澱んでるな‥‥ガスか？	{CSA0t0e01183}The air's kinda stale here... Gas?	
 sol.119.64	2	CSA0t0e01274ここにもガスか‥‥\\さっきの場所と続いているのか？	{CSA0t0e01274}Gas here too...?\\Is it connected to where I was before?	
 sol.119.65	2	CSA0t0e01094ん、そうみたい。	{CSA0t0e01094}Mm, looks like it.	
@@ -104,7 +104,7 @@ sol.119.101	3	CSA0t0e00144なんだ、あれは？	{CSA0t0e00144}What's that?
 sol.119.102	3	CSA0t0e00584ストップ！@@そこから先行くと、\\そのまま下まで落っこちちゃうよ。@@床の構造がもろくなってるって書いてある。	{CSA0t0e00584}Stop!@@If you go any further,\\you'll fall straight to the bottom.@@It says the floor's structure is weak.	
 sol.119.103	3	CSA0t0e00496ゆっくり歩けば平気だろ？	{CSA0t0e00496}I'll be fine if I walk slow, right?	
 sol.119.104	3	CSA0t0e00408試して見たければ、どうぞ。\\でも、どうなっても知らないからね！@@とにかく、そこの置物はダミーみたい\\だから、先に進んでみて。	{CSA0t0e00408}Go ahead, if you wanna try.\\But don't come crying to me!@@Anyway, that ornament looks like a dummy,\\so try going on ahead.	
-sol.119.105	3	WP-134-016WS2008BS0805BYB+00BKC002　下へ降りるには道を探す\\　必要がありそうだ‥‥@@　周りを見渡したいときは、\\　Ｒ１ボタンを押しながら方向キーを押すと、@@　その方向を見渡すことが出来る。@@　左右を見渡すときは体の向きも@@　同じ方向に向いているから、\\　元に戻したときに注意しよう。	{WP-134-016WS2008BS0805BYB+00BKC002}You'll need to find a way\\down from here...@@To look around, hold R1\\and press the D-pad@@to look in that direction.@@When looking left or right, your body\\turns to face that way too,@@so watch out when you\\turn back.	
+sol.119.105	3	WP-134-016WS2008BS0805BYB+00BKC002　下へ降りるには道を探す\\　必要がありそうだ‥‥@@　周りを見渡したいときは、\\　Ｒ１ボタンを押しながら方向キーを押すと、@@　その方向を見渡すことが出来る。@@　左右を見渡すときは体の向きも@@　同じ方向に向いているから、\\　元に戻したときに注意しよう。	{WP-134-016WS2008BS0805BYB+00BKC002}　You'll need to find a way\\down from here...@@To look around, hold R1\\and press the D-pad@@to look in that direction.@@When looking left or right, your body\\turns to face that way too,@@so watch out when you\\turn back.	
 sol.119.106	3	CSA0t0e00678馬鹿でっかい柱が立ってるところは、\\なんて書いてある。	{CSA0t0e00678}What's it say about the place\\with the giant pillars?	
 sol.119.107	4	CSA0t0e00318う～ん‥‥\\そのあたりについては、何も書かれてないよ。@@っていうか、そのあたりから\\先の記述が残ってないの。@@‥‥もうそろそろ、\\戻ったほうが良いんじゃない？	{CSA0t0e00318}Hmm~...\\There's nothing written about that area.@@Actually, the notes stop\\right around there.@@...Isn't it about time\\you came back?	
 sol.119.108	4	CSA0t0e00762そうだな‥‥\\いや、もう少し先まで様子を見てくるわ。	{CSA0t0e00762}Yeah...\\Nah, I'll go check things out a bit further.	
@@ -126,8 +126,8 @@ sol.119.123	4	CSA0t0e00679おぅわっ！！	{CSA0t0e00679}Whoaaa!!
 sol.119.124	4	CSA0t0e01187くそっ、やっぱり罠があったか！！	{CSA0t0e01187}Damn, I knew there'd be a trap!!	
 sol.119.125	4	CSA0t0e00585あの馬鹿の言うことなん‥‥てぁっ‥‥！！	{CSA0t0e00585}Shouldn't have listened to that idi... aaagh...!!	
 sol.119.126	4	CSA0t0e01012おわあああああぁぁぁぁぁぁぁ‥‥	{CSA0t0e01012}Whoaaaaaaaaaaaaa...	
-sol.119.127	4	t3b4　零：b0ナイフ程度がこんなのに効くかっ！i030	{t3b4}Rei:{b0} Like a knife's gonna work on this thing!{i030}	
-sol.119.128	4	t3b4　零：b0ちったぁ、ましかっ！i030	{t3b4}Rei:{b0} That's a little better!{i030}	
+sol.119.127	4	t3b4　零：b0ナイフ程度がこんなのに効くかっ！i030	{t3b4}　Rei:{b0} Like a knife's gonna work on this thing!{i030}	
+sol.119.128	4	t3b4　零：b0ちったぁ、ましかっ！i030	{t3b4}　Rei:{b0} That's a little better!{i030}	
 sol.119.129	4	CSA0t0e00146無事だったか？	{CSA0t0e00146}You're all right?	
 sol.119.130	4	CSA0t0e00680ああ、何とかね‥‥	{CSA0t0e00680}Yeah, more or less...	
 sol.119.131	4	CSA0t0e01278ところで、上から影は見えたが‥‥\\あんな化物がここには居るのか？	{CSA0t0e01278}By the way, I saw its shadow from above...\\There are monsters like that here?	
@@ -145,7 +145,7 @@ sol.119.142	5	t3今は開きそうにない。	{t3}It doesn't look like it'll op
 sol.119.143	5	WP-134-016WS2004BS0805BYB+00BKC002高いところに登りたい時は、\\×ボタンを押してジャンプするか、\\□ボタンを押して足場につかまってから\\方向キーの上を押すと登る事が出来ます。	{WP-134-016WS2004BS0805BYB+00BKC002}To climb somewhere high, press ×\\to jump, or press □ to grab\\a ledge, then press Up\\on the D-pad to climb.	
 sol.119.144	5	WP-134-016WS2003BS0805BYB+00BKC002さらに高いところへ登る時には、\\□ボタンを押しながら、ジャンプする事で\\より高いところにつかまる事が出来ます。	{WP-134-016WS2003BS0805BYB+00BKC002}To climb even higher, jump\\while holding □ to grab\\onto a higher ledge.	
 sol.119.145	5	WP-134-016WS2005BS0805BYB+00BKC002Ｒ２ボタンで武器をかまえ、□ボタンで\\斬りつけます。危険がせまったら、\\Ｒ１ボタンと方向キーで走るか、\\○ボタンでガード！再度Ｒ２ボタンを\\押すと武器をしまう事が出来ます。t300	{WP-134-016WS2005BS0805BYB+00BKC002}Press R2 to ready your weapon\\and □ to slash. When in danger,\\run with R1 and the D-pad,\\or guard with ○! Press R2 again\\to put your weapon away.{t300}	
-sol.119.146	5	WP-134-016WS2003BS0805BYB+00BKC002　どこか調べたい場所があれば\\　調べたい方向に向いて\\　□ボタンで調べることができます。	{WP-134-016WS2003BS0805BYB+00BKC002}To examine a spot, face\\the direction you want to\\examine and press □.	
+sol.119.146	5	WP-134-016WS2003BS0805BYB+00BKC002　どこか調べたい場所があれば\\　調べたい方向に向いて\\　□ボタンで調べることができます。	{WP-134-016WS2003BS0805BYB+00BKC002}　To examine a spot, face\\the direction you want to\\examine and press □.	
 sol.119.147	5	WP-134-016WS2005BS0805BYB+00BKC002○ボタンを２回押している間、\\屈むことが出来ます。\\そのままＲ１ボタンを押しながら\\方向キーの上を押すと扉の下を\\くぐり抜ける事が出来ます。	{WP-134-016WS2005BS0805BYB+00BKC002}Press ○ twice to crouch\\for a moment.\\Then hold R1 and press\\Up on the D-pad to crawl\\under a door.	
 sol.119.148	5	t3仕掛けは作動しています。	{t3}The mechanism is working.	
 sol.119.149	5	t0b3プレステージクリア！！b0	{t0b3}Prestage Clear!!{b0}	

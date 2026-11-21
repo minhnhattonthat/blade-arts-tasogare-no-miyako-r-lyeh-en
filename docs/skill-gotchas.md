@@ -17,3 +17,4 @@ One line per gotcha: the skill reference file it belongs in, then the fact.
 - emulator-qa.md: a text-window probe hooked at the renderer's open function (exec bp, needs `--debugger`) logs every window's geometry per string; menu screens reopen their windows every frame, so the log grows by thousands of lines per scene.
 - pipeline.md §Marker: a game font may fill cells past its last glyph with a filler pattern rather than zeros; check free glyph slots against that pattern, not against empty.
 - emulator-qa.md: a marker build that rewrites save/load strings can break loading: games compare the memory-card title prefix against a string table (Blade Arts LOADSAVE 0x6D0/0xBDC); bisect the save-menu strings with --qa overrides when load scenes fail only on the patched build.
+- Claude Code Edit tool: a new_string ending in a tab loses that tab (TSV cell edits): end the edit on the next cell's text.

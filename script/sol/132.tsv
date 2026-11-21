@@ -10,17 +10,17 @@ sol.132.7	0	t0　　　　　g7隔壁が破壊されている‥‥\\　　　�
 sol.132.8	0	t0　　　　g7操作盤が破壊されている‥‥\\　　　　　　　　　　g7i015	{t0}　　　{g7}The control panel has been destroyed...\\　　　　　　　　　　{g7i015}	
 sol.132.9	0	t0　　　　　　g7‥‥‥‥‥‥‥‥っ！\\　　ここを通るにはＩＤカードが必要か‥‥‥\\　　　　　　　　　　g7i015	{t0}　　　　　　{g7}...Damn!\\　　So I need an ID Card to get through here...\\　　　　　　　　　　{g7i015}	
 sol.132.10	0	t0　　　g7b3＜北街区出入口隔壁操作盤＞b0\\　　　　　　　　　　g7i015	{t0}　{g7b3}＜North District Entrance Bulkhead Panel＞{b0}\\　　　　　　　　　　{g7i015}	
-sol.132.11	0	t0　　g7北街区出入口の隔壁を開放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　{g7}Open the North District Entrance bulkhead?\\　　　{[DD1}　Yes　　　　　　{[2}　　No{g7i015}	
+sol.132.11	0	t0　　g7北街区出入口の隔壁を開放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　{g7}Open the North District Entrance bulkhead?\\　　　{[DD1}　Yes　　　　　　{[2}　　No　{g7i015}	
 sol.132.12	0	t0　　g7北街区出入口の隔壁を開放しました。\\　　　　　　　　　　g7i015	{t0}　{g7}Opened the North District Entrance bulkhead.\\　　　　　　　　　　{g7i015}	
 sol.132.13	0	t0　　　g7防護柵が通路を塞いでいる‥‥‥\\　　　　　　　　　　g7i015	{t0}　　{g7}A protective fence is blocking the passage...\\　　　　　　　　　　{g7i015}	
 sol.132.14	0	t0　　　g7b3＜地下水路防護柵操作盤＞b0\\　　　　　　　　　　g7i015	{t0}　{g7b3}＜Underground Waterway Fence Panel＞{b0}\\　　　　　　　　　　{g7i015}	
-sol.132.15	0	t0　　　　　g7防護柵を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　　{g7}Open the protective fence?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No{g7i015}	
+sol.132.15	0	t0　　　　　g7防護柵を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　　{g7}Open the protective fence?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No　{g7i015}	
 sol.132.16	0	t0　　　　　　g7b3＜故障発生＞b0\\　　　　　　　　　　g7i015@@　　管制装置から応答が無くなり中断しました。\\　　　（システム管理者に連絡してください）\\　　　　　　　　　　g7i015	{t0}　　　　　　{g7b3}＜Malfunction＞{b0}\\　　　　　　　　　　{g7i015}@@　The control unit stopped responding. Aborted.\\　　(Please contact the system administrator.)\\　　　　　　　　　　{g7i015}	
 sol.132.17	0	t0　　　　　g7b3＜予備管制装置＞b0\\　　　　　　　　　　g7i015@@　　　現在、予備管制装置で操作出来るのは\\　　　　b3南街区出入口の隔壁b0操作です。\\　　　　　　　　　　g7i015	{t0}　　　　{g7b3}＜Backup Control Unit＞{b0}\\　　　　　　　　　　{g7i015}@@　The backup control unit can currently operate\\　　the {b3}South District Entrance bulkhead{b0}.\\　　　　　　　　　　{g7i015}	
-sol.132.18	0	t0　　　g7南街区出入口の隔壁を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　{g7}Open the South District Entrance bulkhead?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No{g7i015}	
+sol.132.18	0	t0　　　g7南街区出入口の隔壁を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　{g7}Open the South District Entrance bulkhead?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No　{g7i015}	
 sol.132.19	1	t0　　　g7南街区出入口の隔壁を開放しました。\\　　　　　　　　　　g7i015	{t0}　{g7}Opened the South District Entrance bulkhead.\\　　　　　　　　　　{g7i015}	
 sol.132.20	1	t0　　　　　g7b3＜予備管制装置＞b0\\　　　　　　　　　　g7i015@@　　　現在、予備管制装置で操作出来るのは\\　　　b3地下水路出口の水門b0の操作です。\\　　　　　　　　　　g7i015	{t0}　　　　{g7b3}＜Backup Control Unit＞{b0}\\　　　　　　　　　　{g7i015}@@　The backup control unit can currently operate\\　　the {b3}underground waterway exit floodgate{b0}.\\　　　　　　　　　　{g7i015}	
-sol.132.21	1	t0　　g7地下水路出口の水門を開放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　{g7}Open the underground waterway exit floodgate?\\　　　{[DD1}　Yes　　　　　　{[2}　　No{g7i015}	
+sol.132.21	1	t0　　g7地下水路出口の水門を開放しますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　{g7}Open the underground waterway exit floodgate?\\　　　{[DD1}　Yes　　　　　　{[2}　　No　{g7i015}	
 sol.132.22	1	t0　　g7地下水路出口の水門を開放しました。\\　　　　　　　　　　g7i015	{t0}　{g7}The underground waterway exit floodgate is open.\\　　　　　　　　　　{g7i015}	
 sol.132.23	1	t0　　　　　g7b3＜濾過区水門操作盤＞b0\\　　　　　　　　　　g7i015	{t0}　　　{g7b3}＜Filtration District Floodgate Panel＞{b0}\\　　　　　　　　　　{g7i015}	
 sol.132.24	1	t0　　　　g7濾過区の水門を開放しますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ　　　　　　　　　　g7i015	{t0}　　　{g7}Open the filtration district floodgate?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No　　　{g7i015}	
