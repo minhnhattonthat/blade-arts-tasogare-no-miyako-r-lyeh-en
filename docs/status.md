@@ -3,8 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (started 2026-11-22; phase 7 review minors fixed first, commit 1af6d3c).
-  Last good build: `build/blade_arts_en.bin` 2026-11-22 ~08:00 with all graphics, sha1 887644db89c5..., smoke ok
-  (`work/qa/smoke`).
+  Last good build: `build/blade_arts_en.bin` 2026-11-22 (5 SOL typo fixes) with all graphics, sha1 bba57b635092...,
+  smoke ok (`work/qa/smoke`).
 - **Phase 8 so far:**
   - Text coverage infra: `build.py` writes `build/strings.tsv` (3643 keys: SOL `5BBBNNNN` = old block id + message n,
     raw `(file no.<<24)|addr`, from the write log so relocated strings carry their EXE address) and
@@ -26,10 +26,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the intro script's wait counter. textcover over `work/qa` shows no SOL id missing.
   - Visual QA, SOL: 148 sheets (`work/qa/solview/sheets`, b<block>_sub = subtitle rows 1:1, 60 per sheet; _ws =
     whole screens) with a `.txt` sidecar of expected text per tile; manifest `work/qa/solview/manifest.tsv` (build
-    recorded), brief `docs/visual-qa-brief.md`, **0 verdicts yet**. codex is out of quota until 2026-11-26
-    (`tools/vqa.py` runs it per chunk when it is back); otherwise review the sheets yourself in fresh read-only
-    passes, ~50 sheets per session: `qa_gate.py todo work/qa/solview/manifest.tsv work/qa/solview/verdicts --size 30
-    --out-dir work/qa/solview/chunks`, write `work/qa/solview/verdicts/<chunk>.tsv`.
+    recorded), brief `docs/visual-qa-brief.md`. **All 148 have verdicts (2026-11-22, reviewed in-thread; codex out
+    of quota until 2026-11-26): 138 ok, 10 issue** (`work/qa/solview/verdicts/chunk_c3f4346d95b5_00[0-4].tsv`):
+    - 5 text bugs, fixed in `script/sol` and rebuilt: sol.54.21 "a Activation" -> "an", sol.138.82 "now.." ->
+      "now...", sol.147.101 / 159.101 "prankster.. / fast.." -> "...", sol.147.156 / 159.156 "AS dinner" -> "as".
+      Re-run of those 6 on the new build: `work/qa/solview_fix` (see below for its verdict).
+    - the rest = the 20 known host cuts (blank last pages in b132_sub_03, b138_sub_02/03, b147_sub_02,
+      b159_sub_01/02, b169_sub_01).
+    Standing ok calls worth knowing: t0 lines in blocks 125/147/159/166/169/173 sit right of centre because the
+    JP's leading full-width spaces are kept (the JP line is shifted the same way: `work/qa/solview_jp125`, though
+    solview on the original ROM decodes garbage glyphs, so only positions count); "<... Event> Under construction",
+    "0987654321□1234567890", "I found the stone like stick" are the JP's own leftovers; Yes/No question lines in
+    b100/b103 sit a little right of centre (check against the map's choice frame, Next item 4).
+    The build changed after the tour (sha1 bba57b63...), so `qa_gate check` also needs either a full solview
+    re-run (`tools/solview.py --jobs 6`, ~45 min, then `--report` + `qa_gate init ... --build`) or a `waive` once
+    the fixed sheets are verified. Polish notes from this pass: `docs/polish.md` §Visual QA.
   - The old warp coverage (`work/qa/cover/warp`, 61 scenes) still counts for raw strings: 235 of 305 raw strings
     are unshown (`work/qa/raw_unshown.txt`: item names/descriptions, sphere/Art texts, save-slot location names,
     memory-card errors): next coverage target (needs the inventory mapped, or a forced-display hook like solview's).
@@ -104,7 +115,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     patched file, EXE writes only in the free area / 4 hook sites, font writes in DATA1.PAC entries 118-119, built SOL
     = en column (all 3351 strings), sol_map = remap. `batches.py check`: 0 problems (100 warnings = raw strings over
     their in-place bytes, relocated by the build).
-- **Next (phase 8):** (1) visual-QA verdicts for the 148 SOL sheets (above); (2) the 20 cut voiced lines;
+- **Next (phase 8):** (1) done: verdicts for the 148 SOL sheets (above); (2) the 20 cut voiced lines (the only
+  open SOL issues; then re-run them, re-verdict those 8 sheets, and re-run/waive for the new build);
   (3) raw-string coverage (235 unshown) + stress saves (ITEM list mapping, herb-count check above); (4) choice
   boxes: `inkbox.py` on real in-map choice frames (solview shows choices without their frame); (5) a final tour of
   the menu/graphics scenes on the final build with verdicts. `build/` is now the full build (graphics included,

@@ -20,7 +20,7 @@ sol.54.17	0	t3濾過区の水門を開放しました。	{t3}The filtration area
 sol.54.18	0	t3＜濾過装置操作盤＞	{t3}＜Filtration System Control Panel＞	
 sol.54.19	0	t3濾過装置を稼動させますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Start up the filtration system?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.54.20	0	t3濾過装置を稼動させました。	{t3}The filtration system has been started up.	
-sol.54.21	0	t3こんなところに起動カードがささっている@@起動カードを取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}There's a Activation Card stuck in here.@@Take the Activation Card?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.54.21	0	t3こんなところに起動カードがささっている@@起動カードを取りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}There's an Activation Card stuck in here.@@Take the Activation Card?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.54.22	0	t3地下水を汲み上げるポンプみたいだ。\\ポンプ前面ににb3カードリーダーb0が付いている‥‥	{t3}Looks like a pump that draws up groundwater.\\There's a {b3}card reader{b0} on the front of it...	
 sol.54.23	0	t3ポンプのb3起動カードb0を手に入れた。	{t3}Got the pump's {b3}Activation Card{b0}.	
 sol.54.24	0	t3防護柵が通路を塞いでいる‥‥‥	{t3}A safety fence is blocking the passage...	

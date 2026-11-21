@@ -107,3 +107,8 @@ reviewer brief and fixed before phase 7 (harness review of phase 6).
 - [ ] sol.138.34 - いい加減目障り -> "But you have become far too much of an eyesore..."
 - [ ] sol.43.20 - "this little boy" (optional)
 - [ ] all - sweep the other replay blocks (125, 138, 147, 159) against their voiced originals in the polish pass
+
+## Visual QA of the SOL sheets (2026-11-22, `work/qa/solview/verdicts/`)
+- [ ] sol.46.x / 125.x - "gravity elevator" lower case after a "<Gravity Elevator Control Panel>" header; b042 capitalises it: pick one
+- [ ] sol.104.x / 106.x - 'Majesty' / 'Punisher' in single quotes; elsewhere "Majesty", "the Punisher" in double quotes
+- [ ] sol.42.x - "Activation Plate 1 is needed" vs item name "Control Panel Activation Plate 1" (fine as dialogue; check JP)

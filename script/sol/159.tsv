@@ -100,7 +100,7 @@ sol.159.97	4	t3b4　零：b0Ｃ４ねぇ・・・i015\\　で、ジッティは�
 sol.159.98	4	t3b6　ブリジット：b0今、ここにいるが。i015	{t3b6}　Bridget:{b0} I'm already here.{i015}	
 sol.159.99	4	t3b4　零：b0うわっ！！i015	{t3b4}　Rei:{b0} Whoa!!{i015}	
 sol.159.100	4	t3b6　ブリジット：b0何を驚いている？i015	{t3b6}　Bridget:{b0} What are you jumping for?{i015}	
-sol.159.101	4	t3b4　零：b0えらくお茶目・・　いや、早いじゃねえか・・i060で、Ｃ４は？i015	{t3b4}　Rei:{b0} Quite the prankster.. I mean,\\　you're fast..{i060} So, the C4?{i015}	
+sol.159.101	4	t3b4　零：b0えらくお茶目・・　いや、早いじゃねえか・・i060で、Ｃ４は？i015	{t3b4}　Rei:{b0} Quite the prankster... I mean,\\　you're fast...{i060} So, the C4?{i015}	
 sol.159.102	4	t3b6　ブリジット：b0ああ、ここにある。　気をつけて使えよ。@@　間違っても遺跡に余計な被害を与えないようにi015\\　・・・貴様と心中など御免だからな。i015	{t3b6}　Bridget:{b0} Yes, right here. Handle it with care.@@　Don't do any needless damage to the ruins.{i015}\\　...I've no wish to die alongside you, fool.{i015}	
 sol.159.103	4	t3b4　零：b0じゃ、早速使ってみるか。i015	{t3b4}　Rei:{b0} Well then, let's give it a shot.{i015}	
 sol.159.104	4	t3b6　ブリジット：b0そんな高い所に置こうとしても、\\　手が届かないんじゃないのか？i015	{t3b6}　Bridget:{b0} Trying to put it up that high?\\You won't be able to reach it, will you?{i015}	
@@ -155,7 +155,7 @@ sol.159.152	6	t3b4　零：b0ああ、何とかね・・・i015	{t3b4}　Rei:{b0
 sol.159.153	6	t3b6　ブリジット：b0上から影は見えたが・・・i060\\　あんな化物がここには居るのか？i015	{t3b6}　Bridget:{b0} I saw its shadow from above...{i060}\\There are monsters like that down here?{i015}	
 sol.159.154	6	t3b4　零：b0ここだけだと良いんだけどな・・・i060\\　あちこちに居られても困る。i015	{t3b4}　Rei:{b0} Let's hope it's just here...{i060}\\Don't need 'em all over the place.{i015}	
 sol.159.155	6	t3b6　ブリジット：b0ここだけに\\　居るとは限らないか・・・i060@@　外に警戒を強めるように\\　警告したほうが良いな。i015	{t3b6}　Bridget:{b0} There's no saying\\it's only here...{i060}@@We'd better warn the people outside\\to tighten their guard.{i015}	
-sol.159.156	6	t3b4　零：b0ああ、そうした方が良いだろうな・・i060\\　早く戻ろう、晩飯の時間だ。i015@@　晩飯に供されるのはゾッとしない・・・i015	{t3b4}　Rei:{b0} Yeah, that'd be smart...{i060}\\Let's head back, it's dinnertime.{i015}@@Getting served AS dinner is no fun at all...{i015}	
+sol.159.156	6	t3b4　零：b0ああ、そうした方が良いだろうな・・i060\\　早く戻ろう、晩飯の時間だ。i015@@　晩飯に供されるのはゾッとしない・・・i015	{t3b4}　Rei:{b0} Yeah, that'd be smart...{i060}\\Let's head back, it's dinnertime.{i015}@@Getting served as dinner is no fun at all...{i015}	
 sol.159.157	6	t3b6　ブリジット：b0ああ、そうしよう。\\　・・・ところで、その物騒な代物は何だ？i015	{t3b6}　Bridget:{b0} Yes, let's.\\...By the way, what is that dangerous thing?{i015}	
 sol.159.158	6	t3b4　零：b0そんな風に言う事はないだろ？i015@@　これが、今のところ唯一の戦利品だ・・・i060\\　それに・・・i015	{t3b4}　Rei:{b0} No need to put it like that, is there?{i015}@@This is my only loot so far...{i060}\\Besides...{i015}	
 sol.159.159	6	t3b6　ブリジット：b0それに？i015	{t3b6}　Bridget:{b0} Besides?{i015}	
