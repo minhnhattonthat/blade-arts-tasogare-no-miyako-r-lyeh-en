@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-22). Last build:
-  `build/blade_arts_en.bin` 2026-11-22, sha1 c266b85e (= original, no edits), smoke ok.
+- **Phase:** 6. Translate next (phase 5 engine + marker build done 2026-11-22). Last build: marker build
+  `build/marker/blade_arts_en.bin` 2026-11-22 (`build.py --marker --out build/marker`), smoke ok.
 - **Done:**
   - Step 0: template, guard hook proven (sed -i blocked), pre-commit runs `tools/check.py` and rejects a failing test,
     `rom.sha1` (Redump .bin/.cue), PCSX-Redux + SCPH-5500 BIOS fetched, mkpsxiso/armips in `tools/`, smoke route
@@ -29,11 +29,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     in the EXE and DATA/ files is in an extracted string or a hand-checked noise run (`tests/test_extract.py`).
     Overlay load address 0x80149800 (STATUS/LOADSAVE/BOSS*P). Format: `docs/re/text.md` §Script files.
     `warp_all.py --probe/--var` pass extra Lua probes (RAM dumps).
-- **Next (phase 5, engine spike + marker build):** font decision (ASCII letters collide with control codes `b t e i g
-  [ @ \`: needs an escape or new glyph range, and a VWF or half-width font: `docs/re/text.md`); find the SOL decoder
-  and renderer (watch the flag word 7->5); then `build.py patches()` inserts `[id]` markers (SOL via `sol.pack`, raw
-  strings in place within `room`) and the width gate per box type. Boss lines (6) have no pointer found: keep in place.
+  - Phase 5: VWF in `asm/vwf.asm` (armips, hooks parser 0x800167F8 + centring measure 0x8001602C; code in the dead
+    debug-menu records 0x800B8128); English letters = bytes >= 0xA0 in 2-byte units (`tools/en.py`, syntax in its
+    docstring); 82 glyphs from `fonts/en11.txt` in free font slots 1297+ (`tools/font.py`); unicorn tests
+    `tests/test_engine.py`. `build.py` now always applies EXE + font + SOL/raw en columns; `--marker` = marker script
+    (`tools/marker.py`, ids + filler at the JP pixel width), `--qa-file` = per-line overrides. SOL strings reflow
+    across their block's sectors (`sol.reflow`). Marker tour `work/qa/marker_tour` (warp_all --debugger --probe
+    `tools/lua/textwin.lua`): every window shows its id/tag. Glyph torture line ok (`work/qa/z_torture*.png`).
+    Width gate: `tbl/windows.tsv` (subtitle 288 px x 2, WS windows cc*12 x ll, choice 140, status 252 x 3, boss 286,
+    load/save row 229). RE: `docs/re/text.md` §Renderer, §English.
+- **Next (phase 6, translate):** batch the SOL + raw TSVs per `references/translation.md`; brief translators with
+  `tbl/windows.tsv` limits and the en syntax (`tools/en.py`): codes in braces, `\\` line / `@@` page, keep each voiced
+  string's @@ page count (voice timing cuts extra pages), choices need g-code spacing. Raw strings: byte room limits
+  (in place now; relocation is phase 7). Glossary first (names: Rei/零, Lanfa/ランファ, Bridget/ブリジット...).
 - **Open for later phases (not blocking):**
+  - SOL space is per block (7 sectors max for block 159; growing a block shifts later block ids): phase 7 lint must
+    check per-block bytes; marker filler at JP width only overflowed block 159 (90%).
+  - Lowercase letter bytes overlap level-2 kanji lead bytes (E0-EA): no line may mix English with those kanji.
+  - Item names in the status menu draw in the 252 px description box via `%s%s：%s個` (needs a stocked inventory:
+    phase 8 stress save).
+  - Text coverage hook for phase 8: message lookup 0x80078728(n) + current block 0x800D7BDA (docs/re/text.md).
   - Inventory (ITEM list), item box contents, nerves and story flags are not mapped: phase 8 stress saves need them
     (`tools/debug/save_layout.md` lists the leads: 0x800BABD0 table, add-item code 0x8003874C).
   - 19 map packs never finish loading from a direct warp (list in `docs/re/debug.md`); reach them via the previous map

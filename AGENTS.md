@@ -5,7 +5,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 ## Commands (run from repo root)
 - Setup once per clone: `git config core.hooksPath tools/hooks`
 - Unpack:   `tools/mkpsxiso/dumpsxiso.exe -x work/disc/tree -s work/disc/layout.xml "rom/<cue>"` (run from repo root; tree is gitignored)
-- Build:    `python -X utf8 build.py` -> build/blade_arts_en.bin/.cue (not written yet; checks the dump against `rom.sha1` first)
+- Build:    `python -X utf8 build.py [--marker] [--qa-file F] [--out DIR]` -> build/blade_arts_en.bin/.cue (checks `rom.sha1` first; VWF asm + font + en columns; en syntax: `tools/en.py`; box limits: `tbl/windows.tsv`)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
 - Extract:  `python -X utf8 tools/extract.py` -> script/sol/*.tsv + script/raw/*.tsv (never overwrites; `--force` only before any English)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/blade_arts_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke` (original: `rom/*.cue`)

@@ -30,6 +30,26 @@ def fill(px, tag=""):
     return " ".join(words)
 
 
+def exact(px):
+    """A width-gate line exactly `px` wide: '[' + letters + ']' so both edges show in a zoomed shot."""
+    body, k = "", 0
+    letters = "MWmwHNabdegnopq0123456789"
+    while px - en.width("[" + body + "]") > 16:
+        body += letters[k % len(letters)]
+        k += 1
+    by_w = {}
+    for c in en.CHARSET:
+        by_w.setdefault(en.WIDTH[c], c)
+    combos = {0: ""}  # exact top-up for the last few px from letters of each width
+    for _ in range(4):
+        for w0, s0 in list(combos.items()):
+            for w, c in by_w.items():
+                combos.setdefault(w0 + w, s0 + c)
+    s = "[" + body + combos[px - en.width("[" + body + "]")] + "]"
+    assert en.width(s) == px, (px, en.width(s))
+    return s
+
+
 def runs(jp):
     """[(kind, text)]: 'byte' = a {n}/{0B} escape of a raw string, 'code' = an ASCII control-code run, 'text'."""
     out = []
