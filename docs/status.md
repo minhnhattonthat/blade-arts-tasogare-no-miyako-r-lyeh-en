@@ -19,11 +19,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     lookup from one savestate and turns its pages through the game's own confirm path (RE: `docs/re/text.md` §Page
     state). Run `work/qa/solview` (6 jobs, ~45 min, build 887644db), re-run of 35 host-cut ids with `--var
     SVFAST=true` in `jf00-03`. `solview.py --report --out work/qa/solview` -> `work/qa/solview_report.txt`: 3331
-    messages show exactly the pages the lint expects; **20 long voiced lines are cut** by the intro's own timer
-    before their last page (sol.132.98, 138.75/84/86/94/97/101/109/115/119/121, 147.54/56/58/61, 159.54/56/58/61,
-    169.0): their last pages are unseen (tried: lookup returning 0 hangs the host; handing the host the rest of the
-    message draws nothing). Next idea: a host whose script waits for the message end (a map event state), or find
-    the intro script's wait counter. textcover over `work/qa` shows no SOL id missing.
+    messages show exactly the pages the lint expects; 20 long voiced lines are cut by the intro's own timer before
+    their last page. **Done 2026-11-22:** `tools/solview_tails.py` writes QA overrides holding only each cut
+    message's unseen pages (`build.py --qa-file work/qa/tails.tsv --out build/qa_tails`, then solview with that
+    `--cue` and `--sol build/qa_tails/files/DATA/SOL.SRP`): all 20 shown in full and read correct
+    (`work/qa/solview_tails/sheets`). textcover over `work/qa` shows no SOL id missing.
   - Visual QA, SOL: 148 sheets (`work/qa/solview/sheets`, b<block>_sub = subtitle rows 1:1, 60 per sheet; _ws =
     whole screens) with a `.txt` sidecar of expected text per tile; manifest `work/qa/solview/manifest.tsv` (build
     recorded), brief `docs/visual-qa-brief.md`. **All 148 have verdicts (2026-11-22, reviewed in-thread; codex out
@@ -33,8 +33,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
       Re-run of those 6 on the new build: `work/qa/solview_fix/sheet.png`, all correct; verdicts
       `verdicts/zz_fix_20261122.tsv` (b054_sub_01, b147_sub_04, b159_sub_04 = fixed). `qa_gate check` now: 7 not ok
       (host cuts only) + STALE build.
-    - the rest = the 20 known host cuts (blank last pages in b132_sub_03, b138_sub_02/03, b147_sub_02,
-      b159_sub_01/02, b169_sub_01).
+    - the rest = the 20 known host cuts: now `fixed` (verdicts `zz_tails_20261122.tsv`, tails above). `qa_gate
+      check work/qa/solview/manifest.tsv work/qa/solview/verdicts`: 148/148 ok, only STALE build left.
     Standing ok calls worth knowing: t0 lines in blocks 125/147/159/166/169/173 sit right of centre because the
     JP's leading full-width spaces are kept (the JP line is shifted the same way: `work/qa/solview_jp125`, though
     solview on the original ROM decodes garbage glyphs, so only positions count); "<... Event> Under construction",
@@ -43,21 +43,35 @@ Updated at the end of every session. Keep it to what the next session needs; his
     The build changed after the tour (sha1 bba57b63...), so `qa_gate check` also needs either a full solview
     re-run (`tools/solview.py --jobs 6`, ~45 min, then `--report` + `qa_gate init ... --build`) or a `waive` once
     the fixed sheets are verified. Polish notes from this pass: `docs/polish.md` §Visual QA.
-  - The old warp coverage (`work/qa/cover/warp`, 61 scenes) still counts for raw strings: 235 of 305 raw strings
-    are unshown (`work/qa/raw_unshown.txt`: item names/descriptions, sphere/Art texts, save-slot location names,
-    memory-card errors): next coverage target (needs the inventory mapped, or a forced-display hook like solview's).
+  - Raw strings (2026-11-22): the 235 unshown by the warp coverage (`work/qa/raw_unshown.txt`) are shown by
+    `tools/rawview.py` (+ `tools/lua/rawview.lua`): loads a host warp state and points a real text window at each
+    string (`--host SCENE --host-at TEXTADDR --host-frame F [--host-press ROUTE]`, card from the scene's sav column via
+    `warp_all.card_in`). Groups and hosts (ids in `work/qa/rv_*.txt`): item descriptions -> ITEM BOX description
+    window (`probe_ids_box`, at 800B9188, frame 3220, press "10 -;6 triangle"); item names -> its name line (at
+    80160118); menu/Sphere help -> status help box (`probe_ids_box`, frame 3000); LOADSAVE messages + location names
+    -> LOAD message box line 1 (`load`). Shots in `work/qa/rawview/<group>/<host>/jNN`, sheets in
+    `work/qa/rawview/sheets` (LOADSAVE 68 + 23: all read correct).
+  - **Bug found and fixed: glyph cap.** Item descriptions were cut mid-word in the ITEM BOX (window glyph-record cap
+    45, the VWF spends one record per letter): `build.py status_windows` moves the description and name-line record
+    buffers to the top of the EXE free area with caps 90 / 30 (docs/re/text.md §Glyph cap, test
+    `test_status_window_buffers_clear_of_exe_writes`). Verified: `work/qa/stress_box2.png` (Jade Tablet Fragment 4
+    full). All other raw strings are under their caps; SOL pages max 115 letters (cap 200). `tools/lua/wincap.lua`
+    logs every window's cap.
+  - Inventory: save 0x144.. = ITEM BOX id list (`tools/debug/save_layout.md`); stress scenes `stress_box_long`,
+    `stress_box_long_r` (24 slots, longest names first; ITEM list shows the game's own Latin dev labels, as in JP).
+    The 0x1C8 table is NOT the herb count (JP and EN both show 3 with 0x1C8=99; the old ":程" note was wrong).
+  - Choice lines (sol.1.0, 98.3, 100.3, 103.2, 72.5, 72.40 vs JP, `work/qa/choice_cmp`, inkbox): choices are inline
+    rows in the text window, no frame. The JP option row is itself ~14 px left of centre (cursor slot before each
+    option); EN sol.1.0/98.3 match it. 40 lines (b100/103/125/130/132/138/147/159/166/169/173) keep the JP's 4 leading
+    spaces before `{[DD1}` on their own row and sit ~10 px right: read fine, accepted (verdicts ok).
   - Graphics text: pipeline built (`tools/gfx.py`, `tools/gfx_draw.py`, `gfx/gfx.tsv`, `tests/test_gfx.py`, OFL fonts
     in `fonts/ofl/`). Done in game: G1 title, G8 thanks, G6 Prestage (prologue title card), G7 all 14 stage cards,
     G5 flashback subtitles, G3 ending staff roll (all names, 3 CLUTs; `work/qa/gfx_g3b`; names in glossary §Credits,
     D14). G2 drawn, never seen in game (item popups are runtime text: looks unused). Per-row state and evidence:
     `docs/re/graphics.md` §Redraw status. `tools/clutfit.py` recovers a runtime-built CLUT from a JP screenshot.
     Last gfx build `build/gfx/blade_arts_en.bin` 2026-11-22 ~09:00 (commit 9c5e5f3 content) sha1 887644db89c5....
-  - Stress saves (started): `tools/items.py` lists the EXE item table (ids, dev labels, JP names). Save offsets
-    0x268 = weapon slots, 0x1C8 entry 0 = herb count (`tools/debug/save_layout.md`). Scenes `probe_inv`,
-    `probe_inv_box` (load an edited save -> ITEM / ITEM BOX). Herb count 99 draws as ":程" on the EN build: run the
-    same scene on the original (`--cue` default) to see whether the JP game breaks too (count may be 1 digit, max 9?).
-    The ITEM list (key items) is still unmapped: next lead is a RAM diff around picking up a key item, or the STATUS
-    overlay code that draws "NO ITEM".
+  - Stress saves: `tools/items.py` lists the EXE item table (ids, dev labels, JP names). Save 0x268 = weapon slots,
+    0x144 = ITEM BOX ids (above). Item counts are not mapped yet (max count / 2-digit counts unchecked).
   - G2 (STICON.BIN labels): TIM at VRAM (832,0), 4bpp 420x224; ink index 0, background 15 (the earlier note had them
     swapped). Row 1 キャンセル x 72-141, row 2 はい 3-32, いいえ 35-75, 選択 79-109, 決定 114-141, 使う 146-172, 破棄
     178-205. Sprite rects are not in a data table, so each English label (Cancel, Yes, No, Select, OK, Use, Drop) is
@@ -117,11 +131,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     patched file, EXE writes only in the free area / 4 hook sites, font writes in DATA1.PAC entries 118-119, built SOL
     = en column (all 3351 strings), sol_map = remap. `batches.py check`: 0 problems (100 warnings = raw strings over
     their in-place bytes, relocated by the build).
-- **Next (phase 8):** (1) done: verdicts for the 148 SOL sheets (above); (2) the 20 cut voiced lines (the only
-  open SOL issues; then re-run them, re-verdict those 8 sheets, and re-run/waive for the new build);
-  (3) raw-string coverage (235 unshown) + stress saves (ITEM list mapping, herb-count check above); (4) choice
-  boxes: `inkbox.py` on real in-map choice frames (solview shows choices without their frame); (5) a final tour of
-  the menu/graphics scenes on the final build with verdicts. `build/` is now the full build (graphics included,
+- **Next (phase 8):** done: SOL verdicts, 20 cut voiced lines, raw-string display (rawview) + glyph-cap fix, choice
+  rows. Left: (a) verdicts for the rawview sheets on the current build (`work/qa/rawview/manifest.tsv`, see below)
+  and textcover over `work/qa` with the rawview logs (expect 0 raw unshown); (b) a lint for the glyph caps in
+  `tools/batches.py check` (desc <= 90 visible letters, names + ": nn" <= 30, SOL page <= 200) so new text can't be
+  cut again; (c) item counts (find the count field; 2-digit counts in the name line); (d) G2 STICON labels: prove
+  unused or find their screen; (e) a final tour of the menu/graphics scenes on the final build with verdicts, then
+  re-run or `qa_gate waive` the solview manifest for the final build (its sheets pass; only STALE). `build/` is now the full build (graphics included,
   sha1 887644db..., smoke ok 2026-11-22 08:0x). Card title: English location + ／TIME (D12), check the LOAD
   list and the title length in game. Moved SOL blocks 117, 132 (ending), 159, 173, 176 not yet seen in game after
   the remap (review minor 2): make them coverage targets.

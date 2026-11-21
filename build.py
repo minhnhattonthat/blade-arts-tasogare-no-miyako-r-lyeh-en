@@ -146,6 +146,29 @@ TITLE_FIXED = 16 + 6 + 10
 LOCATION_TABLE_END = 0x22C  # LOADSAVE strings before the title prefix are the location names
 
 
+# STATUS ITEM BOX windows (docs/re/text.md §Glyph cap): a window stops at its glyph-record cap and the VWF spends one
+# record per letter, so English descriptions overran the description window's 45 records (and long names + count the
+# name line's 20). Their record buffers (20 bytes a record) move to the top of the EXE free area with larger caps.
+# address of `lui a1 / addiu a1 / addiu a2,zero,cap` before the window setup call -> (original buffer, cap, new cap)
+STATUS_WINDOWS = {0x801519E0: (0x8015FB50, 20, 30), 0x80151A10: (0x8015FCE0, 45, 90)}
+STATUS_BASE = 0x80149800
+
+
+def status_windows(files, writes, hi):
+    """Give the STATUS_WINDOWS their new buffers and caps, carved down from `hi`; returns the new top of free space."""
+    buf = files.setdefault("DATA/STATUS.BIN", bytearray(original("DATA/STATUS.BIN")))
+    lo16 = lambda a: a & 0xFFFF  # noqa: E731
+    hi16 = lambda a: (a + 0x8000) >> 16 & 0xFFFF  # noqa: E731
+    for at, (old, cap, new_cap) in STATUS_WINDOWS.items():
+        was = struct.pack("<3I", 0x3C050000 | hi16(old), 0x24A50000 | lo16(old), 0x24060000 | cap)
+        assert original("DATA/STATUS.BIN")[at - STATUS_BASE:at - STATUS_BASE + 12] == was, hex(at)
+        hi = (hi - new_cap * 20) & ~3
+        writes.put(buf, "DATA/STATUS.BIN", at - STATUS_BASE,
+                   struct.pack("<3I", 0x3C050000 | hi16(hi), 0x24A50000 | lo16(hi), 0x24060000 | new_cap),
+                   f"window buffer 0x{hi:08X} cap {new_cap}")
+    return hi
+
+
 def raw_texts(files, writes, free, qa=None, marker=None):
     """Write the en column of script/raw/*.tsv into `files` ({disc path: bytearray}): in place when the new bytes plus
     NUL fit up to the next 4-byte boundary (strings are 4-aligned, so that is padding), else into the EXE free area
@@ -213,7 +236,8 @@ def patches(qa=None, marker=False, writes=None):
     code, vwf_end = exe([moved.get(i, i) for i in range(max(b for b, _ in sol.header(sol_orig)) + 1)] if moved else [])
     writes.runs("SLPM_866.02", code, "vwf.asm")
     files["SLPM_866.02"] = bytearray(code)
-    raw_texts(files, writes, Free(vwf_end, FREE_END), qa, markers.raw_marker if marker else None)
+    top = status_windows(files, writes, FREE_END)
+    raw_texts(files, writes, Free(vwf_end, top), qa, markers.raw_marker if marker else None)
     files["DATA/DATA1.PAC"] = font.patch((TREE / "DATA" / "DATA1.PAC").read_bytes())
     writes.runs("DATA/DATA1.PAC", files["DATA/DATA1.PAC"], "font")
     gfx.patch(files, writes, original)

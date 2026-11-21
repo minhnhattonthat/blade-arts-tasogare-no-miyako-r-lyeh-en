@@ -30,6 +30,23 @@ def scenes():
     return [dict(zip(head, r)) for r in rows[1:]]
 
 
+def card_in(sc, out):
+    """out/card_in.mcd for the scene. Every run gets its own card, never PCSX's shared portable one: "blank"
+    (default), a card path, or "<save scene>+field=v,0xOFF=v" = work/saves/<save scene>.mcd edited by save.py."""
+    os.makedirs(out, exist_ok=True)
+    sav, _, edits = (sc['sav'] or 'blank').partition('+')
+    if sav == 'blank':
+        data = save.blank()
+    else:
+        src = os.path.join(REPO, 'work/saves', sav + '.mcd') if '/' not in sav else os.path.join(REPO, sav)
+        data = open(src, 'rb').read()
+        if edits:
+            data = save.edit(data, edits.split(','))
+    sav = os.path.join(out, 'card_in.mcd')
+    open(sav, 'wb').write(data)
+    return sav
+
+
 def run(sc, a):
     out = os.path.join(a.out, sc['name'])
     cmd = [sys.executable, '-X', 'utf8', os.path.join(SKILL, 'scripts', 'emu.py'), a.cue, '--out', out,
@@ -46,20 +63,7 @@ def run(sc, a):
         cmd += ['--debugger']
     if a.states:
         cmd += ['--state-out', os.path.join(REPO, 'work/states', sc['name'] + '.sstate')]
-    # every run gets its own card, never PCSX's shared portable one: "blank" (default), a card path, or
-    # "<save scene>+field=v,0xOFF=v" = work/saves/<save scene>.mcd edited by save.py
-    os.makedirs(out, exist_ok=True)
-    sav, _, edits = (sc['sav'] or 'blank').partition('+')
-    if sav == 'blank':
-        data = save.blank()
-    else:
-        src = os.path.join(REPO, 'work/saves', sav + '.mcd') if '/' not in sav else os.path.join(REPO, sav)
-        data = open(src, 'rb').read()
-        if edits:
-            data = save.edit(data, edits.split(','))
-    sav = os.path.join(out, 'card_in.mcd')
-    open(sav, 'wb').write(data)
-    cmd += ['--sav', sav]
+    cmd += ['--sav', card_in(sc, out)]
     p = subprocess.run(cmd, cwd=REPO, capture_output=True, text=True, encoding='utf-8', errors='replace')
     card = os.path.join(out, 'memcard1.mcd')
     if p.returncode == 0 and sc['name'].startswith('save_') and os.path.exists(card):

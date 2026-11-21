@@ -41,6 +41,17 @@ def test_exe_writes_in_free_area_or_hooks(built):
             assert hook or 0x800B8128 <= addr and addr + len(b) <= build.FREE_END, (hex(addr), by)
 
 
+def test_status_window_buffers_clear_of_exe_writes(built):
+    """The moved ITEM BOX record buffers (build.STATUS_WINDOWS) sit in the free area above every EXE write."""
+    _, log = built
+    bufs = [(int(by.split()[2], 16), int(by.split()[4]) * 20) for *_, by in log["DATA/STATUS.BIN"] if by.startswith("window")]
+    assert len(bufs) == len(build.STATUS_WINDOWS)
+    top = max(off - build.EXE_HDR + build.EXE_BASE + len(b) for off, _, b, by in log["SLPM_866.02"] if by.startswith("reloc"))
+    for lo, n in bufs:
+        assert top <= lo and lo + n <= build.FREE_END and lo % 4 == 0, hex(lo)
+    assert sorted(bufs)[0][0] + sorted(bufs)[0][1] <= sorted(bufs)[1][0]
+
+
 def test_font_writes_in_font_entries(built):
     _, log = built
     pac = build.original("DATA/DATA1.PAC")

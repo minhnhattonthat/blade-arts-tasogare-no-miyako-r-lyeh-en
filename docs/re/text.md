@@ -123,6 +123,14 @@ Solved in phase 5 with letter bytes >= 0xA0 (§English below).
 - **Centring** 0x80015F3C measures each line (own jump table 0x80010098) and sets x = +0xA0 + (+0xA4 - width) / 2.
 - **Glyph** 0x8008DC1C(sjis): binary search in the 1297-code table -> index i -> u = (i % 92 >> 2) * 11,
   v = i // 92 * 11, CLUT = base (0x800E66B4) + (i & 3); 11x11 cells.
+- **Glyph cap** (phase 8): window setup 0x800176B0(win, record buffer, cap) stores the buffer at +0xCC and the cap at
+  +0x30 (s16); the parser (0x800168B8, and `asm/vwf.asm`) ends the window (+0x83 = 0x20) once +0x2E records reach the
+  cap, so text past it is silently cut. The VWF spends one record per visible letter (spaces are free). Caps seen
+  (`tools/lua/wincap.lua`): load/save rows and the status help box 100, SOL windows 200; STATUS ITEM BOX name line 20
+  (buffer 0x8015FB50, set at 0x801519E0) and description 45 (0x8015FCE0, set at 0x80151A10): English descriptions
+  overran 45 (cut mid-word, `work/qa/stress_box.png`), so `build.py status_windows` moves those two buffers to the top
+  of the EXE free area with caps 30 / 90. Only the debug item STATUS:00748 (unused; its JP is 7 lines and overflows
+  the JP cap too) still passes 90.
 
 ## English (phase 5, `asm/vwf.asm`, `tools/en.py`)
 
