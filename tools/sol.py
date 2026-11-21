@@ -103,15 +103,45 @@ def pack_block(bid, sectors, hdr_size):
     return out
 
 
+def string_size(text):
+    return 4 + len(text) + 4 + (-(len(text) + 4) % 4)  # flags, text, 0A 0A 00 00, pad (as pack_sector)
+
+
+def reflow(items, nsec, hdr_size):
+    """Spread the block's strings (in order) over its nsec sectors greedily; the game finds a string's sector through
+    the last-index table, so only the order matters. Raises ValueError when the block can't hold them."""
+    secs, cur, used = [], [], 0
+    for it in items:
+        head = hdr_size if not secs else 8
+        need = string_size(it[1]) + 2
+        if cur and head + 2 * len(cur) + 3 + used + need > SECTOR:
+            secs.append(cur)
+            cur, used = [], 0
+        cur.append(it)
+        used += string_size(it[1])
+    secs.append(cur)
+    if len(secs) > nsec:
+        raise ValueError(f"block needs {len(secs)} sectors, has {nsec}")
+    return secs + [[] for _ in range(nsec - len(secs))]
+
+
 def pack(orig, texts):
     """Rebuild SOL.SRP: orig = original file bytes, texts = {(block_id, global_index): text_bytes} (missing = original).
-    Same sectors per block and same string order, so block ids and string indexes stay valid."""
+    Same sectors per block and same string order, so block ids and string indexes stay valid; a block whose strings
+    no longer fit their original sectors is reflowed over its sectors."""
     out = bytearray(orig[:SECTOR])
     for bid, pos, blk in blocks(orig):
         secs = [[] for _ in sector_counts(blk)]
         for gi, s, o, flags, x in strings(blk):
             secs[s].append((flags, texts.get((bid, gi), x), x))
-        out += pack_block(bid, secs, struct.unpack_from("<I", blk, 0)[0])
+        hdr = struct.unpack_from("<I", blk, 0)[0]
+        try:
+            out += pack_block(bid, secs, hdr)
+        except ValueError:
+            try:
+                out += pack_block(bid, reflow([it for s in secs for it in s], len(secs), hdr), hdr)
+            except ValueError as e:
+                raise ValueError(f"SOL block {bid}: {e}") from None
     return bytes(out + orig[len(out):])
 
 

@@ -34,8 +34,9 @@ scan hits are pixel noise (ヨヨヨヨ runs).
   after the sector header, padded to 4; each string = u32 flags + XORed text + `0A 0A 00 00` + NUL pad to 4; rest of
   the sector zero. The one odd string (132/110) keeps its raw tail `86 86 8C 00 00` only while its text is unchanged.
 - **Space:** each string page is one 0x800 sector; total free 108,970 bytes over 177 sectors, min 2 bytes free in the
-  tightest sector. Growing a block would renumber later block ids (= sector numbers): check how the loader seeks before
-  relying on extra sectors (phase 5).
+  tightest sector. The budget is per block (strings reflow across its sectors, `sol.reflow`); growing a block would
+  renumber later block ids (= sector offsets the loader seeks to). Marker build at JP pixel width: only block 159
+  overflowed (filler cut to 90%).
 
 ## Raw Shift-JIS strings (phase 4, `tools/rawtext.py`)
 
@@ -77,7 +78,7 @@ without `--force`.
 | `aN`, `cf..`, `crrr` | few | ? |
 
 **English can't use bare ASCII letters**: the parser treats `b`, `t`, `e`, `i`, `g`, `[`, `@`, `\` + digits as codes.
-Phase 5 must add an escape or a separate English glyph range (and a VWF: the font is fixed-width 12-ish px full-width).
+Solved in phase 5 with letter bytes >= 0xA0 (§English below).
 
 ## Font (verified for the source; geometry to measure in phase 5)
 
@@ -86,5 +87,34 @@ Phase 5 must add an escape or a separate English glyph range (and a VWF: the fon
 - Entry 119 @0x321800 (0x5320 bytes): 4bpp TIM holding the glyphs as **four 1bpp planes** (one per nibble bit, chosen by
   CLUT), cached at VRAM x 960-1023, y ~256-416. Matched by searching the VRAM dump (`work/qa/vram1/sub.vram.bin`) rows.
 - Text is drawn into a VRAM buffer (render-to-texture), not from BIOS Krom2RawAdd (no B0:51 stub in the EXE).
-- The XOR decode routine is not in the EXE or DATA overlays as `xori 0x8C` (todo: watch the flag word 7->5 at
-  0x801DBE1C with `watch.lua` to find it; also find who reads SOL.SRP and by which id).
+- Cells past the last JP glyph (indexes 1297-1379, row 14 of the TIM) hold one filler pattern; the English glyphs go
+  there (`tools/font.py`, checked against the filler).
+
+## Renderer (phase 5, verified by watch probes + unicorn tests `tests/test_engine.py`)
+
+- **SOL load:** `\DATA\SOL.SRP;1` (string 0x8001144C) is read by 0x8003793C -> 0x80077958 (name, dest, sectors, block
+  id = sector offset in the file; current block id in 0x800D7BDA, setter 0x80037930). Message lookup 0x80078728(n):
+  n = global index in the loaded block ("srf %d"), sector found through the last-index table; so strings may move
+  between a block's sectors (`sol.reflow`). Growing a block past its sectors would shift every later block id: not done.
+- **Decode:** 0x800788DC XORs the text with 0x8C8C **by halfwords** until a halfword 0x0A0A, so text length must be
+  even (the terminator must be halfword-aligned). Flags word bit 1 = still encoded (7 -> 5).
+- **Open:** 0x80078918 (from 0x80077E18) -> 0x80015360(window, text): copies the window setup; geometry at entry:
+  +0x40 s16 columns, +0x42 lines, +0x0F pitch px (12), +0x11 line height, +0x3C x0, +0x2A bit 0 = centre lines.
+  `tools/lua/textwin.lua` logs these per window.
+- **Parser** 0x80016098: text is a stream of 2-byte units. First byte < 0x78 -> jump table 0x80010278 (codes `\0 \n @
+  [ \ a b c d e g i n s t v w`); else a character: glyph record (20 bytes at +0xCC buffer, max +0x30 = 200 per page),
+  x += pitch, column += 1, auto-wrap at +0x48 columns. `\\` on the last line (+0x4A) and `@@` both wait for a button
+  and start a new page. `tN` = text speed (table 0x800B2470), `gN` = move x by N px, `bN` colour.
+- **Centring** 0x80015F3C measures each line (own jump table 0x80010098) and sets x = +0xA0 + (+0xA4 - width) / 2.
+- **Glyph** 0x8008DC1C(sjis): binary search in the 1297-code table -> index i -> u = (i % 92 >> 2) * 11,
+  v = i // 92 * 11, CLUT = base (0x800E66B4) + (i & 3); 11x11 cells.
+
+## English (phase 5, `asm/vwf.asm`, `tools/en.py`)
+
+- In RAM a unit whose first byte is >= 0xA0 is two English letters (ASCII | 0x80; 0x80 = none). Hooks: parser
+  0x800167F8 -> `en_char` (one record per letter, x += its width, no column count and no auto-wrap: the build wraps),
+  measure 0x8001602C -> `en_meas`. Japanese units take the original code. Code + tables live in the dead debug-menu
+  records 0x800B8128-0x800BA1FC (only mode 11 read them; its handler entry now points at mode 6's).
+- Font: `fonts/en11.txt` (82 glyphs: printable ASCII minus `# $ < > @ \ ^ _ \` { | }`), 4-6 px advances, in glyph
+  slots 1297+. Lowercase bytes 0xE0-0xFE overlap level-2 kanji lead bytes, so a line can't mix English and such kanji.
+- `en` column syntax: `en.py` docstring. Marker build: `python -X utf8 build.py --marker --out build/marker`.

@@ -5,4 +5,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-sys.exit(subprocess.call([sys.executable, "-X", "utf8", "-m", "pytest", "-q", str(ROOT / "tests")], cwd=ROOT))
+# no:faulthandler: unicorn's mem_map raises a handled access violation on Windows that faulthandler prints as a crash
+sys.exit(subprocess.call([sys.executable, "-X", "utf8", "-m", "pytest", "-q", "-p", "no:faulthandler",
+                          str(ROOT / "tests")], cwd=ROOT))

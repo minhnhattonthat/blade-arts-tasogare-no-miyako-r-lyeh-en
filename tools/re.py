@@ -3,6 +3,7 @@
   python -X utf8 tools/re.py dis  ADDR [N]            disassemble N instrs from ADDR
   python -X utf8 tools/re.py xref ADDR [ADDR..]       code that builds ADDR with lui + lo16 (any reg, within 64 instrs)
   python -X utf8 tools/re.py jal  ADDR                callers (jal ADDR)
+  python -X utf8 tools/re.py refs LO HI               every lui-built address in [LO, HI) (free-space check)
   --file F --base B   another image (overlay or RAM dump: --file ram.bin --base 0x80000000); default the EXE
 """
 import argparse, struct
@@ -23,7 +24,7 @@ def words(b):
     return struct.unpack_from('<%dI' % (len(b) // 4), b)
 
 
-def xrefs(b, base, targets):
+def xrefs(b, base, targets, span=False):
     w = words(b)
     out = []
     for i, x in enumerate(w):
@@ -43,6 +44,10 @@ def xrefs(b, base, targets):
             elif op in (0x09, 0x20, 0x21, 0x23, 0x24, 0x25, 0x28, 0x29, 0x2B):  # addiu, loads, stores
                 a = ((hi << 16) + (lo - 0x10000 if lo & 0x8000 else lo)) & 0xFFFFFFFF
             else:
+                continue
+            if span:
+                if targets[0] <= a < targets[1]:
+                    out.append((base + 4 * i, base + 4 * j, a))
                 continue
             for t in targets:
                 if a == t or (op != 0x09 and op != 0x0D and 0 <= t - a < 4):
@@ -67,6 +72,9 @@ def main():
             print('%08X  %-8s %s' % (ins.address, ins.mnemonic, ins.op_str))
     elif a.cmd == 'xref':
         for lui, use, t in xrefs(b, base, args):
+            print('%08X lui .. %08X use -> %08X' % (lui, use, t))
+    elif a.cmd == 'refs':
+        for lui, use, t in sorted(xrefs(b, base, args[:2], span=True), key=lambda r: r[2]):
             print('%08X lui .. %08X use -> %08X' % (lui, use, t))
     elif a.cmd == 'jal':
         t = (args[0] >> 2) & 0x3FFFFFF

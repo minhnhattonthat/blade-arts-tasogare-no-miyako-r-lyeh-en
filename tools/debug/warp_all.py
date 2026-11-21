@@ -42,6 +42,8 @@ def run(sc, a):
         cmd += ['--script', p]
     for v in a.var:
         cmd += ['--var', v]
+    if a.debugger:
+        cmd += ['--debugger']
     if a.states:
         cmd += ['--state-out', os.path.join(REPO, 'work/states', sc['name'] + '.sstate')]
     # every run gets its own card, never PCSX's shared portable one: "blank" (default), a card path, or
@@ -104,6 +106,7 @@ def main():
     ap.add_argument('--out', default='work/qa/warp')
     ap.add_argument('--probe', action='append', default=[], help='extra emu.py --script (e.g. a RAM-dump probe)')
     ap.add_argument('--var', action='append', default=[], help='extra emu.py --var NAME=LUA')
+    ap.add_argument('--debugger', action='store_true', help='emu.py --debugger (exec hooks: tools/lua/textwin.lua)')
     a = ap.parse_args()
     todo = [s for s in scenes() if not a.names or any(fnmatch.fnmatch(s['name'], n) for n in a.names)]
     if not todo:
