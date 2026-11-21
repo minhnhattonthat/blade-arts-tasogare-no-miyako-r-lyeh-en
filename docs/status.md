@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 3. Identity build next (phase 2 debug tool done 2026-11-22). Last build: none yet.
+- **Phase:** 4. Extract next (phase 3 identity build done 2026-11-22). Last build: `build/blade_arts_en.bin`
+  2026-11-22, sha1 c266b85e (= original, no edits), smoke ok.
 - **Done:**
   - Step 0: template, guard hook proven (sed -i blocked), pre-commit runs `tools/check.py` and rejects a failing test,
     `rom.sha1` (Redump .bin/.cue), PCSX-Redux + SCPH-5500 BIOS fetched, mkpsxiso/armips in `tools/`, smoke route
@@ -19,8 +20,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/debug/save.py` (+ `save_layout.md`, `tests/test_save.py`): save = RAM struct 0x800BAB08, checksum = byte
     sum 0x100-0x577; edited saves (map, HP) load with no "file is broken" box (scenes `load_edit`, `load_lowhp`);
     a wrong checksum gives that box. `tools/re.py`: EXE disassembly / xref.
-- **Next (phase 3, identity build):** `mkpsxiso -y work/disc/layout.xml` from `work/disc/tree/` and compare the .bin
-  sha1 with `rom.sha1` as a test; then `build.py` skeleton.
+  - Phase 3: `build.py` (check rom, dumpsxiso once, patched files via `patches()` -> build/files + generated
+    build/layout.xml with mkpsxiso `source=`, tree stays pristine). `tests/test_identity.py`: rebuild with SOL.SRP
+    swapped in for itself = original sha1 (~6 s). A changed override changes the sha1 (checked once by hand).
+- **Next (phase 4, extract):** `script/` TSVs from SOL.SRP (`tools/sol.py` parser, 3351 strings) + raw SJIS in
+  EXE/STATUS/LOADSAVE/BOSS overlays (`docs/re/text.md`); roundtrip test re-encodes every string to the original bytes.
 - **Open for later phases (not blocking):**
   - Inventory (ITEM list), item box contents, nerves and story flags are not mapped: phase 8 stress saves need them
     (`tools/debug/save_layout.md` lists the leads: 0x800BABD0 table, add-item code 0x8003874C).

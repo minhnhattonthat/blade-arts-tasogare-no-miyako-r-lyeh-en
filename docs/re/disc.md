@@ -12,4 +12,6 @@
 - `NOR/`: boss models/textures (.D, .TIM, .DM3, .RB).
 - `STR/XA.XA`, `XA2.XA`: interleaved XA audio (voice; `eNNNNN` codes in the script are likely clip ids). No subtitle
   data inside (the `CSA0` hits there are ADPCM noise).
-- Identity rebuild (phase 3): `mkpsxiso -y layout.xml` from `work/disc/` - not yet tested.
+- Identity rebuild (phase 3): mkpsxiso 2.30 repacks the dumpsxiso tree + layout byte-identical (sha1 c266b85e, ~6 s).
+  `build.py` swaps patched files in with `<file source=ABS>` in a generated `build/layout.xml`. A file that grows
+  shifts every later LBA: savestates and any hard-coded sector numbers (EXE file table?) must be checked then.
