@@ -3,8 +3,9 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (started 2026-11-22; phase 7 review minors fixed first, commit 1af6d3c).
-  Last good build: `build/blade_arts_en.bin` 2026-11-22 (5 SOL typo fixes) with all graphics, sha1 bba57b635092...,
-  smoke ok (`work/qa/smoke`).
+  Last good build: `build/blade_arts_en.bin` 2026-11-22 (ITEM BOX glyph-cap fix) with all
+  graphics, sha1 c0e5ec017fae..., smoke ok (`work/qa/smoke`). textcover over `work/qa`: 3643/3643 shown, exit 0.
+  Rawview gate: `qa_gate check work/qa/rawview/manifest.tsv work/qa/rawview/verdicts` exit 0 (7 sheets, this build).
 - **Phase 8 so far:**
   - Text coverage infra: `build.py` writes `build/strings.tsv` (3643 keys: SOL `5BBBNNNN` = old block id + message n,
     raw `(file no.<<24)|addr`, from the write log so relocated strings carry their EXE address) and
@@ -132,8 +133,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     = en column (all 3351 strings), sol_map = remap. `batches.py check`: 0 problems (100 warnings = raw strings over
     their in-place bytes, relocated by the build).
 - **Next (phase 8):** done: SOL verdicts, 20 cut voiced lines, raw-string display (rawview) + glyph-cap fix, choice
-  rows. Left: (a) verdicts for the rawview sheets on the current build (`work/qa/rawview/manifest.tsv`, see below)
-  and textcover over `work/qa` with the rawview logs (expect 0 raw unshown); (b) a lint for the glyph caps in
+  rows, rawview verdicts (7 sheets ok/fixed), textcover exit 0. Left: (b) a lint for the glyph caps in
   `tools/batches.py check` (desc <= 90 visible letters, names + ": nn" <= 30, SOL page <= 200) so new text can't be
   cut again; (c) item counts (find the count field; 2-digit counts in the name line); (d) G2 STICON labels: prove
   unused or find their screen; (e) a final tour of the menu/graphics scenes on the final build with verdicts, then

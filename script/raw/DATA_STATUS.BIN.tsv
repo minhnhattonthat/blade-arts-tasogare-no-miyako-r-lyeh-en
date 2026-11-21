@@ -38,7 +38,7 @@ DATA/STATUS.BIN:00DC8	8014A5C8	12	FD1C	大きい剣。	A big sword.
 DATA/STATUS.BIN:00DD4	8014A5D4	60	FD14	リング状の武器、手に持って振り回したり、投げたりして使う。	A ring-shaped weapon, swung in hand\\or thrown.	
 DATA/STATUS.BIN:00E10	8014A610	64	FD0C	細身で短めの二振りの剣、両手に一本づつ持って振り回して使う。	A pair of slim, short swords, one held\\in each hand and swung.	
 DATA/STATUS.BIN:00E50	8014A650	32	FD04	巨石像の模様が描かれた石板。	A stone tablet bearing the pattern\\of a colossal statue.	
-DATA/STATUS.BIN:00E70	8014A670	60	FCFC	柄の両側から刃が伸びて{0B}いる武器、手に持って振り回して使う。	A weapon with blades extending from both\\ends of the hilt,{0B} held in hand and swung.	the original has a stray 0B byte mid-line
+DATA/STATUS.BIN:00E70	8014A670	60	FCFC	柄の両側から刃が伸びて{0B}いる武器、手に持って振り回して使う。	A weapon with blades extending from both\\ends of the hilt,{0B} held in hand and swung.	the original has a stray 0B byte mid-line (kept: batches check needs the JP's codes; it draws as a double space)
 DATA/STATUS.BIN:00EAC	8014A6AC	24	FCF4	爆発力の強い、爆弾。	A powerful explosive bomb.	
 DATA/STATUS.BIN:00EC4	8014A6C4	48	FCEC	ＤＳＯＮが設置したセキュリティの解除用カード。	A card for disabling the security\\installed by DSON.	
 DATA/STATUS.BIN:00EF4	8014A6F4	32	FCE4	青い光を放ち、行き先を示す。	Gives off a blue light\\that shows the way.	
