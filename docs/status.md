@@ -30,7 +30,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     of quota until 2026-11-26): 138 ok, 10 issue** (`work/qa/solview/verdicts/chunk_c3f4346d95b5_00[0-4].tsv`):
     - 5 text bugs, fixed in `script/sol` and rebuilt: sol.54.21 "a Activation" -> "an", sol.138.82 "now.." ->
       "now...", sol.147.101 / 159.101 "prankster.. / fast.." -> "...", sol.147.156 / 159.156 "AS dinner" -> "as".
-      Re-run of those 6 on the new build: `work/qa/solview_fix` (see below for its verdict).
+      Re-run of those 6 on the new build: `work/qa/solview_fix/sheet.png`, all correct; verdicts
+      `verdicts/zz_fix_20261122.tsv` (b054_sub_01, b147_sub_04, b159_sub_04 = fixed). `qa_gate check` now: 7 not ok
+      (host cuts only) + STALE build.
     - the rest = the 20 known host cuts (blank last pages in b132_sub_03, b138_sub_02/03, b147_sub_02,
       b159_sub_01/02, b169_sub_01).
     Standing ok calls worth knowing: t0 lines in blocks 125/147/159/166/169/173 sit right of centre because the
