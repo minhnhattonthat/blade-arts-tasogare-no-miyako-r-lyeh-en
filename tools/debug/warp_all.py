@@ -38,6 +38,10 @@ def run(sc, a):
            '--frames', '30000', '--timeout', str(a.timeout)]
     if a.shot_every:
         cmd += ['--shot-every', str(a.shot_every), '--sheet']
+    for p in a.probe:
+        cmd += ['--script', p]
+    for v in a.var:
+        cmd += ['--var', v]
     if a.states:
         cmd += ['--state-out', os.path.join(REPO, 'work/states', sc['name'] + '.sstate')]
     # every run gets its own card, never PCSX's shared portable one: "blank" (default), a card path, or
@@ -98,6 +102,8 @@ def main():
     ap.add_argument('--shot-every', type=int, default=120)
     ap.add_argument('--timeout', type=int, default=240)
     ap.add_argument('--out', default='work/qa/warp')
+    ap.add_argument('--probe', action='append', default=[], help='extra emu.py --script (e.g. a RAM-dump probe)')
+    ap.add_argument('--var', action='append', default=[], help='extra emu.py --var NAME=LUA')
     a = ap.parse_args()
     todo = [s for s in scenes() if not a.names or any(fnmatch.fnmatch(s['name'], n) for n in a.names)]
     if not todo:

@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract next (phase 3 identity build done 2026-11-22). Last build: `build/blade_arts_en.bin`
-  2026-11-22, sha1 c266b85e (= original, no edits), smoke ok.
+- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-22). Last build:
+  `build/blade_arts_en.bin` 2026-11-22, sha1 c266b85e (= original, no edits), smoke ok.
 - **Done:**
   - Step 0: template, guard hook proven (sed -i blocked), pre-commit runs `tools/check.py` and rejects a failing test,
     `rom.sha1` (Redump .bin/.cue), PCSX-Redux + SCPH-5500 BIOS fetched, mkpsxiso/armips in `tools/`, smoke route
@@ -23,8 +23,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Phase 3: `build.py` (check rom, dumpsxiso once, patched files via `patches()` -> build/files + generated
     build/layout.xml with mkpsxiso `source=`, tree stays pristine). `tests/test_identity.py`: rebuild with SOL.SRP
     swapped in for itself = original sha1 (~6 s). A changed override changes the sha1 (checked once by hand).
-- **Next (phase 4, extract):** `script/` TSVs from SOL.SRP (`tools/sol.py` parser, 3351 strings) + raw SJIS in
-  EXE/STATUS/LOADSAVE/BOSS overlays (`docs/re/text.md`); roundtrip test re-encodes every string to the original bytes.
+  - Phase 4: `tools/extract.py` -> `script/sol/*.tsv` (95 blocks, 3351 strings) + `script/raw/*.tsv` (305 strings in
+    EXE, STATUS, LOADSAVE, BOSS0P/3P, GAME.BIN; scanner + pointer xrefs `tools/rawtext.py`). `sol.pack()` rebuilds
+    SOL.SRP from the TSV jp text byte-identical; every raw jp re-encodes to its bytes; coverage test: every kana run
+    in the EXE and DATA/ files is in an extracted string or a hand-checked noise run (`tests/test_extract.py`).
+    Overlay load address 0x80149800 (STATUS/LOADSAVE/BOSS*P). Format: `docs/re/text.md` §Script files.
+    `warp_all.py --probe/--var` pass extra Lua probes (RAM dumps).
+- **Next (phase 5, engine spike + marker build):** font decision (ASCII letters collide with control codes `b t e i g
+  [ @ \`: needs an escape or new glyph range, and a VWF or half-width font: `docs/re/text.md`); find the SOL decoder
+  and renderer (watch the flag word 7->5); then `build.py patches()` inserts `[id]` markers (SOL via `sol.pack`, raw
+  strings in place within `room`) and the width gate per box type. Boss lines (6) have no pointer found: keep in place.
 - **Open for later phases (not blocking):**
   - Inventory (ITEM list), item box contents, nerves and story flags are not mapped: phase 8 stress saves need them
     (`tools/debug/save_layout.md` lists the leads: 0x800BABD0 table, add-item code 0x8003874C).

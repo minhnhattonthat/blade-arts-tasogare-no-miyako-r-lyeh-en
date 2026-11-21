@@ -62,6 +62,59 @@ def strings(blk):
             gi += 1
 
 
+# The original's one odd terminator (block 132 string 110: XORed 0A 0A + pad); kept only while the text is unchanged.
+QUIRK_TAIL = {(132, 110): bytes.fromhex("86868c0000")}
+
+
+def pack_sector(head, items):
+    """One 0x800 string page: `head` (sector header bytes), items = [(flags, text_bytes, raw_tail or None)].
+    Raises ValueError when the strings don't fit."""
+    n = len(items)
+    pos = len(head) + 2 * n + (-(len(head) + 2 * n) % 4)
+    offs, body = [], bytearray()
+    for flags, text, tail in items:
+        offs.append(pos + len(body))
+        s = struct.pack("<I", flags) + bytes(b ^ KEY for b in text)
+        s += tail if tail is not None else b"\n\n\0\0" + bytes(-len(s) % 4)  # 0A 0A 00 00, then pad to 4
+        body += s
+    out = head + struct.pack(f"<{n}H", *offs)
+    out += bytes(pos - len(out)) + body
+    if len(out) > SECTOR:
+        raise ValueError(f"sector overflow by {len(out) - SECTOR} bytes")
+    return out + bytes(SECTOR - len(out))
+
+
+def pack_block(bid, sectors, hdr_size):
+    """Block bytes from sectors = [[(flags, text_bytes), ..] per sector]; hdr_size = sector 0 header size (kept)."""
+    last, gi = [], 0
+    for items in sectors:
+        gi += len(items)
+        last.append(gi - 1)
+    out, gi = b"", 0
+    for s, items in enumerate(sectors):
+        if s == 0:
+            head = struct.pack("<II", hdr_size, 0) + struct.pack(f"<{len(last)}H", *last)
+            head += bytes(hdr_size - len(head))
+        else:
+            head = struct.pack("<II", 8, s)
+        out += pack_sector(head, [(f, t, QUIRK_TAIL.get((bid, gi + k)) if t == orig else None)
+                                  for k, (f, t, orig) in enumerate(items)])
+        gi += len(items)
+    return out
+
+
+def pack(orig, texts):
+    """Rebuild SOL.SRP: orig = original file bytes, texts = {(block_id, global_index): text_bytes} (missing = original).
+    Same sectors per block and same string order, so block ids and string indexes stay valid."""
+    out = bytearray(orig[:SECTOR])
+    for bid, pos, blk in blocks(orig):
+        secs = [[] for _ in sector_counts(blk)]
+        for gi, s, o, flags, x in strings(blk):
+            secs[s].append((flags, texts.get((bid, gi), x), x))
+        out += pack_block(bid, secs, struct.unpack_from("<I", blk, 0)[0])
+    return bytes(out + orig[len(out):])
+
+
 if __name__ == "__main__":
     d = Path(sys.argv[1] if len(sys.argv) > 1 else DEFAULT).read_bytes()
     for bid, pos, blk in blocks(d):

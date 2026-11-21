@@ -9,10 +9,10 @@ Disc: `SLPM_866.02` (EXE, load 0x80010000, entry 0x8003FDA4), `DATA/` overlays a
 |---|---|---|---|
 | `DATA/SOL.SRP` (364 KB, 95 blocks, 177 sectors) | all dialogue, narration, intro subtitles, signs, Yes/No choices: 3351 strings, 215 KB | Shift-JIS XOR 0x8C | verified: decoded intro subtitle 昨日未明にチリより… matches RAM 0x801DBE00 while it shows (play session state `work/play/p1/0003`); `tools/sol.py` parses every block, 0 undecodable strings |
 | `SLPM_866.02` 0xDB8-0x12F0 | item names (イバラの冠, ルーンストーン, 翡翠版のカケラ１..) + 0xAB878 何も起こらない・・・ | raw Shift-JIS | verified by scan (`tools/sjisscan.py`) |
-| `DATA/STATUS.BIN` (overlay) | item descriptions, status-menu strings (123 runs) | raw Shift-JIS | scan only |
-| `DATA/LOADSAVE.BIN` (overlay) | save/load menu, memory-card messages, save-slot location names (ルルイエ２, 重力エレベータ上層１..) (73 runs) | raw Shift-JIS | scan only |
-| `DATA/BOSS0P.BIN`, `BOSS3P.BIN` (overlays) | 6 boss-fight lines (何か・・・いる？, 長虫かよ・・・) | raw Shift-JIS | scan only |
-| `DATA/GAME.BIN` | 2 debug error messages (配置物の削除が出来ません！) | raw Shift-JIS | debug only; leave |
+| `DATA/STATUS.BIN` (overlay) | item descriptions, status-menu strings | raw Shift-JIS | extracted (below) |
+| `DATA/LOADSAVE.BIN` (overlay) | save/load menu, memory-card messages, save-slot location names (ルルイエ２, 重力エレベータ上層１..) | raw Shift-JIS | extracted |
+| `DATA/BOSS0P.BIN`, `BOSS3P.BIN` (overlays) | 6 boss-fight lines (何か・・・いる？, 長虫かよ・・・) | raw Shift-JIS | extracted |
+| `DATA/GAME.BIN` | 2 debug error messages (配置物の削除が出来ません！) | raw Shift-JIS | extracted, debug only |
 
 No other file holds XOR-0x8C text (searched every file for XORed `CSA0`, してい, ました). M0 PAC / DATA1.PAC / ENDING / THANKS
 scan hits are pixel noise (ヨヨヨヨ runs).
@@ -30,9 +30,35 @@ scan hits are pixel noise (ヨヨヨヨ runs).
   Block 132 string 110 (an ending line with a broken `b` code) has a XORed terminator (86 86); handled.
 - Strings are presumably referenced by (block id, global index) from map scripts (guess: not yet traced). Keeping the
   block layout and index order means no external pointers change; only in-sector offset tables are rebuilt.
+- **Packing (verified: `sol.pack` rebuilds the file byte-identical, `tests/test_extract.py`):** offsets table right
+  after the sector header, padded to 4; each string = u32 flags + XORed text + `0A 0A 00 00` + NUL pad to 4; rest of
+  the sector zero. The one odd string (132/110) keeps its raw tail `86 86 8C 00 00` only while its text is unchanged.
 - **Space:** each string page is one 0x800 sector; total free 108,970 bytes over 177 sectors, min 2 bytes free in the
   tightest sector. Growing a block would renumber later block ids (= sector numbers): check how the loader seeks before
   relying on extra sectors (phase 5).
+
+## Raw Shift-JIS strings (phase 4, `tools/rawtext.py`)
+
+- Overlays STATUS, LOADSAVE, BOSS0P and BOSS3P all load whole at **0x80149800** (found in RAM dumps of the running
+  overlay: `warp_all.py status load --probe <skill>/scripts/lua/probes/ramdump.lua`, and `PROG=9`/`12` from the
+  title for BOSS0P/BOSS3P). GAME.BIN at 0x800EAB90 (debug messages only). EXE: file 0x800 = 0x80010000.
+- 305 strings: EXE 62 (item names 0xDB8-0x12F0, short dev names 0xBB454.., 無し, 何も起こらない・・・, 2 debug lines),
+  STATUS 93 (item and sphere descriptions, menu verbs, Yes/No, digit glyph table 0xFA98), LOADSAVE 142 (save-slot
+  location names, memory-card messages, fullwidth digit strings, c555/cfff-prefixed menu items = colour codes), BOSS0P 2
+  + BOSS3P 4 (`BKA2BKC111` + line; **no pointer found**: reached some other way, keep them in place), GAME.BIN 2.
+- Strings can start right after a pointer table with no NUL before them (STATUS 0x748): the scanner starts a string
+  at every referenced address too. Refs: data words, lui+addiu/ori (64-instruction window), gp-relative in the EXE.
+- Odd bytes in real text: STATUS 0xE70 has a stray `0B` mid-line (written `{0B}`); EXE 0x2EC4 uses halfwidth kana.
+- Coverage (`tests/test_extract.py`): every kana run that `sjisscan.py` finds in the EXE and every DATA/*.BIN/.DAT/.PAC
+  is inside an extracted string or a hand-checked NOISE run; THANKSP, TITLEP, DATA1.PAC, ENDING_P.DAT and STATUS2.DAT
+  hits are all pixel data (odd offsets, gibberish).
+
+## Script files (phase 4, `tools/extract.py`)
+
+`script/sol/<block>.tsv` (id `sol.<block>.<index>`, sector, jp, en, notes) and `script/raw/<file>.tsv` (id
+`<file>:<offset>`, addr, room, refs, jp, en, notes). jp is the Shift-JIS text with the control codes inline; raw
+strings write 0A as `{n}` and other control bytes as `{XX}`. `extract.py` never overwrites an existing file
+without `--force`.
 
 ## Control codes (ASCII inside the SJIS text; counts over all strings)
 

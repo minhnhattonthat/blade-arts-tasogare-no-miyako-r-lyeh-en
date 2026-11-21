@@ -7,6 +7,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Unpack:   `tools/mkpsxiso/dumpsxiso.exe -x work/disc/tree -s work/disc/layout.xml "rom/<cue>"` (run from repo root; tree is gitignored)
 - Build:    `python -X utf8 build.py` -> build/blade_arts_en.bin/.cue (not written yet; checks the dump against `rom.sha1` first)
 - Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this)
+- Extract:  `python -X utf8 tools/extract.py` -> script/sol/*.tsv + script/raw/*.tsv (never overwrites; `--force` only before any English)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/blade_arts_en.cue --out work/qa/smoke --route tools/routes/boot.txt --smoke` (original: `rom/*.cue`)
 - Warp:     `python -X utf8 tools/debug/warp_all.py <scene|glob*> [--cue build/blade_arts_en.cue] [--states]` -> work/qa/warp/<scene>/proof.png (scenes: `tools/debug/scenes.tsv`; run `save_*` first; never ask the user to play to a scene)
 - Saves:    `python -X utf8 tools/debug/save.py show|set CARD.mcd ...` (layout `tools/debug/save_layout.md`)
@@ -16,7 +17,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 ## Paths
 - Original disc: `rom/Blade Arts - Tasogare no Miyako R'lyeh (Japan).bin/.cue` (gitignored; SHA-1 in `rom.sha1`, checked by `tools/check_rom.py`).
 - Emulator: PCSX-Redux nightly 32338.20261121.15 (x64) in `tools/pcsx/` (from distrib.app via `$SKILL/scripts/fetch_emu.py pcsx`; gitignored). BIOS SCPH-5500 in `tools/bios/` (`fetch_emu.py psx-bios`). Disc tools: `tools/mkpsxiso/` (mkpsxiso/dumpsxiso 2.30), `tools/armips/`. Savestates: `work/states/`.
-- Text: `script/` (TSV, phase 4). Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Text: `script/sol/` (SOL.SRP) and `script/raw/` (EXE/overlay strings), TSV; format in `docs/re/text.md`. Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
 - Edit source files (.py .lua .asm .tbl .json) only with the file-edit tool; scripts here read and analyse, never `.replace()` and write back.
