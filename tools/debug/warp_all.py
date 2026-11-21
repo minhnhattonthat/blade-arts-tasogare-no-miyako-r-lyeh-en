@@ -71,6 +71,24 @@ def run(sc, a):
             '' if ok else (err or ['?'])[0])
 
 
+def flat(png):
+    from PIL import Image, ImageStat
+    return ImageStat.Stat(Image.open(png).convert('L')).stddev[0] < 6
+
+
+def proof(d):
+    """proof.png, or the last non-flat shot after arrival when the proof frame lands in a fade or flash."""
+    p = os.path.join(d, 'proof.png')
+    if not flat(p):
+        return p
+    m = re.search(r'WARP arrived \S+ frame (\d+)', open(os.path.join(d, 'log.txt'), encoding='utf-8').read())
+    shots = sorted(f for f in os.listdir(d) if re.match(r'f\d{6}\.png$', f) and int(f[1:7]) >= int(m.group(1)))
+    for f in reversed(shots):
+        if not flat(os.path.join(d, f)):
+            return os.path.join(d, f)
+    return p
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('names', nargs='*')
@@ -91,7 +109,7 @@ def main():
         w = csv.writer(f, delimiter='\t', lineterminator='\n')
         w.writerow(['name', 'ok', 'arrived', 'map', 'prog', 'note'])
         w.writerows(res)
-    proofs = [os.path.join(a.out, r[0], 'proof.png') for r in res if r[1]]
+    proofs = [proof(os.path.join(a.out, r[0])) for r in res if r[1]]
     if proofs:
         subprocess.run([sys.executable, '-X', 'utf8', os.path.join(SKILL, 'scripts', 'sheet.py'), *proofs,
                         '--out', os.path.join(a.out, 'proofs.png'), '--div', '2'], cwd=REPO, capture_output=True)

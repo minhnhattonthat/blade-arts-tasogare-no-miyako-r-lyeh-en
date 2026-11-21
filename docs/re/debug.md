@@ -55,6 +55,15 @@ pointer at 0x800B253C and the count at 0x800B2556 (setter 0x8001821C). Inventory
 The save is the RAM struct 0x800BAB08-0x800BAF7F verbatim (map id at +8, HP at +0x10): `tools/debug/save_layout.md`.
 The stage-clear card (M50_03_0, reached from M50_00_0) offers SAVE; `warp_all.py save_first` writes a real save.
 
+## Map sweep (2026-11-22, `warp_all.py "m*"`, original disc)
+
+282 of 301 map packs reach a scene from a cold boot; 76 of them are event/stub maps that settle on another map
+(scenes.tsv notes say which). 19 never get past the load (stuck on NOW LOADING or looping in modes 1/2, twice):
+M03_50_0/1, M03_60_0/1/2, M04_00_2, M06_70_A, M07_03_1, M07_72_2, M10_01_1, M91_08_0, M92_01_0/1, M92_02_1,
+M92_05_1, M92_06_1, M92_07_1, M93_04_0, M93_05_0. They are left out of scenes.tsv: guess, they need story state
+set by the map before them (or are dev rooms). If phase 8 text coverage finds strings only they show, reach them by
+warping to the map before and walking/scripting through the door (set-next-map 0x800382CC).
+
 ## Not found yet
 
 - Story progress / event flags (what M50_00_0 reads to pick a card).
