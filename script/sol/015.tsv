@@ -2,7 +2,7 @@ id	sector	jp	en	notes
 sol.15.0	0	CSA0t0e01154ミスター・ナカムラ、わざわざ\\お出でになるとは‥‥	{CSA0t0e01154}Mr. Nakamura, coming here\\in person...	
 sol.15.1	0	CSA0t0e00114警備の増員の件で来た。\\サンダーソン教授の所へ案内してくれ！	{CSA0t0e00114}I'm here about the extra security.\\Take me to Professor Sanderson!	
 sol.15.2	0	CSA0t0e00031こちらです‥‥\\	{CSA0t0e00031}This way...\\	
-sol.15.3	0	CSA0t0e01239御苦労。\\	{CSA0t0e01239}Good.\\	
+sol.15.3	0	CSA0t0e01239御苦労。\\	{CSA0t0e01239}Good work.\\	
 sol.15.4	0	CSA0t0e00643あなたが‥‥ミスター・シドウ？\\	{CSA0t0e00643}So you're... Mr. Shido?\\	
 sol.15.5	0	CSA0t0e00983聞いてるわよ。カタナでモンスターを\\仕留めたんですって？@@あなた‥‥本物のサムライなの？	{CSA0t0e00983}I've heard all about you. You took down\\a monster with a katana?@@Are you... a real samurai?	
 sol.15.6	0	CSA0t0e00462摩耶、パトリシア！何をしている？\\虚言癖のある奴に用はない。行くぞ！	{CSA0t0e00462}Maya, Patricia! What are you doing?\\I've no use for a compulsive liar. Let's go!	
@@ -22,14 +22,14 @@ sol.15.19	0	CSA0t0e01241で？お前がいると言うことは、ここは\\そ
 sol.15.20	0	CSA0t0e00731大層なのかはともかく、色々と\\不思議ではあるね。メリンダは元気か？	{CSA0t0e00731}Big deal or not, it's plenty weird,\\that's for sure. How's Melinda doing?	
 sol.15.21	0	CSA0t0e00816ああ、あれは元気でやっていると聞いている。\\退院は当然無理だがね‥‥	{CSA0t0e00816}Yes, I hear she's doing well.\\Discharge is out of the question, of course...	
 sol.15.22	0	CSA0t0e00553聞いている‥‥って、まだ帰ってないのか？\\	{CSA0t0e00553}You "hear"...? You mean you still haven't gone home?\\	
-sol.15.23	0	CSA0t0e01156俺がそばに居ても‥‥大して役には立たん。\\それに、娘に会うには私は汚れすぎている。	{CSA0t0e01156}Even if I were by her side... I wouldn't be much use.\\Besides, I'm too filthy to see my daughter.	
+sol.15.23	0	CSA0t0e01156俺がそばに居ても‥‥大して役には立たん。\\それに、娘に会うには私は汚れすぎている。	{CSA0t0e01156}Even if I were by her side... I wouldn't be much use.\\Besides, my hands are too dirty to see my daughter.	
 sol.15.24	0	CSA0t0e01156俺がそばに居ても‥‥大して役には立たん。	{CSA0t0e01156}Even if I were by her side... I wouldn't be much use.	
 sol.15.25	0	CSA0t0e00033それでも、いないよりは遥かにマシだよ。\\でないと、俺みたいなヒネクレ者になっちまう。	{CSA0t0e00033}Still beats not being there, by a mile.\\Otherwise she'll end up a twisted punk like me.	
 sol.15.26	0	CSA0t0e00033それでも、いないよりは遥かにマシだよ。\\	{CSA0t0e00033}Still beats not being there, by a mile.\\	
 sol.15.27	0	CSA0t0e00374‥‥そうだな。この仕事が終わったら、\\会いに行くことにしよう。	{CSA0t0e00374}...I suppose so. Once this job is over,\\I'll go and see her.	
 sol.15.28	1	CSA0t0e01063ああ、それがいいさ。そのときは、\\俺もいってみるか‥‥	{CSA0t0e01063}Yeah, good call. Maybe I'll tag along\\when you do...	
 sol.15.29	1	CSA0t0e00463それだけは勘弁願おう。\\メリンダに悪い影響を与える。	{CSA0t0e00463}Anything but that.\\You'd be a bad influence on Melinda.	
-sol.15.30	1	CSA0t0e01335‥‥言うねぇ。@@で、何でドーン・セキュリティの代表が\\こんな僻地まで来てるんだ？	{CSA0t0e01335}...Ouch.@@So why's the head of Dawn Security\\come all the way out to the middle of nowhere?	
+sol.15.30	1	CSA0t0e01335‥‥言うねぇ。@@で、何でドーン・セキュリティの代表が\\こんな僻地まで来てるんだ？	{CSA0t0e01335}...Ouch.@@So why would the head of Dawn Security\\come all the way out to the middle of nowhere?	
 sol.15.31	1	CSA0t0e00984さてね。おれは雇われ者だから、上の意向は\\何も知らされていない。@@だが、動員規模、装備、機材、どれを\\とっても尋常ではない。@@‥‥ここで、何があった？\\	{CSA0t0e00984}Who knows. I'm hired help. Nobody tells me\\what the higher-ups are thinking.@@But the manpower, the gear, the equipment...\\none of it is anything close to normal.@@...What happened here?\\	
 sol.15.32	1	CSA0t0e00283体長１５ｍのトカゲに襲われた。\\	{CSA0t0e00283}Got jumped by a 15 m lizard.\\	
 sol.15.33	1	CSA0t0e00896ハッ！お前からそんなたわ言を\\聞くとはな。	{CSA0t0e00896}Hah! Never thought I'd hear\\nonsense like that from you.	

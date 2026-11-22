@@ -33,7 +33,7 @@ sol.138.30	1	CSA0t4b6e00469マヤ：b0足止めをっ！g7i020	{CSA0t4b6e00469}M
 sol.138.31	1	CSA0t4b6e00821パトリシア：b0待って‥‥‥わかった！\\e00378これねっ！g7i020	{CSA0t4b6e00821}Patricia:{b0} Wait... got it!\\{e00378}It's this one!{g7i020}	
 sol.138.32	1	CSA0t3b4e00650零：b0くっそぉ！\\間に合えっ！g7i020	{CSA0t3b4e00650}Rei:{b0} Damn it!\\Come on, make it!{g7i020}	
 sol.138.33	1	CSA0t3b4e00289零：b0畜生っ！g7i020	{CSA0t3b4e00289}Rei:{b0} Dammit!{g7i020}	
-sol.138.34	2	CSA0t4b6e00899ナカムラ：b0ここまで追って来れた事については、\\ほめてやろう。@@だが、いい加減目障りなのでな‥‥‥。g7i020	{CSA0t4b6e00899}Nakamura:{b0} I shall commend you\\for pursuing us this far.@@But you have become quite the eyesore...{g7i020}	
+sol.138.34	2	CSA0t4b6e00899ナカムラ：b0ここまで追って来れた事については、\\ほめてやろう。@@だが、いい加減目障りなのでな‥‥‥。g7i020	{CSA0t4b6e00899}Nakamura:{b0} I shall commend you\\for pursuing us this far.@@But you have become far too much of an eyesore...{g7i020}	
 sol.138.35	2	CSA0t4だが、いい加減目障りなのでな‥‥‥。g7i020	{CSA0t4}But you've become quite an eyesore...{g7i020}	
 sol.138.36	2	CSA0t4b6e01339パトリシア：b0出来ればハラキリ見たかったけど‥‥\\まぁ、そこで死ぬことに変わりないからいいわよね。@@アハハハハハハ‥‥‥g7i020	{CSA0t4b6e01339}Patricia:{b0} I'd have loved to see some harakiri, but...\\well, you'll die in there either way, so who cares?@@Ahahahahaha...{g7i020}	
 sol.138.37	2	CSA0t4b6e00988マヤ：b0さようなら‥‥‥g7i020	{CSA0t4b6e00988}Maya:{b0} Farewell...{g7i020}	
@@ -49,7 +49,7 @@ sol.138.46	2	CSA0t4どうも腑に落ちない事がある。g7i060	{CSA0t4}Some
 sol.138.47	2	CSA0t4b6少女：b0どういう事でしょうか？g7i060	{CSA0t4b6}Girl:{b0} What do you mean?{g7i060}	
 sol.138.48	2	CSA0t4b4零：b0あんたはどう考えているか知らないが、\\ここが本気で邪魔者を排除しようとしているのか、g7i090	{CSA0t4b4}Rei:{b0} I dunno what you think, but whether\\this place really wants intruders gone,{g7i090}	
 sol.138.49	2	CSA0t4俺にはどうしても判断がつかない。g7i060	{CSA0t4}I just can't tell.{g7i060}	
-sol.138.50	2	CSA0t4実際、ナカムラの目的地がすぐそこだってのに、\\ＤＳＯＮの連中をここまでに排除出来ないでいる。g7i090	{CSA0t4}I mean, Nakamura's destination is right there,\\and it still hasn't gotten rid of the DSON guys.{g7i090}	
+sol.138.50	2	CSA0t4実際、ナカムラの目的地がすぐそこだってのに、\\ＤＳＯＮの連中をここまでに排除出来ないでいる。g7i090	{CSA0t4}I mean, Nakamura's destination is right there,\\and they still haven't cleared out the DSON guys.{g7i090}	
 sol.138.51	2	CSA0t4ここを管理しているのが\\あんたじゃないと言う事はわかったけど‥‥‥g7i090	{CSA0t4}I get that you're not the one\\running this place, but...{g7i090}	
 sol.138.52	2	CSA0t4だとしたらあんたの考えと、ここの責任者の\\考えが食い違っているんじゃないか？g7i090	{CSA0t4}then isn't what you want at odds with\\what whoever's in charge here wants?{g7i090}	
 sol.138.53	2	CSA0t4b6少女：b0それは‥‥‥g7i060	{CSA0t4b6}Girl:{b0} That's...{g7i060}	
@@ -87,7 +87,7 @@ sol.138.84	3	CSA0t5b2ウォルター：b0ほう、知っているか・・・\\�
 sol.138.85	4	CSA0t3b4零：b0なんだって？g7i020	{CSA0t3b4}Rei:{b0} What!?{g7i020}	
 sol.138.86	4	CSA0t5b2ウォルター：b0そして、\\その理由も今ならわかる・・・@@しかし、それをおしえる事は、\\私には出来ない・・・@@もう、私の意思は・・・\\私のもので無くなってしまった・・・@@今、発しているこの言葉でさえも・・・g7i040	{CSA0t5b2}Walter:{b0} And now,\\I understand why as well...@@But I cannot\\tell you that...@@My will is...\\no longer my own...@@Not even these words I speak now...{g7i040}	
 sol.138.87	4	CSA0t3b4零：b0制御・・・されてるってぇのか？g7i020	{CSA0t3b4}Rei:{b0} You're... being controlled?{g7i020}	
-sol.138.88	4	CSA0t5b2ウォルター：b0キ・キキ君・・・は、\\試されて・・・イいる・・・@@キヲ・・・ツケ・・・g7i040	{CSA0t5b2}Walter:{b0} K-Kiki-kun... is...\\being t-tested...@@Be... care... FUL...{g7i040}	
+sol.138.88	4	CSA0t5b2ウォルター：b0キ・キキ君・・・は、\\試されて・・・イいる・・・@@キヲ・・・ツケ・・・g7i040	{CSA0t5b2}Walter:{b0} K-Kiki-kun... is...\\being t-tested...@@Be... care...{g7i040}	
 sol.138.89	4	CSA0t3b4零：b0支配・・・されている？\\・・・遺跡のちゅうすう・・・か？g7i020	{CSA0t3b4}Rei:{b0} Being... ruled?\\...By the core of the ruins...?{g7i020}	
 sol.138.90	4	CSA0t5b2ウォルター：b0あァ、あ・・・\\ぁアァ・・・あ、ァア・・・g7i040	{CSA0t5b2}Walter:{b0} Aah, ah...\\aAAh... ah, AAh...{g7i040}	
 sol.138.91	4	CSA0t5b2ウォルター：b0シドウレイ、聞こえるか？g7i040	{CSA0t5b2}Walter:{b0} Rei Shido, can you hear me?{g7i040}	
@@ -106,7 +106,7 @@ sol.138.103	4	CSA0t5b2ウォルター：b0サブシステムが奴の最後の�
 sol.138.104	5	CSA0t3b4零：b0・・・他に移動手段は無いのか？\\出来れば確実に逃げ道を塞ぎたい。g7i020	{CSA0t3b4}Rei:{b0} ...Has it got any other way out?\\I wanna be sure every escape route's shut.{g7i020}	
 sol.138.105	5	CSA0t5b2ウォルター：b0それならすでに手はうってある。@@まずは、君の持っているスフィア・・・\\奴はそれを通じて自分を転送させる事が出来るがg7i040	{CSA0t5b2}Walter:{b0} I have already seen to that.@@First, the Spheres you carry...\\It can transfer itself through them, but{g7i040}	
 sol.138.106	5	CSA0t5b0君の持っているスフィアは、イ・ルムに機能を\\変えさせてg7i040	{CSA0t5b0}I had I-Rum alter the function\\of the Spheres you carry{g7i040}	
-sol.138.107	5	CSA0t5b0バセテトからのせいしん波を通さないようにして\\いる。@@そして、現存するスフィアはそれで全てだ。g7i040	{CSA0t5b0}so they block Basetet's psychic waves.@@And those are all the Spheres in existence.{g7i040}	
+sol.138.107	5	CSA0t5b0バセテトからのせいしん波を通さないようにして\\いる。@@そして、現存するスフィアはそれで全てだ。g7i040	{CSA0t5b0}so they block Basetet's mind waves.@@And those are all the Spheres in existence.{g7i040}	
 sol.138.108	5	CSA0t3b4零：b0それで、俺がバセテトの影響を\\受けなかったのか・・・。g7i020	{CSA0t3b4}Rei:{b0} So that's why Basetet\\didn't get to me...{g7i020}	
 sol.138.109	5	CSA0t5b2ウォルター：b0そして、他にバセテトのひょういと\\なりうる生体端末・・・@@記憶の石碑のそれぞれに用意されていた物も\\全て破壊された。g7i040	{CSA0t5b2}Walter:{b0} And the other bio-terminals that\\could serve as vessels for Basetet...@@the ones set up at each Memory Stele\\have all been destroyed.{g7i040}	
 sol.138.110	5	CSA0t3b4零：b0・・・全部、だって？g7i020	{CSA0t3b4}Rei:{b0} ...All of them?{g7i020}	
@@ -121,6 +121,6 @@ sol.138.118	5	CSA0t3b4零：b0あんたって人は・・・\\それでもおや
 sol.138.119	5	CSA0t5b2ウォルター：b0私としても、死に行く娘をただ\\ぼうかんしているのは耐えられなかったのだ。@@たとえ、\\それがどんな結果をまねくだろうとしても・・・@@そして、リズィは自分であの結果を選んだ・・・\\だれに、それを止められる？g7i040	{CSA0t5b2}Walter:{b0} I simply couldn't bear to stand by\\and watch my daughter die.@@Even knowing\\what it might bring about...@@And Lizzie chose that end herself...\\Who could have stopped her?{g7i040}	
 sol.138.120	5	CSA0t3b4零：b0俺は・・・俺は２度も助ける事が\\出来なかったって言うのか・・・g7i020	{CSA0t3b4}Rei:{b0} So I... I couldn't save her\\twice, is that it...{g7i020}	
 sol.138.121	5	CSA0t5b2ウォルター：b0シドウレイ！@@娘の意思を無駄にしないためにも、\\バセテトにとどめをさしてほしいんだ！@@でなくては、娘が死を選んだ意味が\\無くなってしまう。g7i040	{CSA0t5b2}Walter:{b0} Rei Shido!@@So that my daughter's will is not in vain,\\I need you to finish Basetet off!@@Otherwise, her choosing death\\will lose all meaning.{g7i040}	
-sol.138.122	6	CSA0t3b4零：b0ナカムラと、バセテトを倒した時に、\\とむらい合戦を終わらせたつもりだったが・・・@@だったら、もういっペんやってやる必要が\\あるよな・・・g7i020	{CSA0t3b4}Rei:{b0} Beating Nakamura and Basetet, I figured\\I'd finished avenging them, but...@@Then I guess I gotta\\do it one more time...{g7i020}	
+sol.138.122	6	CSA0t3b4零：b0ナカムラと、バセテトを倒した時に、\\とむらい合戦を終わらせたつもりだったが・・・@@だったら、もういっペんやってやる必要が\\あるよな・・・g7i020	{CSA0t3b4}Rei:{b0} Beating Nakamura and Basetet, I figured\\I'd settled the score for everyone, but...@@Then I guess I gotta\\do it one more time...{g7i020}	
 sol.138.123	6	CSA0t5b2ウォルター：b0封鎖区画への通路は開いておいた\\頼む、君だけが頼りなんだ・・・g7i040	{CSA0t5b2}Walter:{b0} The way to the sealed section is open.\\Please, you're the only one I can count on...{g7i040}	
 sol.138.124	6	CSA0t3b4零：b0・・・わかった。\\全ての決着をつけてやるっ！g7i020	{CSA0t3b4}Rei:{b0} ...Got it.\\I'm gonna settle all of this!{g7i020}	

@@ -2,22 +2,25 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress: story pass 5/6 chapters done (phase 8 done 2026-11-22).
-  Story pass: `python -X utf8 tools/story.py` writes `work/qa/story/chapters/ch01..ch06` (SOL blocks by range, repeats
-  folded); `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"` done. Verdicts in
-  `work/qa/story/verdicts/` (ch01-ch05 ok; verdict lines also in the report, since work/ is untracked), report
-  `docs/reviews/story.report.md`, Minors in `docs/polish.md` §Story pass. Next: ch06 (read each whole, in-thread, ~25k tokens each: two per worker session), then the polish pass
-  (fix or waive every line; regenerate chapters + re-`init`, then a `fixed` verdict for changed chapters), then
-  `tools/release.py` (not written yet).
-  Last good build: `build/blade_arts_en.bin` 2026-11-22 (Test Play 1 fix), sha1 ee3dc1aacdc1..., smoke ok
-  (`work/qa/smoke`). Gates on this build, all exit 0 (`$SKILL/scripts/qa_gate.py check work/qa/<m>/manifest.tsv
-  work/qa/<m>/verdicts` for m = solview (148 sheets), rawview (7), final_tour (61); each WAIVED for ee3dc1aa with the
-  reason in `manifest.tsv.waive`: later changes were re-checked by hand). textcover: `textcover.py work/qa
-  build/strings.tsv` 3644/3644 shown, exit 0.
-- **Next (phase 9):** story-pass verdict per chapter (`work/qa/story/manifest.tsv`, `references/translation.md`
-  §Review; codex is out of quota until 2026-11-26, so review in-thread), work off `docs/polish.md` (no unticked line
-  may remain), `tools/release.py` (runs every qa_gate manifest + textcover; jp_left on the release build; debug tool
-  off; xdelta patch built + re-applied; README hashes; zip = patch + README). Never `gh release create`.
+- **Phase:** 9. Release in progress: story pass 6/6 ok, polish pass done (0 unticked), README filled; next
+  `tools/release.py` (phase 8 done 2026-11-22).
+  Story pass: `python -X utf8 tools/story.py` writes `work/qa/story/chapters/ch01..ch06`; manifest re-`init`ed after
+  the polish pass; verdicts `work/qa/story/verdicts/` (ch01-06 ok, then `zz_polish_p01.tsv` = fixed for all 6), report
+  `docs/reviews/story.report.md`.
+  Polish pass (2026-11-22): `tools/polish.py show|dump|batch` + `work/tl/p01.out.tsv` merged with `batches.py merge p01
+  --overwrite` (168 strings incl. identical copies); every line in `docs/polish.md` ticked fixed or waived with reason.
+  Changed SOL lines re-shown in game: `tools/solview.py <ids> --out work/qa/solview_polish` (ids in
+  `work/polish_sol_ids.txt`); changed LOADSAVE/STATUS strings: `tools/rawview.py` -> `work/qa/rawview_polish*`.
+  Last good build: `build/blade_arts_en.bin` 2026-11-22 (polish p01), sha1 ce07cfd82633..., smoke ok
+  (`work/qa/smoke`). Gates on ce07cfd8, all exit 0: `qa_gate.py check` on every `work/qa/**/manifest.tsv` (solview,
+  rawview, final_tour WAIVED for ce07cfd8 citing the polish re-show; story 6/6 fixed; the old trial
+  `work/qa/svtest/manifest.tsv` retired to `.retired`). textcover `textcover.py work/qa build/strings.tsv` 3644/3644
+  (20 relocated EXE strings whose addresses shifted re-shown in `work/qa/rawview_cov`).
+- **Next (phase 9):** write `tools/release.py` (`references/pipeline.md` §Release: build -> check -> smoke -> jp_left
+  -> qa_gate check on every `work/qa/**/manifest.tsv` -> textcover (`textcover.py work/qa build/strings.tsv`) -> no
+  unticked polish line -> no README placeholder -> no --marker/--qa-file build -> `xdelta3 -B 711352992` patch ->
+  re-apply to a clean copy + sha1 compare -> zip (ZIP_STORED) = patch + README.txt with base hashes, `--force` to
+  overwrite a version; `--help` must not build). xdelta3 is on PATH (scoop). Never `gh release create`.
 - **Phase 8 closing pass (2026-11-22):**
   - Glyph-cap lint in `tools/batches.py check` (`glyph_cap`: ITEM BOX description 90, item name 27 = 30 less ": nn",
     SOL page 200; letters only, spaces/codes free; STATUS 00748 debug item exempt), test `test_glyph_cap`.

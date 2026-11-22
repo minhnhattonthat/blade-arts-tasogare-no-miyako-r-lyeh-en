@@ -22,7 +22,7 @@ sol.28.19	0	t3b3紅の石像b0を台座に置いた。	{t3}Placed the {b3}Crimso
 sol.28.20	0	t3b3蒼の石像b0を台座に置いた。	{t3}Placed the {b3}Blue Statue{b0} on the pedestal.	
 sol.28.21	0	t3「汝の力で我を照らせ」\\と、記されている‥‥	{t3}"Illuminate me with thy power,"\\it reads...	
 sol.28.22	0	t3何らかの文章のように見えるが、\\何が記されているのか、解読できない‥‥	{t3}It looks like some kind of writing,\\but there's no deciphering what it says...	
-sol.28.23	0	t3こいつぁ‥‥	{t3}Well, would you look at that...	
+sol.28.23	0	t3こいつぁ‥‥	{t3}Whoa, this is...	
 sol.28.24	0	t3‥‥やべぇ！！	{t3}...Oh, crap!!	
 sol.28.25	0	t3おわぁぁぁぁぁぁぁぁぁ‥‥	{t3}Whoaaaaaaaaaa...	
 sol.28.26	0	t3b3石黄の石板b0を手に入れた。	{t3}Got the {b3}Yellow Tablet{b0}.	
@@ -30,10 +30,10 @@ sol.28.27	0	CSA0t0e01271零、聞こえる？	{CSA0t0e01271}Rei, can you hear me
 sol.28.28	0	CSA0t0e00924ああ、ランファか。どうした？	{CSA0t0e00924}Ah, Ranfa. What's up?	
 sol.28.29	0	CSA0t0e00140さっき、調査団のキャンプ跡で、\\遺跡の調査メモが見つかったの。@@で、判ってるとこはこっちでナビするから、\\細かいとこの確認お願いね。	{CSA0t0e00140}We just found notes on the ruins\\at the survey team's old campsite.@@So I'll navigate you through what we know,\\and you check the details, okay?	
 sol.28.30	0	CSA0t0e00580細かいとこ、ねぇ‥‥\\なんか適当っぽくねぇか？	{CSA0t0e00580}"The details," huh...\\Doesn't that sound kinda half-assed?	
-sol.28.31	0	CSA0t0e00758適当かどうかは、あんたの働き次第でしょ。@@みんなに迷惑かかるんだから、\\ちゃんとがんばりなさいよ。	{CSA0t0e00758}Whether it's half-assed depends on how\\well you do your job.@@Everyone's counting on you,\\so you'd better try hard, okay?	
+sol.28.31	0	CSA0t0e00758適当かどうかは、あんたの働き次第でしょ。@@みんなに迷惑かかるんだから、\\ちゃんとがんばりなさいよ。	{CSA0t0e00758}Whether it's half-assed depends on how\\well you do your job.@@If you slack, everyone pays for it,\\so you'd better try hard, okay?	
 sol.28.32	0	CSA0t0e01272へぇへ‥‥	{CSA0t0e01272}Yeah, yeah...	
 sol.28.33	0	CSA0t0e00314あと、位置はちゃんとこっちで\\モニターしてるから、より道しないでね。@@何かネコババしたって、\\すぐに判るんだからね！	{CSA0t0e00314}Oh, and I'm monitoring your position\\from here, so no detours, okay?@@If you pocket anything,\\I'll know right away!	
-sol.28.34	0	CSA0t0e01006‥‥信用ねえの。	{CSA0t0e01006}...Nice to be trusted.	
+sol.28.34	0	CSA0t0e01006‥‥信用ねえの。	{CSA0t0e01006}...So much for trust.	
 sol.28.35	0	CSA0t0e00403うだうだ言わずに、とっとと始める！	{CSA0t0e00403}Quit whining and get started already!	
 sol.28.36	1	WP-134-016WS2004BS0805BYB+00BKC002ゆっくり移動する場合、Ｒ１ボタンを\\押しながら方向キーを押します。\\走るときは方向キーだけを\\押してください。t300	{WP-134-016WS2004BS0805BYB+00BKC002}To move slowly, hold R1\\and press the D-pad.\\To run, press the D-pad\\on its own.{t300}	
 sol.28.37	1	CSA0t0e00925‥‥よぉ、このあたりの猫科の大型に何がいる？	{CSA0t0e00925}...Hey, what kind of big cats live around here?	
@@ -76,7 +76,7 @@ sol.28.73	2	CSA0t0e00927Ｐ．Ｅ．ねぇ‥‥\\で、リズィは、あとど
 sol.28.74	2	CSA0t0e00676今、ここにいるが。	{CSA0t0e00676}I'm already here.	
 sol.28.75	2	CSA0t0e00406うわっ！！	{CSA0t0e00406}Whoa!!	
 sol.28.76	2	CSA0t0e00845何を驚いている？	{CSA0t0e00845}What are you so surprised about?	
-sol.28.77	2	CSA0t0e01095えらくお茶目‥‥　いや、早いじゃねえか‥‥\\で、Ｐ．Ｅ．は？	{CSA0t0e01095}Real cute...  I mean, you got here fast...\\So, where's the P.E.?	
+sol.28.77	2	CSA0t0e01095えらくお茶目‥‥　いや、早いじゃねえか‥‥\\で、Ｐ．Ｅ．は？	{CSA0t0e01095}Quite the prankster... I mean, you got here fast...\\So, where's the P.E.?	
 sol.28.78	2	CSA0t0e00227ああ、ここにある。気をつけて使えよ。\\間違っても遺跡に余計な被害を与えないように@@‥‥貴様と心中など御免だからな。	{CSA0t0e00227}Yes, right here. Handle it with care.\\Don't do any needless damage to the ruins.@@...I've no wish to die alongside you, fool.	
 sol.28.79	2	CSA0t0e00060じゃ、早速使ってみるか。	{CSA0t0e00060}Okay, let's give it a shot.	
 sol.28.80	2	CSA0t0e01275そんな高い所に置こうとしても、\\手が届かないんじゃないのか？	{CSA0t0e01275}If you try to put it up that high,\\won't it be out of your reach?	
@@ -86,7 +86,7 @@ sol.28.83	2	WP-134-016WS2002BS0805BYB+00BKC002間違えて押しすぎたら、�
 sol.28.84	2	WP-134-016WS2004BS0805BYB+00BKC002Ｐ．Ｅ．に関わらず道具を使いたいときは、\\まず使う場所へ行く。\\壁の崩れてる場所にＰ．Ｅ．を使うには、\\そこでＬ２ボタンを長く押し、@@Ｌ２ボタン＋方向キーでアイテム選択。\\Ｐ．Ｅ．を選び、１度Ｌ２ボタンをはなし、\\Ｌ２ボタンを短く押すと\\使用する事が出来る。	{WP-134-016WS2004BS0805BYB+00BKC002}To use P.E. or any other tool,\\first go where you want to use it.\\To use P.E. on a crumbling wall,\\hold L2 there,@@then press L2 + D-pad to pick an item.\\Choose P.E., release L2 once,\\then tap L2 briefly\\to use it.	
 sol.28.85	3	CSA0t0e01362あれ、どこに行くんだ？	{CSA0t0e01362}Huh, where are you going?	
 sol.28.86	3	CSA0t0e01010あぁ、貴様が大雑把だと言われてな。\\前調査の確認作業だよ‥‥貴様の尻拭いさ。	{CSA0t0e01010}Ah, I hear you're sloppy. Rechecking the\\earlier survey... cleaning up after you.	
-sol.28.87	3	CSA0t0e00407‥‥俺って、そんなに信用ないのか？	{CSA0t0e00407}...Do people really trust me that little?	
+sol.28.87	3	CSA0t0e00407‥‥俺って、そんなに信用ないのか？	{CSA0t0e00407}...Am I really that untrustworthy?	
 sol.28.88	3	CSA0t0e00846そう、くさるな。@@調査団の消息がたどれない今、細心の注意を\\はらっておいても、間違いはあるまい？	{CSA0t0e00846}Don't sulk.@@With no trace of the survey team, taking every\\precaution can't be a mistake, can it?	
 sol.28.89	3	CSA0t0e00677‥‥まぁ、いいか。\\だが、俺の邪魔だけは勘弁してくれよな？	{CSA0t0e00677}...Well, whatever.\\Just don't get in my way, okay?	
 sol.28.90	3	CSA0t0e00761その言葉は、そのまま貴様に返しておこう。\\じゃあな。	{CSA0t0e00761}I'll return those words to you, word for word.\\See you.	
@@ -94,7 +94,7 @@ sol.28.91	3	CSA0t0e00143‥‥かわいくねぇの。	{CSA0t0e00143}...Not cute
 sol.28.92	3	CSA0t0e00061危険物を持ったまま不用意に\\徘徊しないでもらいたいな‥‥	{CSA0t0e00061}I'd rather you didn't wander around\\carelessly with explosives...	
 sol.28.93	3	CSA0t0e01185とりあえず、先にここの作業を\\片付けてからでも遅くはないだろう？	{CSA0t0e01185}It won't hurt to finish the job\\here first, will it?	
 sol.28.94	3	CSA0t0e00928‥‥調査団の連中、\\火の始末ぐらいきちんとしとけよな‥‥	{CSA0t0e00928}...Those survey guys could've\\at least put out their damn fires...	
-sol.28.95	3	CSA0t0e00495どぉわっ！	{CSA0t0e00495}Whoa-ho!	
+sol.28.95	3	CSA0t0e00495どぉわっ！	{CSA0t0e00495}Whoa-aah!	
 sol.28.96	3	CSA0t0e01363あ～、そこにかかってる橋も\\崩れやすくなってるって。@@気をつけてね。	{CSA0t0e01363}Oh~, they say the bridge there\\crumbles easily too.@@Be careful.	
 sol.28.97	3	CSA0t0e00317だから、早めに言ってくれっ！	{CSA0t0e00317}Like I said, tell me sooner!	
 sol.28.98	3	CSA0t0e01096零、あんた水ダメなんだっけ？	{CSA0t0e01096}Rei, you're no good with water, right?	

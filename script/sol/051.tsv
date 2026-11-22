@@ -24,7 +24,7 @@ sol.51.21	0	t3何か仕掛けがあるようだ‥‥‥\\	{t3}Looks like there'
 sol.51.22	0	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Activate the mechanism?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.51.23	0	t3仕掛けを動かした‥‥‥	{t3}Activated the mechanism...	
 sol.51.24	0	t3仕掛けは作動しています。	{t3}The mechanism is working.	
-sol.51.25	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou preserve the sword's memory?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.51.25	0	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am the keeper of the sword's memory...@@Wouldst thou preserve the sword's memory?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.51.26	0	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
 sol.51.27	0	t3開かないようだ‥‥‥	{t3}It doesn't seem to open...	
 sol.51.28	0	t3b2＜地下街の攻防１イベント＞b0\\誠意制作中、乞うご期待！！	{t3b2}＜Underground City Battle 1 Event＞{b0}\\Under construction, stay tuned!!	

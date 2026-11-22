@@ -61,7 +61,7 @@ sol.81.58	2	CSA0t0e01085ナカムラと、バセテトを倒した時に、\\弔
 sol.81.59	2	CSA0t0e00486だったら、もういっペんやってやる必要が\\あるよな‥‥‥	{CSA0t0e00486}Then I guess I've gotta go\\one more round...	
 sol.81.60	2	CSA0t0e00573封鎖区画への通路は開いておいた。\\頼む、君だけが頼りなんだ‥‥‥	{CSA0t0e00573}I've opened the passage to the sealed sector.\\Please, you're the only one I can count on...	
 sol.81.61	2	CSA0t0e00917‥‥‥わかった。\\全ての決着をつけてやるっ！	{CSA0t0e00917}...Fine.\\I'll settle every last bit of this!	
-sol.81.62	2	CSA0t0e01001それならすでに手は打ってある。\\まずは、君の持っているスフィア‥‥‥@@奴はそれを通じて\\自分を転送させる事が出来るが、@@君の持っているスフィアは、\\イ＝ルムに機能を変えさせて@@バセテトからの精神波を通さないようにしている\\そして、現存するスフィアはそれで全てだ。	{CSA0t0e01001}I've already taken care of that.\\First, the Spheres you're carrying...@@He can use them to\\transfer himself,@@but I had I-Rum alter the function\\of the Spheres you carry@@so they block Basetet's mental waves.\\And those are all the Spheres that remain.	
+sol.81.62	2	CSA0t0e01001それならすでに手は打ってある。\\まずは、君の持っているスフィア‥‥‥@@奴はそれを通じて\\自分を転送させる事が出来るが、@@君の持っているスフィアは、\\イ＝ルムに機能を変えさせて@@バセテトからの精神波を通さないようにしている\\そして、現存するスフィアはそれで全てだ。	{CSA0t0e01001}I have already seen to that.\\First, the Spheres you carry...@@It can transfer itself\\through them,@@but I had I-Rum alter the function\\of the Spheres you carry@@so they block Basetet's mind waves.\\And those are all the Spheres that remain.	
 sol.81.63	2	t3何か仕掛けがあるようだ‥‥‥\\	{t3}Looks like there's some kind of mechanism...\\	
 sol.81.64	2	t3仕掛けを起動しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Activate the mechanism?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.81.65	2	t3仕掛けを動かした‥‥‥	{t3}Activated the mechanism...	
@@ -94,7 +94,7 @@ sol.81.91	3	t3＜機材リフト＞\\下階でガス漏れ事故が発生して�
 sol.81.92	3	t3培養槽の中に見た事のある\\化け物が入っている。	{t3}There's a familiar-looking monster\\inside the culture tank.	
 sol.81.93	4	t3＜機材リフト＞\\警戒態勢発令中@@警戒態勢発令中は被害拡大防止のため\\機材リフトの運転は休止中です。@@脱出には非常階段を使用して下さい。	{t3}＜Equipment Lift＞\\Alert in effect@@While the alert is in effect, the equipment lift\\is out of service to prevent further damage.@@Please use the emergency stairs to evacuate.	
 sol.81.94	4	t3どうやら移動装置みたいだ‥‥‥\\@@この移動装置に乗りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Looks like some kind of transport device...\\@@Ride this transport device?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
-sol.81.95	4	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou preserve the sword's memory?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.81.95	4	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am the keeper of the sword's memory...@@Wouldst thou preserve the sword's memory?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.81.96	4	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
 sol.81.97	4	t0＜中央コントロール装置＞\\現在、警戒態勢発令中@@警戒態勢を解除しますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}＜Central Control Unit＞\\Alert currently in effect@@Lift the alert?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.81.98	4	t3培養室安全確認中\\t5‥‥‥‥‥‥‥‥‥‥	{t3}Confirming Culture Room safety\\{t5}...	

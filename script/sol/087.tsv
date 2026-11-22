@@ -27,7 +27,7 @@ sol.87.24	1	t3下階でガス漏れ事故が発生しているため\\機材リ�
 sol.87.25	1	t3培養槽の中に見た事ある化け物が入っている。	{t3}There's a monster I've seen before\\inside the culture tank.	
 sol.87.26	1	t3＜警戒態勢発令中＞\\@@警戒態勢発令中は被害拡大防止のため\\機材リフトの運転は休止中です。@@脱出には非常階段を使用して下さい。	{t3}＜Alert in Effect＞\\@@While the alert is in effect, the equipment lift\\is out of service to prevent further damage.@@Please use the emergency stairs to evacuate.	
 sol.87.27	1	t3どうやら移動装置みたいだ‥‥‥\\@@この移動装置に乗りますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Looks like some kind of transport device...\\@@Ride this transport device?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
-sol.87.28	1	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am keeper of the sword's memory...@@Wouldst thou preserve the sword's memory?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
+sol.87.28	1	t3剣を納めよ‥‥‥\\我、剣の記憶を司る者‥‥@@汝、剣の記憶をとどめる事を欲するか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}Sheathe thy sword...\\I am the keeper of the sword's memory...@@Wouldst thou preserve the sword's memory?\\{t0[DD1}　Yes　　　　　　{[2}　　No	
 sol.87.29	1	t3剣の記憶よ、我が元へ！	{t3}Memory of the Sword, come to me!	
 sol.87.30	1	t3仕掛けは作動しています。	{t3}The mechanism is working.	
 sol.87.31	1	t3＜エレベーター操作盤＞\\エレベータを動かすことがきます。@@エレベーターを動かしますか？\\t0[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t3}＜Elevator Control Panel＞\\You can operate the elevator here.@@Operate the elevator?\\{t0[DD1}　Yes　　　　　　{[2}　　No	

@@ -50,7 +50,7 @@ DATA/STATUS.BIN:00F8C	8014A78C	28	FCBC	祭壇の扉を開く青の石像。	A bl
 DATA/STATUS.BIN:00FA8	8014A7A8	28	FCB4	祭壇の扉を開く紅の石像。	A crimson statue that opens\\the altar door.	
 DATA/STATUS.BIN:00FC4	8014A7C4	36	FCAC	長い剣、手に持って振り回して使う。	A long sword, held in hand and swung.	
 DATA/STATUS.BIN:00FE8	8014A7E8	64	FCA4	応急治療に使う医療キット。\\使用すると体力が大幅に回復する。	A medical kit for first aid.\\Restores a lot of health when used.	
-DATA/STATUS.BIN:01028	8014A828	44	FC9C	アーツパワーを最大値まで回復する特殊な液体	A special liquid that fully restores\\Arts Power	
+DATA/STATUS.BIN:01028	8014A828	44	FC9C	アーツパワーを最大値まで回復する特殊な液体	A special liquid that fully restores\\Arts Power.	
 DATA/STATUS.BIN:01054	8014A854	32	FC94	体力をわずかに回復できる薬草。	A medicinal herb that restores\\a little health.	
 DATA/STATUS.BIN:01074	8014A874	16	FC8C	青い物体１。	Blue object 1.	
 DATA/STATUS.BIN:01084	8014A884	16	FC84	赤い物体１。	Red object 1.	
@@ -72,7 +72,7 @@ DATA/STATUS.BIN:0DA0C	8015720C	56	DFD0	フォルテス\\パニッシャーに最
 DATA/STATUS.BIN:0DA44	80157244	44	DFD4	トニトルス\\パニッシャーに鋭さを与える。	Tonitrus\\Gives the Punisher sharpness.	
 DATA/STATUS.BIN:0DA70	80157270	52	DFD8	テンペリエス\\パニッシャーに最も強力な力を与える。	Temperies\\Gives the Punisher the greatest power.	
 DATA/STATUS.BIN:0DAA4	801572A4	44	DFDC	イグニス\\パニッシャーに、素早さを与える。	Ignis\\Gives the Punisher speed.	
-DATA/STATUS.BIN:0DAD0	801572D0	44	DFE0	グラヴェス\\パニッシャーに、飛力を与える。	Graves\\Gives the Punisher flight power.	
+DATA/STATUS.BIN:0DAD0	801572D0	44	DFE0	グラヴェス\\パニッシャーに、飛力を与える。	Graves\\Gives the Punisher the power of flight.	
 DATA/STATUS.BIN:0DAFC	801572FC	96	DFE4	ラディウス\\前方に高速で光弾を撃ち出す。レベルＵＰで、\\放射状に光弾をばらまくことができる。	Radius\\Fires light shots forward at high speed.\\Level up to spray them out radially.	
 DATA/STATUS.BIN:0DB5C	8015735C	100	DFE8	コンクエスト\\頭上に光弾を打ち上げ、地面付近で光球に変化\\レベルＵＰで、光弾の発射数が増加する。	Conquest\\Lobs light shots up that become orbs near\\the ground. Level up for more shots.	
 DATA/STATUS.BIN:0DBC0	801573C0	88	DFEC	ライトニング\\あらゆる物を貫通する雷撃を高速で撃ち出す。\\レベルＵＰで麻痺効果が増加。	Lightning\\Fires a fast bolt that pierces anything.\\Level up for stronger paralysis.	

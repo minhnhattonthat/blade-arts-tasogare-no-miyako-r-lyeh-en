@@ -26,10 +26,10 @@ sol.113.23	0	CSA0t0e00794‥‥そうか。\\	{CSA0t0e00794}...I see.\\
 sol.113.24	0	CSA0t0e00351ん‥‥あ、そうだ。\\ねぇ、なんかお土産無いの？	{CSA0t0e00351}Hmm... oh, right.\\Hey, didn't you bring me a souvenir?	
 sol.113.25	0	CSA0t0e00963はぁ？\\	{CSA0t0e00963}Huh?\\	
 sol.113.26	1	CSA0t0e00096一番奥まで行ったの、あんただけじゃない。\\なんかめぼしい物無かったの？	{CSA0t0e00096}You're the only one who went all the way in.\\Didn't you find anything good?	
-sol.113.27	1	CSA0t0e00531‥‥あんな状況で、んなモノ\\探してる暇あるかよ、馬鹿。	{CSA0t0e00531}...In a mess like that, like I had time\\to go hunting for junk, idiot.	
+sol.113.27	1	CSA0t0e00531‥‥あんな状況で、んなモノ\\探してる暇あるかよ、馬鹿。	{CSA0t0e00531}...Like I had time to go hunting for junk\\in a mess like that, idiot.	
 sol.113.28	1	CSA0t0e00621あ～馬鹿って言ったなぁ！\\	{CSA0t0e00621}Ah~, you called me an idiot!\\	
 sol.113.29	1	CSA0t0e01219じいさん、これ取っとけよ。\\	{CSA0t0e01219}Gramps, hang on to this.\\	
-sol.113.30	1	CSA0t0e01310ん？\\‥‥これは！	{CSA0t0e01310}Hm?\\...This is!	
+sol.113.30	1	CSA0t0e01310ん？\\‥‥これは！	{CSA0t0e01310}Hm?\\...Why, this is...!	
 sol.113.31	1	CSA0t0e01133ちーとばかり、使い古されてるけどね。\\本当に唯一の戦利品だ。	{CSA0t0e01133}It's a little beat up, sure.\\But it's honestly the only loot I got.	
 sol.113.32	1	CSA0t0e00964いや、構わんよ。\\お前が持っておくと良い。	{CSA0t0e00964}No, that's quite all right.\\You should keep it.	
 sol.113.33	1	CSA0t0e00264‥‥ああ、そうだな。\\	{CSA0t0e00264}...Yeah, you're right.\\	
@@ -39,7 +39,7 @@ sol.113.36	1	CSA0t0e00352じゃぁ、それちょうだいよぉ。\\	{CSA0t0e00
 sol.113.37	1	CSA0t0e01220だから、これはじいさんが俺に\\取っとけっつってくれたんだから、@@俺のもんなんだって！何で、それを\\わざわざお前にやらにゃなんねぇんだよ！	{CSA0t0e01220}I told you, Gramps said I should\\keep it, so it was given to me,@@which makes it mine! Why the hell\\would I go and hand it over to you!	
 sol.113.38	1	CSA0t0e00443でぇもぉ。あたしだってあそこにいたんだし、\\せめて分け前をもらう権利はあるはずだよぉ。	{CSA0t0e00443}Buuut~ I was there too, wasn't I?\\So I've got a right to a cut, at least~.	
 sol.113.39	1	CSA0t0e01044お前の寝ている間にまた大きな地震が\\あってな。幸い死傷者は出なかったが、@@島が沈む気配があったので、	{CSA0t0e01044}While you were asleep, there was another big\\quake. Luckily no one was hurt or killed,@@but the island looked ready to sink, so...	
-sol.113.40	1	CSA0t0e00531‥‥あんな状況で、んなモノ\\探してる暇‥‥。	{CSA0t0e00531}...In a mess like that, like I had time\\to go hunting...	
+sol.113.40	1	CSA0t0e00531‥‥あんな状況で、んなモノ\\探してる暇‥‥。	{CSA0t0e00531}...Like I had time to go hunting\\for junk in a mess like...	
 sol.113.41	1	CSA0t0私も貴方を助けたかった‥‥‥\\ただ、それだけ‥‥‥	{CSA0t0}I wanted to save you too...\\That's all...	
 sol.113.42	1	CSA0t0e00712出口が近い‥‥\\さぁ、お別れだ‥‥	{CSA0t0e00712}The exit is near...\\Now, it's time to say goodbye...	
 sol.113.43	1	t0‥‥影響を考えて\\今はかなり離れているが‥‥@@まぁ、どうでも良いな。\\	{t0}...in case of the effects,\\we're keeping well away for now...@@Well, that hardly matters.\\	

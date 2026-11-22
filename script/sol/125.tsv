@@ -36,9 +36,9 @@ sol.125.33	1	t0　　　　　g7台座に石版をはめますか？\\　　　�
 sol.125.34	1	t0　動物が描かれた石版の台座によく似ている‥‥g7i015	{t0}　It looks a lot like the animal tablet's pedestal...{g7i015}	
 sol.125.35	1	t0　g7これに乗れば、下層部へ降りられるはずだ。g7i015	{t0}{g7}　Riding this should take me to the lower level.{g7i015}	
 sol.125.36	1	t0　　　　　　g7下層部に降りますか？\\　　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Go down to the lower level?\\　　　　{[DD1}　Yes　　　　　　{[2}　　No	
-sol.125.37	1	t0　　　　g7b3重力エレベーター操作盤b0\\　g7現在、重力エレベーターは休止しています。g7i015	{t0}　　　　{g7b3}Gravity Elevator Control Panel{b0}\\{g7}The gravity elevator is currently out of service.{g7i015}	
-sol.125.38	1	t0　　g7重力エレベーターを稼働させますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　{g7}Activate the gravity elevator?\\　　　{[DD1}　Yes　　　　　　{[2}　　No	
-sol.125.39	1	t0　　g7重力エレベーターを稼働させました。g7i015	{t0}　　{g7}Activated the gravity elevator.{g7i015}	
+sol.125.37	1	t0　　　　g7b3重力エレベーター操作盤b0\\　g7現在、重力エレベーターは休止しています。g7i015	{t0}　　　　{g7b3}Gravity Elevator Control Panel{b0}\\{g7}The Gravity Elevator is currently out of service.{g7i015}	
+sol.125.38	1	t0　　g7重力エレベーターを稼働させますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　{g7}Activate the Gravity Elevator?\\　　　{[DD1}　Yes　　　　　　{[2}　　No	
+sol.125.39	1	t0　　g7重力エレベーターを稼働させました。g7i015	{t0}　　{g7}Activated the Gravity Elevator.{g7i015}	
 sol.125.40	1	t0水晶の台座だ	{t0}It's a crystal pedestal.	
 sol.125.41	1	t0　　　　　このスイッチを起動するには\\　　　　　　プレートが必要です。g7i015	{t0}　　　You need a Plate\\　　　to activate this switch.{g7i015}	
 sol.125.42	1	t0　　　　　g7ジェネレータを壊さないと\\　　　　　　　起動しないようだな。	{t0}　　　{g7}Looks like it won't start up\\　　　unless I wreck the generator.	
@@ -72,8 +72,8 @@ sol.125.69	2	CSA0t4b6少女：b0‥‥ああ、その岩ですね。i060@@多分
 sol.125.70	2	CSA0t4b4零：b0‥‥なんとなくわかったわ。\\ありがとうな。i060	{CSA0t4b4}Rei:{b0} ...Think I get the gist.\\Thanks.{i060}	
 sol.125.71	2	CSA0t4b6少女：b0いいえ、お気をつけて‥‥\\i060皆さんを無事にお助け出来る事を‥‥i060	{CSA0t4b6}Girl:{b0} Not at all. Please be careful...\\{i060}I pray you can rescue everyone safely...{i060}	
 sol.125.72	2	g7かなり広いな‥‥\\g7って、こいつは‥‥あのバケモンの巣？g7i015@@g7‥‥なんとなく‥‥やばい、かな？g7i015	{g7}Pretty big...\\{g7}Wait, is this... that monster's nest?{g7i015}@@{g7}...I kinda... got a bad feeling about this?{g7i015}	
-sol.125.73	2	　　　　g7b3重力エレベーター操作盤b0\\　g7現在、重力エレベーターは休止しています。g7i015@@t3b4零：b0さーて、手間食っちまったが‥‥\\‥‥これで、動くか？g7i015CSA0	　　{g7b3}Gravity Elevator Control Panel{b0}\\{g7}The gravity elevator is currently out of service.{g7i015}@@{t3b4}Rei:{b0} Okay, that took a while, but...\\...will this get it moving?{g7i015CSA0}	
-sol.125.74	2	　　g7重力エレベーターを稼働させました。g7i015@@さーて、と。\\鬼が出るか、蛇が出るか‥‥g7i015	　{g7}Activated the gravity elevator.{g7i015}@@Okay, then.\\Let's see what's waiting down there...{g7i015}	
+sol.125.73	2	　　　　g7b3重力エレベーター操作盤b0\\　g7現在、重力エレベーターは休止しています。g7i015@@t3b4零：b0さーて、手間食っちまったが‥‥\\‥‥これで、動くか？g7i015CSA0	　　{g7b3}Gravity Elevator Control Panel{b0}\\{g7}The Gravity Elevator is currently out of service.{g7i015}@@{t3b4}Rei:{b0} Okay, that took a while, but...\\...will this get it moving?{g7i015CSA0}	
+sol.125.74	2	　　g7重力エレベーターを稼働させました。g7i015@@さーて、と。\\鬼が出るか、蛇が出るか‥‥g7i015	　{g7}Activated the Gravity Elevator.{g7i015}@@Okay, then.\\Demon or serpent, let's see what crawls out...{g7i015}	
 sol.125.75	2	t0　　　　　　g7蒼玉を拾いますか？\\　　　[DD1　Ｙｅｓ　　　　　[2　　Ｎｏ	{t0}　　　　　{g7}Pick up the Sapphire?\\　　　{[DD1}　Yes　　　　　　{[2}　　No	
 sol.125.76	2	t0　　g7壁が壊れていて開きそうにない‥‥‥g7i015	{t0}　{g7}The wall's broken. It won't open like this...{g7i015}	
 sol.125.77	2	t0　　　　　g7仕掛けは作動している。g7i015	{t0}　　　　{g7}The mechanism is running.{g7i015}	
@@ -98,7 +98,7 @@ sol.125.95	3	CSA0t4b4g7零：b0パニッシャー？i060	{CSA0t4b4g7}Rei:{b0} Pu
 sol.125.96	3	CSA0t4b6g7ナカムラ：b0ほう、その剣の持つ意味も知らずに\\帯びているのか？i030@@ならば、たいした意味も無いと言う事か‥‥i060	{CSA0t4b6g7}Nakamura:{b0} Oh? You carry that sword without\\even knowing what it means?{i030}@@Then I suppose it means little after all...{i060}	
 sol.125.97	3	CSA0t4b4g7零：b0何をぶつぶつ言ってやがるっ！\\さっさとリズを放しやがれっ！i060	{CSA0t4b4g7}Rei:{b0} What're you muttering about!?\\Let Liz go already!{i060}	
 sol.125.98	3	CSA0t4b6g7ナカムラ：b0ブリジット・ランダースは、\\今私との契約の元に行動している。i030@@貴様ごときに口出しされるいわれは無い。i060	{CSA0t4b6g7}Nakamura:{b0} Bridget Landers is acting\\under a contract with me.{i030}@@The likes of you have no say in the matter.{i060}	
-sol.125.99	3	CSA0t4b4g7零：b0てめぇ！\\人質とって、言う事はそれか！i060	{CSA0t4b4g7}Rei:{b0} You bastard!\\You take hostages, and that's your excuse!?{i060}	
+sol.125.99	3	CSA0t4b4g7零：b0てめぇ！\\人質とって、言う事はそれか！i060	{CSA0t4b4g7}Rei:{b0} You bastard!\\You take hostages, and that's all you say!?{i060}	
 sol.125.100	3	CSA0t4b6g7マリオン：b0あら、生きてたのアナタ？\\‥‥やっぱり外の人間ってダメね。i030@@シゴト一つ満足にこなせやしない‥‥i060	{CSA0t4b6g7}Marion:{b0} Oh my, you're still alive?\\...Outsiders really are useless.{i030}@@Can't even do one job properly...{i060}	
 sol.125.101	3	CSA0t4b4g7零：b0！？i030\\‥‥いつの間に！i060	{CSA0t4b4g7}Rei:{b0} !?{i030}\\...When did you get there!?{i060}	
 sol.125.102	3	CSA0t4b6g7マリオン：b0結構、隙が多いじゃない。\\案外たいした事無いのね‥‥‥i060	{CSA0t4b6g7}Marion:{b0} You leave yourself wide open, darling.\\You're not much after all, are you...{i060}	

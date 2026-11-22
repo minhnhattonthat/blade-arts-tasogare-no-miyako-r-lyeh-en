@@ -48,3 +48,13 @@ for Gramps, Bridget for Liz). No Critical or Important.
 Minor: 138.107 精神波 "psychic waves" (81.40 "mind waves", 81.62 "mental waves": one term); 138.88 "Be... care...
 FUL..." adds a syllable the JP cuts (81.16 "Be... care..."); 132.111 folds to "...Nothing." where 61.24 answers Rei's
 "forget what I said" with "...It's all right.".
+
+## ch06 (blocks 147-176) - ok
+Voiced Prestage copy (147/159: stone gear, the sanctuary girl's request, Ranfa's radio tutorial, Bridget and the C4,
+the sword trap and the beast), Tindalos's rematch (155: "was that you in the chopper?"), the advance-team guard and his
+map (166 / 169 / 173: "Bokuden's sword had no set form", "self-taught punk"), the block 24 relic copies (158 / 176).
+Rei's banter with Ranfa ("So much for trust", "Then tell me sooner, dammit!") and the Bridget "prankster" save land;
+Tindalos stays archaic; Bridget curt with 貴様. No Critical or Important.
+Minor: the sanctuary girl speaks archaic in 147.27-48 ("Thy journey...", "thee", "the path where no path lies") but
+modern formal in the same scene's other copies (24.27-48, 26/117, 166.37/41/58: "Your journey...", "the path where
+there is none"); the JP (貴方 / 御身) has no register shift. 147.117 どぉわっ "Whoa-aah!" is the better reading for 28.95.

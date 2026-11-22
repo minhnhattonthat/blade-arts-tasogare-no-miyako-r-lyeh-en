@@ -44,7 +44,7 @@ DATA/LOADSAVE.BIN:00268	80149A68	4	290	６	6
 DATA/LOADSAVE.BIN:0026C	80149A6C	4	294	７	7	
 DATA/LOADSAVE.BIN:00270	80149A70	4	298	８	8	
 DATA/LOADSAVE.BIN:00274	80149A74	4	29C	９	9	
-DATA/LOADSAVE.BIN:002A0	80149AA0	16	10090	ビガヂュー！！	Bikachuuu!!	
+DATA/LOADSAVE.BIN:002A0	80149AA0	16	10090	ビガヂュー！！	Bigachuuu!!	
 DATA/LOADSAVE.BIN:002B0	80149AB0	40	1008C	いつも月夜の晩とはかぎらないのです。	Not every night is a moonlit one.	
 DATA/LOADSAVE.BIN:002D8	80149AD8	32	10088	洗濯物がたまる一方で・・・。	The laundry just keeps piling up...	
 DATA/LOADSAVE.BIN:002F8	80149AF8	88	10084	チェックサムはデータの保全のためにつけているのです。チート防止のためではないのです。		data: dev note copied into every save (card +0x57C); changing it still loads (verified), never shown: keep
@@ -53,7 +53,7 @@ DATA/LOADSAVE.BIN:00374	80149B74	12	1C2C	cfffセーブ	{cfff}Save
 DATA/LOADSAVE.BIN:00380	80149B80	20	1C50	c555パラメータ設定	{c555}Settings	
 DATA/LOADSAVE.BIN:00394	80149B94	12	1C58	c555セーブ	{c555}Save	
 DATA/LOADSAVE.BIN:003A0	80149BA0	24	1C78	cfffパラメータ設定	{cfff}Settings	
-DATA/LOADSAVE.BIN:003C4	80149BC4	40	4740	メモリーカードをチェックしています。	Checking Memory Card.	
+DATA/LOADSAVE.BIN:003C4	80149BC4	40	4740	メモリーカードをチェックしています。	Checking Memory Card...	
 DATA/LOADSAVE.BIN:003EC	80149BEC	32	4754,4C10,5884	メモリーカード、コントローラを	Do not remove the Memory Card	
 DATA/LOADSAVE.BIN:0040C	80149C0C	28	4774,4C30,58A4	抜き差ししないで下さい。	or controller.	
 DATA/LOADSAVE.BIN:00428	80149C28	36	4794,4C50,58C4	ディスクカバーを開けないで下さい。	Do not open the disc cover.	
@@ -89,17 +89,17 @@ DATA/LOADSAVE.BIN:006E4	80149EE4	28	5398	　ファイルが壊れています。
 DATA/LOADSAVE.BIN:0070C	80149F0C	40	5E30	ブレイドアーツのファイルがありません。	No Blade Arts file found.	
 DATA/LOADSAVE.BIN:00734	80149F34	44	5F04	ブレイドアーツのセーブデータがありません。	No Blade Arts save data.	
 DATA/LOADSAVE.BIN:00760	80149F60	16	5870	ロード中です。	Loading...	
-DATA/LOADSAVE.BIN:00770	80149F70	32	5AD0	メモリーカードが抜かれました。	Memory Card was removed.	
-DATA/LOADSAVE.BIN:00790	80149F90	44	5AE4	スロット１にブレイドアーツのデータがある	Needs Blade Arts data in slot 1.	
+DATA/LOADSAVE.BIN:00770	80149F70	32	5AD0	メモリーカードが抜かれました。	The Memory Card was removed.	
+DATA/LOADSAVE.BIN:00790	80149F90	44	5AE4	スロット１にブレイドアーツのデータがある	Blade Arts data in slot 1.	
 DATA/LOADSAVE.BIN:007BC	80149FBC	32	5B04	メモリーカードを差して下さい。	Insert a suitable Memory Card.	
 DATA/LOADSAVE.BIN:007DC	80149FDC	36	6010,60B4	データの読み込みに失敗しました。	Failed to load data.	
 DATA/LOADSAVE.BIN:00800	8014A000	28	60C8	ファイルが壊れています。	File is corrupted.	
-DATA/LOADSAVE.BIN:0081C	8014A01C	40	61B4	メモリーカードをチェックしています。	Checking Memory Card.	
+DATA/LOADSAVE.BIN:0081C	8014A01C	40	61B4	メモリーカードをチェックしています。	Checking Memory Card...	
 DATA/LOADSAVE.BIN:00844	8014A044	32	61C8,6684,6870,7C14	メモリーカード、コントローラを	Do not remove the Memory Card	
 DATA/LOADSAVE.BIN:00864	8014A064	28	61E8,66A4,6890,7C34	抜き差ししないで下さい。	or controller.	
 DATA/LOADSAVE.BIN:00880	8014A080	36	6208,66C4,68B0,7C54	ディスクカバーを開けないで下さい。	Do not open the disc cover.	
 DATA/LOADSAVE.BIN:008BC	8014A0BC	44	6328	スロット１にメモリーカードがありません。	No Memory Card in slot 1.	
-DATA/LOADSAVE.BIN:008E8	8014A0E8	48	633C	スロット１に空きブロックが１ブロック以上ある	Needs 1+ free block in slot 1.	
+DATA/LOADSAVE.BIN:008E8	8014A0E8	48	633C	スロット１に空きブロックが１ブロック以上ある	At least 1 free block in slot 1.	
 DATA/LOADSAVE.BIN:00918	8014A118	32	635C,78CC,7EB0	メモリーカードを差して下さい。	Insert a suitable Memory Card.	
 DATA/LOADSAVE.BIN:00938	8014A138	32	8258	不適切な操作がなされました。	Invalid operation.	
 DATA/LOADSAVE.BIN:00958	8014A158	40	82E8	メモリーカードの認識に失敗しました。	Memory Card not recognized.	
@@ -109,9 +109,9 @@ DATA/LOADSAVE.BIN:009D8	8014A1D8	12	6594,7AB8,80B0	cfffはい	{cfff}Yes
 DATA/LOADSAVE.BIN:009E4	8014A1E4	12	65AC,7AD0,80C8	c555いいえ	{c555}No	
 DATA/LOADSAVE.BIN:009F0	8014A1F0	12	65B4,7AD8,80D0	c555はい	{c555}Yes	
 DATA/LOADSAVE.BIN:009FC	8014A1FC	12	65C8,7AEC,80E4	cfffいいえ	{cfff}No	
-DATA/LOADSAVE.BIN:00A08	8014A208	44	6670	メモリーカードをフォーマットしています。	Formatting Memory Card.	
+DATA/LOADSAVE.BIN:00A08	8014A208	44	6670	メモリーカードをフォーマットしています。	Formatting Memory Card...	
 DATA/LOADSAVE.BIN:00A3C	8014A23C	48	677C	メモリーカードのフォーマットを終了しました。	Memory Card formatted.	
-DATA/LOADSAVE.BIN:00A98	8014A298	32	685C	空きブロックを調べています。	Checking free blocks.	
+DATA/LOADSAVE.BIN:00A98	8014A298	32	685C	空きブロックを調べています。	Checking free blocks...	
 DATA/LOADSAVE.BIN:00AE8	8014A2E8	44	6B50	セーブするファイルを選択して下さい。	Select a file to save to.	
 DATA/LOADSAVE.BIN:00B1C	8014A31C	8	10190	１５	15	
 DATA/LOADSAVE.BIN:00B24	8014A324	8	1018C	１４	14	
@@ -133,11 +133,11 @@ DATA/LOADSAVE.BIN:00BBC	8014A3BC	32	7014	　他のゲームのファイルです
 DATA/LOADSAVE.BIN:00BDC	8014A3DC	20	10194	ブレイドアーツ／		card: title prefix the loader matches against the save (verified: changing it breaks loading): keep Japanese
 DATA/LOADSAVE.BIN:00BF0	8014A3F0	28	7080	　ファイルが壊れています。	　File is corrupted.	
 DATA/LOADSAVE.BIN:00C28	8014A428	44	7898	メモリーカードに空きブロックがありません。	No free blocks on Memory Card.	
-DATA/LOADSAVE.BIN:00C54	8014A454	36	78AC	１ブロック以上の空きブロックがある	Needs 1+ free block.	
+DATA/LOADSAVE.BIN:00C54	8014A454	36	78AC	１ブロック以上の空きブロックがある	At least 1 free block.	
 DATA/LOADSAVE.BIN:00C78	8014A478	24	79A4	ファイルが存在します	File already exists.	
 DATA/LOADSAVE.BIN:00C90	8014A490	28	79B8	上書きしてよろしいですか？	Overwrite it?	
-DATA/LOADSAVE.BIN:00CAC	8014A4AC	28	7C00	データを書き込んでいます。	Writing data.	
-DATA/LOADSAVE.BIN:00CD8	8014A4D8	32	7E9C	メモリーカードが抜かれました。	Memory Card was removed.	
+DATA/LOADSAVE.BIN:00CAC	8014A4AC	28	7C00	データを書き込んでいます。	Writing data...	
+DATA/LOADSAVE.BIN:00CD8	8014A4D8	32	7E9C	メモリーカードが抜かれました。	The Memory Card was removed.	
 DATA/LOADSAVE.BIN:00CF8	8014A4F8	24	7F9C	セーブを終了します。	Exit the save screen.	
 DATA/LOADSAVE.BIN:00D10	8014A510	20	7FB0	よろしいですか？	Are you sure?	
 DATA/LOADSAVE.BIN:00D24	8014A524	36	83B4	データの書き込みに失敗しました。	Failed to write data.	

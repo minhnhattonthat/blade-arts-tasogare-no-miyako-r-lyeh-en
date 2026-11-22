@@ -47,7 +47,7 @@ sol.132.44	2	CSA0t4b4零：b0どこから、ヘリが？i030	{CSA0t4b4}Rei:{b0} 
 sol.132.45	2	CSA0t4b4零：b0そうか‥‥i020通気用のエアダクト。\\あってもおかしくないな。i030	{CSA0t4b4}Rei:{b0} I see...{i020} An air duct for ventilation.\\Makes sense there'd be one.{i030}	
 sol.132.46	2	CSA0t4b6藍花：b0あーっ！\\i020零、あんた生きてたの！？i030	{CSA0t4b6}Ranfa:{b0} Aaah!\\{i020}Rei, you're alive!?{i030}	
 sol.132.47	2	CSA0t4b4零：b0ランファ、なんでこんなとこにいるんだよ！？i020\\って、それよりも生きてる？i030	{CSA0t4b4}Rei:{b0} Ranfa, what the hell are you doing here!?{i020}\\Wait, forget that, are you guys alive?{i030}	
-sol.132.48	2	CSA0t4b6藍花：b0あんたって男は‥‥\\i020とにかく、お互いに鬼ではないようね。i030	{CSA0t4b6}Ranfa:{b0} Honestly, you...\\{i020}Well, looks like neither of us is a ghost yet.{i030}	
+sol.132.48	2	CSA0t4b6藍花：b0あんたって男は‥‥\\i020とにかく、お互いに鬼ではないようね。i030	{CSA0t4b6}Ranfa:{b0} Honestly, you...\\{i020}Well, looks like neither of us is a ghost.{i030}	
 sol.132.49	2	CSA0t4b6藍花：b0で、零。あんたがここにいるってことは‥‥i020\\もしかして入口のセキュリティ、i020@@壊しちゃったんじゃないでしょうね？i030	{CSA0t4b6}Ranfa:{b0} So, Rei. If you're here, then...{i020}\\don't tell me you went and wrecked{i020}@@the security at the entrance~?{i030}	
 sol.132.50	2	CSA0t4b4零：b0なんか‥‥i020まずかった？i030	{CSA0t4b4}Rei:{b0} Was that...{i020} bad?{i030}	
 sol.132.51	2	CSA0t4b6藍花：b0考えなしに人の生命線壊さないでよっ！\\どーするのよぉ！i020@@ＤＳＯＮが襲って来ちゃうじゃない！i030	{CSA0t4b6}Ranfa:{b0} Don't wreck our lifeline without thinking!\\What are we supposed to do now~!?{i020}@@DSON's gonna come after us!{i030}	
@@ -59,7 +59,7 @@ sol.132.56	2	CSA0t4b4零：b0いや、ゴキブリじゃないんだから‥‥
 sol.132.57	2	CSA0t4b6藍花：b0そぉね。i060\\とりあえず隠れ場所がほしいかな。i020@@あ、そうそう。さっきマンホール見かけたから、\\地下坑なんかいいかも。i030	{CSA0t4b6}Ranfa:{b0} Hmm~.{i060}\\For now, I'd kinda like somewhere to hide.{i020}@@Oh, right! I saw a manhole a while ago,\\so maybe the underground tunnels?{i030}	
 sol.132.58	2	CSA0t4b4零：b0へぇへ。i020\\じゃぁ、とりあえず探してくるけども、やたらに動くなよ。i030	{CSA0t4b4}Rei:{b0} Yeah, yeah.{i020}\\I'll go look for now, so don't go wandering off.{i030}	
 sol.132.59	3	CSA0t4b6藍花：b0へぇ、しばらく隠れてる分にはちょうど良いかな？\\‥‥少しジメジメしてて暗いけど。i030	{CSA0t4b6}Ranfa:{b0} Ooh, this'll do for hiding out a while, huh?\\...Kinda damp and dark, though.{i030}	
-sol.132.60	3	CSA0t4b4零：b0そーいう事言うなら、お前一人出ていってもらおうか。i030	{CSA0t4b4}Rei:{b0} Keep talkin' like that and you can go out alone.{i030}	
+sol.132.60	3	CSA0t4b4零：b0そーいう事言うなら、お前一人出ていってもらおうか。i030	{CSA0t4b4}Rei:{b0} Keep talkin' like that,\\and you can go out there alone.{i030}	
 sol.132.61	3	CSA0t4b6藍花：b0あーっ、冗談よ。冗談だってば。i030	{CSA0t4b6}Ranfa:{b0} Aah, kidding! I'm kidding, okay?{i030}	
 sol.132.62	3	CSA0t4b6藍花：b0ねぇ、ちょっと聞いていい？i030	{CSA0t4b6}Ranfa:{b0} Hey, can I ask you something?{i030}	
 sol.132.63	3	CSA0t4b4零：b0何だ？i030	{CSA0t4b4}Rei:{b0} What?{i030}	
@@ -110,6 +110,6 @@ sol.132.107	5	CSA0t4b6少女：b0それが、お前のためなんだ、零‥�
 sol.132.108	5	CSA0t4b4零：b0ん、i010どうした？i030	{CSA0t4b4}Rei:{b0} Hm,{i010} what's wrong?{i030}	
 sol.132.109	5	CSA0t4b6少女：b0‥‥いいえ。i030	{CSA0t4b6}Girl:{b0} ...Nothing.{i030}	
 sol.132.110	5	CSA0t4b零：b0悪かった、今のは忘れてくれ‥‥i030	{CSA0t4b4}Rei:{b0} My bad, forget I said that...{i030}	
-sol.132.111	5	CSA0t4b6少女：b0‥‥いいえ。i030	{CSA0t4b6}Girl:{b0} ...Nothing.{i030}	
+sol.132.111	5	CSA0t4b6少女：b0‥‥いいえ。i030	{CSA0t4b6}Girl:{b0} ...It's all right.{i030}	
 sol.132.112	5	CSA0t4b4零：b0まぁ、今はみんなを無事に避難させる事に集中しよう。\\で、いいかい？i030	{CSA0t4b4}Rei:{b0} For now, let's focus on getting\\everyone out safely.@@That okay with you?{i030}	
 sol.132.113	5	CSA0t4b6少女：b0‥‥ええ。i020\\ご無事をお祈りしております‥‥i030	{CSA0t4b6}Girl:{b0} ...Yes.{i020}\\I will pray for your safety...{i030}	
