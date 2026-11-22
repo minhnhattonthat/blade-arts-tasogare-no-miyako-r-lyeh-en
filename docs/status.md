@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 9. Release done (2026-11-22): `release/Blade_Arts_EN_v1.0.zip` built and verified by
-  `tools/release.py` (exit 0). Publishing (`gh release create`) is the user's call; nothing left for the agent.
+  `tools/release.py` (exit 0). Published 2026-11-23 on user request: GitHub release v1.0 (repo still PRIVATE, D15).
   Release run: plain build -> 57 tests -> smoke ok -> jp_left 0 unintended runs (known debug/dev leftovers and the
   D12 card-title prefix in `docs/jp_known/`; every built SOL message scanned, 0 with kana/kanji) -> qa_gate 4/4
   manifests exit 0 -> textcover 3644/3644 -> polish 0 unticked -> README ok -> xdelta3 `-B` patch 680,075 B,
@@ -22,8 +22,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   rawview, final_tour WAIVED for ce07cfd8 citing the polish re-show; story 6/6 fixed; the old trial
   `work/qa/svtest/manifest.tsv` retired to `.retired`). textcover `textcover.py work/qa build/strings.tsv` 3644/3644
   (20 relocated EXE strings whose addresses shifted re-shown in `work/qa/rawview_cov`).
-- **Next:** none for the agent. User: test `build/blade_arts_en.bin`, then publish if wanted (`gh release create v1.0
-  release/Blade_Arts_EN_v1.0.zip`, notes with base hashes + patch SHA-1). Player bug reports -> GitHub issues
+- **Next:** none for the agent. User: make the repo public if wanted (release v1.0 is up but private). Player bug reports -> GitHub issues
   (AGENTS.md), fix, rebuild, `tools/release.py --version 1.1`.
 - **Phase 8 closing pass (2026-11-22):**
   - Glyph-cap lint in `tools/batches.py check` (`glyph_cap`: ITEM BOX description 90, item name 27 = 30 less ": nn",
