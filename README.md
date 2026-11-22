@@ -19,7 +19,9 @@ or memory card helps most.
 | Name entry | None in the game |
 | Voice acting | Japanese audio, English subtitles |
 
-Known issues: none known; see [Issues](../../issues).
+Known issues: the memory-card title keeps the Japanese game name (the game looks for it) and writes the location in
+plain English letters, so the console's own memory-card manager shows that part garbled; the game's LOAD list shows it
+correctly. Others: see [Issues](../../issues).
 
 ## What's here
 

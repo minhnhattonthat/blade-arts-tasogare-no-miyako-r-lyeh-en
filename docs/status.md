@@ -2,8 +2,14 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress: story pass 6/6 ok, polish pass done (0 unticked), README filled; next
-  `tools/release.py` (phase 8 done 2026-11-22).
+- **Phase:** 9. Release done (2026-11-22): `release/Blade_Arts_EN_v1.0.zip` built and verified by
+  `tools/release.py` (exit 0). Publishing (`gh release create`) is the user's call; nothing left for the agent.
+  Release run: plain build -> 57 tests -> smoke ok -> jp_left 0 unintended runs (known debug/dev leftovers and the
+  D12 card-title prefix in `docs/jp_known/`; every built SOL message scanned, 0 with kana/kanji) -> qa_gate 4/4
+  manifests exit 0 -> textcover 3644/3644 -> polish 0 unticked -> README ok -> xdelta3 `-B` patch 680,075 B,
+  re-applied sha1 = build ce07cfd82633009e9de6b37be8bb5e1535d38124 (CRC32 8AA99350) -> zip (ZIP_STORED, patch +
+  README.txt from `docs/release-README.txt`). Log `work/release_run.log`. Re-run refuses to overwrite v1.0 without
+  `--force`; a fix release = `--version 1.1`.
   Story pass: `python -X utf8 tools/story.py` writes `work/qa/story/chapters/ch01..ch06`; manifest re-`init`ed after
   the polish pass; verdicts `work/qa/story/verdicts/` (ch01-06 ok, then `zz_polish_p01.tsv` = fixed for all 6), report
   `docs/reviews/story.report.md`.
@@ -16,11 +22,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   rawview, final_tour WAIVED for ce07cfd8 citing the polish re-show; story 6/6 fixed; the old trial
   `work/qa/svtest/manifest.tsv` retired to `.retired`). textcover `textcover.py work/qa build/strings.tsv` 3644/3644
   (20 relocated EXE strings whose addresses shifted re-shown in `work/qa/rawview_cov`).
-- **Next (phase 9):** write `tools/release.py` (`references/pipeline.md` §Release: build -> check -> smoke -> jp_left
-  -> qa_gate check on every `work/qa/**/manifest.tsv` -> textcover (`textcover.py work/qa build/strings.tsv`) -> no
-  unticked polish line -> no README placeholder -> no --marker/--qa-file build -> `xdelta3 -B 711352992` patch ->
-  re-apply to a clean copy + sha1 compare -> zip (ZIP_STORED) = patch + README.txt with base hashes, `--force` to
-  overwrite a version; `--help` must not build). xdelta3 is on PATH (scoop). Never `gh release create`.
+- **Next:** none for the agent. User: test `build/blade_arts_en.bin`, then publish if wanted (`gh release create v1.0
+  release/Blade_Arts_EN_v1.0.zip`, notes with base hashes + patch SHA-1). Player bug reports -> GitHub issues
+  (AGENTS.md), fix, rebuild, `tools/release.py --version 1.1`.
 - **Phase 8 closing pass (2026-11-22):**
   - Glyph-cap lint in `tools/batches.py check` (`glyph_cap`: ITEM BOX description 90, item name 27 = 30 less ": nn",
     SOL page 200; letters only, spaces/codes free; STATUS 00748 debug item exempt), test `test_glyph_cap`.

@@ -1,0 +1,8 @@
+14 developer comment in the location table terminator (never shown)
+1E same comment
+22C memory-card title prefix ブレイドアーツ／: the loader matches it, kept per D12
+6D0 card title prefix copy (D12)
+BDC card title prefix copy (D12)
+2F8 developer comment about the save checksum (never shown)
+30A same comment
+330 same comment

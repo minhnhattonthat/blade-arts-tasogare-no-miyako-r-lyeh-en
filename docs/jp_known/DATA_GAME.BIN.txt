@@ -1,0 +1,2 @@
+594 debug error message (docs/re/text.md: debug only, never shown)
+5BC debug error message

@@ -1,0 +1,5 @@
+2ECC EFS memory-allocation debug error (never shown to the player)
+B4033 font/order table bytes that decode as kana (data, not text)
+B4047 same table
+B4403 second copy of the table
+B4417 second copy of the table
