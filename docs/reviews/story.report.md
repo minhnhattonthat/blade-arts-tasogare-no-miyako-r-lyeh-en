@@ -38,3 +38,13 @@ relic puzzles (91-108), Nakamura's eugenics speech and fall (104 / 106), Basetet
 junk" land; the Ranfa souvenir bit keeps its comedy; Walter's farewell keeps its weight. No Critical or Important.
 Minor: 81.62 (combined copy of 81.38-40) switches to "He" / "mental waves" / contractions; 86.1 vs 81.20 for the same
 JP; 104.29 / 106.14 put Punisher / Majesty in single quotes (elsewhere double); 113.30 "...This is!" reads cut off.
+
+## ch05 (blocks 125-146) - ok
+Voiced/labelled re-recordings: the stone-gear puzzles, Marion's ambush, Nakamura and Bridget (Liz) with the Punisher
+reveal, Liz's death at Marion's hands (130), the Ranfa / Sanderson (Gramps) / girl scenes (132), the gas trap and the
+girl's plea (138), Walter in the tank and his reveal (138.74-124). Liz's death keeps its weight (Rei's "Don't screw with
+me" build, "...I'm sorry..."), Marion stays sing-song, Walter formal, the girl polite. Labels follow the JP (Sanderson
+for Gramps, Bridget for Liz). No Critical or Important.
+Minor: 138.107 精神波 "psychic waves" (81.40 "mind waves", 81.62 "mental waves": one term); 138.88 "Be... care...
+FUL..." adds a syllable the JP cuts (81.16 "Be... care..."); 132.111 folds to "...Nothing." where 61.24 answers Rei's
+"forget what I said" with "...It's all right.".

@@ -125,3 +125,6 @@ reviewer brief and fixed before phase 7 (harness review of phase 6).
 - [ ] sol.86.1 - same JP as 81.20 but "The one on that pedestal... is it a woman?" -> "The woman... on that pedestal?"
 - [ ] sol.104.29, sol.106.14 - 「制裁者」/「尊厳者」 in single quotes ('Punisher', 'Majesty') -> double quotes like 17.25 / 43.11 / 62.36 ("Punisher", "Majesty")
 - [ ] sol.113.30 - これは！ "...This is!" reads cut off -> "...Why, this is...!"
+- [ ] sol.138.107 - 精神波 "psychic waves" -> "mind waves" (81.40; with 81.62 above, one term)
+- [ ] sol.138.88 - キヲ・・・ツケ・・・ "Be... care... FUL..." -> "Be... care..." (81.16, the JP cuts off)
+- [ ] sol.132.111 - second いいえ after Rei's "forget I said that" -> "...It's all right." (61.24)
