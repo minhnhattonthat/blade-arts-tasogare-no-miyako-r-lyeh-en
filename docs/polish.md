@@ -120,3 +120,8 @@ reviewer brief and fixed before phase 7 (harness review of phase 6).
 - [ ] sol.48.2 - "You worked the mechanism..." -> "Activated the mechanism..." (24.11, same JP)
 - [ ] sol.48.4 - "Riding this will take you to the upper level." -> "...should take me..." (42.12 is first person)
 - [ ] sol.28.95 - どぉわっ "Whoa-ho!" sounds gleeful -> "Whoaaa!"
+- [ ] sol.62.11 (+72.11) - 全ての命を生み出し... "it that brought forth all life" is stiff -> "the one that brought forth all life and came forth from the sacred spring..."
+- [ ] sol.81.62 - the combined copy of 81.38-40 drifts: "I've already taken care of that", "He can use them", "mental waves" -> 81.38-40's "I have already seen to that", "It can transfer itself", "mind waves" (Walter formal; Basetet "it" all scene)
+- [ ] sol.86.1 - same JP as 81.20 but "The one on that pedestal... is it a woman?" -> "The woman... on that pedestal?"
+- [ ] sol.104.29, sol.106.14 - 「制裁者」/「尊厳者」 in single quotes ('Punisher', 'Majesty') -> double quotes like 17.25 / 43.11 / 62.36 ("Punisher", "Majesty")
+- [ ] sol.113.30 - これは！ "...This is!" reads cut off -> "...Why, this is...!"

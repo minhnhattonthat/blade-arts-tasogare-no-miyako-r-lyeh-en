@@ -2,11 +2,11 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress: story pass 2/6 chapters done (phase 8 done 2026-11-22).
+- **Phase:** 9. Release in progress: story pass 4/6 chapters done (phase 8 done 2026-11-22).
   Story pass: `python -X utf8 tools/story.py` writes `work/qa/story/chapters/ch01..ch06` (SOL blocks by range, repeats
   folded); `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"` done. Verdicts in
-  `work/qa/story/verdicts/` (ch01, ch02 ok), report `docs/reviews/story.report.md`, Minors in `docs/polish.md` §Story
-  pass. Next: ch03-ch06 (read each whole, in-thread, ~25k tokens each: two per worker session), then the polish pass
+  `work/qa/story/verdicts/` (ch01-ch04 ok; verdict lines also in the report, since work/ is untracked), report
+  `docs/reviews/story.report.md`, Minors in `docs/polish.md` §Story pass. Next: ch05-ch06 (read each whole, in-thread, ~25k tokens each: two per worker session), then the polish pass
   (fix or waive every line; regenerate chapters + re-`init`, then a `fixed` verdict for changed chapters), then
   `tools/release.py` (not written yet).
   Last good build: `build/blade_arts_en.bin` 2026-11-22 (Test Play 1 fix), sha1 ee3dc1aacdc1..., smoke ok
